@@ -3,10 +3,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
+    <meta name="author" content="{{ site.author.name }}">
+
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
     <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/_bower_components/normalize.css/normalize.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+	<!-- Facebook OG Tags -->
+    <meta  property="og:title" content="{{ page.title }}"/>
+    <meta property="og:image" content="{{ ASSET_PATH }}/images{{ page.url }}.png"/>
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="{{ page.tagline }}"/>
+    <meta property="og:url" content="{{ BASE_PATH }}{{ page.url }}">
+
+	<!-- Google Analytics -->
 
 </head>
