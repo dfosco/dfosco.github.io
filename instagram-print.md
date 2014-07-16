@@ -5,9 +5,11 @@ permalink: /instagram-print/
 ---
 
 #Instagram Print
+
 ##Bringing back the old way of sharing
 
 ####MOBILE APP PROTOTYPE for @GENERAL ASSEMBLY
+
 ####2 WEEKS • 3 DESIGNERS
 
 Instagram Print was a project for General Assembly's UXDI class in partnership with Paz Perez and Christina Vu.
@@ -24,6 +26,7 @@ Towards the end of the project, my role shifted to assembling the App prototype 
 <button href="#">Axure Prototype</button>
 
 ##Ideation
+
 ###Finding our starting point
 
 <img src="http://i.imgur.com/CJkRjL6.png" alt="Feature prioritization" class="img-6col">
@@ -39,6 +42,7 @@ Our main differentiation from the competition would be
 During the ideation process, we also set on having the feature embeded on Instagram, instead of being a standalone app, a popular strategy known as _unbundling_. Even though that might have added complexity to the app (which we mitigated with several interface iterations), it also puts the new feature in front of the immense audience of Instagram's users.
 
 ##Research
+
 ###Competitive analysis, user research and affinity mapping
 
 > one of our main value propositions: being able to print your friend's pictures, instead of your own only.
@@ -80,6 +84,7 @@ This mapping was then used to build three **Personas** for the project, which gu
 </div>
 
 ##Information Architecture
+
 ###Flows, Sketches and Wireframes
 
 The next step after the personas were set was to apply them to the product itself — or the idea that we had of the product by then. 
@@ -89,6 +94,7 @@ A quick storyboarding session helped to shape the first user flows, to make it c
 <img src="http://i.imgur.com/CJkRjL6.png" alt="Storyboards" class="img-6col">
 
 ##Interaction Design
+
 ###Testing, testing, testing
 
 The interface for this project was definitely a challenge, as mobile shopping has its tricks. The first few attempts had too much information, in a way that mimicked a web interface, while further down the road we trimmed too much. Only through several iterations and a lot of testing we found the sweet spot.
@@ -116,6 +122,7 @@ You can see the full prototype [here](http://y9d00x.axshare.com/#c=2).
 <img src="http://i.imgur.com/CJkRjL6.png" alt="User Testing" class="axgif">
 
 ##Key Takeaways
+
 ###Keep it small
 
 The project was intense, and the close team-work and user-centered, test-driven approach enabled us to achieve a great result in a short ammount of time. The intensive testing rythm allowed us to constantly fix our assumptions, while the team was in sync the whole time. 
