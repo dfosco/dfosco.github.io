@@ -19,11 +19,10 @@
 
 	<!-- Facebook OG Tags -->
     <meta  property="og:title" content="{{ page.title }}"/>
-    <meta property="og:image" content="{{ ASSET_PATH }}/images{{ page.url }}.png"/>
     <meta property="og:site_name" content="{{ site.title }}"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:description" content="{{ page.tagline }}"/>
-    <meta property="og:url" content="{{ BASE_PATH }}{{ page.url }}">
+    <meta property="og:description" content="{{ page.description }}"/>
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 	<!-- Google Analytics -->
 
