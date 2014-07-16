@@ -3,10 +3,10 @@
   <channel>
     <title>Case Study</title>
     <description>Portfolio website for Product Designer Daniel Fosco.</description>
-    <link>http://dfosco.gihub.io/portfoliohttp://dfosco.gihub.io/portfolio/</link>
-    <atom:link href="http://dfosco.gihub.io/portfoliohttp://dfosco.gihub.io/portfolio/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 16 Jul 2014 14:15:16 -0400</pubDate>
-    <lastBuildDate>Wed, 16 Jul 2014 14:15:16 -0400</lastBuildDate>
+    <link>http://dfosco.gihub.io/portfolio/</link>
+    <atom:link href="http://dfosco.gihub.io/portfolio/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 16 Jul 2014 14:51:01 -0400</pubDate>
+    <lastBuildDate>Wed, 16 Jul 2014 14:51:01 -0400</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Tue, 15 Jul 2014 17:23:26 -0400</pubDate>
-        <link>http://dfosco.gihub.io/portfoliohttp://dfosco.gihub.io/portfolio/jekyll/update/2014/07/15/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://dfosco.gihub.io/portfoliohttp://dfosco.gihub.io/portfolio/jekyll/update/2014/07/15/welcome-to-jekyll/</guid>
+        <link>http://dfosco.gihub.io/portfolio/jekyll/update/2014/07/15/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://dfosco.gihub.io/portfolio/jekyll/update/2014/07/15/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
