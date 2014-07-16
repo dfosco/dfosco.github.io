@@ -2,15 +2,11 @@
 title: Case Study
 email: danielfosco@gmail.com
 description: "Portfolio website for Product Designer Daniel Fosco."
-baseurl: ""
-url: "http://dfosco.gihub.io/portfolio"
+baseurl: /portfolio
+url: http://dfosco.gihub.io/portfolio
 twitter_username: notdanielfosco
 github_username:  dfosco
 gems: [jekyll-sass]
-
-BASE_PATH : http://dfosco.gihub.io/portfolio
-ASSET_PATH :
-
 
 # Build settings
 markdown: kramdown
