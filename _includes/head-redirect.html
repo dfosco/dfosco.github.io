@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Case Study</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="author" content="Daniel Fosco">
+    <meta name="author" content="{{ site.author.name }}">
 
     <meta http-equiv="refresh" content="1; url=https://www.dropbox.com/s/5ps2flidbj020or/Desktop%20HD.pdf">
 	
@@ -16,9 +13,3 @@
 </head>
 
 
-
-
-    <body>
-
-    </body>
-</html>
