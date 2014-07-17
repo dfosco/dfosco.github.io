@@ -4,13 +4,11 @@ title: Instagram Print
 permalink: /instagram-print/
 ---
 
-#Instagram Print
-
 ##Bringing back the old way of sharing
 
-####MOBILE APP PROTOTYPE for @GENERAL ASSEMBLY
+<h4>Mobile App Prototype for <a href="https://twitter.com/ga">@GENERAL ASSEMBLY</a></h4>
 
-####2 WEEKS • 3 DESIGNERS
+####2 Weeks • 3 Designers
 
 Instagram Print was a project for General Assembly's UXDI class in partnership with Paz Perez and Christina Vu.
 

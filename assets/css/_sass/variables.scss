@@ -12,7 +12,7 @@ $dark-pallette-b: #2f3545;
 $dark-pallette-c: #3d4559;
 
 $grey-pallette-a: #eaeaea;
-$grey-pallette-b: lighten($grey-pallette-a, 15%);
+$grey-pallette-b: #FCFCFC;
 
 $black-pallette-a: #242424;
 $black-pallette-b: lighten($black-pallette-a, 15%);
@@ -25,10 +25,11 @@ $black-pallette-c: lighten($black-pallette-a, 30%);
 /*Typography - Size*/
 /* These are just default values, stated for modularity. Main usage with base()/heading()/huge() mixins */
 
-$base-font-size: 18px !default;
+$base-font-size: 1em !default;
 $base-font-family: "rooney-web", Georgia;
 $base-font-weight: 400;	
 $base-line-height: 1.5;
+$base-color: $black-pallette-a;
 
 $heading-font-size: 250% !default;
 $heading-font-family: "rooney-sans", sans-serif;
@@ -42,9 +43,8 @@ $huge-line-height: 1.3;
 
 /*Typography - Default Colors*/
 
-$base-color: $black-pallette-c;
+
 $heading-color: $dark-pallette-b;
-$huge-color: $dark-pallette-c;
 
 /*Typography - Link Colors*/
 

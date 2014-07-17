@@ -34,7 +34,6 @@
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
   font-family: $heading-font-family;
-  color: $heading-color;
   @include heading-link;
 
 }
@@ -44,7 +43,6 @@
   font-weight: $huge-font-weight;
   line-height: $huge-line-height;
   font-family: $huge-font-family;
-  color: $huge-color;
   @include huge-link;
 }
 
