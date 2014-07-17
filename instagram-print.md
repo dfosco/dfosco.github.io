@@ -129,6 +129,6 @@ It wasn't without hiccups its hiccups, though -- file organization became an iss
 
 Overall, this is the kind of project you wish you had every week.
 
-###Say hi
+##Say hi
 
 Contact me via <a href="mailto:danielfosco@gmail.com" target="_blank">danielfosco@gmail.com</a> or <a href="https://www.twitter.com/notdanielfosco" target="_blank">@notdanielfosco</a>
