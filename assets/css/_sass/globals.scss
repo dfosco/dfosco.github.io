@@ -34,9 +34,18 @@ h4 {
 
 /*Main Sections*/
 
-header { }
+nav {
+	ul {
+		list-style-type: none;
+		@include huge(250%, 1.3, 700);
+		@include nth-color(1, $light-pallette-a);
+		@include nth-color(2, $light-pallette-b);
+		@include nth-color(3, $light-pallette-c);
+		@include nth-color(4, $light-pallette-d);
+	}
+	}
 
-nav { }
+
 
 body { }
 

@@ -15,10 +15,10 @@
   a:hover { color: $heading-hover-link-color; text-decoration: none; }
 }
 
-@mixin huge-link{
-  a { color: $huge-link-color; text-decoration: none; }
+/*@mixin huge-link{
+  a { color: $huge-color; text-decoration: none; }
   a:hover { color: $huge-hover-link-color; text-decoration: none; }
-}
+}*/
 
 @mixin base($base-font-size, $base-line-height, $base-font-weight) {
   font-size: $base-font-size;
@@ -43,7 +43,7 @@
   font-weight: $huge-font-weight;
   line-height: $huge-line-height;
   font-family: $huge-font-family;
-  @include huge-link;
+  /*@include huge-link;*/
 }
 
 /*----------------------------*/
@@ -96,3 +96,22 @@
 	  @include footer-text;
 	}
 }
+
+/*----------------------------*/
+/*nth-child color*/
+/*----------------------------*/
+
+  @mixin nth-color($child-number, $nav-color) {
+    
+    li:nth-child(#{$child-number}) > a {
+    color: $nav-color;
+    }
+
+    li:nth-child(#{$child-number}) > a:hover {
+    color: lighten($nav-color, 5%);
+    }
+  }
+
+
+
+
