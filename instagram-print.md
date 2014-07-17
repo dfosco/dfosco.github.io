@@ -130,3 +130,7 @@ The project was intense, and the close team-work and user-centered, test-driven 
 It wasn't without hiccups its hiccups, though -- file organization became an issue at one point, and we almost lost some work that was already done. This is something that should've been mitigated at the beginning of the project by stating the file structure and tools to be used during the project.
 
 Overall, this is the kind of project you wish you had every week.
+
+###Say hi
+
+Contact me via <a href="mailto:danielfosco@gmail.com" target="_blank">danielfosco@gmail.com</a> or <a href="https://www.twitter.com/notdanielfosco" target="_blank">@notdanielfosco</a>

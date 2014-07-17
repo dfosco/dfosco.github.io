@@ -1,0 +1,100 @@
+/*Imports*/
+@import "variables.scss";
+
+/*----------------------------*/
+/*Main Typography Mixins*/
+/*----------------------------*/
+
+@mixin base-link {
+  a { color: $base-link-color; text-decoration: none; }
+  a:hover { color: $base-hover-link-color; text-decoration: none; }
+}
+
+@mixin heading-link {
+  a { color: $heading-link-color; text-decoration: none; }
+  a:hover { color: $heading-hover-link-color; text-decoration: none; }
+}
+
+@mixin huge-link{
+  a { color: $huge-link-color; text-decoration: none; }
+  a:hover { color: $huge-hover-link-color; text-decoration: none; }
+}
+
+@mixin base($base-font-size, $base-line-height, $base-font-weight) {
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  font-family: $base-font-family;
+  color: $base-color;
+  @include base-link;
+}
+
+@mixin heading($heading-font-size, $heading-line-height, $heading-font-weight) {
+  font-size: $heading-font-size;
+  font-weight: $heading-font-weight;
+  line-height: $heading-line-height;
+  font-family: $heading-font-family;
+  color: $heading-color;
+  @include heading-link;
+
+}
+
+@mixin huge($huge-font-size, $huge-line-height, $huge-font-weight) {
+  font-size: $huge-font-size;
+  font-weight: $huge-font-weight;
+  line-height: $huge-line-height;
+  font-family: $huge-font-family;
+  color: $huge-color;
+  @include huge-link;
+}
+
+/*----------------------------*/
+/*General Typography*/
+/*----------------------------*/
+
+@mixin footer-text {
+  @include heading(120%, "", 600);
+  color: lighten($grey-pallette-b, 40%);
+  text-shadow: 2px 2px 0px rgba(73,73,73,0.50);
+  padding-top: 15px;
+
+  p {
+    margin-left: 20px;
+  }
+}
+
+/*----------------------------*/
+/*Sticky-Footer*/
+/*----------------------------*/
+
+@mixin sticky-footer($footer-height) {
+
+	* {
+		margin: 0;
+	}
+
+	html, body {
+		height: 100%;
+	}
+
+	.wrapper {
+	  min-height: 100%;
+	  /* equal to footer height */
+		margin-bottom: -#{$footer-height}; 
+	}
+
+	.wrapper:after {
+	  content: "";
+	  display: block;
+	}
+
+	.sticky-footer, .wrapper:after {
+	  /* .push must be the same height as footer */
+		height: $footer-height; 
+	}
+
+	.sticky-footer {
+	  background: $grey-pallette-b;
+	  @include footer-text;
+	}
+}
