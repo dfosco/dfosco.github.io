@@ -21,7 +21,7 @@ Yes, it's written twice — we tested a lot.
 
 Towards the end of the project, my role shifted to assembling the App prototype using Axure. You can play with the prototype using the following link, or see the design process in detail after the break.
 
-<button href="#">Axure Prototype</button>
+<div class="btn"><a href="http://y9d00x.axshare.com/home_feed.html">Axure Prototype</a></div>
 
 ##Ideation
 
@@ -31,13 +31,13 @@ Towards the end of the project, my role shifted to assembling the App prototype 
 
 When the project began, we set out to find a strong concept to guide our design process. One that would not only address user needs, but also differentiate the product, as there are already lots of services used to print Instagram photos.
 
-Thus, after a few braistoming sessions, we set our objective as an expansion of Instagram's brand into the real world by connecting Instagram into the old way of sharing — through printing and gifting pictures.
+After a few braistoming sessions, we set our core concept as an expansion of Instagram's brand into the real world by connecting Instagram into the old way of sharing — through printing and gifting pictures.
 
-We delved into the brief and considered a range of product types, but eventually dropped them in order to focus on an MVP that would add value to Instagram without overwhelming users.
+Thus, one of our main differentiators from the competition would become the feature that allows you to print pictures where your friends had you tagged, and vice-versa.
 
-Our main differentiation from the competition would be 
+During the ideation process we considered a range of product types, but eventually dropped them in order to focus on an MVP that would add value to Instagram without overwhelming its users.
 
-During the ideation process, we also set on having the feature embeded on Instagram, instead of being a standalone app, a popular strategy known as _unbundling_. Even though that might have added complexity to the app (which we mitigated with several interface iterations), it also puts the new feature in front of the immense audience of Instagram's users.
+We also set on having the feature embeded on Instagram, instead of being a standalone app. Even though that could have made the app more complex (complexity which we ironed out), it also puts the new feature in front of their immense userbase.
 
 ##Research
 
