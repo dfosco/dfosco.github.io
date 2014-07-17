@@ -52,7 +52,7 @@
 
 @mixin footer-text {
   @include heading(120%, "", 600);
-  color: lighten($grey-pallette-b, 40%);
+  color: lighten($dark-pallette-c, 40%);
   text-shadow: 2px 2px 0px rgba(73,73,73,0.50);
   padding-top: 15px;
 
@@ -75,24 +75,24 @@
 		height: 100%;
 	}
 
-	.wrapper {
+	.page-content {
 	  min-height: 100%;
 	  /* equal to footer height */
 		margin-bottom: -#{$footer-height}; 
 	}
 
-	.wrapper:after {
+	.page-content:after {
 	  content: "";
 	  display: block;
 	}
 
-	.sticky-footer, .wrapper:after {
+	.sticky-footer, .page-content:after {
 	  /* .push must be the same height as footer */
 		height: $footer-height; 
 	}
 
-	.sticky-footer {
-	  background: $grey-pallette-b;
+	.sticky-footer { 
+	  background: $dark-pallette-a;
 	  @include footer-text;
 	}
 }

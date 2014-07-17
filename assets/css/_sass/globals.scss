@@ -40,4 +40,5 @@ nav { }
 
 body { }
 
-@include sticky-footer(60px);
+	@include sticky-footer(60px);
+
