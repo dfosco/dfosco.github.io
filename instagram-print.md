@@ -1,11 +1,9 @@
 ---
 layout: page
 title: Instagram Print
+tagline: Bringing back the old way of sharing
 permalink: /instagram-print/
 ---
-
-##Bringing back the old way of sharing
-
 <h4>Mobile App Prototype for <a href="https://twitter.com/ga">@GENERAL ASSEMBLY</a></h4>
 
 ####2 Weeks • 3 Designers

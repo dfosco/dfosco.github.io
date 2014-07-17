@@ -43,11 +43,19 @@ nav {
 		@include nth-color(3, $light-pallette-c);
 		@include nth-color(4, $light-pallette-d);
 	}
-	}
+}
 
+body { 
+	@include outer-container;
+}
 
+header { 
+	@include span-columns(3);
+}
 
-body { }
+footer {
+	
+}
 
-	@include sticky-footer(60px);
+@include sticky-footer(60px);
 
