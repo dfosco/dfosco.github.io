@@ -29,7 +29,7 @@ $base-font-size: 1em !default;
 $base-font-family: "rooney-web", Georgia;
 $base-font-weight: 400;	
 $base-line-height: 1.5;
-$base-color: $black-pallette-a;
+$base-color: $black-pallette-b;
 
 $heading-font-size: 250% !default;
 $heading-font-family: "rooney-sans", sans-serif;
@@ -50,12 +50,9 @@ $heading-color: $dark-pallette-b;
 
 $base-link-color: $light-pallette-d;
 $base-hover-link-color: $light-pallette-c;
-$base-disabled-link-color: lighten($grey-pallette-a, 60%);
 
 $heading-link-color: $dark-pallette-b;
 $heading-hover-link-color: $dark-pallette-a;
-$heading-disabled-link-color: lighten($grey-pallette-a, 60%);
 
 $huge-link-color: $dark-pallette-c;
 $huge-hover-link-color: $dark-pallette-b;
-$huge-disabled-link-color: lighten($grey-pallette-a, 60%);
