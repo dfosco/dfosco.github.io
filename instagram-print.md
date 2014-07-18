@@ -38,17 +38,15 @@ Towards the end of the project, my role shifted to assembling the App prototype 
     <img src="/portfolio/assets/img/feature_prioritization.png" alt="Feature prioritization" class="img-8col shift-2col">
 </section>
 
-When the project began, we set out to find a strong concept to guide our design process. One that would not only address user needs, but also differentiate the product, as there are already lots of services used to print Instagram photos.
+When the project began, we set out to find a strong concept to guide our design process: one that would not only address user needs, but also differentiate the product from the several services that already print Instagram photos.
 
-After a few braistoming sessions, we set our core concept as an expansion of Instagram's brand into the real world by connecting Instagram into the old way of sharing — through printing and gifting pictures.
+We set our core concept as an expansion of Instagram's brand into the real world by connecting Instagram into the old way of sharing — through printing and gifting pictures.
 
 One of our main differentiators from the competition would become the feature that allows you to print pictures where your friends had you tagged, and vice-versa.
 
 ##Research
 
 ###Competitive analysis, user research and affinity mapping
-
-> one of our main value propositions: being able to print your friend's pictures, instead of your own only.
 
 We started the research phase by sending out a survey aiming to discover if potential users had the habit of printing pictures, their intentions when doing so and the frequency with which they printed photos.
 
@@ -139,11 +137,11 @@ You can see the full prototype [here](http://y9d00x.axshare.com/#c=2).
 
 ##Key Takeaways
 
-###Fly like a butterfly, sting like a bee
+###Design at close quarters
 
-The project was intense, and the close team-work and user-centered, test-driven approach enabled us to achieve a great result in a short ammount of time. The intensive testing rythm allowed us to constantly fix our assumptions, while the team was in sync the whole time. 
+This project was intense, but the close-knit teamwork and the test-driven approach enabled us to achieve great results in a short ammount of time. The intense testing rythm allowed us to constantly fix our assumptions, while having the team in sync time meant higher quality feedback — and thus, design output.
 
-It wasn't without hiccups its hiccups, though -- file organization became an issue at one point, and we almost lost some work that was already done. This is something that should've been mitigated at the beginning of the project by stating the file structure and tools to be used during the project.
+It wasn't without its hiccups, though — file organization became an issue at one point, something that could've been mitigated at the beginning of the project by stating a clear working structure and the tools to be used.
 
 Overall, this is the kind of project you wish you had every week.
 
