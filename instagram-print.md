@@ -5,18 +5,22 @@ tagline: Bringing back the old way of sharing
 hero: /assets/images/hero_image.png
 permalink: /instagram-print/
 ---
-<h4>Mobile App Prototype for <a href="https://twitter.com/ga">@GENERAL ASSEMBLY</a></h4>
-
-####2 Weeks • 3 Designers
+<h3>Mobile App Prototype for <a href="https://twitter.com/ga">@GENERAL ASSEMBLY</a><br>
+2 Weeks • 3 Designers</h3>
 
 Instagram Print was a project for General Assembly's UXDI class in partnership with Paz Perez and Christina Vu.
 
-In the brief, the client, Instagram, needed a way to diversify its revenue stream beyond advertising, and required a new printing service for the app.
+The client for this brief was Instagram, and they needed a way to diversify its revenue stream beyond advertising. For that, the requirement was a new printing service for the social network.
+
 Our goal was to research and prototype a printing service that would be integrated into Instagram’s main app, including credit card fulfillment and shipping to the user’s address.
 
-The team for this project was really tight-knit, and the process was a big exercise in participatory design, from research to sketching and user testing and user testing. 
+<img src="http://i.imgur.com/CJkRjL6.png" alt="Phone 1" class="img-4col">
 
-Yes, it's written twice — we tested a lot. 
+<img src="http://i.imgur.com/CJkRjL6.png" alt="Phone 2" class="img-4col">
+
+<img src="http://i.imgur.com/CJkRjL6.png" alt="Phone 3" class="img-4col">
+
+The team for this project was really tight-knit, and the process was a big exercise in participatory design, from research to sketching, and user testing.
 
 Towards the end of the project, my role shifted to assembling the App prototype using Axure. You can play with the prototype using the following link, or see the design process in detail after the break.
 
@@ -32,11 +36,7 @@ When the project began, we set out to find a strong concept to guide our design 
 
 After a few braistoming sessions, we set our core concept as an expansion of Instagram's brand into the real world by connecting Instagram into the old way of sharing — through printing and gifting pictures.
 
-Thus, one of our main differentiators from the competition would become the feature that allows you to print pictures where your friends had you tagged, and vice-versa.
-
-During the ideation process we considered a range of product types, but eventually dropped them in order to focus on an MVP that would add value to Instagram without overwhelming its users.
-
-We also set on having the feature embeded on Instagram, instead of being a standalone app. Even though that could have made the app more complex (complexity which we ironed out), it also puts the new feature in front of their immense userbase.
+One of our main differentiators from the competition would become the feature that allows you to print pictures where your friends had you tagged, and vice-versa.
 
 ##Research
 
@@ -59,26 +59,26 @@ This mapping was then used to build three **Personas** for the project, which gu
 <img src="http://i.imgur.com/CJkRjL6.png" alt="Affinity Mapping" class="img-4col">
 <img src="http://i.imgur.com/CJkRjL6.png" alt="Mapping to personas" class="img-2col">
 
-<div class="persona">
+<section class="persona">
 <img src="http://i.imgur.com/CJkRjL6.png" alt="Personas" class="avatar-2col">
 <legend><h4>Karen, 27</h4></legend>
 <blockquote>Love my new apartment and my roommate, can’t wait to decorate the empty walls.
 </blockquote>
-</div>
+</section>
 
-<div class="persona">
+<section class="persona">
 <img src="http://i.imgur.com/CJkRjL6.png" alt="Personas" class="avatar-2col">
 <legend><h4>Ashley, 15</h4></legend>
 <blockquote>I Instagram from the moment I wake up to the moment I go to sleep.
 </blockquote>
-</div>
+</section>
 
-<div class="persona">
+<section class="persona">
 <img src="http://i.imgur.com/CJkRjL6.png" alt="Personas" class="avatar-2col">
 <legend><h4>Bill, 51</h4></legend>
 <blockquote>I love taking pictures, but I love not wasting my time even more.
 </blockquote>
-</div>
+</section>
 
 ##Information Architecture
 

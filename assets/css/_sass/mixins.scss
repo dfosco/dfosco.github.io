@@ -43,8 +43,16 @@
   font-weight: $huge-font-weight;
   line-height: $huge-line-height;
   font-family: $huge-font-family;
+
   /*@include huge-link;*/
 }
+
+@mixin text-margin($text-margin-top, $text-margin-bottom) {
+  margin: 0;
+  margin-top: $text-margin-top*1rem;
+  margin-bottom: $text-margin-bottom*1rem;
+}
+
 
 /*----------------------------*/
 /*Sticky-Footer*/
