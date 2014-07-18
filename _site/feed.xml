@@ -3,10 +3,10 @@
   <channel>
     <title>Daniel Fosco</title>
     <description>Portfolio website for Product Designer Daniel Fosco.</description>
-    <link>http://dfosco.gihub.io/portfolio/</link>
-    <atom:link href="http://dfosco.gihub.io/portfolio/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Jul 2014 23:34:30 -0400</pubDate>
-    <lastBuildDate>Thu, 17 Jul 2014 23:34:30 -0400</lastBuildDate>
+    <link>http://dfosco.github.io/portfolio/</link>
+    <atom:link href="http://dfosco.github.io/portfolio/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 18 Jul 2014 00:33:14 -0400</pubDate>
+    <lastBuildDate>Fri, 18 Jul 2014 00:33:14 -0400</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Tue, 15 Jul 2014 17:23:26 -0400</pubDate>
-        <link>http://dfosco.gihub.io/portfolio/jekyll/update/2014/07/15/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://dfosco.gihub.io/portfolio/jekyll/update/2014/07/15/welcome-to-jekyll/</guid>
+        <link>http://dfosco.github.io/portfolio/jekyll/update/2014/07/15/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://dfosco.github.io/portfolio/jekyll/update/2014/07/15/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
