@@ -23,11 +23,7 @@ Our goal was to research and prototype a printing service that would be integrat
 
 The team for this project was really tight-knit, and the process was a big exercise in participatory design, from research to sketching, and user testing.
 
-Towards the end of the project, my role shifted to assembling the App prototype using Axure. You can play with the prototype using the following link, or see the design process in detail after the break.
-
-<div class="btn">
-<a href="http://y9d00x.axshare.com/home_feed.html">Axure Prototype</a>
-</div>
+Towards the end of the project, my role shifted to assembling the App prototype using Axure, which you can play around with using [this link](http://y9d00x.axshare.com/home_feed.html).
 
 ##Ideation
 
