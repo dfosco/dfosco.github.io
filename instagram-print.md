@@ -139,7 +139,9 @@ You can see the full prototype [here](http://y9d00x.axshare.com/#c=2).
 
 ###Design at close quarters
 
-This project was intense, but the close-knit teamwork and the test-driven approach enabled us to achieve great results in a short ammount of time. The intense testing rythm allowed us to constantly fix our assumptions, while having the team in sync time meant higher quality feedback — and thus, design output.
+This project was intense, but the close-knit teamwork and the test-driven approach enabled us to achieve great results in a short ammount of time. 
+
+The intense testing rythm allowed us to constantly fix our assumptions, while having the team in sync meant better feedback — and thus, a better design output.
 
 It wasn't without its hiccups, though — file organization became an issue at one point, something that could've been mitigated at the beginning of the project by stating a clear working structure and the tools to be used.
 
