@@ -3,7 +3,6 @@ layout: page
 title: Instagram Print
 tagline: Bringing back the old way of sharing
 hero: /portfolio/assets/img/hero_image.png
-permalink: /instagram-print/
 ---
 
 ###Mobile App Prototype for [@GENERAL ASSEMBLY](https://twitter.com/ga)
