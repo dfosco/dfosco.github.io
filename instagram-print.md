@@ -2,7 +2,7 @@
 layout: page
 title: Instagram Print
 tagline: Bringing back the old way of sharing
-hero: /assets/images/hero_image.png
+hero: /assets/img/hero_image.png
 permalink: /instagram-print/
 ---
 <h3>Mobile App Prototype for <a href="https://twitter.com/ga">@GENERAL ASSEMBLY</a><br>
@@ -14,23 +14,27 @@ The client for this brief was Instagram, and they needed a way to diversify its 
 
 Our goal was to research and prototype a printing service that would be integrated into Instagram’s main app, including credit card fulfillment and shipping to the user’s address.
 
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Phone 1" class="img-4col">
-
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Phone 2" class="img-4col">
-
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Phone 3" class="img-4col">
+<section class="image-grid">
+    <img src="/assets/img/intro_phone_1.png" alt="Phone 1" class="img-3col shift-1-5col">
+    <img src="/assets/img/intro_phone_2.png" alt="Phone 2" class="img-3col">
+    <img src="/assets/img/intro_phone_3.png" alt="Phone 3" class="img-3col">
+</section>
 
 The team for this project was really tight-knit, and the process was a big exercise in participatory design, from research to sketching, and user testing.
 
 Towards the end of the project, my role shifted to assembling the App prototype using Axure. You can play with the prototype using the following link, or see the design process in detail after the break.
 
-<div class="btn"><a href="http://y9d00x.axshare.com/home_feed.html">Axure Prototype</a></div>
+<div class="btn">
+<a href="http://y9d00x.axshare.com/home_feed.html">Axure Prototype</a>
+</div>
 
-##Ideation
+<h2>Ideation</h2>
 
 ###Finding our starting point
 
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Feature prioritization" class="img-6col">
+<section class="image-grid">
+    <img src="/assets/img/feature_prioritization.png" alt="Feature prioritization" class="img-8col shift-2col">
+</section>
 
 When the project began, we set out to find a strong concept to guide our design process. One that would not only address user needs, but also differentiate the product, as there are already lots of services used to print Instagram photos.
 
@@ -38,7 +42,7 @@ After a few braistoming sessions, we set our core concept as an expansion of Ins
 
 One of our main differentiators from the competition would become the feature that allows you to print pictures where your friends had you tagged, and vice-versa.
 
-##Research
+<h2>Research</h2>
 
 ###Competitive analysis, user research and affinity mapping
 
@@ -46,7 +50,9 @@ One of our main differentiators from the competition would become the feature th
 
 We started the research phase by sending out a survey aiming to discover if potential users had the habit of printing pictures, their intentions when doing so and the frequency with which they printed photos.
 
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Survey Result Screenshot" class="img-4col">
+<section class="image-grid">
+    <img src="/assets/img/user_research_1.png" alt="Survey Result Screenshot" class="img-10col shift-1col">
+</section>
 
 The information gathered on the survey was complemented by a round of user interviews, where we went deeper into their photo printing needs and, more importantly, into their Instagram usage and how it relates to the information gathered so far.
 
@@ -54,33 +60,38 @@ The competitive research was also extremely valuable, as it showed one of the ma
 
 We ran all of the research results through an affinity map to prioritize user needs and features and organize them into logical units that responded to the project goals. This mapping was then used to build three personas for the project, which guided most of the actual product feature development.
 
-This mapping was then used to build three **Personas** for the project, which guided most of the actual product feature development.
+This mapping was then used to build three **personas** for the project, which guided most of the actual product feature development.
 
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Affinity Mapping" class="img-4col">
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Mapping to personas" class="img-2col">
-
-<section class="persona">
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Personas" class="avatar-2col">
-<legend><h4>Karen, 27</h4></legend>
-<blockquote>Love my new apartment and my roommate, can’t wait to decorate the empty walls.
-</blockquote>
+<section class="image-grid">
+    <img src="/assets/img/user_research_2.png" alt="Affinity Mapping" class="img-8col">
+    <img src="/assets/img/user_research_3.png" alt="Mapping to personas" class="img-4col">
 </section>
 
-<section class="persona">
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Personas" class="avatar-2col">
-<legend><h4>Ashley, 15</h4></legend>
-<blockquote>I Instagram from the moment I wake up to the moment I go to sleep.
-</blockquote>
+<section class="persona-panel">
+    <section class="persona">
+    <img src="/assets/img/karen_round.png" alt="Personas" class="avatar-2col">
+    <legend><h4>Karen, 27</h4></legend>
+    <blockquote>Love my new apartment and my roommate, can’t wait to decorate the empty walls.
+    </blockquote>
+    </section>
+
+    <section class="persona">
+    <img src="/assets/img/ashley_round.png" alt="Personas" class="avatar-2col">
+    <legend><h4>Ashley, 15</h4></legend>
+    <blockquote>I Instagram from the moment I wake up to the moment I go to sleep.
+    </blockquote>
+    </section>
+
+    <section class="persona">
+    <img src="/assets/img/bill_round.png" alt="Personas" class="avatar-2col">
+    <legend><h4>Bill, 51</h4></legend>
+    <blockquote>I love taking pictures, but I love not wasting my time even more.
+    </blockquote>
+    </section>
 </section>
 
-<section class="persona">
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Personas" class="avatar-2col">
-<legend><h4>Bill, 51</h4></legend>
-<blockquote>I love taking pictures, but I love not wasting my time even more.
-</blockquote>
-</section>
-
-##Information Architecture
+<p></p>
+<h2>Information Architecture</h2>
 
 ###Flows, Sketches and Wireframes
 
@@ -88,16 +99,20 @@ The next step after the personas were set was to apply them to the product itsel
 
 A quick storyboarding session helped to shape the first user flows, to make it clear for us how the user would move through the app in order to use the printing new service. The flows were followed by several batches of rough wireframes, that solidified the idea we had for the interface and allowed us to move forward to user testing.
 
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Storyboards" class="img-6col">
-
-##Interaction Design
+<section class="image-grid">
+    <img src="/assets/img/information_architecture_1.png" alt="Storyboards" class="shift-3col img-6col">
+</section>
+<p></p>
+<h2>Interaction Design</h2>
 
 ###Testing, testing, testing
 
 The interface for this project was definitely a challenge, as mobile shopping has its tricks. The first few attempts had too much information, in a way that mimicked a web interface, while further down the road we trimmed too much. Only through several iterations and a lot of testing we found the sweet spot.
 
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Rough Wireframes 1" class="img-3col">
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Rough Wireframes 2" class="img-3col">
+<section class="image-grid">
+    <img src="/assets/img/interaction_design_1.png" alt="Rough Wireframes 1" class="img-6col">
+    <img src="/assets/img/interaction_design_2.png" alt="Rough Wireframes 2" class="img-6col">
+</section>
 
 The earliest sketches were done in group on the whiteboard, as a way to get everyone on the same page and define initial expectations for the interface.
 
@@ -105,8 +120,10 @@ After that, a little trick helped speed up the process immensely -- paper protot
 
 And we used a printed-out phone mockup, which sped it up even more!
 
-<img src="http://i.imgur.com/CJkRjL6.png" alt="Paper Prototyping" class="img-3col">
-<img src="http://i.imgur.com/CJkRjL6.png" alt="User Testing" class="img-3col">
+<section class="image-grid">
+    <img src="/assets/img/interaction_design_3.png" alt="Paper Prototyping" class="img-6col">
+    <img src="/assets/img/interaction_design_4.png" alt="User Testing" class="img-6col">
+</section>
 
 The next step was mocking up the final designs for testing a version closer to the final product, carried out by Christina and Paz. For that, they made a template to stay in line with Instagram's visual design, as well as mantaining consistency between each other.
 
@@ -114,13 +131,15 @@ The last step of the process was prototyping the mockups using an Axure -- a pro
 
 You can see the full prototype [here](http://y9d00x.axshare.com/#c=2).
 
-<img src="http://i.imgur.com/CJkRjL6.png" alt="User Testing" class="axgif">
-
-<img src="http://i.imgur.com/CJkRjL6.png" alt="User Testing" class="axgif">
+<section class="image-grid">
+    <img src="/assets/img/interaction_design_2.gif" alt="App Animation Swipe" class="img-5col shift-1col">
+    <img src="/assets/img/interaction_design_1.gif" alt="App Animation Selection" class="img-5col">
+</section>
+<p></p>
 
 ##Key Takeaways
 
-###Keep it small
+###Fly like a butterfly, sting like a bee
 
 The project was intense, and the close team-work and user-centered, test-driven approach enabled us to achieve a great result in a short ammount of time. The intensive testing rythm allowed us to constantly fix our assumptions, while the team was in sync the whole time. 
 

@@ -47,10 +47,10 @@
   /*@include huge-link;*/
 }
 
-@mixin text-margin($text-margin-top, $text-margin-bottom) {
+@mixin margin($margin-top, $margin-bottom) {
   margin: 0;
-  margin-top: $text-margin-top*1rem;
-  margin-bottom: $text-margin-bottom*1rem;
+  margin-top: $margin-top*1rem;
+  margin-bottom: $margin-bottom*1rem;
 }
 
 

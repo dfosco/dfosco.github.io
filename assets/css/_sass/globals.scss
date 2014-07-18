@@ -1,13 +1,19 @@
 //Imports
 @import "mixins.scss";
 @import "variables.scss";
+@import "images.scss";
 @import "pesticide.scss";
+
 
 /*Pesticide Layout Debug*/
 @include pesticide(false);
-/*------------------------------*/
 
-/*Global Typography*/
+//--------------------------------------------------------
+//--------------------------------------------------------
+
+//--------------------------------------------------------
+//Global Typography
+//--------------------------------------------------------
 
 body {
 	@include base(1.1em, 1.5, 400);
@@ -16,49 +22,49 @@ body {
 
 .page-content {
 	
-	margin-bottom: 6rem;
-
 	p {
-		@include text-margin(0, 1);
+		@include margin(0, 1);
 	}
 
 	h1 { 
 		@include huge(2.5em, 1.3, 700);
-		@include text-margin(0, 0.2);
+		@include margin(0, 0.2);
 		color: $light-pallette-b;
 	}
 
 	h2 { 
 		@include heading(2em, 1.3, 700);
-		@include text-margin(3, 0.2);
+		@include margin(3, 0.2);
+		margin-top: 3rem;
 		color: $light-pallette-c;
 		
 	}
 
 	h3 { 
 		@include heading(1.3em, 1.5, 600);
-		@include text-margin(0, 1.5);
+		@include margin(0, 1.5);
 
 	}
 
 	h4 { 
 		@include heading(1.1em, 1.3, 600);
-		@include text-margin(0, 1.5);
+		@include margin(0, 1.5);
 	}
 }
 
 .post-header {
 	
 	h2 {
-		@include text-margin(0, 1);
+		@include margin(0, 1);
 	}
 
 	h3 { 
-		@include text-margin(0, 1.5);
+		@include margin(0, 1.5);
 	}
 }
+
 //--------------------------------------------------------
-//Main Sections
+//Main divs
 //--------------------------------------------------------
 
 //Header and Nav
@@ -85,6 +91,10 @@ nav {
 	@include span-columns(6);
 }	
 
+article {
+	@include margin(0, 6);
+}
+
 img {
 	width: 100%;
 }
@@ -98,3 +108,27 @@ footer {
 
 @include sticky-footer(3em);
 
+//--------------------------------------------------------
+//Interface Modules
+//--------------------------------------------------------
+
+section.persona-panel {
+	@include span-columns(12);
+	@include margin(2, 3);
+	//This margin-bottom 3 is compensating the H2 at Information Architecture, whose margin-top for some reason does not work.
+	//FIX IT!!!
+
+	section.persona {
+		@include span-columns(4 of 12);
+		
+		blockquote {
+			@include base(0.8em, 1.5, 400);
+			font-style: italic;
+		};
+		
+		img {
+			border-radius: 50%;
+		}
+		
+	}
+}
