@@ -5,8 +5,10 @@ tagline: Bringing back the old way of sharing
 hero: /assets/img/hero_image.png
 permalink: /instagram-print/
 ---
-<h3>Mobile App Prototype for <a href="https://twitter.com/ga">@GENERAL ASSEMBLY</a><br>
-2 Weeks • 3 Designers</h3>
+
+###Mobile App Prototype for [@GENERAL ASSEMBLY](https://twitter.com/ga)
+
+###2 Weeks • 3 Designers
 
 Instagram Print was a project for General Assembly's UXDI class in partnership with Paz Perez and Christina Vu.
 
@@ -28,7 +30,7 @@ Towards the end of the project, my role shifted to assembling the App prototype 
 <a href="http://y9d00x.axshare.com/home_feed.html">Axure Prototype</a>
 </div>
 
-<h2>Ideation</h2>
+##Ideation
 
 ###Finding our starting point
 
@@ -42,7 +44,7 @@ After a few braistoming sessions, we set our core concept as an expansion of Ins
 
 One of our main differentiators from the competition would become the feature that allows you to print pictures where your friends had you tagged, and vice-versa.
 
-<h2>Research</h2>
+##Research
 
 ###Competitive analysis, user research and affinity mapping
 
@@ -90,8 +92,7 @@ This mapping was then used to build three **personas** for the project, which gu
     </section>
 </section>
 
-<p></p>
-<h2>Information Architecture</h2>
+##Information Architecture
 
 ###Flows, Sketches and Wireframes
 
@@ -102,8 +103,8 @@ A quick storyboarding session helped to shape the first user flows, to make it c
 <section class="image-grid">
     <img src="/assets/img/information_architecture_1.png" alt="Storyboards" class="shift-3col img-6col">
 </section>
-<p></p>
-<h2>Interaction Design</h2>
+
+##Interaction Design
 
 ###Testing, testing, testing
 
@@ -135,7 +136,6 @@ You can see the full prototype [here](http://y9d00x.axshare.com/#c=2).
     <img src="/assets/img/interaction_design_2.gif" alt="App Animation Swipe" class="img-5col shift-1col">
     <img src="/assets/img/interaction_design_1.gif" alt="App Animation Selection" class="img-5col">
 </section>
-<p></p>
 
 ##Key Takeaways
 
