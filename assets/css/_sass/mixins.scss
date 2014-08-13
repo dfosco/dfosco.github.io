@@ -5,6 +5,12 @@
 /*Main Typography Mixins*/
 /*----------------------------*/
 
+@mixin font-crispness {
+    html, html a {
+      -webkit-font-smoothing: antialiased;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  }
+}
 @mixin base-link {
   a { color: $base-link-color; text-decoration: none; }
   a:hover { color: $base-hover-link-color; text-decoration: none; }
