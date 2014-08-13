@@ -5,7 +5,7 @@ tagline: Bringing back the old way of sharing
 hero: /assets/img/hero_image.png
 ---
 
-###Mobile App Prototype for [@GENERAL ASSEMBLY](https://twitter.com/ga)
+###App Feature Prototype for [@GENERAL ASSEMBLY](https://twitter.com/ga)
 
 ###2 Weeks • 3 Designers
 

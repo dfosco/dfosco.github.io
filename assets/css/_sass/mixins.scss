@@ -15,6 +15,11 @@
   a:hover { color: $heading-hover-link-color; text-decoration: none; }
 }
 
+@mixin accent-link {
+    a { color: $light-pallette-a; text-decoration: none; }
+    a:hover { color: lighten($light-pallette-a, 10%); text-decoration: none; }
+}
+
 /*@mixin huge-link{
   a { color: $huge-color; text-decoration: none; }
   a:hover { color: $huge-hover-link-color; text-decoration: none; }
