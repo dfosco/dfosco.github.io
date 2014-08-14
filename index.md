@@ -11,7 +11,7 @@ hero: /assets/img/hero_image.png
 
 Instagram Print was a project for General Assembly's UXDI class in partnership with Paz Perez and Christina Vu.
 
-The client for this brief was Instagram, and they needed a way to diversify its revenue stream beyond advertising. For that, the requirement was a new printing service for the social network.
+The client for this (fictional) brief was Instagram, who needed a way to diversify their revenue stream beyond advertising. For that, the requirement was a new printing feature directly integrated into the service.
 
 Our goal was to research and prototype a printing service that would be integrated into Instagram’s main app, including credit card fulfillment and shipping to the user’s address.
 
@@ -23,15 +23,11 @@ Our goal was to research and prototype a printing service that would be integrat
 
 The team for this project was really tight-knit, and the process was a big exercise in participatory design, from research to sketching, and user testing.
 
-Towards the end of the project, my role shifted to assembling the App prototype using Axure, which you can play around with using [this link](http://y9d00x.axshare.com/home_feed.html).
+Towards the end of the project, my role shifted to assembling the app prototype using Axure, which you can play around with using [this link](http://y9d00x.axshare.com/home_feed.html).
 
 ##Ideation
 
 ###Finding our starting point
-
-<section class="image-grid">
-    <img src="/assets/img/feature_prioritization.png" alt="Feature prioritization" class="img-8col shift-2col">
-</section>
 
 When the project began, we set out to find a strong concept to guide our design process: one that would not only address user needs, but also differentiate the product from the several services that already print Instagram photos.
 
@@ -41,26 +37,20 @@ One of our main differentiators from the competition would become the feature th
 
 ##Research
 
-###Competitive analysis, user research and affinity mapping
+###Competitive analysis, User Research and Affinity Mapping
 
 We started the research phase by sending out a survey aiming to discover if potential users had the habit of printing pictures, their intentions when doing so and the frequency with which they printed photos.
 
-<section class="image-grid">
-    <img src="/assets/img/user_research_1.png" alt="Survey Result Screenshot" class="img-10col shift-1col">
-</section>
-
 The information gathered on the survey was complemented by a round of user interviews, where we went deeper into their photo printing needs and, more importantly, into their Instagram usage and how it relates to the information gathered so far.
 
-The competitive research was also extremely valuable, as it showed one of the main issues with other printing apps was the interface — which did not lend itself to an easy mobile shopping experience. It also highlighted one of our main value propositions: being able to print your friend's pictures, instead of your own only.
-
-We ran all of the research results through an affinity map to prioritize user needs and features and organize them into logical units that responded to the project goals. This mapping was then used to build three personas for the project, which guided most of the actual product feature development.
-
-This mapping was then used to build three **personas** for the project, which guided most of the actual product feature development.
+The competitive research was extremely valuable, as it showed pain-points of competitors, and also highlighted one of our main value propositions: being able to print your friends' pictures.
 
 <section class="image-grid">
-    <img src="/assets/img/user_research_2.png" alt="Affinity Mapping" class="img-8col">
-    <img src="/assets/img/user_research_3.png" alt="Mapping to personas" class="img-4col">
+    <img src="/assets/img/research_1.png" alt="Affinity Mapping" class="img-6col">
+    <img src="/assets/img/research_2.png" alt="Aggregating into personas" class="img-6col">
 </section>
+
+After research was done, we aggregated the results in an affinity map, to prioritize user needs and features, which was then used to build three personas for the project.
 
 <section class="persona-panel">
     <section class="persona">
@@ -87,43 +77,40 @@ This mapping was then used to build three **personas** for the project, which gu
 
 ##Information Architecture
 
-###Flows, Sketches and Wireframes
+###Storyboarding and User Flows
 
 The next step after the personas were set was to apply them to the product itself — or the idea that we had of the product by then. 
 
-A quick storyboarding session helped to shape the first user flows, to make it clear for us how the user would move through the app in order to use the printing new service. The flows were followed by several batches of rough wireframes, that solidified the idea we had for the interface and allowed us to move forward to user testing.
+A quick storyboarding session helped to shape the first user flows, that made clear how the user would move through the new feature in order to print pictures. 
 
-<section class="image-grid">
-    <img src="/assets/img/information_architecture_1.png" alt="Storyboards" class="shift-3col img-6col">
-</section>
+The flows were complemented by an overview of the new feature in comparison to the rest of app's architecture.
+
+![Storyboarding to get started with user flows](/assets/img/information_architecture_1.png "Storyboarding to get started with user flows")
 
 ##Interaction Design
 
-###Testing, testing, testing
+###Sketching, Testing, Prototyping, Testing
 
-The interface for this project was definitely a challenge, as mobile shopping has its tricks. The first few attempts had too much information, in a way that mimicked a web interface, while further down the road we trimmed too much. Only through several iterations and a lot of testing we found the sweet spot.
+The earliest sketches were done in group on the whiteboard, as a way to get everyone on the same page and define initial expectations for the interface. 
 
-<section class="image-grid">
-    <img src="/assets/img/interaction_design_1.png" alt="Rough Wireframes 1" class="img-6col">
-    <img src="/assets/img/interaction_design_2.png" alt="Rough Wireframes 2" class="img-6col">
-</section>
-
-The earliest sketches were done in group on the whiteboard, as a way to get everyone on the same page and define initial expectations for the interface.
-
-After that, a little trick helped speed up the process immensely -- paper prototyping. Even though it's frowned upon by some people, it allowed us to draw, test and repeat much faster than any other alternative.
-
-And we used a printed-out phone mockup, which sped it up even more!
+These were followed by several batches of rough wireframes that solidified the idea we had for the interface and allowed us to move forward to user testing.
 
 <section class="image-grid">
-    <img src="/assets/img/interaction_design_3.png" alt="Paper Prototyping" class="img-6col">
-    <img src="/assets/img/interaction_design_4.png" alt="User Testing" class="img-6col">
+    <img src="/assets/img/sketch_1.png" alt="Loose Sketches" class="img-6col">
+    <img src="/assets/img/sketch_2.png" alt="More Loose Sketches" class="img-6col">
 </section>
 
-The next step was mocking up the final designs for testing a version closer to the final product, carried out by Christina and Paz. For that, they made a template to stay in line with Instagram's visual design, as well as mantaining consistency between each other.
+![Paper Prototyping](/assets/img/interaction_design_3.png "Paper Prototyping")
 
-The last step of the process was prototyping the mockups using an Axure -- a process that included mimicking Instagram interactions, as pictured below.
+Doing tests with paper prototypes allowed us to sketch, test and incorporate feedback much faster than any other alternative -- using a printed-out phone mockup sped it up even more.
 
-You can see the full prototype [here](http://y9d00x.axshare.com/#c=2).
+The interface and user flow for this project were challenging, specially around the product selection and checkout screens. Our first version had too much information per screen, in a way that mimicked a web interface, while further down the road we trimmed too much. Only through several iterations and a lot of testing we found the sweet spot.
+
+![User Testing](/assets/img/interaction_design_4.png "User Testing")
+
+When we had enough testing to move on to higher-def, Christina and Paz moved forward with the final mockups, while I prepared the interactive prototype using Axure -- which included mimicking some of Instagram's native interactions, as pictured below.
+
+Check out the full interactive prototype [here](http://y9d00x.axshare.com/#c=2).
 
 <section class="image-grid">
     <img src="/assets/img/interaction_design_2.gif" alt="App Animation Swipe" class="img-5col shift-1col">
