@@ -36,34 +36,29 @@ body {
 
 	h2 { 
 		@include heading(2em, 1.3, 700);
-		@include margin(3, 0.2);
-		margin-top: 3rem;
+		@include margin(0, 1);
 		color: $light-pallette-c;
 		
 	}
 
 	h3 { 
 		@include heading(1.3em, 1.5, 600);
-		@include margin(0, 1.5);
-		@include accent-link;
-
+		@include margin(2, 0.5);
 	}
 
+
+
 	h4 { 
-		@include heading(1.1em, 1.3, 600);
+		@include heading(1.2em, 1.3, 600);
 		@include margin(0, 1.5);
 	}
 }
 
-.post-header {
-	
-	h2 {
-		@include margin(0, 1);
-	}
+//--------------------------------------------------------
+//Header
+//--------------------------------------------------------
 
-	h3 { 
-		@include margin(0, 1.5);
-	}
+.post-header {
 
 	img {
 		box-shadow: 0 3px 4px $black-pallette-c;
@@ -71,6 +66,31 @@ body {
 
 }
 
+//--------------------------------------------------------
+//After-Header Metadata
+//--------------------------------------------------------
+
+article {
+
+	ul:first-of-type {
+		@include heading(1.1em, 1.5, 400);
+		@include accent-link;
+		padding: 0 !important;
+		list-style-type: none;
+		
+		li {
+			@include margin(0, 0.2);	
+		}
+		
+		li:first-of-type {
+			@include margin(0, 0.2);			
+		}
+		
+		li:last-of-type {
+			@include margin(0, 1.5);
+		}
+	}
+}	
 //--------------------------------------------------------
 //Main divs
 //--------------------------------------------------------

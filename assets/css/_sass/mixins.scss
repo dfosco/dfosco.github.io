@@ -60,8 +60,8 @@
 
 @mixin margin($margin-top, $margin-bottom) {
   margin: 0;
-  margin-top: $margin-top*1rem;
-  margin-bottom: $margin-bottom*1rem;
+  margin-top: $margin-top*1em;
+  margin-bottom: $margin-bottom*1em;
 }
 
 

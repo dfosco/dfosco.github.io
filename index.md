@@ -5,15 +5,16 @@ tagline: Bringing back the old way of sharing
 hero: /assets/img/hero_image.png
 ---
 
-###App Feature Prototype for [@GENERAL ASSEMBLY](https://twitter.com/ga)
-
-###2 Weeks • 3 Designers
+ - **Project:** Mobile App Prototype for [@GENERAL ASSEMBLY](https://twitter.com/ga)
+ - **Role:** UX Designer • Prototyper
+ - **Timeline:** 2 Weeks • 3 Designers
+ 
 
 Instagram Print was a project for General Assembly's UXDI class in partnership with Paz Perez and Christina Vu.
 
-The client for this (fictional) brief was Instagram, who needed a way to diversify their revenue stream beyond advertising. For that, the requirement was a new printing feature directly integrated into the service.
+The client for this (fictional) brief was Instagram, who needed a way to diversify their revenue stream beyond advertising. For that, the requirement was a new printing feature directly integrated into the social network.
 
-Our goal was to research and prototype a printing service that would be integrated into Instagram’s main app, including credit card fulfillment and shipping to the user’s address.
+Our goal was to research and prototype a printing feature that would be integrated with the printing backend — which included credit card fulfillment and shipping to the user’s address.
 
 <section class="image-grid">
     <img src="/assets/img/intro_phone_1.png" alt="Phone 1" class="img-3col shift-1-5col">
@@ -25,9 +26,9 @@ The team for this project was really tight-knit, and the process was a big exerc
 
 Towards the end of the project, my role shifted to assembling the app prototype using Axure, which you can play around with using [this link](http://y9d00x.axshare.com/home_feed.html).
 
-##Ideation
+###Ideation
 
-###Finding our starting point
+####Finding our starting point
 
 When the project began, we set out to find a strong concept to guide our design process: one that would not only address user needs, but also differentiate the product from the several services that already print Instagram photos.
 
@@ -35,9 +36,9 @@ We set our core concept as an expansion of Instagram's brand into the real world
 
 One of our main differentiators from the competition would become the feature that allows you to print pictures where your friends had you tagged, and vice-versa.
 
-##Research
+###Research
 
-###Competitive analysis, User Research and Affinity Mapping
+####Competitive analysis, User Research and Affinity Mapping
 
 We started the research phase by sending out a survey aiming to discover if potential users had the habit of printing pictures, their intentions when doing so and the frequency with which they printed photos.
 
@@ -56,28 +57,28 @@ After research was done, we aggregated the results in an affinity map, to priori
     <section class="persona">
     <img src="/assets/img/karen_round.png" alt="Personas" class="avatar-2col">
     <legend><h4>Karen, 27</h4></legend>
-    <blockquote>Love my new apartment and my roommate, can’t wait to decorate the empty walls.
+    <blockquote>"Love my new apartment and my roommate, can’t wait to decorate the empty walls."
     </blockquote>
     </section>
 
-    <section class="persona">
+<section class="persona">
     <img src="/assets/img/ashley_round.png" alt="Personas" class="avatar-2col">
     <legend><h4>Ashley, 15</h4></legend>
-    <blockquote>I Instagram from the moment I wake up to the moment I go to sleep.
+    <blockquote>"I Instagram from the moment I wake up to the moment I go to sleep."
     </blockquote>
-    </section>
+</section>
 
-    <section class="persona">
+<section class="persona">
     <img src="/assets/img/bill_round.png" alt="Personas" class="avatar-2col">
     <legend><h4>Bill, 51</h4></legend>
-    <blockquote>I love taking pictures, but I love not wasting my time even more.
+    <blockquote>"I love taking pictures, but I love not wasting my time even more."
     </blockquote>
     </section>
 </section>
 
-##Information Architecture
+###Information Architecture
 
-###Storyboarding and User Flows
+####Storyboarding and User Flows
 
 The next step after the personas were set was to apply them to the product itself — or the idea that we had of the product by then. 
 
@@ -87,9 +88,9 @@ The flows were complemented by an overview of the new feature in comparison to t
 
 ![Storyboarding to get started with user flows](/assets/img/information_architecture_1.png "Storyboarding to get started with user flows")
 
-##Interaction Design
+###Interaction Design
 
-###Sketching, Testing, Prototyping, Testing
+####Sketching, Testing, Prototyping, Testing
 
 The earliest sketches were done in group on the whiteboard, as a way to get everyone on the same page and define initial expectations for the interface. 
 
@@ -110,25 +111,27 @@ The interface and user flow for this project were challenging, specially around 
 
 When we had enough testing to move on to higher-def, Christina and Paz moved forward with the final mockups, while I prepared the interactive prototype using Axure -- which included mimicking some of Instagram's native interactions, as pictured below.
 
-Check out the full interactive prototype [here](http://y9d00x.axshare.com/#c=2).
+
 
 <section class="image-grid">
     <img src="/assets/img/interaction_design_2.gif" alt="App Animation Swipe" class="img-5col shift-1col">
     <img src="/assets/img/interaction_design_1.gif" alt="App Animation Selection" class="img-5col">
 </section>
 
-##Key Takeaways
+Check out the full interactive prototype [here](http://y9d00x.axshare.com/#c=2).
 
-###Design at close quarters
+###Key Takeaways
+
+####Design at close quarters
 
 This project was intense, but the close-knit teamwork and the test-driven approach enabled us to achieve great results in a short ammount of time. 
 
-The intense testing rythm allowed us to constantly fix our assumptions, while having the team in sync meant better feedback — and thus, a better design output.
+The intense testing rhythm allowed us to constantly fix our assumptions, while having the team in sync meant better feedback — and thus, a better design output.
 
 It wasn't without its hiccups, though — file organization became an issue at one point, something that could've been mitigated at the beginning of the project by stating a clear working structure and the tools to be used.
 
-Overall, this is the kind of project you wish you had every week.
+This is the kind of project you wish you had every week.
 
-##Say hi
+###Say hi
 
 Contact me via <a href="mailto:danielfosco@gmail.com" target="_blank">danielfosco@gmail.com</a> or <a href="https://www.twitter.com/notdanielfosco" target="_blank">@notdanielfosco</a>
