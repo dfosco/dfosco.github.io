@@ -1,7 +1,7 @@
 # Site settings
-title: Daniel Fosco
+title: Daniel Fosco -- Product Designer
 email: danielfosco@gmail.com
-description: "Portfolio website for Product Designer Daniel Fosco."
+description: "Website of Product Designer Daniel Fosco."
 baseurl: 
 url: http://dfosco.github.io/portfolio
 gems: [jekyll-sass]
