@@ -2,7 +2,7 @@
 layout: post
 title: Instagram Print
 tagline: Bringing back the old way of sharing
-hero: /portfolio/portfolio/assets/img/hero_image.png
+hero: /portfolio/assets/img/hero_image.png
 hero-alt: Instagram Print Hero Image
 ---
 
@@ -98,7 +98,7 @@ The earliest sketches were done in group on the whiteboard, as a way to get ever
 These were followed by several batches of rough wireframes that solidified the idea we had for the interface and allowed us to move forward to user testing.
 
 <section class="image-grid">
-    <img src="/portfolio/portfolio/assets/img/sketch_1.png" alt="Loose Sketches" class="img-6col">
+    <img src="/portfolio/assets/img/sketch_1.png" alt="Loose Sketches" class="img-6col">
     <img src="/portfolio/assets/img/sketch_2.png" alt="More Loose Sketches" class="img-6col">
 </section>
 
