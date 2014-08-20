@@ -23,7 +23,8 @@ But my specialties are <span class="accent">User Experience Design</span> & <spa
 
 
 ###Book Publishing → Digital Product Design
-I have a BA in Communications & Publishing from UFRJ. 
+I have a BA in Communications & Publishing from UFRJ.  
+
 After leaving the publishing industry, took a 10-week UX Design program at General Assembly and rode into the sunset.
 
 
@@ -36,4 +37,4 @@ After leaving the publishing industry, took a 10-week UX Design program at Gener
 ###Say hi
 Drop me a line at <a href="#">danielfosco@gmail.com</a> or [@notdanielfosco](https://www.twitter.com/notdanielfosco). 
 
-I'm also at [Github](https://github.com/dfosco) and [LinkedIn](www.linkedin.com/in/danielfosco/en), because who isn't these days, right?
+I'm also at [Github](https://github.com/dfosco) and [LinkedIn](https://www.linkedin.com/in/danielfosco/en), because who isn't these days, right?

@@ -2,7 +2,7 @@
 layout: post
 title: Instagram Print
 tagline: Bringing back the old way of sharing
-hero: /assets/img/hero_image.png
+hero: /portfolio/assets/img/hero_image.png
 hero-alt: Instagram Print Hero Image
 ---
 
