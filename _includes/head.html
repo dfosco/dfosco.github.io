@@ -14,8 +14,17 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS -->
-     <link rel="stylesheet" href="/assets/css/normalize/normalize.css">
-     <link rel="stylesheet" href="/assets/css/main.css">
+     <link rel="stylesheet" href="{{ site.url }}/assets/css/normalize/normalize.css">
+
+    {% if page.layout == 'home' %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/main-home.css">    
+    {% elsif page.layout == 'post' %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+    {% else %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+    {% endif %}
+ 
+ 
 
 
 	<!-- Facebook OG Tags -->
