@@ -3,7 +3,8 @@ layout: home
 title: Daniel Fosco
 tagline: Product Designer
 hero: /assets/img/hero_image.png
-hero-alt: 
+"hero-alt": null
+published: true
 ---
 
 #Hi! 
@@ -18,7 +19,7 @@ But my specialties are <span class="accent">User Experience Design</span> & <spa
 
 
 ###Things I’ve done
-[Swerve Project](http://invis.io/9F1908XPY)     
+[Swerve Fitness](http://invis.io/9F1908XPY)     
 [Instagram Print]({{ site.url }}/instagram-print)
 
 
