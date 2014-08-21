@@ -25,8 +25,7 @@ But my specialties are <span class="accent">User Experience Design</span> & <spa
 ###Book Publishing → Digital Product Design
 I have a BA in Communications & Publishing from UFRJ.  
 
-After leaving the publishing industry, took a 10-week UX Design program at General Assembly and rode into the sunset.
-
+After a couple of years out of the publishing industry, took a 10-week UX Design program at [General Assembly](https://generalassemb.ly/education/user-experience-design-immersive/new-york-city) and rode into the sunset.
 
 ###I write every once in a while
 [Here.](http://blog.danielfos.co)

@@ -65,51 +65,8 @@ article {
 }
 
 //--------------------------------------------------------
-//Header
-//--------------------------------------------------------
-
-.post-header {
-
-	img {
-		box-shadow: 0 3px 4px $black-pallette-c;
-	}
-
-}
-
-//--------------------------------------------------------
-//After-Header Metadata
-//--------------------------------------------------------
-
-article {
-
-	ul:first-of-type {
-		@include heading(1.1em, 1.5, 400);
-		@include accent-link;
-		padding: 0 !important;
-		list-style-type: none;
-		
-		li {
-			@include margin(0, 0.2);	
-		}
-
-		li:first-of-type {
-			@include margin(0, 0.2);			
-		}
-		
-		li:last-of-type {
-			@include margin(0, 1.5);
-		}
-	}
-}	
-
-//--------------------------------------------------------
 //LAYOUT
 //--------------------------------------------------------
-
-//--------------------------------------------------------
-//Body
-//--------------------------------------------------------
-
 
 //--------------------------------------------------------
 //Header and Nav
@@ -149,26 +106,6 @@ nav {
 }
 
 //--------------------------------------------------------
-//Mobile Menu 
-//--------------------------------------------------------
-
-.slicknav_menu {
-	display:none;
-}
-
-@include media($mobile-header) {
-
-	.js #menu {
-		display:none;
-	}
-	
-	.js .slicknav_menu {
-		display:block;
-	}
-
-}
-
-//--------------------------------------------------------
 //Article
 //--------------------------------------------------------
 
@@ -197,16 +134,17 @@ article {
 
 		img {
 			width: 40%;
+			border: 3px solid $black-pallette-c;
 		}
 	}
-}	
 
-img {
+	img {
 	width: 20%;
 	border-radius: 50%;
-	border-width: 3px;
-	border-color: $dark-pallette-c;
-}
+	border: 3px solid $black-pallette-c;
+	}
+
+}	
 
 //--------------------------------------------------------
 //Footer
@@ -217,28 +155,3 @@ footer {
 }
 
 @include sticky-footer(3em);
-
-//--------------------------------------------------------
-//Interface Modules
-//--------------------------------------------------------
-
-section.persona-panel {
-	@include span-columns(12);
-	@include margin(2, 3);
-	//This margin-bottom 3 is compensating the H2 at Information Architecture, whose margin-top for some reason does not work.
-	//FIX IT!!!
-
-	section.persona {
-		@include span-columns(4 of 12);
-		
-		blockquote {
-			@include base(0.8em, 1.5, 400);
-			font-style: italic;
-		};
-		
-		img {
-			border-radius: 50%;
-		}
-		
-	}
-}
