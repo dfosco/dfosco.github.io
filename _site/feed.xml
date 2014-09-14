@@ -3,10 +3,10 @@
   <channel>
     <title>Daniel Fosco -- Product Designer</title>
     <description>Website of Product Designer Daniel Fosco.</description>
-    <link>http://dfosco.github.iodanielfos.co/</link>
-    <atom:link href="http://dfosco.github.iodanielfos.co/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Sep 2014 18:13:40 -0500</pubDate>
-    <lastBuildDate>Sun, 14 Sep 2014 18:13:40 -0500</lastBuildDate>
+    <link>http://danielfos.co/</link>
+    <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 14 Sep 2014 18:32:46 -0500</pubDate>
+    <lastBuildDate>Sun, 14 Sep 2014 18:32:46 -0500</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Tue, 15 Jul 2014 16:23:26 -0500</pubDate>
-        <link>http://dfosco.github.iodanielfos.co/jekyll/update/2014/07/15/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://dfosco.github.iodanielfos.co/jekyll/update/2014/07/15/welcome-to-jekyll/</guid>
+        <link>http://danielfos.co/jekyll/update/2014/07/15/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://danielfos.co/jekyll/update/2014/07/15/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>

@@ -2,8 +2,7 @@
 title: Daniel Fosco -- Product Designer
 email: danielfosco@gmail.com
 description: "Website of Product Designer Daniel Fosco."
-baseurl: danielfos.co
-url: http://dfosco.github.io
+url: http://danielfos.co
 gems: [jekyll-sass]
 
 # Author settings
