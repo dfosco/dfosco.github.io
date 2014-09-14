@@ -7,12 +7,14 @@ hero: /assets/img/hero_image.png
 published: true
 ---
 
-#Hi! 
-
 #I’m <span class="accent">Daniel Fosco</span>, a designer based in Rio de Janeiro.
 
+![Hi](http://i.imgur.com/GMkqnNn.jpg)
+
+<em>Hi!</em>
+
 ###I design to solve problems for people.
-These people may be your customers. Making them happy is good business.
+These people may be your customers. Designing products and services that offer them real value is good for business.
 
 ###Learning is what I do best
 But my specialties are <span class="accent">User Experience Design</span> & <span class="accent">Front-End Development</span>.
@@ -24,15 +26,12 @@ But my specialties are <span class="accent">User Experience Design</span> & <spa
 
 
 ###Book Publishing → Digital Product Design
-I have a BA in Communications & Publishing from UFRJ.  
+I have a BA in Communications & Publishing from UFRJ. But the book publishing industry is not really for me.
 
-After a couple of years out of the publishing industry, took a 10-week UX Design program at [General Assembly](https://generalassemb.ly/education/user-experience-design-immersive/new-york-city) and rode into the sunset.
+So after getting into the tech industry by accident and going around for a couple of years, I took General Assembly's [10-week UX Design program](https://generalassemb.ly/education/user-experience-design-immersive/new-york-city) to polish my UX skillset.
 
 ###I write every once in a while
-[Here.](http://blog.danielfos.co)
-
-###This is what I look like
-![Hi](http://i.imgur.com/GMkqnNn.jpg)  
+[Here.](http://blog.danielfos.co) 
 
 ###Say hi
 Drop me a line at <a href="#">danielfosco@gmail.com</a> or [@notdanielfosco](https://www.twitter.com/notdanielfosco). 
