@@ -5,8 +5,8 @@
     <description>Website of Product Designer Daniel Fosco.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 Aug 2014 23:49:32 -0400</pubDate>
-    <lastBuildDate>Mon, 25 Aug 2014 23:49:32 -0400</lastBuildDate>
+    <pubDate>Sun, 14 Sep 2014 15:22:31 -0500</pubDate>
+    <lastBuildDate>Sun, 14 Sep 2014 15:22:31 -0500</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
@@ -25,7 +25,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 15 Jul 2014 17:23:26 -0400</pubDate>
+        <pubDate>Tue, 15 Jul 2014 16:23:26 -0500</pubDate>
         <link>http://localhost:4000/jekyll/update/2014/07/15/welcome-to-jekyll/</link>
         <guid isPermaLink="true">http://localhost:4000/jekyll/update/2014/07/15/welcome-to-jekyll/</guid>
         

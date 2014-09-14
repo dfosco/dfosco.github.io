@@ -4,7 +4,7 @@
 
 $mobile: new-breakpoint(max-width 768px 16);
 $mobile-header: new-breakpoint(max-width 768px);
-//$tablet: new-breakpoint(min-width 769px max-with 991px 5);
+$tablet: new-breakpoint(min-width 769px max-width 991px 5);
 //$desktop: new-breakpoint(min-width 992px 6);
 
  
