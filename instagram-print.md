@@ -90,9 +90,8 @@ These were followed by several batches of rough wireframes that solidified the i
 <section class="image-grid">
     <img src="/assets/img/sketch_1.png" alt="Loose Sketches" class="img-6col">
     <img src="/assets/img/sketch_2.png" alt="More Loose Sketches" class="img-6col">
-    <img src="/assets/img/interaction_design_3.png" alt="Paper Prototyping">
 </section>
-
+<img src="/assets/img/interaction_design_3.png" alt="Paper Prototyping">
 
 Doing tests with paper prototypes allowed us to sketch, test and incorporate feedback much faster than going straight to digital.
 
