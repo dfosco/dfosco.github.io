@@ -2,7 +2,7 @@
 layout: post
 title: Instagram Print
 tagline: Bringing back the old way of sharing
-hero: /portfolio/assets/img/hero_image.png
+hero: /assets/img/hero_image.png
 hero-alt: Instagram Print Hero Image
 ---
 
@@ -18,9 +18,9 @@ The team for this project was really tight-knit, and the process was a big exerc
 Towards the end of the project, my role shifted to assembling the app prototype using Axure, which you can play around with using  <a href="http://y9d00x.axshare.com/#c=2" target="_blank">this link</a>.
 
 <section class="image-grid" style="margin-bottom:1em">
-    <img src="/portfolio/assets/img/intro_phone_1.png" alt="Phone 1" class="img-3col shift-1-5col">
-    <img src="/portfolio/assets/img/intro_phone_2.png" alt="Phone 2" class="img-3col">
-    <img src="/portfolio/assets/img/intro_phone_3.png" alt="Phone 3" class="img-3col">
+    <img src="/assets/img/intro_phone_1.png" alt="Phone 1" class="img-3col shift-1-5col">
+    <img src="/assets/img/intro_phone_2.png" alt="Phone 2" class="img-3col">
+    <img src="/assets/img/intro_phone_3.png" alt="Phone 3" class="img-3col">
 </section>
 
 ###Ideation
@@ -40,27 +40,27 @@ The competitive research was extremely valuable, as it showed pain-points of com
 Research results were aggregated in an affinity map, to prioritize user needs and features, which was then used to build three personas for the project.
 
 <section class="image-grid">
-    <img src="/portfolio/assets/img/research_1.png" alt="Affinity Mapping" class="img-6col">
-    <img src="/portfolio/assets/img/research_2.png" alt="Aggregating into personas" class="img-6col">
+    <img src="/assets/img/research_1.png" alt="Affinity Mapping" class="img-6col">
+    <img src="/assets/img/research_2.png" alt="Aggregating into personas" class="img-6col">
 </section>
 
 <section class="persona-panel">
     <section class="persona">
-    <img src="/portfolio/assets/img/karen_round.png" alt="Personas" class="avatar-2col">
+    <img src="/assets/img/karen_round.png" alt="Personas" class="avatar-2col">
     <legend><h4>Karen, 27</h4></legend>
     <blockquote>"Love my new apartment and my roommate, can’t wait to decorate the empty walls."
     </blockquote>
     </section>
 
 <section class="persona">
-    <img src="/portfolio/assets/img/ashley_round.png" alt="Personas" class="avatar-2col">
+    <img src="/assets/img/ashley_round.png" alt="Personas" class="avatar-2col">
     <legend><h4>Ashley, 15</h4></legend>
     <blockquote>"I Instagram from the moment I wake up to the moment I go to sleep."
     </blockquote>
 </section>
 
 <section class="persona">
-    <img src="/portfolio/assets/img/bill_round.png" alt="Personas" class="avatar-2col">
+    <img src="/assets/img/bill_round.png" alt="Personas" class="avatar-2col">
     <legend><h4>Bill, 51</h4></legend>
     <blockquote>"I love taking pictures, but I love not wasting my time even more."
     </blockquote>
@@ -75,9 +75,9 @@ A quick storyboarding session helped to shape the first user flows, that made cl
 
 The flows were complemented by an overview of the new feature in comparison to the rest of app's architecture.
 
-![Storyboarding to get started with user flows](/portfolio/assets/img/information_architecture_1.png)
+![Storyboarding to get started with user flows](/assets/img/information_architecture_1.png)
 
-![App's Information Architecture](/portfolio/assets/img/information_architecture_2.png)
+![App's Information Architecture](/assets/img/information_architecture_2.png)
 
 ###Interaction Design
 
@@ -88,23 +88,23 @@ Early sketches were done in group on the whiteboard, as a way to get the team on
 These were followed by several batches of rough wireframes that solidified the idea we had for the interface and allowed us to move forward to user testing.
 
 <section class="image-grid">
-    <img src="/portfolio/assets/img/sketch_1.png" alt="Loose Sketches" class="img-6col">
-    <img src="/portfolio/assets/img/sketch_2.png" alt="More Loose Sketches" class="img-6col">
+    <img src="/assets/img/sketch_1.png" alt="Loose Sketches" class="img-6col">
+    <img src="/assets/img/sketch_2.png" alt="More Loose Sketches" class="img-6col">
 </section>
-<img src="/portfolio/assets/img/interaction_design_3.png" alt="Paper Prototyping" style="margin-top:1em;">
+<img src="/assets/img/interaction_design_3.png" alt="Paper Prototyping" style="margin-top:1em;">
 
 Doing tests with paper prototypes allowed us to sketch, test and incorporate feedback much faster than going straight to digital.
 
 Product selection and checkout screens were specially challenging, interface-wise: our first version had too much information density, while further down the road we over-simplified. Only through several iterations and a lot of testing we found the right balance.
 
-![User Testing](/portfolio/assets/img/interaction_design_4.png)
+![User Testing](/assets/img/interaction_design_4.png)
 
 When we were ready to move forward, the team finished the final mockups, while I prepared the interactive prototype using Axure -- which included mimicking some of Instagram's native interactions, as pictured below.
 
 Check out the fully interactive prototype <a href="http://y9d00x.axshare.com/#c=2" target="_blank">here</a>.
 
 <section class="image-grid">
-    <img src="/portfolio/assets/img/interaction_design_2.gif" alt="App Animation Swipe" class="img-6col shift-3col" style="margin-bottom: 1em">
+    <img src="/assets/img/interaction_design_2.gif" alt="App Animation Swipe" class="img-6col shift-3col" style="margin-bottom: 1em">
 </section>
 
 ###Key Takeaways
