@@ -7,6 +7,15 @@ hero: /assets/img/hero_image.png
 published: true
 ---
 
+---
+layout: home
+title: Daniel Fosco
+tagline: Product Designer
+hero: /assets/img/hero_image.png
+"hero-alt": null
+published: true
+---
+
 #I’m <span class="accent">Daniel Fosco</span>, a designer based in Rio de Janeiro.
 
 ![Hi](http://i.imgur.com/GMkqnNn.jpg)
@@ -26,9 +35,9 @@ But my specialties are <span class="accent">User Experience Design</span> & <spa
 
 
 ###Book Publishing → Digital Product Design
-I have a BA in Communications & Publishing from UFRJ. But the book publishing industry is not really for me.
+ My background is in Book Publishing, but it turned out the book industry is not really for me. After working in a digital publishing startup in every possible position, I decided to go into Product Design, to be involved with and own the design process from start to end.
 
-So after getting into the tech industry by accident and going around for a couple of years, I took General Assembly's [10-week UX Design program](https://generalassemb.ly/education/user-experience-design-immersive/new-york-city) to polish my UX skillset.
+For this, General Assembly's [10-week UX Design program](https://generalassemb.ly/education/user-experience-design-immersive/new-york-city) was essential to complete my UX skillset — as well as build relationships with several other kickass designers.
 
 ###I write every once in a while
 [Here.](http://blog.danielfos.co) 
