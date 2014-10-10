@@ -5,8 +5,8 @@
     <description>Website of Product Designer Daniel Fosco.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Sep 2014 18:32:46 -0500</pubDate>
-    <lastBuildDate>Sun, 14 Sep 2014 18:32:46 -0500</lastBuildDate>
+    <pubDate>Fri, 10 Oct 2014 16:53:22 -0300</pubDate>
+    <lastBuildDate>Fri, 10 Oct 2014 16:53:22 -0300</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
@@ -25,7 +25,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 15 Jul 2014 16:23:26 -0500</pubDate>
+        <pubDate>Tue, 15 Jul 2014 18:23:26 -0300</pubDate>
         <link>http://danielfos.co/jekyll/update/2014/07/15/welcome-to-jekyll/</link>
         <guid isPermaLink="true">http://danielfos.co/jekyll/update/2014/07/15/welcome-to-jekyll/</guid>
         

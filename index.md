@@ -7,15 +7,6 @@ hero: /assets/img/hero_image.png
 published: true
 ---
 
----
-layout: home
-title: Daniel Fosco
-tagline: Product Designer
-hero: /assets/img/hero_image.png
-"hero-alt": null
-published: true
----
-
 #I’m <span class="accent">Daniel Fosco</span>, a designer based in Rio de Janeiro.
 
 ![Hi](http://i.imgur.com/GMkqnNn.jpg)
