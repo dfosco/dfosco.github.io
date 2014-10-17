@@ -318,7 +318,17 @@ article h3 a:hover {
   color: #242935;
   text-decoration: none;
 }
-/* line 48, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 25, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+article h3 a {
+  color: #cd544e;
+  text-decoration: none;
+}
+/* line 26, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+article h3 a:hover {
+  color: #d87a76;
+  text-decoration: none;
+}
+/* line 49, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 article h4 {
   font-size: 1.2em;
   font-weight: 600;
@@ -338,17 +348,17 @@ article h4 a:hover {
   color: #242935;
   text-decoration: none;
 }
-/* line 53, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 54, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 article span.accent {
   color: #cd544e;
 }
 
-/* line 64, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 65, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 .post-header img {
   box-shadow: 0 3px 4px #717171;
 }
 
-/* line 76, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 77, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 article ul:first-of-type {
   font-size: 1.1em;
   font-weight: 400;
@@ -377,26 +387,26 @@ article ul:first-of-type a:hover {
   color: #d87a76;
   text-decoration: none;
 }
-/* line 82, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 83, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 article ul:first-of-type li {
   margin: 0;
   margin-top: 0em;
   margin-bottom: 0.2em;
 }
-/* line 86, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 87, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 article ul:first-of-type li:first-of-type {
   margin: 0;
   margin-top: 0em;
   margin-bottom: 0.2em;
 }
-/* line 90, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 91, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 article ul:first-of-type li:last-of-type {
   margin: 0;
   margin-top: 0em;
   margin-bottom: 1.5em;
 }
 
-/* line 113, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 114, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 nav {
   float: left;
   display: block;
@@ -407,7 +417,7 @@ nav {
 nav:last-child {
   margin-right: 0;
 }
-/* line 117, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 118, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 nav ul {
   list-style-type: none;
   padding: 0.36em 0 0 0.7em;
@@ -449,12 +459,12 @@ nav ul li:nth-child(4) > a {
 nav ul li:nth-child(4) > a:hover {
   color: #ffd97a;
 }
-/* line 127, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 128, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 nav #mobile, nav .hidden {
   display: none;
 }
 @media screen and (max-width: 768px) {
-  /* line 113, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+  /* line 114, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
   nav {
     float: left;
     display: block;
@@ -465,37 +475,37 @@ nav #mobile, nav .hidden {
   nav:last-child {
     margin-right: 0;
   }
-  /* line 133, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+  /* line 134, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
   nav #desktop {
     display: none;
   }
-  /* line 137, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+  /* line 138, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
   nav #mobile {
     display: block;
   }
-  /* line 139, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+  /* line 140, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
   nav #mobile li:nth-child(1) {
     margin-bottom: 15px;
   }
 }
 
-/* line 150, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 151, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 .slicknav_menu {
   display: none;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 156, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+  /* line 157, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
   .js #menu {
     display: none;
   }
 
-  /* line 160, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+  /* line 161, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
   .js .slicknav_menu {
     display: block;
   }
 }
-/* line 170, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 171, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 article {
   float: left;
   display: block;
@@ -510,7 +520,7 @@ article:last-child {
   margin-right: 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 170, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+  /* line 171, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
   article {
     float: left;
     display: block;
@@ -524,12 +534,12 @@ article:last-child {
   }
 }
 
-/* line 180, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 181, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 img {
   width: 100%;
 }
 
-/* line 188, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 189, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 footer {
   float: left;
   display: block;
@@ -610,7 +620,7 @@ html, body {
   line-height: 1.7;
 }
 
-/* line 198, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 199, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 section.persona-panel {
   float: left;
   display: block;
@@ -624,7 +634,7 @@ section.persona-panel {
 section.persona-panel:last-child {
   margin-right: 0;
 }
-/* line 204, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 205, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 section.persona-panel section.persona {
   float: left;
   display: block;
@@ -635,7 +645,7 @@ section.persona-panel section.persona {
 section.persona-panel section.persona:last-child {
   margin-right: 0;
 }
-/* line 207, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 208, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 section.persona-panel section.persona blockquote {
   font-size: 0.8em;
   font-weight: 400;
@@ -654,7 +664,7 @@ section.persona-panel section.persona blockquote a:hover {
   color: #ff9360;
   text-decoration: none;
 }
-/* line 212, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+/* line 213, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
 section.persona-panel section.persona img {
   border-radius: 50%;
 }

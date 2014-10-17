@@ -41,6 +41,7 @@ article {
 	h3 { 
 		@include heading(1.3em, 1.5, 600);
 		@include em-margin(2, 0.5);
+		@include accent-link;
 	}
 
 
