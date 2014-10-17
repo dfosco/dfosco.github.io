@@ -22,7 +22,7 @@ But my current work is focused on <span class="accent">UX Design</span> and <spa
 I'm available for new projects starting December 2014. Get in touch <a href="mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together">here</a>.
 
 ###Recent projects
-[Swerve Fitness](http://invis.io/9F1908XPY)     
+[Swerve Fitness](http://invis.io/D41JGLJ5Q)     
 [Instagram Print]({{ site.url }}/instagram-print)
 
 
