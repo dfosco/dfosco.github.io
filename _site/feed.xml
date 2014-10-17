@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daniel Fosco -- Product Designer</title>
+    <title>Daniel Fosco</title>
     <description>Website of Product Designer Daniel Fosco.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Oct 2014 12:47:59 -0300</pubDate>
-    <lastBuildDate>Fri, 17 Oct 2014 12:47:59 -0300</lastBuildDate>
+    <pubDate>Fri, 17 Oct 2014 12:56:19 -0300</pubDate>
+    <lastBuildDate>Fri, 17 Oct 2014 12:56:19 -0300</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>

@@ -48,7 +48,7 @@ That's the reason setting secondary defaults will hardly ever happen, as it dire
 
 If only. Far from being a "bad app" problem, this is a system-wide issue that affects Apple and their relations with content producers and developers.
 
-Newsstand, the platform that was supposed to showcase the iPad's power and might, is crumbling: not only their "killer app" [died eons ago](http://www.theverge.com/2012/12/3/3721544/the-daily-ipad-news-mag-shutdown-december-15th), but their indie darling [is closing doors as well](http://www.cultofmac.com/299139/9-hard-lessons-top-ipad-publisher/). 
+Newsstand, the platform that was supposed to showcase the iPad's power and might, is crumbling: not only its "killer app" [died eons ago](http://www.theverge.com/2012/12/3/3721544/the-daily-ipad-news-mag-shutdown-december-15th), but their indie darling [is closing doors as well](http://www.cultofmac.com/299139/9-hard-lessons-top-ipad-publisher/). 
 
 Meanwhile, the Appstore is overrun by clones of popular apps like a horde of Orcs climbing the castle walls — and iOS development is [no](http://blog.jaredsinclair.com/post/93118460565/a-candid-look-at-unreads-first-year) [longer](http://inessential.com/2014/07/28/more_on_ios_indies) [as](http://www.tuaw.com/2014/07/30/the-plight-of-the-indie-ios-developer-is-the-app-store-broken-o/) [sustainable](http://inessential.com/2014/07/28/more_on_ios_indies) as it once was. 
 
