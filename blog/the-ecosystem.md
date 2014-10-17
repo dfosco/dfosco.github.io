@@ -2,7 +2,7 @@
 layout: post
 title: The Ecosystem
 tagline: Or how to have 100 apps and a bunch of them, well, a bunch of them kinda suck.
-hero: /assets/img/ashton.jpeg
+hero: /assets/img/ashton.jpg
 hero-alt: Hi Ashton
 ---
 

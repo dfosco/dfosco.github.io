@@ -2,7 +2,7 @@
 layout: post
 title: The Ecosystem
 tagline: Or how to have 100 apps and a bunch of them, well, a bunch of them kinda suck.
-hero: /assets/img/ashton.jpeg
+hero: /assets/img/ashton.jpg
 hero-alt: Hi Ashton
 ---
 
@@ -34,7 +34,7 @@ Still, when you have to develop and improve:
  - A brand new programming language
  - and a _miniaturized wrist watch Computer_...
 
-it's a lot to juggle. At US$ 170 billion revenue and 98,000 employees, one has to wonder how much more can Apple grow without wearing itself thin even further.
+It's a lot to juggle. At US$ 170 billion revenue and 98,000 employees, one has to wonder how much more can Apple grow without wearing itself thin even further.
 
 ###Let's face it: a bunch of Apple apps suck
 
