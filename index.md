@@ -17,10 +17,11 @@ published: true
 These people may be your customers. Designing products and services that offer them real value is good for business.
 
 ###Learning is what I do best
-But my specialties are <span class="accent">User Experience Design</span> & <span class="accent">Front-End Development</span>.
+But my current work is focused on <span class="accent">User Experience Design</span> and <span class="accent">Front-End Development</span>.
 
+I am available for new projects starting December 2014. Get in touch <a href="mailto:danielfosco@gmail.com?subject=Hi, let%E2%80%99s%20work%20together">here</a>.
 
-###Things I’ve done
+###Recent projects
 [Swerve Fitness](http://invis.io/9F1908XPY)     
 [Instagram Print]({{ site.url }}/instagram-print)
 
