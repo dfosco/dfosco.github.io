@@ -31,7 +31,7 @@ But my specialties are <span class="accent">User Experience Design</span> & <spa
 For this, General Assembly's [10-week UX Design program](https://generalassemb.ly/education/user-experience-design-immersive/new-york-city) was essential to complete my UX skillset — as well as build relationships with several other kickass designers.
 
 ###I write every once in a while
-[Here.](http://blog.danielfos.co) 
+[Here.](http://danielfos.co/blog/) 
 
 ###Say hi
 Drop me a line at <a href="#">danielfosco@gmail.com</a> or [@notdanielfosco](https://www.twitter.com/notdanielfosco). 
