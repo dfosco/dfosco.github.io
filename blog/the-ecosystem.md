@@ -42,7 +42,7 @@ That's not hard to demonstrate. Just grab someone's iPhone to see the apps on th
 
 Truth be told, Apple's goal it not to make you use every single default app the ships with iOS. But use enough Google products on your iPhone, and you suddenly aren't as commited to their ecosystem lock-in as they wish you were.
 
-That's the reason setting secondary defaults will hardly ever happen, as it directly undermines Apple's business strategy by devaluing their ecosystem. Sure, [they've added Extensions](http://arstechnica.com/apple/2014/06/explaining-ios-8s-extensions-opening-the-platform-while-keeping-it-secure/), but their cautious approach[^1] shows how little they are willing to concede in their dominance. In light of _The Default Apps_, the massive usage Mail.app gets is not so different from the one IE used to have long ago.
+That's the reason setting secondary defaults will hardly ever happen, as it directly undermines Apple's business strategy by devaluing their ecosystem. Sure, [they've added Extensions](http://arstechnica.com/apple/2014/06/explaining-ios-8s-extensions-opening-the-platform-while-keeping-it-secure/), but their cautious approach shows how little they are willing to concede in their dominance. In light of _The Default Apps_, the massive usage Mail.app gets is not so different from the one IE used to have long ago.
 
 ###_Boo hoo_, Mom insists on using these terrible apps!
 
@@ -76,4 +76,5 @@ Perhaps it's time for iOS and Apple to get back to basics.
 
 ---
 
-[^1]: To which some Android users would say: _too little, too late_
+Let me know what you think in the comments. And by that I mean [Twitter](https://twitter.com/notdanielfosco).
+
