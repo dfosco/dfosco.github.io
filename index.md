@@ -19,7 +19,7 @@ These people may be your customers. Designing products and services that offer t
 ###Learning is what I do best
 But my current work is focused on <span class="accent">UX Design</span> and <span class="accent">Front-End Development</span>.
 
-I'm available for new projects starting December 2014. Get in touch <a href="mailto:danielfosco@gmail.com?subject=Hi, let%E2%80%99s%20work%20together">here</a>.
+I'm available for new projects starting December 2014. Get in touch <a href="mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together">here</a>.
 
 ###Recent projects
 [Swerve Fitness](http://invis.io/9F1908XPY)     
