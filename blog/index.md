@@ -2,8 +2,8 @@
 layout: post
 title: The Ecosystem
 tagline: Or how to have 100 apps and a bunch of them, well, a bunch of them kinda suck.
-hero: 
-hero-alt: 
+hero: /assets/img/ashton.jpeg
+hero-alt: Hi Ashton
 ---
 
 ###Apple's value ever since its Renaissance has relied on a tightly integrated Ecosystem 

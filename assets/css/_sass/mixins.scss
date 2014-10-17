@@ -75,6 +75,18 @@
   text-shadow: 2px 2px 0px rgba(73,73,73,0.50);
   padding-top: 15px;
   text-transform: uppercase;
+  
+  a {
+    color: lighten($dark-pallette-c, 40%);
+
+    &:hover {
+      color: lighten($dark-pallette-c, 80%);
+    }
+  }
+
+  span {
+    text-transform: lowercase;
+  }
 
   p {
     margin-left: 0.9em;

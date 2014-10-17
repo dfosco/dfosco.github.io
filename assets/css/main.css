@@ -417,35 +417,35 @@ nav ul {
   font-family: "jaf-domus-titling-web", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   /*@include huge-link;*/
 }
-/* line 123, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 135, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 nav ul li:nth-child(1) > a {
   color: #cd544e;
 }
-/* line 127, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 139, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 nav ul li:nth-child(1) > a:hover {
   color: #d36762;
 }
-/* line 123, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 135, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 nav ul li:nth-child(2) > a {
   color: #ff9360;
 }
-/* line 127, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 139, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 nav ul li:nth-child(2) > a:hover {
   color: #ffa47a;
 }
-/* line 123, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 135, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 nav ul li:nth-child(3) > a {
   color: #ffb760;
 }
-/* line 127, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 139, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 nav ul li:nth-child(3) > a:hover {
   color: #ffc37a;
 }
-/* line 123, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 135, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 nav ul li:nth-child(4) > a {
   color: #ffd260;
 }
-/* line 127, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 139, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 nav ul li:nth-child(4) > a:hover {
   color: #ffd97a;
 }
@@ -541,36 +541,36 @@ footer:last-child {
   margin-right: 0;
 }
 
-/* line 87, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 99, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 * {
   margin: 0;
 }
 
-/* line 91, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 103, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 html, body {
   height: 100%;
 }
 
-/* line 95, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 107, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 .page-content {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -3em;
 }
 
-/* line 101, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 113, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 .page-content:after {
   content: "";
   display: block;
 }
 
-/* line 106, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 118, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 .sticky-footer, .page-content:after {
   /* .push must be the same height as footer */
   height: 3em;
 }
 
-/* line 111, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 123, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 .sticky-footer {
   background: #242935;
   font-size: 120%;
@@ -593,6 +593,18 @@ html, body {
   text-decoration: none;
 }
 /* line 79, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+.sticky-footer a {
+  color: #a2abc0;
+}
+/* line 82, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+.sticky-footer a:hover {
+  color: white;
+}
+/* line 87, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+.sticky-footer span {
+  text-transform: lowercase;
+}
+/* line 91, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 .sticky-footer p {
   margin-left: 0.9em;
   line-height: 1.7;

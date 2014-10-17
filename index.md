@@ -27,14 +27,16 @@ I'm available for new projects starting December 2014. Get in touch <a href="mai
 
 
 ###Book Publishing → Digital Product Design
- My background is in Book Publishing, but it turned out the book industry is not really for me. After working in a digital publishing startup for a few years, I decided to go into Product Design, to be involved with and *own* the design process from start to end.
+ My background is in Book Publishing, but it turned out that the book industry wasn't not really for me. 
 
-For this, General Assembly's [10-week UX Design program](https://generalassemb.ly/education/user-experience-design-immersive/new-york-city) was essential to complement my UX skillset — as well as build relationships with other kickass designers.
+ After working in a digital publishing startup for a few years, I decided to go into Product Design to be involved with and *own* the design process from start to end.
+
+For this, General Assembly's <a href="https://generalassemb.ly/education/user-experience-design-immersive/new-york-city" target="_blank">10-week UX Design program</a> was instrumental to complement my UX skillset — as well as build relationships with other kickass designers.
 
 ###I write every once in a while
 [Here.](http://danielfos.co/blog/) 
 
 ###Say hi
-Drop me a line at <a href="#">danielfosco@gmail.com</a> or [@notdanielfosco](https://www.twitter.com/notdanielfosco). 
+Drop me a line at [danielfosco@gmail.com](mailto:danielfosco@gmail.com) or [@notdanielfosco](https://www.twitter.com/notdanielfosco). 
 
-I'm also at [Github](https://github.com/dfosco) and [LinkedIn](https://www.linkedin.com/in/danielfosco/en), because everybody has one these days, you know?
+You can also find me at [Github](https://github.com/dfosco) and [LinkedIn](https://www.linkedin.com/in/danielfosco/en).
