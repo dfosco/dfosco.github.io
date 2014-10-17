@@ -76,5 +76,5 @@ Perhaps it's time for iOS and Apple to get back to basics.
 
 ---
 
-Let me know what you think in the comments. And by that I mean [Twitter](https://twitter.com/notdanielfosco).
+###Let me know what you think in the comments. And by that I mean [Twitter](https://twitter.com/notdanielfosco).
 
