@@ -11,19 +11,22 @@
     <meta name="description" content="{{ site.description }}">
     {% endif %}
     
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.baseurl }}">
 
     <!-- Custom CSS -->
-     <link rel="stylesheet" href="{{ site.url }}/assets/css/normalize/normalize.css">
+     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize/normalize.css">
 
     {% if page.layout == 'home' %}
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/main-home.css">    
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main-home.css">    
     {% elsif page.layout == 'post' %}
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     {% else %}
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     {% endif %}
- 
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/red_favicon.ico">
+
     <!-- Eager.IO Tag --> 
     <script src="//fast.eager.io/HtMCniYrQf.js"></script>
 
@@ -32,7 +35,7 @@
     <meta property="og:site_name" content="{{ site.title }}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:description" content="{{ page.tagline }}"/>
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
 
 	<!-- Google Analytics -->
 
