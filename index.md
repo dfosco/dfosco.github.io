@@ -25,16 +25,15 @@ I'm available for new projects starting December 2014. Get in touch <a href="mai
 [Swerve Fitness](http://invis.io/D41JGLJ5Q)     
 [Instagram Print]({{ site.url }}/instagram-print)
 
+###I write every once in a while
+[Here.](http://blog.danielfos.co/)
 
 ###Book Publishing → Digital Product Design
  My background is in Book Publishing, but it turned out that the book industry wasn't not really for me. 
 
  After working in a digital publishing startup for a few years, I decided to go into Product Design to be involved with and *own* the design process from start to end.
 
-For this, General Assembly's <a href="https://generalassemb.ly/education/user-experience-design-immersive/new-york-city" target="_blank">10-week UX Design program</a> was instrumental to complement my UX skillset — as well as build relationships with other kickass designers.
-
-###I write every once in a while
-[Here.](http://danielfos.co/blog/) 
+For this, General Assembly's <a href="https://generalassemb.ly/education/user-experience-design-immersive/new-york-city" target="_blank">10-week UX Design program</a> was instrumental to complement my UX skillset — as well as build relationships with other kickass designers. 
 
 ###Say hi
 Drop me a line at [danielfosco@gmail.com](mailto:danielfosco@gmail.com) or [@notdanielfosco](https://www.twitter.com/notdanielfosco). 
