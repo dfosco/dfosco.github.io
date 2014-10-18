@@ -5,8 +5,8 @@
     <description>Website of Product Designer Daniel Fosco.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Oct 2014 15:50:10 -0300</pubDate>
-    <lastBuildDate>Fri, 17 Oct 2014 15:50:10 -0300</lastBuildDate>
+    <pubDate>Sat, 18 Oct 2014 12:50:34 -0300</pubDate>
+    <lastBuildDate>Sat, 18 Oct 2014 12:50:34 -0300</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
@@ -33,6 +33,70 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>UX Jobs</title>
+        <description>&lt;p&gt;After analyzing 20 UX job offerings, here are some initial impressions on the UX job market:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Jobs with the same name can vary wildly in the required skills, but most lean either to visual design and prototyping. Front-end development and knowledge of dev tools are still a plus on most jobs, but are not uncommon.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Most spots, with or without experience/academic requirements, require some level of previous experience by describing communication skills/leadership that are not common for junior designers.  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Not only that, even admittedly Junior positions have way too many requirements, akin to some dev positions that require a full-stack skillset from junior programmers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;After roughly dividing each job requirement by “skill type”, this is the outcome:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;26%: &lt;strong&gt;Core UX&lt;/strong&gt;. That is requirements that described research, prototyping or other tasks common for UX professionas&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;18%: &lt;strong&gt;Previous experience&lt;/strong&gt;. Requirements that described previous work experience necessary for the job&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;17%: &lt;strong&gt;Soft Skills&lt;/strong&gt;. Requirements describing good communication, independency, leadership or other “soft” skills&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;16%: &lt;strong&gt;Visual Design&lt;/strong&gt;. Requirements describing visual/interacion design skills and prowess with design software&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;11%: &lt;strong&gt;Front-end Dev&lt;/strong&gt;. Requirements related to front-end development or experience with developer tools&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;5%: &lt;strong&gt;Academic&lt;/strong&gt;. Requirements describing necessary BA/BS background.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;3%: &lt;strong&gt;Analysis&lt;/strong&gt;. Requirements related to data-analysis and extensive research. Google and Facebook, basically.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;2%: &lt;strong&gt;Others&lt;/strong&gt;. Requirements that didn’t fit any of the above criteria&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s important to note that this interpretations are very subjective, as one requirement can be in several groups at once. This is still an ongoing analysis, and will soon account for this factor — as well as present the data in a proper manner.&lt;/p&gt;
+
+&lt;p&gt;For now, the full data can be found on &lt;a href=&quot;https://www.dropbox.com/s/l5xa5870zvgt68m/ux_jobs.xlsx&quot;&gt;this spreadsheet&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 27 May 2014 00:00:00 -0300</pubDate>
+        <link>/general%20assembly/2014/05/27/ux_jobs/</link>
+        <guid isPermaLink="true">/general%20assembly/2014/05/27/ux_jobs/</guid>
+        
+        <category>ux</category>
+        
+        <category>jobs</category>
+        
+        
+        <category>general assembly</category>
         
       </item>
     
