@@ -343,7 +343,7 @@ article h4 a:hover {
   text-decoration: none;
 }
 /* line 62, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
-article span.accent {
+article .accent {
   color: #cd544e;
 }
 
