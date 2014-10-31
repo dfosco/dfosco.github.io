@@ -18,23 +18,23 @@ Designing products and services that offer them real value is good business. I w
 
 My expertise is in <span class="accent">User Experience Design</span> & <span class="accent">Front-End Development</span>.
 
-I'm available for new projects starting December 2014. Get in touch <a href="mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together">here</a>.
+I'm available for new projects starting December 2014. [Get in touch](mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together).
 
 ###Recent projects
 [Swerve Fitness](http://invis.io/D41JGLJ5Q)     
 [Instagram Print]({{ site.url }}/instagram-print)
 
 ###Writing
-I write on tech, design & development. You can follow along [here.](http://blog.danielfos.co/)
+I write on tech, design & development. Follow along at [blog.danielfos.co](http://blog.danielfos.co/).
 
 ###About
-My background is in Book Publishing, but Design eventually took over.
+My background is in Book Publishing, but I gradually transitioned into Design.
 
-After working in a digital publishing platform for a few years, I decided to fully shift to Product Design — to be involved with and *own* the design process from start to end.
+After working in a digital publishing startup for a few years, I decided to fully shift to Digital Product Design — to be involved with and *own* the design process from start to end.
 
 For this, General Assembly's <a href="https://generalassemb.ly/education/user-experience-design-immersive/new-york-city" target="_blank">10-week UX Design program</a> I took in 2014 was instrumental to complement my UX skillset — as well as build relationships with other kickass designers. 
 
 ###Say hi
-Drop me a line at [danielfosco@gmail.com](mailto:danielfosco@gmail.com) or [@notdanielfosco](https://www.twitter.com/notdanielfosco). 
+Drop me a line at [danielfosco@gmail.com](mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together) or [@notdanielfosco](https://www.twitter.com/notdanielfosco). 
 
-You can also find me at [Github](https://github.com/dfosco) and [LinkedIn](https://www.linkedin.com/in/danielfosco/en).
+You can also find me on [Github](https://github.com/dfosco) and [LinkedIn](https://www.linkedin.com/in/danielfosco/en).
