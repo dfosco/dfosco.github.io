@@ -142,5 +142,29 @@
   }
 
 
+/*----------------------------*/
+/*Button*/
+/*----------------------------*/
+
+@mixin button {
+  //Button Type
+    @include heading(1.1em, 1.5, 700);
+
+    //Button Styling
+    @include padding(0.4em null 0.4em null);
+    @include margin(null 0.3em 0.5em 0.3em);
+    border-radius: 4px;
+    border: none;
+    background: $dark-pallette-c;
 
 
+    a { color: $grey-pallette-a; }
+    a:hover { color: $grey-pallette-a; }
+
+  }
+
+@mixin button-hover {
+        background: $dark-pallette-a;
+        color: lighten($dark-pallette-c, 80%);
+        a { color: $grey-pallette-a; }
+    }
