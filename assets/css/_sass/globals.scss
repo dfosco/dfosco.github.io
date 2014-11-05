@@ -79,18 +79,22 @@ article {
 		@include accent-link;
 		padding: 0 !important;
 		list-style-type: none;
-		
-		li {
-			@include em-margin(0, 0.2);	
-		}
-
+	
 		li:first-of-type {
 			@include em-margin(0, 0.2);			
+		}
+
+		li {
+			@include em-margin(0, 0.2);	
 		}
 		
 		li:last-of-type {
 			@include em-margin(0, 1.5);
 		}
+	}
+
+	ul.not-metadata {
+		@include margin(null null 1em null)
 	}
 }	
 
