@@ -8,7 +8,7 @@ hero-alt: Instagram Print Hero Image
 
  - **Project:** Mobile App Prototype for [@GENERAL ASSEMBLY](https://twitter.com/ga)
  - **Role:** UX Designer • Prototyper
- - **Timeline:** 2 Weeks • 3 Designers
+ - **Timeline:** 2 Weeks • 3 Designers • July 2014
  
 
 Instagram Print was a project for General Assembly's UXDI class in partnership with Paz Perez and Christina Vu. In the brief, Instagram needed a way to diversify their revenue stream, requiring a new printing feature directly integrated into the social network.

@@ -5,6 +5,8 @@ description: "Website of Product Designer Daniel Fosco."
 baseurl: http://dfosco.github.io
 gems: [jekyll-sass]
 
+exclude: [assets/_aws]
+
 # Author settings
 author:
  name: Daniel Fosco

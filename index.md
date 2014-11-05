@@ -16,13 +16,13 @@ published: true
 ###I design to solve problems for people.
 I work with clients and startups to build design solutions that achieve user needs and business goals, delivering real-life value. 
 
-My expertise is in <span class="accent">User Experience Design</span>, <span class="accent">Prototyping</span> & <span class="accent">Front-end Development</span>.
+My expertise is in <span class="accent">UX Design</span>, <span class="accent">Prototyping</span> & <span class="accent">Front-end Development</span>.
 
 I'm available for new projects starting December 2014. [Get in touch](mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together).
 
 ###Recent projects
-[Swerve Fitness](http://invis.io/D41JGLJ5Q)     
-[Instagram Print]({{ site.url }}/instagram-print)
+<button><a href="{{ site.url }}/swerve-app">Swerve Fitness</a></button>  
+<button><a href="{{ site.url }}/instagram-print">Instagram Print</a></button>
 
 ###Writing
 I write on tech, design & development. Follow along at [blog.danielfos.co](http://blog.danielfos.co/).
