@@ -14,9 +14,9 @@ published: true
 <em>Hi!</em>
 
 ###I design to solve problems for people.
-Designing products and services that offer them real value is good business. I work with clients and startups to build design solutions that achieve user and business goals. 
+I work with clients and startups to build design solutions that achieve user needs and business goals, delivering real-life value. 
 
-My expertise is in <span class="accent">User Experience Design</span> & <span class="accent">Front-end Development</span>.
+My expertise is in <span class="accent">User Experience Design</span>, <span class="accent">Prototyping</span> & <span class="accent">Front-end Development</span>.
 
 I'm available for new projects starting December 2014. [Get in touch](mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together).
 
