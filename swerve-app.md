@@ -36,8 +36,13 @@ Much of the project's quality is due either to Ashton's obsessive UI Design skil
 
 <div class="prototype"><iframe width="396" height="834" src="//invis.io/NX188FD4Q" frameborder="0" allowfullscreen></iframe></div>
 
-<button class="prototype"><a href="http://invis.io/5N1MWHHCS" target="_blank">Open Prototype</a></button>
-
+<div class="button-wrap">
+    <a href="http://invis.io/5N1MWHHCS" target="_blank">
+        <div class="btn">
+            Open Prototype
+        </div>
+    </a>
+</div>
 
 
 

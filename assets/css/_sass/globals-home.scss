@@ -164,7 +164,6 @@ article {
 	@include span-columns(6 of 6);
 
 	.btn {
-		text-align: center;
 		@include button;
 		@include span-columns(4);
 		@include shift(4);

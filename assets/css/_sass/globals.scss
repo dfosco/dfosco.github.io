@@ -232,21 +232,24 @@ div.prototype {
 	}
 }
 
-button.prototype {
-	@include button;
+.button-wrap {
+	.btn {
+		@include button;
 
-	//Button Layout
-	@include span-columns(8);
-	@include shift(2);
-	@include media($desktop) {
-		display: none;
+		//Button Layout
+		@include span-columns(8);
+		@include shift(2);
+		@include media($desktop) {
+			display: none;
+		}
+
+		@include media($tablet) {
+			display: none;
+		}
 	}
 
-	@include media($tablet) {
-		display: none;
+	.btn:hover {
+		@include button-hover;
 	}
-}
 
-button.prototype:hover {
-	@include button-hover;
 }

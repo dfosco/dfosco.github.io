@@ -696,8 +696,8 @@ div.prototype {
   }
 }
 
-/* line 235, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
-button.prototype {
+/* line 236, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+.button-wrap .btn {
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.5;
@@ -707,6 +707,7 @@ button.prototype {
   margin-right: 0.3em;
   margin-bottom: 0.5em;
   margin-left: 0.3em;
+  text-align: center;
   border-radius: 4px;
   border: none;
   background: #3d4559;
@@ -718,47 +719,46 @@ button.prototype {
   margin-left: 17.05961%;
 }
 /* line 20, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
-button.prototype a {
+.button-wrap .btn a {
   color: #2f3545;
   text-decoration: none;
 }
 /* line 21, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
-button.prototype a:hover {
+.button-wrap .btn a:hover {
   color: #242935;
   text-decoration: none;
 }
-/* line 161, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
-button.prototype a {
+/* line 162, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+.button-wrap .btn a {
   color: #eaeaea;
 }
-/* line 162, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
-button.prototype a:hover {
+/* line 163, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+.button-wrap .btn a:hover {
   color: #eaeaea;
 }
 /* line 38, /Users/danielfosco/git/dfosco/assets/css/_bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
-button.prototype:last-child {
+.button-wrap .btn:last-child {
   margin-right: 0;
 }
 @media screen and (min-width: 992px) {
-  /* line 235, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
-  button.prototype {
+  /* line 236, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+  .button-wrap .btn {
     display: none;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
-  /* line 235, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
-  button.prototype {
+  /* line 236, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+  .button-wrap .btn {
     display: none;
   }
 }
-
-/* line 250, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
-button.prototype:hover {
+/* line 251, /Users/danielfosco/git/dfosco/assets/css/_sass/globals.scss */
+.button-wrap .btn:hover {
   background: #242935;
   color: white;
 }
-/* line 169, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
-button.prototype:hover a {
+/* line 170, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+.button-wrap .btn:hover a {
   color: #eaeaea;
 }
 

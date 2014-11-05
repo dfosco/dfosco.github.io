@@ -535,7 +535,6 @@ article img {
 }
 /* line 166, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
 .button-wrap .btn {
-  text-align: center;
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.5;
@@ -545,6 +544,7 @@ article img {
   margin-right: 0.3em;
   margin-bottom: 0.5em;
   margin-left: 0.3em;
+  text-align: center;
   border-radius: 4px;
   border: none;
   background: #3d4559;
@@ -565,11 +565,11 @@ article img {
   color: #242935;
   text-decoration: none;
 }
-/* line 161, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 162, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 .button-wrap .btn a {
   color: #eaeaea;
 }
-/* line 162, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 163, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 .button-wrap .btn a:hover {
   color: #eaeaea;
 }
@@ -591,22 +591,22 @@ article img {
     margin-right: 0;
   }
 }
-/* line 178, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
+/* line 177, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
 .button-wrap .btn:hover {
   background: #242935;
   color: white;
 }
-/* line 169, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+/* line 170, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 .button-wrap .btn:hover a {
   color: #eaeaea;
 }
 
-/* line 183, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
+/* line 182, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
 .button-wrap:last-of-type {
   margin-bottom: 2em;
 }
 
-/* line 191, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
+/* line 190, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
 footer {
   float: left;
   display: block;
