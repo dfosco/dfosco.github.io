@@ -710,6 +710,7 @@ button.prototype {
   border-radius: 4px;
   border: none;
   background: #3d4559;
+  color: #eaeaea;
   float: left;
   display: block;
   margin-right: 2.35765%;

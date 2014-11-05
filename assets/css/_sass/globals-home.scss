@@ -162,6 +162,7 @@ article {
 
 .button-wrap {
 	@include span-columns(6 of 6);
+
 	.btn {
 		text-align: center;
 		@include button;
@@ -178,6 +179,11 @@ article {
 		@include button-hover;
 	}
 }
+
+.button-wrap:last-of-type {
+	margin-bottom: 2em;
+}
+
 //--------------------------------------------------------
 //Footer
 //--------------------------------------------------------

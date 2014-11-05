@@ -22,15 +22,19 @@ I'm available for new projects starting December 2014. [Get in touch](mailto:dan
 
 ###Recent projects
 <div class="button-wrap">
-    <div class="btn">
-        <a href="{{ site.url }}/swerve-app">Swerve Fitness</a>
-    </div>  
+    <a href="{{ site.url }}/swerve-app">
+        <div class="btn">
+            Swerve Fitness
+        </div>
+    </a>
 </div>
 
 <div class="button-wrap">
-    <div class="btn">
-        <a href="{{ site.url }}/instagram-print">Instagram Print</a>
-    </div>
+    <a href="{{ site.url }}/instagram-print">
+        <div class="btn">
+            Instagram Print
+        </div>
+    </a>    
 </div>
 
 ###Writing
