@@ -522,8 +522,20 @@ article img {
   }
 }
 
-/* line 159, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
-button {
+/* line 163, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
+.button-wrap {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 100%;
+}
+/* line 38, /Users/danielfosco/git/dfosco/assets/css/_bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+.button-wrap:last-child {
+  margin-right: 0;
+}
+/* line 165, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
+.button-wrap .btn {
+  text-align: center;
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.5;
@@ -536,37 +548,59 @@ button {
   border-radius: 4px;
   border: none;
   background: #3d4559;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-left: 34.11922%;
 }
 /* line 20, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
-button a {
+.button-wrap .btn a {
   color: #2f3545;
   text-decoration: none;
 }
 /* line 21, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
-button a:hover {
+.button-wrap .btn a:hover {
   color: #242935;
   text-decoration: none;
 }
 /* line 161, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
-button a {
+.button-wrap .btn a {
   color: #eaeaea;
 }
 /* line 162, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
-button a:hover {
+.button-wrap .btn a:hover {
   color: #eaeaea;
 }
-
-/* line 163, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
-button:hover {
+/* line 38, /Users/danielfosco/git/dfosco/assets/css/_bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+.button-wrap .btn:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 768px) {
+  /* line 165, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
+  .button-wrap .btn {
+    float: left;
+    display: block;
+    margin-right: 1.75788%;
+    width: 55.48093%;
+    margin-left: 25.43947%;
+  }
+  /* line 38, /Users/danielfosco/git/dfosco/assets/css/_bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+  .button-wrap .btn:last-child {
+    margin-right: 0;
+  }
+}
+/* line 177, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
+.button-wrap .btn:hover {
   background: #242935;
   color: white;
 }
 /* line 169, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
-button:hover a {
+.button-wrap .btn:hover a {
   color: #eaeaea;
 }
 
-/* line 171, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
+/* line 185, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
 footer {
   float: left;
   display: block;

@@ -21,10 +21,16 @@ My expertise is in <span class="accent">UX Design</span>, <span class="accent">P
 I'm available for new projects starting December 2014. [Get in touch](mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together).
 
 ###Recent projects
+<div class="button-wrap">
+    <div class="btn">
+        <a href="{{ site.url }}/swerve-app">Swerve Fitness</a>
+    </div>  
+</div>
 
-<div>
-<button><a href="{{ site.url }}/swerve-app">Swerve Fitness</a></button>  
-<button><a href="{{ site.url }}/instagram-print">Instagram Print</a></button>
+<div class="button-wrap">
+    <div class="btn">
+        <a href="{{ site.url }}/instagram-print">Instagram Print</a>
+    </div>
 </div>
 
 ###Writing
