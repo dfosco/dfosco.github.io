@@ -37,6 +37,9 @@
 /*nth-child color (Used on the Header Menu)*/
 /*----------------------------*/
 /*----------------------------*/
+/*Button*/
+/*----------------------------*/
+/*----------------------------*/
 /*Media Queries*/
 /*----------------------------*/
 /*----------------------------*/
@@ -83,6 +86,9 @@
 /*----------------------------*/
 /*----------------------------*/
 /*nth-child color (Used on the Header Menu)*/
+/*----------------------------*/
+/*----------------------------*/
+/*Button*/
 /*----------------------------*/
 /*----------------------------*/
 /*Media Queries*/
@@ -516,7 +522,51 @@ article img {
   }
 }
 
+/* line 159, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
+button {
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "rooney-sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  margin-right: 0.3em;
+  margin-bottom: 0.5em;
+  margin-left: 0.3em;
+  border-radius: 4px;
+  border: none;
+  background: #3d4559;
+}
+/* line 20, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+button a {
+  color: #2f3545;
+  text-decoration: none;
+}
+/* line 21, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+button a:hover {
+  color: #242935;
+  text-decoration: none;
+}
+/* line 161, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+button a {
+  color: #eaeaea;
+}
+/* line 162, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+button a:hover {
+  color: #eaeaea;
+}
+
 /* line 163, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
+button:hover {
+  background: #242935;
+  color: white;
+}
+/* line 169, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
+button:hover a {
+  color: #eaeaea;
+}
+
+/* line 171, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
 footer {
   float: left;
   display: block;
@@ -627,6 +677,9 @@ html, body {
 /*----------------------------*/
 /*----------------------------*/
 /*nth-child color (Used on the Header Menu)*/
+/*----------------------------*/
+/*----------------------------*/
+/*Button*/
 /*----------------------------*/
 /*----------------------------*/
 /*Media Queries*/
