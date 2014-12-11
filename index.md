@@ -18,7 +18,7 @@ I work closely small clients and startups to design websites and apps that meet 
 
 My expertise is in <span class="accent">UX Design</span>, <span class="accent">Prototyping</span> & <span class="accent">Front-end Development</span>.
 
-I'm available for new projects starting December 2014. [Get in touch](mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together).
+I'm available for new projects starting the first quarter of 2015. [Get in touch](mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together).
 
 ###Recent projects
 <div class="button-wrap">
