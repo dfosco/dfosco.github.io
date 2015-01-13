@@ -252,7 +252,7 @@ body {
   line-height: 1.5;
   font-family: "rooney-web", Georgia, Cambria, "Times New Roman", Times, serif;
   color: #4a4a4a;
-  background-color: #fcfcfc;
+  background-color: #FCFCFC;
 }
 /* line 15, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 body a {
@@ -350,7 +350,7 @@ article h4 a:hover {
 }
 /* line 62, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
 article .accent {
-  color: #cd544e;
+  color: #CD544E;
 }
 
 /* line 75, /Users/danielfosco/git/dfosco/assets/css/_sass/globals-home.scss */
@@ -376,7 +376,7 @@ nav ul {
 }
 /* line 135, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 nav ul li:nth-child(1) > a {
-  color: #cd544e;
+  color: #CD544E;
 }
 /* line 139, /Users/danielfosco/git/dfosco/assets/css/_sass/mixins.scss */
 nav ul li:nth-child(1) > a:hover {
