@@ -14,11 +14,11 @@ published: true
 <em>Hi!</em>
 
 ###I design to solve problems for people.
-I work closely small clients and startups to design websites and apps that meet the goals of their customers and move their business forward.
+I work closely small clients and startups to design websites and mobile apps that meet the goals of their customers and move their business forward.
 
 My expertise is in <span class="accent">UX Design</span>, <span class="accent">Prototyping</span> & <span class="accent">Front-end Development</span>.
 
-I'm available for new projects starting December 2014. [Get in touch](mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together).
+I'm available for new projects starting the first quarter of 2015. [Get in touch](mailto:danielfosco@gmail.com?subject=Hello, let%E2%80%99s%20work%20together).
 
 ###Recent projects
 <div class="button-wrap">
