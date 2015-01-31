@@ -46,7 +46,7 @@ I'm available for new projects starting the first quarter of 2015. [Get in touch
 </div>
 
 ###Writing
-I write on tech, design & development. Follow along at [blog.danielfos.co](http://blog.danielfos.co/).
+I post a bunch of links on <a href="{{ site.url }}/links">danielfos.co/links</a>. I also write (occasionally) [here](http://blog.danielfos.co/).
 
 ###About
 My background is in Book Publishing, but I gradually transitioned into Design.
