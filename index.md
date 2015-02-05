@@ -14,7 +14,7 @@ published: true
 <em>Hi!</em>
 
 ###I design to solve problems for people.
-I work closely small clients and startups to design websites and mobile apps that meet the goals of their customers and move their business forward.
+I work closely with small clients and startups to design websites and mobile apps that meet the goals of their customers and move their business forward.
 
 My expertise is in <span class="accent">UX Design</span>, <span class="accent">Prototyping</span> & <span class="accent">Front-end Development</span>.
 
