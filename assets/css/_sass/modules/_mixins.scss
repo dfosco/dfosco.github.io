@@ -1,0 +1,176 @@
+/*Imports*/
+@import "bourbon", "neat";
+@import "variables.scss";
+
+/*----------------------------*/
+/*Main Typography Mixins*/
+/*----------------------------*/
+
+@mixin font-crispness {
+    html, html a {
+      -webkit-font-smoothing: antialiased;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  }
+}
+@mixin base-link {
+  a { color: $base-link-color; text-decoration: none; }
+  a:hover { color: $base-hover-link-color; text-decoration: none; }
+}
+
+@mixin heading-link {
+  a { color: $heading-link-color; text-decoration: none; }
+  a:hover { color: $heading-hover-link-color; text-decoration: none; }
+}
+
+@mixin accent-link {
+    a { color: $light-pallette-a; text-decoration: none; }
+    a:hover { color: lighten($light-pallette-a, 10%); text-decoration: none; }
+}
+
+/*@mixin hu-link{
+  a { color: $huge       -color; text-decoration: none; }
+  a:hover { color: $huge-hover-link-color; text-decoration: none; }
+}*/
+
+@mixin base($base-font-size, $base-line-height, $base-font-weight) {
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  font-family: $base-font-family;
+  color: $base-color;
+  @include base-link;
+}
+
+@mixin heading($heading-font-size, $heading-line-height, $heading-font-weight) {
+  font-size: $heading-font-size;
+  font-weight: $heading-font-weight;
+  line-height: $heading-line-height;
+  font-family: $heading-font-family;
+  @include heading-link;
+
+}
+
+@mixin huge($huge-font-size, $huge-line-height, $huge-font-weight) {
+  font-size: $huge-font-size;
+  font-weight: $huge-font-weight;
+  line-height: $huge-line-height;
+  font-family: $huge-font-family;
+
+  /*@include huge-link;*/
+}
+
+@mixin em-margin($margin-top, $margin-bottom) {
+  margin: 0;
+  margin-top: $margin-top*1em;
+  margin-bottom: $margin-bottom*1em;
+}
+
+
+/*----------------------------*/
+/*Sticky-Footer*/
+/*----------------------------*/
+
+@mixin footer-text {
+  @include heading(120%, "", 600);
+  color: lighten($dark-pallette-c, 40%);
+  text-shadow: 2px 2px 0px rgba(73,73,73,0.50);
+  padding-top: 15px;
+  text-transform: uppercase;
+  
+  a {
+    color: lighten($dark-pallette-c, 40%);
+
+    &:hover {
+      color: lighten($dark-pallette-c, 80%);
+    }
+  }
+
+  span {
+    text-transform: lowercase;
+  }
+
+  p {
+    margin-left: 0.9em;
+    line-height: 1.7;
+  }
+}
+
+@mixin sticky-footer($footer-height) {
+
+	* {
+		margin: 0;
+	}
+
+	html, body {
+		height: 100%;
+	}
+
+  p {
+    margin-bottom: 0
+  }
+
+	.page-content {
+	  min-height: 100%;
+	  /* equal to footer height */
+		margin-bottom: -#{$footer-height}; 
+	}
+
+	.page-content:after {
+	  content: "";
+	  display: block;
+	}
+
+	.sticky-footer, .page-content:after {
+	  /* .push must be the same height as footer */
+		height: $footer-height; 
+	}
+
+	.sticky-footer { 
+	  background: $dark-pallette-a;
+	  @include footer-text;
+	}
+}
+
+/*----------------------------*/
+/*nth-child color (Used on the Header Menu)*/
+/*----------------------------*/
+
+  @mixin nth-color($child-number, $nav-color) {
+    
+    li:nth-child(#{$child-number}) > a {
+    color: $nav-color;
+    }
+
+    li:nth-child(#{$child-number}) > a:hover {
+    color: lighten($nav-color, 5%);
+    }
+  }
+
+
+/*----------------------------*/
+/*Button*/
+/*----------------------------*/
+
+@mixin button {
+  //Button Type
+    @include heading(1.1em, 1.5, 700);
+
+    //Button Styling
+    @include padding(0.4em null 0.4em null);
+    @include margin(null 0.3em 0.5em 0.3em);
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    background: $dark-pallette-c;
+    color: $grey-pallette-a;
+
+    a { color: $grey-pallette-a; }
+    a:hover { color: $grey-pallette-a; }
+
+  }
+
+@mixin button-hover {
+        background: $dark-pallette-a;
+        color: lighten($dark-pallette-c, 80%);
+        a { color: $grey-pallette-a; }
+    }

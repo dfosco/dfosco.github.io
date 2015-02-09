@@ -1,0 +1,257 @@
+//Imports
+@import "../modules/_mixins.scss";
+@import "../modules/_variables.scss";
+@import "../modules/_images.scss";
+@import "../modules/_pesticide.scss";
+
+
+/*Pesticide Layout Debug*/
+@include pesticide(false);
+
+//--------------------------------------------------------
+//Global Typography
+//--------------------------------------------------------
+
+@include font-crispness;
+
+body {
+	@include base(1.1em, 1.5, 400);
+	background-color: $grey-pallette-b;
+}
+	
+	p {
+		@include em-margin(0, 1);
+	}
+
+	h1 { 
+		@include huge(2.5em, 1.3, 700);
+		@include em-margin(0, 0.2);
+		color: $light-pallette-b;
+	}
+
+	h2 { 
+		@include heading(1.5em, 1.3, 700);
+		@include em-margin(0, 0.5);
+		color: $black-pallette-c;
+		
+	}
+
+	h3 { 
+		@include heading(1.3em, 1.5, 600);
+		@include em-margin(2, 0.5);
+		@include accent-link;
+	}
+
+
+
+	h4 { 
+		@include heading(1.2em, 1.3, 600);
+		@include em-margin(0, 1.5);
+		color: $black-pallette-c;
+	}
+
+	span.accent {
+		color: $light-pallette-a;
+	}
+
+
+//--------------------------------------------------------
+//Header
+//--------------------------------------------------------
+
+.post-header {
+
+	img {
+		box-shadow: 0 3px 4px $black-pallette-c;
+	}
+}
+
+.post-meta {
+	margin-bottom: 2em;
+}
+
+//--------------------------------------------------------
+//After-Header Metadata
+//--------------------------------------------------------
+
+article {
+
+	ul:first-of-type {
+		//@include heading(1.1em, 1.5, 400);
+		@include accent-link;
+		//padding: 0 !important;
+		//list-style-type: none;
+	
+		li:first-of-type {
+			@include em-margin(0, 0.2);			
+		}
+
+		li {
+			@include em-margin(0, 0.2);	
+		}
+		
+		li:last-of-type {
+			@include em-margin(0, 1.5);
+		}
+	}
+
+	ul.not-metadata {
+		@include margin(null null 1em null)
+	}
+}	
+
+//--------------------------------------------------------
+//LAYOUT
+//--------------------------------------------------------
+
+//--------------------------------------------------------
+//Body
+//--------------------------------------------------------
+
+body {
+
+	//@include outer-container;
+}
+
+//--------------------------------------------------------
+//Header and Nav
+//--------------------------------------------------------
+
+nav {
+	
+	@include span-columns(3);
+	
+	ul {
+		list-style-type: none;
+		padding: 0.36em 0 0 0.7em;
+		@include huge(165%, 1.3, 700);
+		@include nth-color(1, $light-pallette-a);
+		@include nth-color(2, $light-pallette-b);
+		@include nth-color(3, $light-pallette-c);
+		@include nth-color(4, $light-pallette-d);
+	}
+
+	#mobile, .hidden {
+		display: none;
+	}
+
+	@include media($mobile-header) {
+		@include span-columns(12);
+		#desktop {
+			display: none;
+		}
+
+		#mobile {
+			display: block;
+			li:nth-child(1){
+				margin-bottom: 15px;
+			}
+		}
+	}
+}
+
+//--------------------------------------------------------
+//Mobile Menu 
+//--------------------------------------------------------
+
+.slicknav_menu {
+	display:none;
+}
+
+@include media($mobile-header) {
+
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+
+}
+
+//--------------------------------------------------------
+//Article
+//--------------------------------------------------------
+
+article, ul.post-list {
+	@include span-columns(6);
+	@include em-margin(0, 6);
+
+	@include media($mobile) {
+		@include span-columns(14);
+		@include shift(1);
+	}
+}	
+
+img {
+	width: 100%;
+}
+
+hr {
+	@include margin(1em null 1em null);
+}
+
+//--------------------------------------------------------
+//Footer
+//--------------------------------------------------------
+
+footer {
+	@include span-columns(12);
+}
+
+@include sticky-footer(3em);
+
+//--------------------------------------------------------
+//Interface Modules
+//--------------------------------------------------------
+
+section.persona-panel {
+	@include span-columns(12);
+	@include em-margin(2, 3);
+	//This margin-bottom 3 is compensating the H2 at Information Architecture, whose margin-top for some reason does not work.
+	//FIX IT!!!
+
+	section.persona {
+		@include span-columns(4 of 12);
+		
+		blockquote {
+			@include base(0.8em, 1.5, 400);
+			font-style: italic;
+		};
+		
+		img {
+			border-radius: 50%;
+		}
+		
+	}
+}
+
+div.prototype {
+	@include shift(2);
+	@include media($mobile) {
+		display: none;
+	}
+}
+
+.button-wrap {
+	.btn {
+		@include button;
+
+		//Button Layout
+		@include span-columns(8);
+		@include shift(2);
+		@include media($desktop) {
+			display: none;
+		}
+
+		@include media($tablet) {
+			display: none;
+		}
+	}
+
+	.btn:hover {
+		@include button-hover;
+	}
+
+}

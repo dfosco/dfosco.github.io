@@ -1,0 +1,70 @@
+//Imports
+@import "bourbon", "neat";
+@import "mixins.scss";
+@import "variables.scss";
+
+//image-grid
+
+section.image-grid {
+
+	@include span-columns(12);
+	margin-bottom: 2.25em; 
+  
+	.img-2col {
+		@include span-columns(2 of 12);
+	}    
+
+	.img-3col {
+		@include span-columns(3 of 12);
+	}
+
+	.img-4col {
+		@include span-columns(4 of 12);
+	}
+   
+	.img-5col {
+		@include span-columns(5 of 12);
+	}
+
+	.img-6col {
+		@include span-columns(6 of 12);
+	}
+
+	.img-8col {
+		@include span-columns(8 of 12);
+	}
+
+	.img-10col {
+		@include span-columns(10 of 12);
+	}
+
+	.img-12col {
+		@include span-columns(12 of 12);
+	}
+
+	.shift-1col {
+		@include shift(1);
+	}
+
+	.shift-1-5col {
+		@include shift(1.5);
+	}
+
+	.shift-2col {
+		@include shift(2);
+	}
+	
+	.shift-3col {
+		@include shift(3);
+	}
+
+	.shift-4col {
+		@include shift(4);
+	}
+
+	.shift-4-5col {
+		@include shift(4.5);
+	}
+
+
+}

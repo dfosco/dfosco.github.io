@@ -15,14 +15,7 @@
 
     <!-- Custom CSS -->
      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize/normalize.css">
-
-    {% if page.layout == 'home' %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main-home.css">    
-    {% elsif page.layout == 'post' %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-    {% else %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-    {% endif %}
+     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ page.layout }}.css">    
     
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico">

@@ -1,12 +1,19 @@
----
-layout: default
----
-<article>
+<!DOCTYPE html>
+<html>
 
-  <div class="post-header">
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+<article class="page-content">
+
+  <div class="post-header post-meta">
     <img src="{{ page.hero }}" alt="{{ page.hero-alt }}">
     <h1>{{ page.title }}</h1>
     <h2>{{ page.tagline }}</h2>
+    <h4 class="accent">{{ page.date | date: "%B %Y" }}</h4>
   </div>
 
   <div class="post-content">
@@ -15,4 +22,7 @@ layout: default
 
 </article>
 
+    {% include footer.html %}
+    </body>
+</html>
 

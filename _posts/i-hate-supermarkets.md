@@ -2,7 +2,7 @@
 layout: page
 title: I Hate Supermarkets
 tagline: null
-published: true
+published: false
 
 alt_css: internal.css
 ---
