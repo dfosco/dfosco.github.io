@@ -1,3 +1,4 @@
 .sass-cache
 _site/assets/_aws
 assets/_aws
+*.codekit
