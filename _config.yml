@@ -4,6 +4,8 @@ email: danielfosco@gmail.com
 description: "Portfolio of Daniel Fosco"
 baseurl: http://dfosco.github.io
 
+exclude: [/links/source]
+
 # Author settings
 author:
  name: Daniel Fosco
