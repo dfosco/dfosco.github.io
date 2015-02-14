@@ -1,0 +1,199 @@
+// Main Layout
+// ------------------------------------------------------------------------
+
+body {
+	margin: 0px;
+}
+
+.container {
+  @include span-columns(10 of 10);
+
+  @include media($medium-screen, $large-screen) {
+    @include span-columns(16 of 16);
+  }
+}
+
+header.navigation {
+  $navigation-padding: 1em;
+  $navigation-height: 60px;
+  min-height: $navigation-height;
+  margin-bottom: -$navigation-height;
+  width: 100%;
+  z-index: 999;
+  background: none;
+
+  .navigation-wrapper {
+    @include clearfix;
+    @include outer-container;
+    position: relative;
+    z-index: 9999;
+
+    .back-home {
+    font-family: 'jaf-domus-titling-web', $sans-serif;
+    font-weight: 700;
+    font-size: $h5-font-size;
+    padding-left: $navigation-padding;
+
+    a { color: #CC514E };
+    a:hover { color: #CB4D4E };
+    }
+
+    .back-arrow {
+      @include media($medium-screen, $large-screen) { 
+        height: 15px;
+        width: 20px;
+        margin-right: 5px
+      }
+
+      height: 25px;
+      margin-top: 15px;
+
+      //background: url('#{$img-url}/back-arrow.svg') no-repeat right;
+
+      &:hover {
+        //background-image: url('#{$img-url}/back-arrow--hover.svg') no-repeat right;
+      }
+    }
+
+  }
+
+}
+
+
+.content {
+  @include outer-container;
+}
+
+
+
+section.link-list {
+
+  @include media($medium-screen, $large-screen) {
+  @include span-columns(10 of 16);  
+  @include shift(3);
+
+  }
+
+  @include span-columns(9.5 of 10);
+  @include shift(0.25);  
+
+  margin-bottom: 1.5em;
+
+  h5 {
+    @include margin(2em null 1em null);
+  }
+}
+
+
+.link-section-title {
+  @include margin(2em null null 0.5em);
+  h2 { font-size: $h5-font-size; }
+}
+
+.link-box {
+  
+  @include media($medium-screen, $large-screen) { 
+        background: darken($light-gray, 2%);
+  &:hover { background: darken($light-gray, 4%); }
+}
+
+  background: darken($light-gray, 4%);
+  &:hover { background: darken($light-gray, 6%); }
+  
+  @include margin(1em null 1.5em null);
+
+  padding: 0.5em;
+
+  a + p, 
+  a + blockquote { @include margin(1em null null null) }
+
+}
+
+.link-box__inner {
+  padding: 0.75em;
+}
+
+.link-title {
+  //margin-bottom: 0.2em;
+  font-size: $h5-font-size;
+}
+
+blockquote {
+    
+    &.link-description {
+      @include margin(0.8em null)
+    }
+
+    @include media($medium-screen, $large-screen) { 
+      border-left: 2px solid darken($medium-gray, 8%);
+    }
+    
+    font-size: 0.95em;
+    border-left: 2px solid $light-gray;
+  } 
+
+.footer {
+  ///////////////////////////////////////////////////////////////////////////////////
+  $base-spacing: 1.5em !default;
+  $medium-screen: em(640) !default;
+  $large-screen: em(860) !default; 
+  
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    line-height: 1.5em;
+  }
+
+  a {
+    text-decoration: none;
+    color: $light-gray;
+    &:hover { color: darken($light-gray, 10%) }
+  }
+  //////////////////////////////////////////////////////////////////////////////////
+
+  $footer-background: desaturate($strong-base, 20%);
+  $footer-color: $darker-gray;
+  $footer-link-color: transparentize($footer-color, 0.4);
+  $footer-disclaimer-color: transparentize($light-gray, 0.4);
+
+  background: $footer-background;
+  padding: ($base-spacing) $gutter;
+  @include span-columns(16 of 16);
+
+  .footer-logo {
+    margin-bottom: 2em;
+    text-align: center;
+
+    img {
+      height: 3em;
+    }
+  } 
+
+  .footer-links {
+    @include clearfix;
+    margin-bottom: $base-spacing;
+
+    @include media($medium-screen) {
+      @include shift(3);
+    }
+  }
+
+  hr {
+    border: 1px solid transparentize($light-gray, 0.4);
+    margin: 0 auto $base-spacing;
+    width: 12em;
+  }
+
+  p {
+    color: $footer-disclaimer-color;
+    font-size: 0.9em;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin: auto;
+    max-width: 35em;
+    text-align: center;
+  }
+}

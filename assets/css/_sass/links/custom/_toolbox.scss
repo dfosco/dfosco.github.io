@@ -1,0 +1,55 @@
+// Unselectable Elements
+// ------------------------------------------------------------------------
+
+ .unselectable {
+    /* For Opera and <= IE9, we need to add unselectable="on" attribute onto each element */
+    /* Check this site for more details: http://help.dottoro.com/lhwdpnva.php */
+    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -webkit-user-select: none;
+    -ms-user-select: none; /* From IE10 only */
+    user-select: none; /* Not valid CSS yet, as of July 2012 */
+
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;
+}
+
+
+
+// Form Button
+// ------------------------------------------------------------------------
+
+  @mixin form-keepin($input-width, $button-width){
+
+	  button {
+	  	@include shift( ($cta-width - $button-width + 1)/2 );
+	    @include span-columns($button-width of $cta-width);
+	  }
+	
+	  .input { 
+	  	@include shift( ($cta-width - ($input-width))/2 );
+	    @include span-columns($input-width of $cta-width);
+	  }
+
+      @include media($medium-screen, $large-screen) { 
+		  button {
+		  	@include shift( ($cta-width - ($button-width))/2 );
+		    @include span-columns($button-width of $cta-width);
+		  }
+		
+		  .input { 
+		  	@include shift( ($cta-width - ($input-width))/2 );
+		    @include span-columns($input-width of $cta-width);
+		  }
+	  }
+}
+
+// Mobile Hidden
+// ------------------------------------------------------------------------
+
+.mobile-hide {
+	display: none;
+
+	@include media($medium-screen, $large-screen) {
+		display: inline;
+	}
+}
