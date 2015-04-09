@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+  <div id="viewport" class="container">
+
+    {% include linklist.header.html %}
+
+    <div class="content">
+      <div class="cta">
+      <div>
+        <p>New links in your inbox every <span style="text-decoration:line-through">Sunday</span> Monday!</p>
+      </div>
+    
+      <form accept-charset="UTF-8" action="https://formkeep.com/f/d87bb1fd8dd1" method="POST">
+      
+      <div class="input">
+        <input type="email" name="email" placeholder="someone@email.com">
+      </div>
+
+      <button action="https://formkeep.com/f/d87bb1fd8dd1" method="POST">Yes, please!</button>
+      </div>
+      
+      <section class="link-list">
+        {{ content }}
+      </section>
+    </div>
+
+    {% include linklist.footer.html %}
+  
+  </div>
+  </body>
+
+</html>
