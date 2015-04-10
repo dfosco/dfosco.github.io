@@ -43,13 +43,8 @@ $total-width: 10;
 .hero {
 
   @include span-columns(16 of 16);  
-
-  //@include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
-  //background-color: #324766;
-  background: url("#{$img-url}/bg_link.png");
-  //background-position: top;
+  background: url("../images/bg_link.png");
   background-repeat: repeat-x 0 0;
-  //background-size: cover;
 
   button {
     @include button(flat, $base-accent-color);
