@@ -3,6 +3,7 @@ title: Daniel Fosco
 email: danielfosco@gmail.com
 description: "The Link List"
 baseurl: "http://dfosco.github.io"
+asset-path: /assets
 
 # Author settings
 author:
