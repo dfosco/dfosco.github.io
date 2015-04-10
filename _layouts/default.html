@@ -3,18 +3,22 @@
 
   {% include head.html %}
 
-    <body>
+  <body>
 
-<article class="page-content">
-	
-  <div class="post-content">
-  	{{ content }}
+  <div id="viewport" class="container">
+
+    {% include header.html %}
+      
+      <section class="link-list">
+        {{ content }}
+      </section>
+    
+    
+  
   </div>
 
-</article>
+  {% include footer.html %}
+  
+  </body>
 
-    </body>
 </html>
-
-
-
