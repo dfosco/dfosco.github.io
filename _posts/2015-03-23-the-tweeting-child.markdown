@@ -1,6 +1,7 @@
 ---
-layout: link-post
+layout: link.post
 date:   2015-03-23
+category: links
 
 title:  The Tweeting Child, or What I Learned about Social Media from a Five Year-Old
 source: https://medium.com/@mznewman/the-tweeting-child-or-what-i-learned-about-social-media-from-a-five-year-old-7b606cc6c43f

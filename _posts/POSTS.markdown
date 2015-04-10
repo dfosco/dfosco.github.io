@@ -1,4 +1,14 @@
+layout: link.post
+date:   2015-03-23
+title:  link title
+source: link source
+image: boolean
+image-name: filename.ext
+image-alt: a sensible alt text
+published: no
 
+
+UP TO HERE: 31/01
 
     <article class="link-box">
           <div class="link-box__inner">
@@ -98,11 +108,5 @@
       </article> 
 
       
-        <article class="link-box">
-          <div class="link-box__inner">
-            <a href="https://medium.com/circa/the-right-way-to-ask-users-to-review-your-app-9a32fd604fca" target="_blank">
-            <h3 class="link-title">The right way to ask users to review your app</h3></a>
-            <blockquote class="link-description">How Circa News got 90% 5-star ratings.</blockquote>
-          </div>
-        </article> 
+
       

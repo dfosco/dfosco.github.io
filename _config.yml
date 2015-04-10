@@ -3,6 +3,7 @@ title: Daniel Fosco
 email: danielfosco@gmail.com
 description: "The Link List"
 baseurl: "http://dfosco.github.io"
+permalink: /:categories/:title
 
 # Author settings
 author:
@@ -17,6 +18,6 @@ sass:
     style: :compressed
 
 
-collections:
-  links:
-    output: true
+#collections:
+#  links:
+#    output: true

@@ -1,5 +1,6 @@
-layout: link-post
+layout: link.post
 date:   2015-03-23
+category: links
 title:  link title
 source: link source
 image: boolean

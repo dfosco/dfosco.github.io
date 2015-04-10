@@ -5,8 +5,8 @@
     <description>The Link List</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Apr 2015 17:48:50 -0300</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2015 17:48:50 -0300</lastBuildDate>
+    <pubDate>Fri, 10 Apr 2015 18:27:00 -0300</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2015 18:27:00 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -27,13 +27,106 @@
 
 </description>
         <pubDate>Fri, 10 Apr 2015 10:41:02 -0300</pubDate>
-        <link>/jekyll/update/2015/04/10/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/jekyll/update/2015/04/10/welcome-to-jekyll.html</guid>
+        <link>/jekyll/update/welcome-to-jekyll</link>
+        <guid isPermaLink="true">/jekyll/update/welcome-to-jekyll</guid>
         
         
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>The Tweeting Child, or What I Learned about Social Media from a Five Year-Old</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;His tweets can be cute, or goofy, or nonsensical, and always, always childish. They show the five year-old’s view of the touchscreen keyboard, the emoji set, the world captured by a phone camera and Google image search. They reveal some of his interests — sharks, himself and his family—and his mode of expression. […]&lt;/p&gt;
+
+  &lt;p&gt;Emoji are such a perfect medium for a child. […] “I like how beautiful they are,” says @beebaaahp. “Emoji is cool and it has amazing pictures. I like to type emoji a lot and be funny.”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 23 Mar 2015 00:00:00 -0300</pubDate>
+        <link>/links/the-tweeting-child</link>
+        <guid isPermaLink="true">/links/the-tweeting-child</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Learning to See</title>
+        <description>&lt;blockquote&gt;
+
+  &lt;p&gt;Learning to design is, first of all, learning to see. Designers see more, and more precisely. This is a blessing and a curse—once we have learned to see design, both good and bad, we cannot un-see. The downside is that the more you learn to see, the more you lose your “common” eye, the eye you design for. […]&lt;/p&gt;
+
+  &lt;p&gt;This is why excellent designers do not just develop a sharper eye. They try to keep their ability to see things as a customer would. You need a design eye to design, and a non-designer eye to feel what you designed.&lt;/p&gt;
+
+  &lt;p&gt;“See with one eye, feel with the other.” —Paul Klee&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 23 Mar 2015 00:00:00 -0300</pubDate>
+        <link>/links/learning-to-see</link>
+        <guid isPermaLink="true">/links/learning-to-see</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Fuck You, Pay Me</title>
+        <description>&lt;p&gt;This video goes way back to 2011, and I couldn’t care less. If you have already watched this legendary talk from Mike Monteiro, watch it again. Then read the follow-up book by the old man, &lt;a href=&quot;http://www.abookapart.com/products/design-is-a-job&quot;&gt;Design is a Job&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Feb 2015 10:01:00 -0200</pubDate>
+        <link>/links/fuck-you-pay-me</link>
+        <guid isPermaLink="true">/links/fuck-you-pay-me</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>I was forced into a long distance relationship and it was terrible so I made an app to make it less terrible.</title>
+        <description>&lt;p&gt;So, cute problem-solving is a thing now?&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Jan 2015 11:00:00 -0200</pubDate>
+        <link>/links/i-was-forced-into-a-long-distance-relationship-it-was-terrible-so-i-made-an-app</link>
+        <guid isPermaLink="true">/links/i-was-forced-into-a-long-distance-relationship-it-was-terrible-so-i-made-an-app</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>The Everything Book — Reading in the Age of Amazon</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;For Amazon, paper is more than a material for making prototypes. It’s the inspiration for the Kindle of the future: a weightless object that lasts more or less forever and is readable in any light.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 31 Jan 2015 10:01:10 -0200</pubDate>
+        <link>/links/the-everything-book-reading-in-the-age-of-amazon</link>
+        <guid isPermaLink="true">/links/the-everything-book-reading-in-the-age-of-amazon</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>The right way to ask users to review your app</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;How Circa News got 90% 5-star ratings.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 31 Jan 2015 10:00:00 -0200</pubDate>
+        <link>/links/the-right-way-to-ask-users-to-review-your-app</link>
+        <guid isPermaLink="true">/links/the-right-way-to-ask-users-to-review-your-app</guid>
+        
+        
+        <category>links</category>
         
       </item>
     
