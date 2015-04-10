@@ -55,7 +55,6 @@ $total-width: 10;
 .hero-logo {
   height: 6em;
   margin-bottom: 1em;
-  @extend .unselectable;
 }
 
 .hero-inner {
@@ -73,6 +72,14 @@ $total-width: 10;
   h1 {
     color: $dark-gray;
     margin-bottom: 0.1em;
+
+    a {
+      color: $dark-gray;
+      
+      &:hover { 
+        color: darken($dark-gray, 10%)
+      }
+    }
     
     
   }
