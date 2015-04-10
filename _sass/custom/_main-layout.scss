@@ -120,9 +120,16 @@ section.link-list {
 
 .link-box__permalink {
   text-align: right;
+
+  &:hover {
+    .permalink__text {
+      opacity: 1;
+    }
+  }
 }
 
 .permalink__text {  
+  opacity: 0;
   font-weight: bold;
   font-size: 0.9em;
 }
