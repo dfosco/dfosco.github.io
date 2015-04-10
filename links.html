@@ -3,10 +3,25 @@ layout: default
 ---
 
 {% for links in site.links %}
-	
+
+<p></p>
+
          <article class="link-box">
           <div class="link-box__inner">
-            <a href="{{ links.link }}" target="_blank"><h3 class="link-box__title">{{ links.title }}</h3></a>
+			
+			{% if links.image == 1 %}
+
+            <div class="link-box__img">
+              <a href="{{ links.source }}" target="_blank">
+              <img src="assets/images/articles/{{ links.date | date: '%Y' }}/{{ links.date | date: '%m' }}/{{ links.image-name }}" alt="{{ links.image-alt }}">
+              </a>
+            </div>
+
+            {% else %}
+            {% endif %}
+
+
+            <a href="{{ links.source }}" target="_blank"><h3 class="link-box__title">{{ links.title }}</h3></a>
             <div>{{ links.content }}</div>
 
 			<div class="link-box__permalink">
