@@ -71,10 +71,15 @@ $total-width: 10;
   text-align: center;
   
   h1 {
-    //@include media($large-screen) { font-size: 1.8em; }
     color: $dark-gray;
-    //font-size: 1.6em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.1em;
+    
+    
+  }
+
+  h5 {
+    color: $dark-gray;
+    margin-bottom: 1em;
   }
 
   h2 {

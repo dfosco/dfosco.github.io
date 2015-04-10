@@ -3127,7 +3127,10 @@ button {
   text-align: center; }
   .hero-copy h1 {
     color: #757473;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.1em; }
+  .hero-copy h5 {
+    color: #757473;
+    margin-bottom: 1em; }
   .hero-copy h2 {
     color: #757473;
     font-size: 1.5em;
