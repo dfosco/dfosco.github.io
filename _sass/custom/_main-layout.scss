@@ -113,12 +113,25 @@ section.link-list {
   padding: 0.75em;
 }
 
-.link-title {
+.link-box__title {
   margin-bottom: 0.5em;
   font-size: $h5-font-size;
 }
 
-.link-img {
+.link-box__permalink {
+  text-align: right;
+}
+
+.permalink__text {  
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.permalink__icon {
+  height: 18px;
+}
+
+.link-box__img {
   padding: 0em;
   margin: -1.25em;
   margin-bottom: 0.5em;

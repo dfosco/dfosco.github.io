@@ -3,13 +3,18 @@ layout: default
 ---
 
 {% for links in site.links %}
-
+	
          <article class="link-box">
           <div class="link-box__inner">
-            <a href="{{ links.link }}" target="_blank"><h3 class="link-title">{{ links.title }}</h3></a>
-            <a href="{{ links.url }}">Permalink</a>
-            <p>{{ links.content }}</p>
+            <a href="{{ links.link }}" target="_blank"><h3 class="link-box__title">{{ links.title }}</h3></a>
+            <div>{{ links.content }}</div>
+
+			<div class="link-box__permalink">
+            	<a href="{{ links.url }}">
+            		<span class="permalink__text">Permalink</span>
+            		<img src="assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            	</a>
+            </div>
           </div>
       </article> 
 {% endfor %}
-
