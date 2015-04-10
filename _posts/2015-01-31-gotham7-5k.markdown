@@ -1,0 +1,14 @@
+---
+layout: link.post
+date:   2015-01-31 12:05:00
+category: links
+
+title:  Gotham 7.5k
+source: https://www.storehouse.co/stories/r3rcy-gotham-7-5k
+
+image: 1
+image-name: gotham-75k.jpg
+image-alt: NYC from 7.5 thousand feet
+---
+
+The most mind-blowing pictures of NYC you'll see this year (or maybe ever).

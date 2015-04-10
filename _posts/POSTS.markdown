@@ -67,45 +67,13 @@ UP TO HERE: 31/01
           </div>
       </article> 
 
-    <article class="link-box">
-          <div class="link-box__inner">
-              <a href="https://www.storehouse.co/stories/r3rcy-gotham-7-5k" target="_blank">
-              <h3 class="link-title">Gotham 7.5k</h3></a>
-            <p class="link-description">The most mind-blowing pictures of NYC you'll see this year (or maybe ever).</p>
-          </div>
-      </article> 
 
-    <article class="link-box">
-          <div class="link-box__inner">
-              <a href="http://stratechery.com/2015/xiaomis-ambition/" target="_blank">
-              <h3 class="link-title">Xiaomi's Ambition</h3></a>
-            <blockquote class="link-description">The Xiaomi generation [...] has grown up in a country that has been growing by near double digits every year they have been alive. To their minds <i>of course</i> China is a global power, and why wouldn’t they embrace Chinese brands?</blockquote>
-          </div>
-      </article> 
 
-    <article class="link-box">
-          <div class="link-box__inner">
-              <a href="https://medium.com/backchannel/how-i-f-ed-up-in-ycombinator-35a19e7ace68" target="_blank">
-              <h3 class="link-title">How I Crashed and Burned in YCombinator</h3></a>
-            <blockquote class="link-description">Getting accepted into the vaunted incubator seemed like a dream come true—until it became a nightmare.</blockquote>
-          </div>
-      </article> 
+  
 
-    <article class="link-box">
-          <div class="link-box__inner">
-              <a href="http://www.devfactor.net/2014/12/30/2375-amazon-mistake/" target="_blank">
-              <h3 class="link-title">My $2375 Amazon EC2 Mistake</h3></a>
-            <blockquote class="link-description">Boom! A $2375 bill in the morning. Just for trying to learn Rails.</blockquote>
-          </div>
-      </article> 
 
-     <article class="link-box">
-          <div class="link-box__inner">
-              <a href="http://www.theverge.com/2014/12/17/7396525/amazon-kindle-design-lab-audible-hachette" target="_blank">
-              <h3 class="link-title">The Everything Book: Reading in the Age of Amazon</h3></a>
-            <blockquote class="link-description">For Amazon, paper is more than a material for making prototypes. It’s the inspiration for the Kindle of the future: a weightless object that lasts more or less forever and is readable in any light.</blockquote>
-          </div>
-      </article> 
+
+
 
       
 
