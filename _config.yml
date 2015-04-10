@@ -13,3 +13,11 @@ author:
 
 # Build settings
 markdown: kramdown
+
+sass:
+    style: :compressed
+
+
+collections:
+  links:
+    output: true
