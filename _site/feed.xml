@@ -5,48 +5,44 @@
     <description>The Link List</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Apr 2015 15:00:39 -0300</pubDate>
-    <lastBuildDate>Mon, 13 Apr 2015 15:00:39 -0300</lastBuildDate>
+    <pubDate>Mon, 13 Apr 2015 18:55:01 -0300</pubDate>
+    <lastBuildDate>Mon, 13 Apr 2015 18:55:01 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Coding Resources</title>
+        <description>&lt;p&gt;A collection of useful resources for learning how to code.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Classics&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://referrals.trhou.se/danielfosco&quot;&gt;Treehouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.codecademy.com/&quot;&gt;Codecademy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bentobox.io/&quot;&gt;Bentobox.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Javascript&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rachelnabors.com/javascript-for-designers&quot;&gt;Javascript for Designers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?ie=UTF8&amp;amp;qid=1423986326&amp;amp;sr=8-1&amp;amp;keywords=javascript+and+jquery&quot;&gt;Javascript and Jquery (Book)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codecombat.com/&quot;&gt;Code Combat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-</description>
-        <pubDate>Fri, 10 Apr 2015 10:41:02 -0300</pubDate>
-        <link>/jekyll/update/welcome-to-jekyll</link>
-        <guid isPermaLink="true">/jekyll/update/welcome-to-jekyll</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Best New Apps: Workflow</title>
-        <description>&lt;p&gt;Released late last year, I ended up downloading Workflow this week. &lt;strong&gt;It’s mindblowing&lt;/strong&gt;. Long story short, it allows you to make custom apps straight from your iPhone. If you were looking to have some (nerdy) fun with your iOS device, this is it.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Ruby (&amp;amp; Rails)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/workflow-powerful-automation/id915249334&quot;&gt;Make a run for the AppStore while it’s 60% off&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tryruby.org&quot;&gt;Try Ruby&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mackenziechild.me/videos/&quot;&gt;Mackenzie Child’s Rails Screencasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bloc.io/ruby-warrior/&quot;&gt;Ruby Warrior&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
-        <pubDate>Sat, 31 Jan 2015 10:14:00 -0200</pubDate>
-        <link>/links/best-new-apps-workflow</link>
-        <guid isPermaLink="true">/links/best-new-apps-workflow</guid>
+        <pubDate>Sat, 14 Feb 2015 22:06:16 -0200</pubDate>
+        <link>/links/coding-resources</link>
+        <guid isPermaLink="true">/links/coding-resources</guid>
         
         
         <category>links</category>
@@ -54,52 +50,14 @@
       </item>
     
       <item>
-        <title>Fuck You, Pay Me</title>
-        <description>&lt;p&gt;This video goes way back to 2011, and I couldn’t care less. If you have already watched this legendary talk from Mike Monteiro, watch it again. Then read the follow-up book by the old man, &lt;a href=&quot;http://www.abookapart.com/products/design-is-a-job&quot;&gt;Design is a Job&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 31 Jan 2015 10:13:00 -0200</pubDate>
-        <link>/links/fuck-you-pay-me</link>
-        <guid isPermaLink="true">/links/fuck-you-pay-me</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>I was forced into a long distance relationship and it was terrible so I made an app to make it less terrible.</title>
-        <description>&lt;p&gt;So, cute problem-solving is a thing now?&lt;/p&gt;
-</description>
-        <pubDate>Sat, 31 Jan 2015 10:12:00 -0200</pubDate>
-        <link>/links/i-was-forced-into-a-long-distance-relationship-it-was-terrible-so-i-made-an-app</link>
-        <guid isPermaLink="true">/links/i-was-forced-into-a-long-distance-relationship-it-was-terrible-so-i-made-an-app</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Designers Who Code</title>
-        <description>&lt;p&gt;This is pretty much the nail in the coffin of the “Should designers code?” discussion. Designers who don’t code shouldn’t be dead worried, but seriously, &lt;strong&gt;read it&lt;/strong&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 31 Jan 2015 10:11:00 -0200</pubDate>
-        <link>/links/designers-who-code</link>
-        <guid isPermaLink="true">/links/designers-who-code</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Favicons, Touch Icons, Tile Icons, etc. What All Do You Need?</title>
-        <description>&lt;p&gt;A handy primer to favicons and their kin.&lt;/p&gt;
+        <title>Slack: First Year in Numbers</title>
+        <description>&lt;p&gt;Anyone following Slack’s trajectory already knows they have great numbers, but this is just ridiculous.&lt;/p&gt;
 
+&lt;p&gt;It’s like every message sent generated $0.01 for them. &lt;i class=&quot;twa twa-lg twa-moneybag&quot;&gt;&lt;/i&gt;&lt;i class=&quot;twa twa-lg twa-moneybag&quot;&gt;&lt;/i&gt;&lt;i class=&quot;twa twa-lg twa-moneybag&quot;&gt;&lt;/i&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 31 Jan 2015 10:10:00 -0200</pubDate>
-        <link>/links/favicons-touch-icons-tile-icons-etc</link>
-        <guid isPermaLink="true">/links/favicons-touch-icons-tile-icons-etc</guid>
+        <pubDate>Fri, 13 Feb 2015 10:30:02 -0200</pubDate>
+        <link>/links/slack-first-year-in-numbers</link>
+        <guid isPermaLink="true">/links/slack-first-year-in-numbers</guid>
         
         
         <category>links</category>
@@ -107,13 +65,14 @@
       </item>
     
       <item>
-        <title>Welcome to Business Town</title>
-        <description>&lt;p&gt;Weirdly amusing comics about our “highly intangible, deeply disruptive, data-driven, venture-backed, gluten-free economic meritocracy.”&lt;/p&gt;
+        <title>Why Japanese Web Design Is So… Different</title>
+        <description>&lt;p&gt;A great read, specially if you follow up with Dan Grover’s &lt;a href=&quot;http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html&quot;&gt;Chinese Mobile App UI Trends&lt;/a&gt; from last December.&lt;/p&gt;
 
+&lt;p&gt;Now I just need someone to tell me why &lt;a href=&quot;http://www.cdiscount.com/&quot;&gt;CDiscount&lt;/a&gt;, one of France’s most traditional e-commerce sites, looks like a newspaper classified ads section in 2015.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 31 Jan 2015 10:09:00 -0200</pubDate>
-        <link>/links/welcome-to-businesstown</link>
-        <guid isPermaLink="true">/links/welcome-to-businesstown</guid>
+        <pubDate>Fri, 13 Feb 2015 10:30:01 -0200</pubDate>
+        <link>/links/why-japanese-web-design-is-so-different</link>
+        <guid isPermaLink="true">/links/why-japanese-web-design-is-so-different</guid>
         
         
         <category>links</category>
@@ -121,41 +80,104 @@
       </item>
     
       <item>
-        <title>Positioning in Web Design</title>
-        <description>&lt;p&gt;An animated guide to positioning. Pretty handy!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 31 Jan 2015 10:08:00 -0200</pubDate>
-        <link>/links/positioning-in-webdesign</link>
-        <guid isPermaLink="true">/links/positioning-in-webdesign</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Fear of Writing</title>
-        <description>&lt;p&gt;For someone who constantly flakes out when trying to write, this really hits home.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 31 Jan 2015 10:08:00 -0200</pubDate>
-        <link>/links/fear-of-writing</link>
-        <guid isPermaLink="true">/links/fear-of-writing</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>How to Give Feedback that Doesn’t Suck</title>
+        <title>Architect walks through building in Oculus Rift; loses his shit</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;I’ve seen design feedback sessions go both uphill and crashing terribly downhill. With that, here are my 6 guidelines of how to give feedback that doesn’t suck.&lt;/p&gt;
+  &lt;p&gt;He finally put the Rift off his head, his eyes were in a total state of blown away.&lt;/p&gt;
+
+  &lt;p&gt;— I would never expect this, […] the building isn’t finished, and I’ve already been there […] as an architect, this is cheating, my god.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Sat, 31 Jan 2015 10:07:00 -0200</pubDate>
-        <link>/links/how-to-give-feedback-that-doesnt-suck</link>
-        <guid isPermaLink="true">/links/how-to-give-feedback-that-doesnt-suck</guid>
+        <pubDate>Fri, 13 Feb 2015 10:30:00 -0200</pubDate>
+        <link>/links/architect-walks-through-building-in-oculus-rift-loses-his-shit</link>
+        <guid isPermaLink="true">/links/architect-walks-through-building-in-oculus-rift-loses-his-shit</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Facebook now offers a profile will for when you die</title>
+        <description>&lt;p&gt;I can see why this is necessary, but being able to accept friend requests after you die is just weird.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Feb 2015 11:06:00 -0200</pubDate>
+        <link>/links/facebook-now-offers-a-profile-will-for-when-you-die</link>
+        <guid isPermaLink="true">/links/facebook-now-offers-a-profile-will-for-when-you-die</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Affinity Photo Beta</title>
+        <description>&lt;p&gt;The photo editing application that will surely make Adobe lose some sleep is now available for (beta) download. Good discussion going on at &lt;a href=&quot;https://news.layervault.com/stories/43817-affinity-photo--professional-image-editing-software-for-mac&quot;&gt;Designer News&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Feb 2015 00:48:03 -0200</pubDate>
+        <link>/links/affinity-photo-beta</link>
+        <guid isPermaLink="true">/links/affinity-photo-beta</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Drunk Mountain Gorilla Punches Photographer</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Completely drunk from eating bamboo stems, which ferment in gorillas’ stomachs causing them to become intoxicated, the primate, who is the leader of the Kwitonda Group, is said to have felt threatened by a rival male, causing him to become excitable and defensive of his territory.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 11 Feb 2015 00:48:02 -0200</pubDate>
+        <link>/links/drunk-mountain-gorilla-punches-photographer</link>
+        <guid isPermaLink="true">/links/drunk-mountain-gorilla-punches-photographer</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>The Ultimate Guide To iPhone Resolutions</title>
+        <description>&lt;p&gt;Sweet guide to anyone designing for iPhone, brought to you by the folks from &lt;a href=&quot;http://www.paintcodeapp.com/&quot;&gt;PaintCode App&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Feb 2015 00:48:01 -0200</pubDate>
+        <link>/links/the-ultimate-guide-to-iphone-resolutions</link>
+        <guid isPermaLink="true">/links/the-ultimate-guide-to-iphone-resolutions</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Boston Dynamics shows off new robot dog, dooms us all by kicking it</title>
+        <description>&lt;p&gt;Seriously people, what is wrong with you? &lt;a href=&quot;http://www.theguardian.com/world/2015/feb/09/south-korean-womans-hair-eaten-by-robot-vacuum-cleaner-as-she-slept&quot;&gt;They’re already onto us&lt;/a&gt;, kicking them will &lt;em&gt;not&lt;/em&gt; help our cause.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 11 Feb 2015 00:48:00 -0200</pubDate>
+        <link>/links/boston-dynamics-shows-off-new-robot-dog-dooms-us-all-by-kicking-it</link>
+        <guid isPermaLink="true">/links/boston-dynamics-shows-off-new-robot-dog-dooms-us-all-by-kicking-it</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Tech’s High Barrier to Entry for the Underprivileged</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;I met Maurice on February 22nd, 2014, at a high school hackathon. […]&lt;/p&gt;
+
+  &lt;p&gt;Later that night, I received a phone call from him, and he asked if I would be able to teach him how to code. I love teaching, and Maurice seemed like a nice kid, so I offered to help. He immediately said, “okay, go,” and awaited instruction. I explained that I wouldn’t be able to teach him over the phone, but then I found out that &lt;strong&gt;he didn’t have internet at home&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s really easy to overlook these “details”, specially with the president of Y Combinator (the most prestigious accelerator in the US) tweeting stuff like &lt;a href=&quot;https://twitter.com/sama/status/549745218371592192&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 09 Feb 2015 21:27:00 -0200</pubDate>
+        <link>/links/techs-high-barrier-to-entry-for-the-underpriviledged</link>
+        <guid isPermaLink="true">/links/techs-high-barrier-to-entry-for-the-underpriviledged</guid>
         
         
         <category>links</category>
