@@ -14,18 +14,18 @@
         <article class="link-box">
           <div class="link-box__inner">
             
-          {% if post.image == 1 %}
+          {% if page.image == 1 %}
 
             <div class="link-box__img">
-              <a href="{{ post.source }}" target="_blank">
-              <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ posy.image-name }}" alt="{{ post.image-alt }}">
+              <a href="{{ page.source }}" target="_blank">
+              <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
               </a>
             </div>
 
           {% else %}
           {% endif %}
 
-            <a href="{{ post.source }}" target="_blank">
+            <a href="{{ page.source }}" target="_blank">
             <h3 class="link-box__title">{{ page.title }}</h3>
             </a>
 
