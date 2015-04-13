@@ -47,7 +47,7 @@ $total-width: 10;
   background-repeat: repeat-x 0 0;
 
   button {
-    @include button(flat, $base-accent-color);
+    background-color: $base-accent-color;
     padding: 0.7em 1em;
   }
 }
