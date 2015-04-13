@@ -5,8 +5,8 @@
     <description>The Link List</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Apr 2015 18:50:31 -0300</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2015 18:50:31 -0300</lastBuildDate>
+    <pubDate>Mon, 13 Apr 2015 15:00:39 -0300</pubDate>
+    <lastBuildDate>Mon, 13 Apr 2015 15:00:39 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -38,36 +38,15 @@
       </item>
     
       <item>
-        <title>The Tweeting Child, or What I Learned about Social Media from a Five Year-Old</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;His tweets can be cute, or goofy, or nonsensical, and always, always childish. They show the five year-old’s view of the touchscreen keyboard, the emoji set, the world captured by a phone camera and Google image search. They reveal some of his interests — sharks, himself and his family—and his mode of expression. […]&lt;/p&gt;
+        <title>Best New Apps: Workflow</title>
+        <description>&lt;p&gt;Released late last year, I ended up downloading Workflow this week. &lt;strong&gt;It’s mindblowing&lt;/strong&gt;. Long story short, it allows you to make custom apps straight from your iPhone. If you were looking to have some (nerdy) fun with your iOS device, this is it.&lt;/p&gt;
 
-  &lt;p&gt;Emoji are such a perfect medium for a child. […] “I like how beautiful they are,” says @beebaaahp. “Emoji is cool and it has amazing pictures. I like to type emoji a lot and be funny.”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/workflow-powerful-automation/id915249334&quot;&gt;Make a run for the AppStore while it’s 60% off&lt;/a&gt;.&lt;/p&gt;
+
 </description>
-        <pubDate>Mon, 23 Mar 2015 00:00:00 -0300</pubDate>
-        <link>/links/the-tweeting-child</link>
-        <guid isPermaLink="true">/links/the-tweeting-child</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Learning to See</title>
-        <description>&lt;blockquote&gt;
-
-  &lt;p&gt;Learning to design is, first of all, learning to see. Designers see more, and more precisely. This is a blessing and a curse—once we have learned to see design, both good and bad, we cannot un-see. The downside is that the more you learn to see, the more you lose your “common” eye, the eye you design for. […]&lt;/p&gt;
-
-  &lt;p&gt;This is why excellent designers do not just develop a sharper eye. They try to keep their ability to see things as a customer would. You need a design eye to design, and a non-designer eye to feel what you designed.&lt;/p&gt;
-
-  &lt;p&gt;“See with one eye, feel with the other.” —Paul Klee&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 23 Mar 2015 00:00:00 -0300</pubDate>
-        <link>/links/learning-to-see</link>
-        <guid isPermaLink="true">/links/learning-to-see</guid>
+        <pubDate>Sat, 31 Jan 2015 10:14:00 -0200</pubDate>
+        <link>/links/best-new-apps-workflow</link>
+        <guid isPermaLink="true">/links/best-new-apps-workflow</guid>
         
         
         <category>links</category>
@@ -78,7 +57,7 @@
         <title>Fuck You, Pay Me</title>
         <description>&lt;p&gt;This video goes way back to 2011, and I couldn’t care less. If you have already watched this legendary talk from Mike Monteiro, watch it again. Then read the follow-up book by the old man, &lt;a href=&quot;http://www.abookapart.com/products/design-is-a-job&quot;&gt;Design is a Job&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 02 Feb 2015 10:01:00 -0200</pubDate>
+        <pubDate>Sat, 31 Jan 2015 10:13:00 -0200</pubDate>
         <link>/links/fuck-you-pay-me</link>
         <guid isPermaLink="true">/links/fuck-you-pay-me</guid>
         
@@ -91,7 +70,7 @@
         <title>I was forced into a long distance relationship and it was terrible so I made an app to make it less terrible.</title>
         <description>&lt;p&gt;So, cute problem-solving is a thing now?&lt;/p&gt;
 </description>
-        <pubDate>Sat, 31 Jan 2015 11:00:00 -0200</pubDate>
+        <pubDate>Sat, 31 Jan 2015 10:12:00 -0200</pubDate>
         <link>/links/i-was-forced-into-a-long-distance-relationship-it-was-terrible-so-i-made-an-app</link>
         <guid isPermaLink="true">/links/i-was-forced-into-a-long-distance-relationship-it-was-terrible-so-i-made-an-app</guid>
         
@@ -101,14 +80,12 @@
       </item>
     
       <item>
-        <title>BitTorrent Wants to Change the Way the Web is Built</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;In this vision, web publishers could publish, distribute, and update an entire website through the BitTorrent protocol, and others visiting the page would automatically help share the site’s content.&lt;/p&gt;
-&lt;/blockquote&gt;
+        <title>Designers Who Code</title>
+        <description>&lt;p&gt;This is pretty much the nail in the coffin of the “Should designers code?” discussion. Designers who don’t code shouldn’t be dead worried, but seriously, &lt;strong&gt;read it&lt;/strong&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 31 Jan 2015 10:06:00 -0200</pubDate>
-        <link>/links/bittorrent-wants-to-change-the-way-the-web-is-built</link>
-        <guid isPermaLink="true">/links/bittorrent-wants-to-change-the-way-the-web-is-built</guid>
+        <pubDate>Sat, 31 Jan 2015 10:11:00 -0200</pubDate>
+        <link>/links/designers-who-code</link>
+        <guid isPermaLink="true">/links/designers-who-code</guid>
         
         
         <category>links</category>
@@ -116,12 +93,13 @@
       </item>
     
       <item>
-        <title>Gotham 7.5k</title>
-        <description>&lt;p&gt;The most mind-blowing pictures of NYC you’ll see this year (or maybe ever).&lt;/p&gt;
+        <title>Favicons, Touch Icons, Tile Icons, etc. What All Do You Need?</title>
+        <description>&lt;p&gt;A handy primer to favicons and their kin.&lt;/p&gt;
+
 </description>
-        <pubDate>Sat, 31 Jan 2015 10:05:00 -0200</pubDate>
-        <link>/links/gotham7-5k</link>
-        <guid isPermaLink="true">/links/gotham7-5k</guid>
+        <pubDate>Sat, 31 Jan 2015 10:10:00 -0200</pubDate>
+        <link>/links/favicons-touch-icons-tile-icons-etc</link>
+        <guid isPermaLink="true">/links/favicons-touch-icons-tile-icons-etc</guid>
         
         
         <category>links</category>
@@ -129,14 +107,13 @@
       </item>
     
       <item>
-        <title>Xiaomi&#39;s Ambition</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;The Xiaomi generation […] has grown up in a country that has been growing by near double digits every year they have been alive. To their minds of course China is a global power, and why wouldn’t they embrace Chinese brands?&lt;/p&gt;
-&lt;/blockquote&gt;
+        <title>Welcome to Business Town</title>
+        <description>&lt;p&gt;Weirdly amusing comics about our “highly intangible, deeply disruptive, data-driven, venture-backed, gluten-free economic meritocracy.”&lt;/p&gt;
+
 </description>
-        <pubDate>Sat, 31 Jan 2015 10:04:00 -0200</pubDate>
-        <link>/links/xiaomis-ambition</link>
-        <guid isPermaLink="true">/links/xiaomis-ambition</guid>
+        <pubDate>Sat, 31 Jan 2015 10:09:00 -0200</pubDate>
+        <link>/links/welcome-to-businesstown</link>
+        <guid isPermaLink="true">/links/welcome-to-businesstown</guid>
         
         
         <category>links</category>
@@ -144,14 +121,12 @@
       </item>
     
       <item>
-        <title>How I Crashed and Burned in YCombinator</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;Getting accepted into the vaunted incubator seemed like a dream come true—until it became a nightmare&lt;/p&gt;
-&lt;/blockquote&gt;
+        <title>Positioning in Web Design</title>
+        <description>&lt;p&gt;An animated guide to positioning. Pretty handy!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 31 Jan 2015 10:03:00 -0200</pubDate>
-        <link>/links/how-i-crashed-and-burned-in-ycombinator</link>
-        <guid isPermaLink="true">/links/how-i-crashed-and-burned-in-ycombinator</guid>
+        <pubDate>Sat, 31 Jan 2015 10:08:00 -0200</pubDate>
+        <link>/links/positioning-in-webdesign</link>
+        <guid isPermaLink="true">/links/positioning-in-webdesign</guid>
         
         
         <category>links</category>
@@ -159,14 +134,28 @@
       </item>
     
       <item>
-        <title>My $2375 Amazon EC2 Mistake</title>
+        <title>Fear of Writing</title>
+        <description>&lt;p&gt;For someone who constantly flakes out when trying to write, this really hits home.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 31 Jan 2015 10:08:00 -0200</pubDate>
+        <link>/links/fear-of-writing</link>
+        <guid isPermaLink="true">/links/fear-of-writing</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Give Feedback that Doesn’t Suck</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;Boom! A $2375 bill in the morning. Just for trying to learn Rails.&lt;/p&gt;
+  &lt;p&gt;I’ve seen design feedback sessions go both uphill and crashing terribly downhill. With that, here are my 6 guidelines of how to give feedback that doesn’t suck.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Sat, 31 Jan 2015 10:02:00 -0200</pubDate>
-        <link>/links/my-2375-usd-amazon-ecs-mistake</link>
-        <guid isPermaLink="true">/links/my-2375-usd-amazon-ecs-mistake</guid>
+        <pubDate>Sat, 31 Jan 2015 10:07:00 -0200</pubDate>
+        <link>/links/how-to-give-feedback-that-doesnt-suck</link>
+        <guid isPermaLink="true">/links/how-to-give-feedback-that-doesnt-suck</guid>
         
         
         <category>links</category>
