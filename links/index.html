@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+
+  {% for post in paginator.posts %}
+    {% if post.category == "links" %}
+
+        <article class="link-box">
+          <div class="link-box__inner">
+        
+        {% if post.image-name == "none" %}
+        {% else %}
+
+              <div class="link-box__img">
+                <a href="{{ post.source }}" target="_blank">
+                
+                {% if page.url contains "page" %}
+                <img src="../../assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
+                {% else %}
+                <img src="../assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
+                {% endif %}
+                </a>
+              </div>
+        
+        {% endif %}
+
+              {% if page.source == null %}
+              <a href="{{ post.url }}" target="_blank"><h3 class="link-box__title">{{ post.title }}</h3></a>
+              {% else %}
+              <a href="{{ post.source }}" target="_blank"><h3 class="link-box__title">{{ post.title }}</h3></a>
+              {% endif %}
+              
+              <div class="link-box__description">{{ post.content }}</div>
+              
+              <a href="{{ post.url }}">
+               <div class="link-box__permalink">
+                <span class="permalink__text">Permalink</span>
+                {% if page.url contains "page" %}
+                <img src="../../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+                {% else %}
+                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+                {% endif %}
+                </div>
+              </a>
+            </div>
+        </article>
+    {% else %}
+    {% endif %}
+  {% endfor %}
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
