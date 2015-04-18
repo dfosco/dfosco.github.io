@@ -7,15 +7,15 @@ layout: default
          <article class="link-box">
           <div class="link-box__inner">
 			
-			{% if post.image == 1 %}
+			{% if post.image-name == "none" %}
+      {% else %}
 
             <div class="link-box__img">
               <a href="{{ post.source }}" target="_blank">
               <img src="assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
               </a>
             </div>
-
-      {% else %}
+      
       {% endif %}
 
             {% if page.source == null %}

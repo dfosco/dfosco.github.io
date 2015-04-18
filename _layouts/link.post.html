@@ -14,10 +14,10 @@
         <article class="link-box">
           <div class="link-box__inner">
             
-          {% if page.image == 1 %}
-
+          {% if page.image-name == "none" %}
+          {% else %}
+          
             <div class="link-box__img">
-              
               {% if page.source == null %}
               <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
               {% else %}
@@ -26,8 +26,7 @@
               </a>
               {% endif %}
             </div>
-
-          {% else %}
+          
           {% endif %}
             
             {% if page.source == null %}
@@ -39,7 +38,9 @@
             {% endif %}
             
 
-            <div>{{ content }}</div>
+            <div>
+              {{ content }}
+            </div>
             
             
           </div>
