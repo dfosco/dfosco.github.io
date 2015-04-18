@@ -6,8 +6,7 @@ category: links
 title:  Why I Would Never Want to Compete with Travis Kalanick
 source: http://lowercasecapital.com/2015/02/04/why-i-would-never-want-to-compete-with-travis-kalanick
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

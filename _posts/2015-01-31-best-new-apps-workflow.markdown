@@ -6,8 +6,7 @@ category: links
 title:  "Best New Apps: Workflow"
 source: http://www.theverge.com/2014/12/11/7377917/best-new-apps-workflow
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

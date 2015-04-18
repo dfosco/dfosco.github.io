@@ -5,179 +5,176 @@
     <description>The Link List</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Apr 2015 20:07:30 -0300</pubDate>
-    <lastBuildDate>Mon, 13 Apr 2015 20:07:30 -0300</lastBuildDate>
+    <pubDate>Sat, 18 Apr 2015 01:52:35 -0300</pubDate>
+    <lastBuildDate>Sat, 18 Apr 2015 01:52:35 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Coding Resources</title>
-        <description>&lt;p&gt;A collection of useful resources for learning how to code.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Classics&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://referrals.trhou.se/danielfosco&quot;&gt;Treehouse&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.codecademy.com/&quot;&gt;Codecademy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bentobox.io/&quot;&gt;Bentobox.io&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;Javascript&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rachelnabors.com/javascript-for-designers&quot;&gt;Javascript for Designers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?ie=UTF8&amp;amp;qid=1423986326&amp;amp;sr=8-1&amp;amp;keywords=javascript+and+jquery&quot;&gt;Javascript and Jquery (Book)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://codecombat.com/&quot;&gt;Code Combat&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;Ruby (&amp;amp; Rails)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://tryruby.org&quot;&gt;Try Ruby&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mackenziechild.me/videos/&quot;&gt;Mackenzie Child’s Rails Screencasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bloc.io/ruby-warrior/&quot;&gt;Ruby Warrior&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 14 Feb 2015 22:06:16 -0200</pubDate>
-        <link>/links/coding-resources</link>
-        <guid isPermaLink="true">/links/coding-resources</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Slack: First Year in Numbers</title>
-        <description>&lt;p&gt;Anyone following Slack’s trajectory already knows they have great numbers, but this is just ridiculous.&lt;/p&gt;
-
-&lt;p&gt;It’s like every message sent generated $0.01 for them. &lt;i class=&quot;twa twa-lg twa-moneybag&quot;&gt;&lt;/i&gt;&lt;i class=&quot;twa twa-lg twa-moneybag&quot;&gt;&lt;/i&gt;&lt;i class=&quot;twa twa-lg twa-moneybag&quot;&gt;&lt;/i&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 13 Feb 2015 10:30:02 -0200</pubDate>
-        <link>/links/slack-first-year-in-numbers</link>
-        <guid isPermaLink="true">/links/slack-first-year-in-numbers</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Why Japanese Web Design Is So… Different</title>
-        <description>&lt;p&gt;A great read, specially if you follow up with Dan Grover’s &lt;a href=&quot;http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html&quot;&gt;Chinese Mobile App UI Trends&lt;/a&gt; from last December.&lt;/p&gt;
-
-&lt;p&gt;Now I just need someone to tell me why &lt;a href=&quot;http://www.cdiscount.com/&quot;&gt;CDiscount&lt;/a&gt;, one of France’s most traditional e-commerce sites, looks like a newspaper classified ads section in 2015.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 13 Feb 2015 10:30:01 -0200</pubDate>
-        <link>/links/why-japanese-web-design-is-so-different</link>
-        <guid isPermaLink="true">/links/why-japanese-web-design-is-so-different</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Architect walks through building in Oculus Rift; loses his shit</title>
+        <title>Learning to See</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;He finally put the Rift off his head, his eyes were in a total state of blown away.&lt;/p&gt;
+  &lt;p&gt;Learning to design is, first of all, learning to see. Designers see more, and more precisely. This is a blessing and a curse—once we have learned to see design, both good and bad, we cannot un-see. The downside is that the more you learn to see, the more you lose your “common” eye, the eye you design for. […]&lt;/p&gt;
 
-  &lt;p&gt;— I would never expect this, […] the building isn’t finished, and I’ve already been there […] as an architect, this is cheating, my god.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Fri, 13 Feb 2015 10:30:00 -0200</pubDate>
-        <link>/links/architect-walks-through-building-in-oculus-rift-loses-his-shit</link>
-        <guid isPermaLink="true">/links/architect-walks-through-building-in-oculus-rift-loses-his-shit</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Facebook now offers a profile will for when you die</title>
-        <description>&lt;p&gt;I can see why this is necessary, but being able to accept friend requests after you die is just weird.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 12 Feb 2015 11:06:00 -0200</pubDate>
-        <link>/links/facebook-now-offers-a-profile-will-for-when-you-die</link>
-        <guid isPermaLink="true">/links/facebook-now-offers-a-profile-will-for-when-you-die</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Affinity Photo Beta</title>
-        <description>&lt;p&gt;The photo editing application that will surely make Adobe lose some sleep is now available for (beta) download. Good discussion going on at &lt;a href=&quot;https://news.layervault.com/stories/43817-affinity-photo--professional-image-editing-software-for-mac&quot;&gt;Designer News&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Feb 2015 00:48:03 -0200</pubDate>
-        <link>/links/affinity-photo-beta</link>
-        <guid isPermaLink="true">/links/affinity-photo-beta</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Drunk Mountain Gorilla Punches Photographer</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;Completely drunk from eating bamboo stems, which ferment in gorillas’ stomachs causing them to become intoxicated, the primate, who is the leader of the Kwitonda Group, is said to have felt threatened by a rival male, causing him to become excitable and defensive of his territory.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 11 Feb 2015 00:48:02 -0200</pubDate>
-        <link>/links/drunk-mountain-gorilla-punches-photographer</link>
-        <guid isPermaLink="true">/links/drunk-mountain-gorilla-punches-photographer</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>The Ultimate Guide To iPhone Resolutions</title>
-        <description>&lt;p&gt;Sweet guide to anyone designing for iPhone, brought to you by the folks from &lt;a href=&quot;http://www.paintcodeapp.com/&quot;&gt;PaintCode App&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Feb 2015 00:48:01 -0200</pubDate>
-        <link>/links/the-ultimate-guide-to-iphone-resolutions</link>
-        <guid isPermaLink="true">/links/the-ultimate-guide-to-iphone-resolutions</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Boston Dynamics shows off new robot dog, dooms us all by kicking it</title>
-        <description>&lt;p&gt;Seriously people, what is wrong with you? &lt;a href=&quot;http://www.theguardian.com/world/2015/feb/09/south-korean-womans-hair-eaten-by-robot-vacuum-cleaner-as-she-slept&quot;&gt;They’re already onto us&lt;/a&gt;, kicking them will &lt;em&gt;not&lt;/em&gt; help our cause.&lt;/p&gt;
+  &lt;p&gt;This is why excellent designers do not just develop a sharper eye. They try to keep their ability to see things as a customer would. You need a design eye to design, and a non-designer eye to feel what you designed.&lt;/p&gt;
 
-</description>
-        <pubDate>Wed, 11 Feb 2015 00:48:00 -0200</pubDate>
-        <link>/links/boston-dynamics-shows-off-new-robot-dog-dooms-us-all-by-kicking-it</link>
-        <guid isPermaLink="true">/links/boston-dynamics-shows-off-new-robot-dog-dooms-us-all-by-kicking-it</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Tech’s High Barrier to Entry for the Underprivileged</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;I met Maurice on February 22nd, 2014, at a high school hackathon. […]&lt;/p&gt;
-
-  &lt;p&gt;Later that night, I received a phone call from him, and he asked if I would be able to teach him how to code. I love teaching, and Maurice seemed like a nice kid, so I offered to help. He immediately said, “okay, go,” and awaited instruction. I explained that I wouldn’t be able to teach him over the phone, but then I found out that &lt;strong&gt;he didn’t have internet at home&lt;/strong&gt;.&lt;/p&gt;
+  &lt;p&gt;“See with one eye, feel with the other.” —Paul Klee&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;It’s really easy to overlook these “details”, specially with the president of Y Combinator (the most prestigious accelerator in the US) tweeting stuff like &lt;a href=&quot;https://twitter.com/sama/status/549745218371592192&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Mar 2015 09:50:00 -0300</pubDate>
+        <link>/links/learning-to-see</link>
+        <guid isPermaLink="true">/links/learning-to-see</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>The Tweeting Child, or What I Learned about Social Media from a Five Year-Old</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;His tweets can be cute, or goofy, or nonsensical, and always, always childish. They show the five year-old’s view of the touchscreen keyboard, the emoji set, the world captured by a phone camera and Google image search. They reveal some of his interests — sharks, himself and his family—and his mode of expression. […]&lt;/p&gt;
+
+  &lt;p&gt;Emoji are such a perfect medium for a child. […] “I like how beautiful they are,” says @beebaaahp. “Emoji is cool and it has amazing pictures. I like to type emoji a lot and be funny.”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 23 Mar 2015 09:40:00 -0300</pubDate>
+        <link>/links/the-tweeting-child-or-what-i-learned-about-social-media-from-a-five-year-old</link>
+        <guid isPermaLink="true">/links/the-tweeting-child-or-what-i-learned-about-social-media-from-a-five-year-old</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Hitting the Self-Destruct Button</title>
+        <description>&lt;p&gt;I recently nuked my personal website, partly inspired by Kevin M. Jackson’s &lt;em&gt;new&lt;/em&gt; site above. This link blog is pretty much what’s left of it.&lt;/p&gt;
+
+&lt;p&gt;Without getting too sentimental about it, the weight of keeping a &lt;em&gt;personal brand&lt;/em&gt; while selling myself as a designer and constantly worrying about presenting my old work was beginning to weight on my shoulders. Better to nuke the whole thing and start fresh &lt;sup&gt;&lt;b&gt;1&lt;/b&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;By the way, if you’re in the midst of re-doing your portfolio, &lt;a href=&quot;http://alexcican.com/post/personal-websites/&quot;&gt;this article&lt;/a&gt; by Alex Cican might come in handy.&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;strong&gt;1.&lt;/strong&gt; It’s relevant to note that my personal website is not my main source of work and/or revenue, &lt;em&gt;by any means&lt;/em&gt;. Needless to say, don’t destroy your portfolio site if your bread &amp;amp; butter depends on it. &lt;i class=&quot;twa twa-lg twa-boom&quot;&gt;&lt;/i&gt; &lt;i class=&quot;twa twa-lg twa-boom&quot;&gt;&lt;/i&gt; &lt;i class=&quot;twa twa-lg twa-boom&quot;&gt;&lt;/i&gt;&lt;/sub&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Mar 2015 09:30:00 -0300</pubDate>
+        <link>/links/hitting-the-self-destruct-button</link>
+        <guid isPermaLink="true">/links/hitting-the-self-destruct-button</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Why can&#39;t you track periods in Apple&#39;s Health app?</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;When I checked the documentation for HealthKit […] I was disappointed to find out that Apple did not include anything related to menstruation and the reproductive health of roughly half of the world’s population.&lt;/p&gt;
+
+  &lt;p&gt;In case you’re wondering whether Health is only concerned with a few basics: Apple has predicted the need to input data about blood oxygen saturation, &lt;strong&gt;your daily molybdenum or pathogenic acid intake, cycling distance, number of times fallen and your electrodermal activity&lt;/strong&gt;, but nothing to do with recording information about your menstrual cycle.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 </description>
-        <pubDate>Mon, 09 Feb 2015 21:27:00 -0200</pubDate>
-        <link>/links/techs-high-barrier-to-entry-for-the-underpriviledged</link>
-        <guid isPermaLink="true">/links/techs-high-barrier-to-entry-for-the-underpriviledged</guid>
+        <pubDate>Mon, 23 Mar 2015 09:20:00 -0300</pubDate>
+        <link>/links/why-cant-you-track-periods-in-apples-health-app</link>
+        <guid isPermaLink="true">/links/why-cant-you-track-periods-in-apples-health-app</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>The Legion of Real Life Supervillains by Butcher Billy</title>
+        <description>&lt;p&gt;These are all incredible, but Zuckerberg Loki takes the cake.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 23 Mar 2015 09:10:00 -0300</pubDate>
+        <link>/links/the-legion-of-real-life-supervillains-by-butcher-billy</link>
+        <guid isPermaLink="true">/links/the-legion-of-real-life-supervillains-by-butcher-billy</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Mobile UI Inspiration</title>
+        <description>&lt;p&gt;Great places to see what’s going on in mobile app design.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://beta.pttrns.com/&quot;&gt;Pttrns&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://capptivate.co/&quot;&gt;CAPPTIVATE.co&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uigifs.com&quot;&gt;UI Gifs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://androidniceties.tumblr.com&quot;&gt;Android Niceties&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.materialup.com&quot;&gt;Material Up&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://littlebigdetails.com&quot;&gt;Little Big Details&lt;/a&gt; — Covers much more than app design, but couldn’t leave it out.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 23 Mar 2015 09:00:00 -0300</pubDate>
+        <link>/links/mobile-ui-inspiration</link>
+        <guid isPermaLink="true">/links/mobile-ui-inspiration</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>The Web&#39;s Grain — Frank Chimero</title>
+        <description>&lt;p&gt;If you do things for the web, this will be a beautiful and eye-opening read.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 Mar 2015 09:40:00 -0300</pubDate>
+        <link>/links/the-webs-grain</link>
+        <guid isPermaLink="true">/links/the-webs-grain</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>In other news...</title>
+        <description>&lt;p&gt;Apple releases their much expected Watch and… a gold Macbook? Nice.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 Mar 2015 09:30:00 -0300</pubDate>
+        <link>/links/in-other-news</link>
+        <guid isPermaLink="true">/links/in-other-news</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Why Buzzfeed is The Most Important News Organization in the World</title>
+        <description>&lt;p&gt;I know I’ve been heavy on the &lt;em&gt;Buzzfeed&lt;/em&gt; bandwagon lately, but Ben Thompson’s analysis is too good an opportunity to pass up. Seriously, &lt;a href=&quot;https://twitter.com/monkbent&quot;&gt;follow this guy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This small tidbit serves as the perfect example to his argument — overheard at a recent New York Times editorial meeting:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[…] When the conversation turns to a vivid story from Liberia, where Ebola has overtaken a particular neighborhood in Monrovia, one editor proudly reports that she believes the Times is the only outlet with a reporter on the ground, which makes everyone happy until another editor says, “I think BuzzFeed actually has somebody there.” There is momentary silence.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 10 Mar 2015 09:20:00 -0300</pubDate>
+        <link>/links/why-buzzfeed-is-the-most-important-news-organization-in-the-world</link>
+        <guid isPermaLink="true">/links/why-buzzfeed-is-the-most-important-news-organization-in-the-world</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Marissa Mayer is turning Yahoo back on its feet</title>
+        <description>&lt;p&gt;On Yahoo’s 20th birthday, a short history of the fall of the internet giant and how its CEO Marissa Mayer is making it climb the mountain once again.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Mar 2015 09:10:00 -0300</pubDate>
+        <link>/links/marissa-mayer-is-turning-yahoo-back-on-its-feet</link>
+        <guid isPermaLink="true">/links/marissa-mayer-is-turning-yahoo-back-on-its-feet</guid>
         
         
         <category>links</category>

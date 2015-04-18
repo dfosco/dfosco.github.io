@@ -6,7 +6,6 @@ category: links
 title: Boston Dynamics shows off new robot dog, dooms us all by kicking it
 source: http://thenextweb.com/insider/2015/02/09/boston-dynamics-shows-off-new-robot-dog-dooms-us-kicking
 
-image: 1
 image-name: boston-dynamics-shows-off-new-robot-dog-dooms-us-all-by-kicking-it.gif
 image-alt: Stop kicking the robot!!!
 ---

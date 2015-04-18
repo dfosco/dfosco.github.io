@@ -6,7 +6,6 @@ category: links
 title:  Drunk Mountain Gorilla Punches Photographer
 source: http://www.catersnews.com/stories/animals/go-ape-unlucky-photographer-gets-punched-by-lairy-gorilla-drunk-from-eating-bamboo-shoots
 
-image: 1
 image-name: drunk-mountain-gorilla-punches-photographer.jpg
 image-alt: "A gorilla getting ready to take a swing at the photographer"
 ---

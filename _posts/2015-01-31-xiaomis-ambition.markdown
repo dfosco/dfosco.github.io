@@ -6,8 +6,7 @@ category: links
 title:  Xiaomi's Ambition
 source: http://stratechery.com/2015/xiaomis-ambition/
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

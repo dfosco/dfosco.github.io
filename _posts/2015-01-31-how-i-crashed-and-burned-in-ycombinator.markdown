@@ -6,8 +6,7 @@ category: links
 title:  How I Crashed and Burned in YCombinator
 source: https://medium.com/backchannel/how-i-f-ed-up-in-ycombinator-35a19e7ace68
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

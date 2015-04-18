@@ -6,8 +6,7 @@ category: links
 title:  BitTorrent Wants to Change the Way the Web is Built
 source: http://www.theverge.com/2014/12/10/7361603/bittorrenet-wants-to-change-the-way-the-web-is-built
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

@@ -6,7 +6,6 @@ category: links
 title:  The Ultimate Guide To iPhone Resolutions
 source: http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 
-image: 1
 image-name: the-ultimate-guide-to-iphone-resolutions.png
 image-alt: A peek at The Ultimate Guide to iPhone Resolutions
 ---

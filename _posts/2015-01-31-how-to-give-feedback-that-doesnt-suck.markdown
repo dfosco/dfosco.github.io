@@ -6,8 +6,7 @@ category: links
 title:  How to Give Feedback that Doesn’t Suck
 source: http://www.benedikt-lehnert.de/blog/how-to-give-feedback-that-doesnt-suck
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

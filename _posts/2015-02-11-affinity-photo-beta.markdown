@@ -6,8 +6,7 @@ category: links
 title: Affinity Photo Beta
 source: https://affinity.serif.com/en-gb/photo
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

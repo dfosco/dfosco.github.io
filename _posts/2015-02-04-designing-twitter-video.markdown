@@ -6,8 +6,7 @@ category: links
 title:  Designing Twitter Video
 source: http://paulstamatiou.com/twitter-video/
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

@@ -6,8 +6,7 @@ category: links
 title:  "The Everything Book: Reading in the Age of Amazon"
 source: http://www.theverge.com/2014/12/17/7396525/amazon-kindle-design-lab-audible-hachette
 
-image:
-image-name: 
+image-name: none 
 image-alt:
 ---
 

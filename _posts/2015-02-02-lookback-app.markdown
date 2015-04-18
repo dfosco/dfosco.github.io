@@ -6,8 +6,7 @@ category: links
 title:  Lookback — Record user feedback right through your iPhone
 source: https://lookback.io
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

@@ -6,8 +6,7 @@ category: links
 title: "Favicons, Touch Icons, Tile Icons, etc. What All Do You Need?"
 source: http://css-tricks.com/favicon-quiz/
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

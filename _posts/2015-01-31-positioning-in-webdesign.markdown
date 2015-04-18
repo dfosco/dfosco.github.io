@@ -6,8 +6,7 @@ category: links
 title:  Positioning in Web Design
 source: http://blog.froont.com/positioning-in-web-design/
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

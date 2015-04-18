@@ -6,8 +6,7 @@ category: links
 title:  Fear of Writing
 source: http://williamthomas.io/fear-of-writing
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

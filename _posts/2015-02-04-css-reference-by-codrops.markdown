@@ -6,7 +6,6 @@ category: links
 title:  CSS Reference by Codrops
 source: http://tympanus.net/codrops/css_reference
 
-image: 1
 image-name: css-reference-by-codrops.png
 image-alt: CSS Reference
 ---

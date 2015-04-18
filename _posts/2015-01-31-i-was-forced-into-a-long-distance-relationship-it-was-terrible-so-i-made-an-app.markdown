@@ -7,8 +7,7 @@ title:  I was forced into a long distance relationship and it was terrible so I 
 
 source: https://medium.com/@jeremysomething/i-was-forced-into-a-long-distance-relationship-it-was-terrible-so-i-made-an-app-to-make-it-less-so-e030466fad1
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

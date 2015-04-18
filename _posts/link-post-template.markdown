@@ -1,15 +1,11 @@
+
 layout: link.post
-date:   2015-03-23
+date:   2015-01-01 00:00:00
 category: links
-title:  link title
-source: link source
-image: boolean
-image-name: filename.ext
-image-alt: a sensible alt text
-published: no
 
+title:  
+source: 
+
+image-name: none 
+image-alt:
 ---
-
-
-
-

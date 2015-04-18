@@ -6,8 +6,7 @@ category: links
 title: Coding Resources
 source: 
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

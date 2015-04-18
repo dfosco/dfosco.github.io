@@ -6,8 +6,7 @@ category: links
 title:  Steve Ballmer Laughs at the iPhone (2007)
 source: https://www.youtube.com/watch?v=eywi0h_Y5_U
 
-image: 0
-image-name: 
+image-name: none
 image-alt: 
 ---
 

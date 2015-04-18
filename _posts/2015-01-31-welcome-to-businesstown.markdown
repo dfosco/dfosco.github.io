@@ -6,8 +6,7 @@ category: links
 title:  Welcome to Business Town
 source: http://welcometobusinesstown.tumblr.com
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

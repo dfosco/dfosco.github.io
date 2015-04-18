@@ -6,8 +6,7 @@ category: links
 title:  Fuck You, Pay Me
 source: https://vimeo.com/22053820
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

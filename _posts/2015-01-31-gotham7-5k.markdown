@@ -6,7 +6,6 @@ category: links
 title:  Gotham 7.5k
 source: https://www.storehouse.co/stories/r3rcy-gotham-7-5k
 
-image: 1
 image-name: gotham-75k.jpg
 image-alt: NYC from 7.5 thousand feet
 ---

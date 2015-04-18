@@ -6,8 +6,7 @@ category: links
 title:  We are Five Years Old. Here's what we learnt.
 source: http://madebymany.com/blog/we-are-five-years-old-here-is-what-we-learnt
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 

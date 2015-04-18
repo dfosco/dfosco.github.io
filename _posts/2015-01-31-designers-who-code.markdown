@@ -6,8 +6,7 @@ category: links
 title:  Designers Who Code
 source: http://sonspring.com/journal/designers-who-code
 
-image: 0
-image-name: 
+image-name: none 
 image-alt:
 ---
 
