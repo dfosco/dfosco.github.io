@@ -50,15 +50,17 @@ layout: default
   {% endfor %}
 
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
+  <ul>
+    {% if paginator.previous_page %}
+    <li class="page-prev previous">
+      <a href="{{ paginator.previous_page_path }}">Previous</a>
+    </li>
+    {% else %}
+    {% endif %}
+    
+    {% if paginator.next_page %}
+    <li class="page-next next"><a href="{{ paginator.next_page_path }}">Next</a></li>
+    {% else %}
+    {% endif %}
+  </ul>
 </div>
