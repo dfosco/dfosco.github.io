@@ -89,13 +89,43 @@ aside.sidebar {
   @include media($medium-screen-up) {
     @include span-columns(5.5 of 16);
   }
+}
 
-  .sidebar__box {
-    background: $half-base;
-    margin-top: 1em;
-    margin-bottom: 1.5em;
+.sidebar__box {
+  background: $quarter-base;
+  border-radius: 5px;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+
+}
+
+.sidebar__inner {
+  @include outer-container;
+  padding: 1.5em;
+
+  h2 {
+    font-size: $h5-font-size;
+    margin-bottom: 1em; 
+  }
+
+  p {
+    text-align: left;
+  }
+
+  form {
+    @include span-columns(12 of 12);
+    display: inline-block;
+  }
+  
+  .input, button {
+    @include span-columns(12 of 12);
+  }
+
+  input + input {
+    margin-top: -0.5em;
   }
 }
+
 
 .footer {
   ///////////////////////////////////////////////////////////////////////////////////

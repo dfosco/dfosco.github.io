@@ -18,7 +18,7 @@
 // Form Button
 // ------------------------------------------------------------------------
 
-  @mixin form-keepin($input-width, $button-width){
+/*  @mixin form-keepin($input-width, $button-width){
 
 	  button {
 	  	@include shift( ($cta-width - $button-width + 1)/2 );
@@ -42,6 +42,7 @@
 		  }
 	  }
 }
+*/
 
 // Mobile Hidden
 // ------------------------------------------------------------------------
@@ -51,5 +52,13 @@
 
 	@include media($medium-screen, $large-screen) {
 		display: inline;
+	}
+}
+
+.desktop-hide {
+	display: inline;
+
+	@include media($medium-screen, $large-screen) {
+		display: none;
 	}
 }

@@ -8,18 +8,14 @@
   <div id="viewport" class="container">
 
     {% include header.html %}
-      
+    
+    {% include sidebar-mobile.html %}
+
       <section class="link-list">
         {{ content }}
       </section>
-
-      <aside class="sidebar">
-        <div class="sidebar__box">
-          {% include sidebar.html %}
-        </div>
-      </aside>
-    
-    
+      
+    {% include sidebar-desktop.html %}
   
   </div>
 

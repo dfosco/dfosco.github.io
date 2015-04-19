@@ -33,7 +33,6 @@
 .hero-inner {
   @include omega;
   @include clearfix;
-  color: $darker-gray;
   margin: auto;
   padding: 3.5em;
   text-align: center;
@@ -53,25 +52,15 @@
         color: darken($dark-gray, 10%)
       }
     }
-    
-    
-  }
-
-  h5 {
-    color: $dark-gray;
-    margin-bottom: 1em;
   }
 
   h2 {
-  color: $dark-gray;
-  font-size: $h4-font-size;
-  font-weight: 300;
-  line-height: 1.4em;
-  margin: 0 auto 0 auto; 
+    color: $dark-gray;
+    font-size: $h5-font-size;
   }
 
-
   .hero-list { 
+    margin-top: 1em;
     margin-bottom: 0.5em;
 
     li {
@@ -113,4 +102,7 @@
         }
       }
     }
+
+//
+
 }
