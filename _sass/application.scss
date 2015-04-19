@@ -19,6 +19,6 @@ $img-url: "/images";
 // Include Custom Elements
 // ------------------------------------------------------------------------
 
-@import "custom/main-layout";
-@import "custom/components";
 @import "custom/toolbox";
+@import "custom/components-dir";
+@import "custom/main-layout";

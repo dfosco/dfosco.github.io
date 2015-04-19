@@ -1,30 +1,3 @@
-@import "toolbox.scss";
-
-// Components
-// ------------------------------------------------------------------------
-
-
-// CTA
-// ------------------------------------------------------------------------
-
-$cta-width: 10;
-$total-width: 10;
-        
-.cta {
-  @include span-columns($cta-width of $total-width);
-  @include shift(($total-width - $cta-width)/ 2 );
-  @include margin(1.5em null null null);
-  text-align: center;
-
-  p {
-    font-weight: 400;
-  }
-}
-
-@include form-keepin(8, 6.5);
-@include media($medium-screen) { @include form-keepin(4, 3) }
-@include media($large-screen) { @include form-keepin(3, 2) }
-
 // Hero Variables
 // ------------------------------------------------------------------------
 
