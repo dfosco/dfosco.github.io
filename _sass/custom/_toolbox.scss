@@ -48,17 +48,22 @@
 // ------------------------------------------------------------------------
 
 .mobile-hide {
-	display: none;
 
+	@include media($small-screen) {
+	display: none !important;
+}
 	@include media($medium-screen, $large-screen) {
 		display: inline;
 	}
 }
 
 .desktop-hide {
+
+@include media($small-screen) {
 	display: inline;
+}
 
 	@include media($medium-screen, $large-screen) {
-		display: none;
+		display: none !important;
 	}
 }
