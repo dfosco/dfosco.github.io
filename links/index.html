@@ -2,9 +2,19 @@
 layout: default
 ---
 
-
   {% for post in paginator.posts %}
+    
     {% if post.category == "links" %}
+
+    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+    {% capture next_month %}{{ post.next.date | date: "%B" }}{% endcapture %}
+    
+      {% if this_month == next_month %}
+      {% else %}
+        <div class="link-section-title">
+          <h2>{{ post.date | date: "%B" }}</h2>
+        </div>
+      {% endif %}
 
         <article class="link-box">
           <div class="link-box__inner">
@@ -23,7 +33,7 @@ layout: default
                 </a>
               </div>
         
-        {% endif %}
+    {% endif %}
 
               {% if post.source == null %}
               <a href="{{ post.url }}" target="_blank"><h3 class="link-box__title">{{ post.title }}</h3></a>
@@ -45,7 +55,7 @@ layout: default
               </a>
             </div>
         </article>
-    {% else %}
+
     {% endif %}
   {% endfor %}
 
