@@ -1,5 +1,12 @@
-//General
-$img-url: "../../images";
+/* --- --- --- --- --- --- --- */
+// Collections Theme Variables
+/* --- --- --- --- --- --- --- */
+
+@import "../../_vendor/bourbon/app/assets/stylesheets/bourbon";
+@import "../../_base/base";
+@import "../../_vendor/neat/app/assets/stylesheets/neat";
+@import "../../_vendor/twemoji-awesome/twemoji-awesome";
+
 
 // Typography
 $sans-serif: $helvetica;
@@ -31,42 +38,27 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
-//User Colors
-$blackish: #5C5C59;
-$darker-gray: #5C5C59;
-$dark-gray: #757473;
-$medium-gray: #cccbc8;
-$light-gray: #f5f2eb;
-
-/* ------------------------------------- */
-//Link Variables
-$quarter-base: #F5E8C7;
-$half-base: #f5da9d;
-$base: #fbc751;
-$strong-base: #f09a36;
-
-$half-accent: #e1796d;
-$accent: #cc514e;
-$strong-accent: #cc3b38;
+//$dark-gray: #757473;
+$medium-gray: #727272;
+$light-gray: #b6b6b6;
+$quarter-base: #EEEBF5;
+$half-base: #a16de1;
+$base: #673ab7;
+$strong-base: #512da8;
+$accent: #607d8b;
 
 // Background Color
-$base-background-color: $light-gray;
+$base-background-color: $quarter-base;
 
 // Font Colors
 $base-font-color: $dark-gray;
 $base-accent-color: $accent;
 
 // Link Colors
-$base-link-color: $half-accent;
+$base-link-color: lighten($accent, 20%);
 $hover-link-color: $accent;
 $base-button-color: $base-link-color;
 $hover-button-color: $hover-link-color;
-
-// Flash Colors
-$alert-color: $light-yellow;
-$error-color: $light-red;
-$notice-color: lighten($base-accent-color, 40);
-$success-color: $light-green;
 
 // Border color
 $base-border-color: $light-gray;
@@ -76,8 +68,12 @@ $base-border: 1px solid $base-border-color;
 $form-border-color: $base-border-color;
 $form-border-color-hover: darken($base-border-color, 10);
 $form-border-color-focus: $base-accent-color;
-$form-border-radius: $base-border-radius;
-$form-box-shadow: inset 0 1px 3px rgba(black,0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
-$form-font-size: $base-font-size;
-$form-font-family: $base-font-family;
+//$form-border-radius: $base-border-radius;
+//$form-box-shadow: inset 0 1px 3px rgba(black,0.06);
+//$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+//$form-font-size: $base-font-size;
+//$form-font-family: $base-font-family;
+
+/* --- --- --- --- --- --- --- */
+@import '../../application';
+/* --- --- --- --- --- --- --- */

@@ -16,9 +16,12 @@ author:
 # Build settings
 markdown: kramdown
 connection: online
-
 sass:
     style: :compressed
-
 paginate: 10
 paginate_path: "/links/page:num/"
+
+# Collection settings
+collections:
+  collections:
+    output: true
