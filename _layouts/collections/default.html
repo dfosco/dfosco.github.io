@@ -8,23 +8,16 @@
   <div id="viewport" class="container">
 
     {% include collections/header.html %}
-    
-    {% comment %}
-    {% include collections/sidebar-mobile.html %}
-    {% endcomment %}
-
-      <section class="content">
-        {{ content }}
-      </section>
-      
-    {% comment %}
-    {% include collections/sidebar-desktop.html %}
-    {% endcomment %}
-
-  </div>
-
-  {% include collections/footer.html %}
   
+    
+    <section class="contentx">
+      {{ content }}
+    </section>
+
+
+    {% include collections/footer.html %}
+  
+  </div>
   </body>
 
 </html>
