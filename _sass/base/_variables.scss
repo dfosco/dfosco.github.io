@@ -25,12 +25,6 @@ $base-border-radius: 3px;
 $base-spacing: $base-line-height * 1em;
 $base-z-index: 0;
 
-// Default Colors
-$blue: #477DCA;
-$light-red: #FBE3E4;
-$light-yellow: #FFF6BF;
-$light-green: #E6EFC2;
-
 //User Colors
 $blackish: #5C5C59;
 $darker-gray: #5C5C59;
@@ -38,6 +32,8 @@ $dark-gray: #757473;
 $medium-gray: #cccbc8;
 $light-gray: #f5f2eb;
 
+/* ------------------------------------- */
+//Link Variables
 $quarter-base: #F5E8C7;
 $half-base: #f5da9d;
 $base: #fbc751;

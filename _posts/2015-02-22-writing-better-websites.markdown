@@ -1,5 +1,5 @@
 ---
-layout: link.post
+layout: links/post
 date:   2015-02-22 15:52:10
 category: links
 

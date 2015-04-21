@@ -22,3 +22,7 @@ $img-url: "/images";
 @import "custom/toolbox";
 @import "custom/components-dir";
 @import "custom/main-layout";
+
+// Pesticide Debug
+// ------------------------------------------------------------------------
+@include pesticide(false);
