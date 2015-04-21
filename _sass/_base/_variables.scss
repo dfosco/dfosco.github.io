@@ -57,6 +57,12 @@ $hover-link-color: $accent !default;
 $base-button-color: $base-link-color !default;
 $hover-button-color: $hover-link-color !default;
 
+// Footer Colors
+$footer-background: desaturate($strong-base, 20%);
+$footer-color: $dark-gray;
+$footer-link-color: transparentize($footer-color, 0.4);
+$footer-disclaimer-color: transparentize($light-gray, 0.4);
+
 // Flash Colors
 $alert-color: $light-yellow !default;
 $error-color: $light-red !default;

@@ -5,7 +5,6 @@
 @import "../../_vendor/bourbon/app/assets/stylesheets/bourbon";
 @import "../../_base/base";
 @import "../../_vendor/neat/app/assets/stylesheets/neat";
-@import "../../_vendor/twemoji-awesome/twemoji-awesome";
 
 
 // Typography
@@ -60,6 +59,12 @@ $hover-link-color: $accent;
 $base-button-color: $base-link-color;
 $hover-button-color: $hover-link-color;
 
+//Footer Colors
+$footer-background: desaturate($strong-base, 20%);
+$footer-color: $quarter-base;
+$footer-link-color: transparentize($footer-color, 0.4);
+$footer-disclaimer-color: transparentize($quarter-base, 0.4);
+
 // Border color
 $base-border-color: $quarter-base;
 $base-border: 1px solid $base-border-color;
@@ -73,7 +78,3 @@ $form-border-color-focus: $base-accent-color;
 //$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
 //$form-font-size: $base-font-size;
 //$form-font-family: $base-font-family;
-
-/* --- --- --- --- --- --- --- */
-@import '../../application';
-/* --- --- --- --- --- --- --- */
