@@ -78,25 +78,35 @@ section.content {
     //@include span-columns(9.5 of 10);
   }
 
-  margin-bottom: 1.5em;
-
   h5 {
     @include margin(2em null 1em null);
   }
+
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  
+
+
 }
 
 aside.sidebar {
   @include media($medium-screen-up) {
     @include span-columns(5.5 of 16);
   }
+
+  margin-top: 4.5em;
+  margin-bottom: 1.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+
+
 }
 
 .sidebar__box {
   background: $quarter-base;
   border-radius: 5px;
-  margin-top: 4.5em;
-  margin-bottom: 1.5em;
-
 }
 
 .sidebar__inner {

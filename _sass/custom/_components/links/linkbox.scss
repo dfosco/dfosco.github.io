@@ -1,6 +1,6 @@
 .link-section-title {
-  @include margin(2em null null 0.5em);
-  h2 { font-size: $h5-font-size; }
+  margin-top: 1em;
+  h3 { font-size: $h5-font-size; }
 }
 
 .link-box {
@@ -12,7 +12,6 @@
   background: darken($light-gray, 4%);
   padding: 0.5em;
   }
-  
 
   background: darken($light-gray, 4%);
   padding: 0.5em 0.5em 1.5em 0.5em;
