@@ -4,20 +4,21 @@
   {% include head.html %}
 
   <body>
-
-  <div id="viewport" class="container">
-
-    {% include collections/header.html %}
-  
+    <div id="viewport" class="container">
+      
+      {% include collections/header.html %}
     
-    <section class="content--full">
-      {{ content }}
-    </section>
+      <div class="wrapper">
 
+        <section class="content--full">
+          {{ content }}
+        </section>
+      
+      </div>
 
-    {% include collections/footer.html %}
-  
-  </div>
+      {% include collections/footer.html %}
+    
+    </div>
   </body>
 
 </html>

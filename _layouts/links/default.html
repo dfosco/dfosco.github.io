@@ -8,15 +8,19 @@
   <div id="viewport" class="container">
 
     {% include links/header.html %}
-    
-    {% include links/sidebar-mobile.html %}
 
-      <section class="content--regular">
-        {{ content }}
-      </section>
+    <div class="wrapper">
+    
+      {% include links/sidebar-mobile.html %}
+
+        <section class="content--regular">
+          {{ content }}
+        </section>
+        
+      {% include links/sidebar-desktop.html %}
       
-    {% include links/sidebar-desktop.html %}
-  
+    </div>
+
   </div>
 
   {% include links/footer.html %}
