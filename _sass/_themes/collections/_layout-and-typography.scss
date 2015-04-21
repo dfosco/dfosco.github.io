@@ -13,6 +13,23 @@ body {
   }
 }
 
+.herox {
+
+  @include span-columns(16 of 16);
+  @include linear-gradient(90deg, #6441A5 10%, #2a0845 90%);
+  
+  .hero-copy {
+    color: $quarter-base;
+    a { color: $quarter-base };
+    a:hover { color: darken($quarter-base, 20%); }
+  }
+  
+  button {
+    background-color: $base-accent-color;
+    padding: 0.7em 1em;
+  }
+}
+
 section.contentx {
   @include span-columns(12 of 16);
   @include shift(2);
@@ -32,6 +49,20 @@ section.contentx {
   padding-right: 0.5em;
 }
 
+.footer {
+  p {
+    color: $quarter-base;
+  }
+  
+hr {
+  border-bottom: $base-border;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: $base-spacing 0;
+}
+
+}
 
 
 .cards {

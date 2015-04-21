@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="369px" height="424px" viewBox="0 0 369 424" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.822890094   0 0 0 0 0.810426932   0 0 0 0 0.781346222  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="4" in="SourceAlpha" operator="dilate" result="shadowSpreadInner1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadInner1" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.301960784   0 0 0 0 0.188235294   0 0 0 0 0.670588235  0 0 0 0.42 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.392156863   0 0 0 0 0.239215686   0 0 0 0 0.729411765  0 0 0 0.273 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logos_collections" transform="translate(-29.000000, 0.000000)">
+            <g id="logo_collections" transform="translate(15.000000, 0.015625)">
+                <g id="bg">
+                    <path d="M192.289415,0.649035324 C215.806934,0.649035324 347.764726,77.7683245 362.648822,103.785748 C377.532918,129.803171 374.742361,284.471132 362.648822,310.059172 C350.555284,335.647212 217.298265,413.195885 192.289415,413.195885 C167.280566,413.195885 33.5865569,330.059934 21.9300082,310.059172 C10.2734596,290.058411 13.6605507,128.000823 21.9300082,103.785748 C30.1994658,79.5706725 168.771896,0.649035324 192.289415,0.649035324 Z" id="base" fill="#F5F2EB" filter="url(#filter-1)"></path>
+                    <g id="inner" transform="translate(39.565230, 29.235508)">
+                        <path d="M153.835251,0.023541903 C174.090902,0.023541903 287.746218,66.4464266 300.565898,88.8552469 C313.385578,111.264067 310.982069,244.479664 300.565898,266.518657 C290.149727,288.55765 175.375386,355.350362 153.835251,355.350362 C132.295115,355.350362 17.1443947,283.745323 7.10460312,266.518657 C-2.93518843,249.29199 -0.017885044,109.711704 7.10460312,88.8552469 C14.2270913,67.9987899 133.579599,0.023541903 153.835251,0.023541903 Z" id="inner_bg" fill="#9F6FE4" filter="url(#filter-2)"></path>
+                        <path d="M153.031474,28.3737802 C170.054875,28.3737802 265.5739,84.1973827 276.347909,103.030366 C287.121917,121.863349 285.101943,233.821368 276.347909,252.343538 C267.593875,270.865708 171.13439,327.000124 153.031474,327.000124 C134.928557,327.000124 38.1527529,266.821298 29.7150385,252.343538 C21.277324,237.865778 23.7291053,120.558701 29.7150385,103.030366 C35.7009716,85.5020311 136.008072,28.3737802 153.031474,28.3737802 Z" id="inner_front" fill="#DCC8F4"></path>
+                    </g>
+                </g>
+                <path d="M250.110017,151.758265 C272.375169,147.626725 288.119033,149.361571 291.41151,157.945546 C297.532608,173.930191 272.20236,201.005814 203.951666,232.804628 C140.421402,262.407308 100.429624,265.766691 94.2994313,249.782046 C90.8887157,240.877175 100.011243,227.259139 118.993013,212.166987 C121.394156,210.261665 124.777586,211.846091 125.214158,215.075109 L125.705301,218.735332 C126.014539,221.01169 125.132301,223.27802 123.440586,224.631801 C111.025581,234.569557 104.758959,242.16076 105.650293,244.487257 C107.387484,248.999861 143.204546,247.154708 199.41314,220.96155 C259.79645,192.832987 282.079792,168.515067 280.533601,164.483807 C279.660458,162.20745 270.028597,161.986833 255.3034,164.503863 C253.266066,164.854844 251.210542,163.952323 249.973589,162.137253 L247.608826,158.687619 C245.826159,156.080336 247.18135,152.299777 250.110017,151.758265 L250.110017,151.758265 Z M245.053063,184.720328 C247.627016,183.015567 248.572922,179.405484 247.21773,176.457249 C231.728534,142.92359 198.84014,130.157935 169.789938,143.695746 C140.739736,157.233557 125.978158,191.840214 136.910639,227.178915 C137.865639,230.27757 140.821593,232.042499 143.704784,231.260315 C156.183456,227.890904 173.846415,221.994435 195.865996,211.725754 C217.294385,201.747886 233.347487,192.502063 245.053063,184.720328 L245.053063,184.720328 Z M207.489715,242.050451 C193.119233,248.739133 179.558227,254.274594 167.07046,258.576609 C164.787555,259.358794 164.523793,262.818457 166.67027,263.991734 C181.741085,272.154532 199.822426,273.347865 216.503099,265.576159 C233.083725,257.854593 244.862063,242.872748 250.110017,225.403958 C250.855827,222.896956 248.445588,220.680766 246.335492,221.914211 C235.030107,228.532696 222.069387,235.251462 207.489715,242.050451 L207.489715,242.050451 Z" id="mark" fill="#643DBA" filter="url(#filter-3)" transform="translate(192.945551, 204.588134) rotate(32.000000) translate(-192.945551, -204.588134) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
