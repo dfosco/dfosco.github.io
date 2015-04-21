@@ -16,3 +16,4 @@ image-alt:
 >
 >“See with one eye, feel with the other.” —Paul Klee
 
+A great read on the nature of design, from the folks over at IA.net
