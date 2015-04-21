@@ -40,22 +40,32 @@ body {
 }
 
 .content--regular {
-    @extend .content;
+  @extend .content;
 
-    @include media($medium-screen, $large-screen) {
-    @include span-columns(10 of 16);
-    @include shift(0.25); 
+  @include media($medium-screen, $large-screen) {
+  @include span-columns(10 of 16);
+  @include shift(0.25); 
+  }
+
+  &, .content--post {
+    margin-bottom: 6em;
   }
 }
 
 .content--full {
-    @extend .content;
+  @extend .content;
 
-    @include media($medium-screen, $large-screen) {
-    @include span-columns(14 of 16);
-    @include shift(1);
+  @include media($medium-screen, $large-screen) {
+  @include span-columns(14 of 16);
+  @include shift(1);
+  }
+
+  &, .content--post {
+    margin-bottom: 6em;
   }
 }
+
+
 
 // ------------------------------------------------------------------------
 

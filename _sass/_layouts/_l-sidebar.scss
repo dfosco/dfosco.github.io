@@ -1,4 +1,4 @@
-aside.sidebar {
+.sidebar {
   @include media($medium-screen-up) {
     @include span-columns(5.5 of 16);
   }
@@ -7,8 +7,11 @@ aside.sidebar {
   margin-bottom: 1.5em;
   padding-left: 0.5em;
   padding-right: 0.5em;
+}
 
-
+.sidebar--post {
+  @extend .sidebar;
+  margin-top: 2em;
 }
 
 .sidebar__box {
@@ -20,9 +23,8 @@ aside.sidebar {
   @include outer-container;
   padding: 1.5em;
 
-  h2 {
-    font-size: $h5-font-size;
-    margin-bottom: 1em; 
+  h5 {
+    margin-bottom: 1em;
   }
 
   p {

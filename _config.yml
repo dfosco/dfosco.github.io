@@ -1,11 +1,9 @@
 # Site settings
 title: Daniel Fosco
 email: danielfosco@gmail.com
-description: "The Link List"
+description: "The website of Daniel Fosco"
 baseurl: "http://dfosco.github.io"
-permalink: /:categories/:title
 
-gems: [jekyll-paginate]
 
 # Author settings
 author:
@@ -14,10 +12,13 @@ author:
  github_username:  dfosco
 
 # Build settings
+gems: [jekyll-paginate]
 markdown: kramdown
 connection: online
 sass:
     style: :compressed
+
+permalink: /:categories/:title
 paginate: 10
 paginate_path: "/links/page:num/"
 

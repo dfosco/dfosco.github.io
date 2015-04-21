@@ -1,3 +1,7 @@
+---
+section: The Link List
+---
+
 <!DOCTYPE html>
 <html>
 
@@ -8,48 +12,47 @@
   <div id="viewport" class="container">
 
     {% include links/header.html %}
-      
-      <section class="content">
-        
-        <article class="link-box">
-          <div class="link-box__inner">
+      <div class="wrapper">
+
+        <section class="content--regular content--post">
+          <article class="link-box">
+            <div class="link-box__inner">
+              
+            {% if page.image-name == "none" %}
+            {% else %}
             
-          {% if page.image-name == "none" %}
-          {% else %}
-          
-            <div class="link-box__img">
+              <div class="link-box__img">
+                {% if page.source == null %}
+                <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
+                {% else %}
+                <a href="{{ page.source }}" target="_blank">
+                <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
+                </a>
+                {% endif %}
+              </div>
+            
+            {% endif %}
+              
               {% if page.source == null %}
-              <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
+              <h3 class="link-box__title">{{ page.title }}</h3>
               {% else %}
               <a href="{{ page.source }}" target="_blank">
-              <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
+              <h3 class="link-box__title">{{ page.title }}</h3>
               </a>
               {% endif %}
-            </div>
-          
-          {% endif %}
-            
-            {% if page.source == null %}
-            <h3 class="link-box__title">{{ page.title }}</h3>
-            {% else %}
-            <a href="{{ page.source }}" target="_blank">
-            <h3 class="link-box__title">{{ page.title }}</h3>
-            </a>
-            {% endif %}
-            
 
-            <div>
-              {{ content }}
-            </div>
-            
-            
-          </div>
-      </article> 
+              <div>
+                {{ content }}
+              </div>
 
-      </section>
-    
-    
-  
+            </div>
+
+         </article> 
+        </section>
+
+              {% include links/sidebar-desktop.html %}
+      
+      </div>
   </div>
 
   {% include links/footer.html %}

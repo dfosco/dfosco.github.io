@@ -1,4 +1,10 @@
-<aside class="sidebar mobile-hide">
+{% if page.layout == "links/post" %}
+	{% assign sidebar_type = "--post" %}
+{% else %}
+	{% assign sidebar_type = "" %}
+{% endif %}
+
+<aside class="sidebar{{ sidebar_type }} mobile-hide">
 	<div class="sidebar__box">
 	    <div class="sidebar__inner">
 			
