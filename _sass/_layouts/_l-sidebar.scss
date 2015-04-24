@@ -41,6 +41,11 @@
     @include span-columns(12 of 12);
   }
 
+  input {
+    font-size: 0.95em;
+    box-shadow: none;
+  }
+
   input + input {
     margin-top: -0.5em;
   }

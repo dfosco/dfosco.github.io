@@ -1,0 +1,54 @@
+.collectionbox__outer {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+  @include align-items(center);
+
+}
+
+.collection-info {
+	@include margin(0.5em 12.8px null 12.8px);
+}
+
+.collectionbox {
+  @include display(flex);
+  @include flex-basis(15em);
+  @include flex-grow(1);
+  @include transition (all 0.2s ease-in-out);
+
+  background-color: gainsboro;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px darken(white, 10%);
+  cursor: pointer;
+  margin: 0.8em;
+  min-height: 130px;
+  position: relative;
+
+  .collectionbox__inner {
+    margin: auto; 
+    border-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 30px;
+    width: 100%;
+    height: 130px;
+    
+  }
+}
+
+//-------------------------------------------------
+//Color Randomizer
+//-------------------------------------------------
+
+$colors: red, orange, purple;
+$repeat: 20;  // How often you want the pattern to repeat.
+// Warning: a higher number outputs more CSS.
+
+@for $i from 1 through $repeat {
+    .card:nth-child(#{length($colors)}n+#{$i}) {
+        background: lighten(nth($colors, random(length($colors))), 30%);
+    }
+}
