@@ -2,29 +2,42 @@
   @include media($medium-screen-up) {
     @include span-columns(5.5 of 16);
   }
+}
 
-  margin-top: 4.5em;
-  margin-bottom: 1.5em;
+.sidebar__box--links {
+  @include margin(-2.5em 0.5em 1.5em 0.5em);
+
+  @include media($medium-screen, $large-screen) {
+    @include margin(4.5em 0.5em 1.5em 0.5em);
+  }
+  
+  background: $quarter-base;
+  border-radius: 5px;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
 
-.sidebar--post {
-  @extend .sidebar;
-  margin-top: 2em;
+.sidebar__box--links--post {
+  @extend .sidebar__box--links;
+  @include margin(2em null 1.5em null);  
+
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
-.sidebar__box {
-  background: $quarter-base;
-  border-radius: 5px;
+.sidebar__box--collection {
+  @extend .sidebar__box--links;
+  margin-top: 4.5em;
+  background: $strong-clear;
 }
 
 .sidebar__inner {
   @include outer-container;
   padding: 1.5em;
 
-  h5 {
+  h5 {  
     margin-bottom: 1em;
+    font-weight: 300;
   }
 
   p {
@@ -48,5 +61,22 @@
 
   input + input {
     margin-top: -0.5em;
+  }
+}
+
+.sidebar__box--links--cta {
+  @extend .sidebar__box--links;
+
+  margin-top: 1.5em;
+  background: $quarter-base;
+  border-radius: 5px;
+}
+
+.sidebar__inner--cta {
+  @extend .sidebar__inner;
+  padding: 1em 0.5em 0em 0.5em;
+
+  h5 {
+    //margin-bottom: 0;
   }
 }
