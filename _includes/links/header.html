@@ -8,9 +8,21 @@
         <img class="hero-logo" src="{{ site.baseurl }}/assets/images/interface/logo.svg?bust={{ site.time | date: '%s' }}" alt="Logo Image">
       </a>
       <div class="hero-copy">
+        
+        {% if page.layout contains "post" %}
+        <h2>
+        {% else %}
         <h1>
+        {% endif %}
+
           <a href="{{ site.baseurl }}">The Link List</a>
+
+        {% if page.layout contains "post" %}
+        </h2>
+        {% else %}
         </h1>
+        {% endif %}
+
         <ul class="hero-list">
             <li>Design</li>
             <li>Development</li>

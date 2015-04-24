@@ -14,19 +14,24 @@ section: Collections
     {% include collections/header.html %}
 
   <div class="wrapper">
-    <section class="content--full content--post">
+    <section class="content--regular content--post">
       
-      <div class="collection-info">
+      <div class="item-section-title">
         <h1>{{ page.title }}</h1>
         <p>{{ content }}</p>
       </div>
 
-      <div class="collectionbox__outer">
-        {% for collection_item in page.collection_items %}
-        <article class="collectionbox">
-          <a href="{{ collection_item.url }}" class="collectionbox__inner">
-            {{ collection_item.name }}
-          </a>
+      <div class="item-box__outer">
+        {% for item in site.items %}
+        <article class="item-box">
+          <div class="item-box__inner">
+            <a href="{{ item.url }}">
+              <h3 class="item-box__title">
+                {{ item.name }}
+              </h3>
+            </a>
+            <p>{{ item.description }}</p>
+          </div>
         </article>
         {% endfor %}
       </div>

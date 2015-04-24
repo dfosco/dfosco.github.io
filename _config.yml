@@ -18,11 +18,13 @@ connection: online
 sass:
     style: :compressed
 
-permalink: /:categories/:title
+permalink: "/:categories/:title"
 paginate: 10
 paginate_path: "/links/page:num/"
 
 # Collection settings
 collections:
+  items:
+    output: true
   collections:
     output: true

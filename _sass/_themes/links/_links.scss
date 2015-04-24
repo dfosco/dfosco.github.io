@@ -12,6 +12,7 @@
 @import "_variables";
 @import "_typography";
 
+
 // Layouts
 // ------------------------------------------------------------------------
 @import "../../_layouts/_l-default";
@@ -23,8 +24,8 @@
 // Modules
 // ------------------------------------------------------------------------
 @import "_modules/_m-hero-links.scss";
-@import "_modules/_m-linkbox.scss";
-@import "_modules/_m-toolbox.scss";
+@import "_modules/_m-link-box.scss";
+@import "_modules/_m-tool-box.scss";
 
 // Utilities
 // ------------------------------------------------------------------------

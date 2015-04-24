@@ -35,17 +35,28 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
-//$dark-gray: #757473;
+$dark-gray: #757473;
 $medium-gray: #727272;
 $light-gray: #b6b6b6;
+
+$clear: #EEEBF5;
+$upper-clear: #E2DDED;
+$strong-clear: #DCD5EB;
+$bold-clear: #DBC7F4;
+
 $quarter-base: #EEEBF5;
 $half-base: #a16de1;
 $base: #673ab7;
 $strong-base: #512da8;
-$accent: #607d8b;
+
+$half-accent: #726CE0;
+$accent: #5551A8;
+$strong-accent: #29274C;
 
 // Background Color
-$base-background-color: $quarter-base;
+$base-background-color: $clear;
+$box-background-color: $upper-clear;
+$box-background-hover: $strong-clear;
 
 // Font Colors
 $base-font-color: $dark-gray;

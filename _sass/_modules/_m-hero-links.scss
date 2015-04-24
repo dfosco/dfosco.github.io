@@ -41,7 +41,7 @@
 .hero-copy {
   text-align: center;
   
-  h1 {
+  h1, h2 {
     color: $dark-gray;
     margin-bottom: 0.1em;
 
@@ -53,6 +53,8 @@
       }
     }
   }
+
+  h2 { font-size: $h1-font-size; }
 
   .hero-list { 
     margin-top: 1em;

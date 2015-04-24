@@ -6,10 +6,6 @@
 
 }
 
-.collection-info {
-	@include margin(0.5em 12.8px null 12.8px);
-}
-
 .collectionbox {
   @include display(flex);
   @include flex-basis(15em);

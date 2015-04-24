@@ -1,0 +1,95 @@
+.link-section-title {
+  margin-top: 1em;
+  h3 { font-size: $h5-font-size; }
+}
+
+.link-box {
+  
+  @include margin(1em null 1.5em null);
+
+  @include media($medium-screen, $large-screen) { 
+  &:hover { background: darken($light-gray, 6%); }
+  background: darken($light-gray, 4%);
+  padding: 0.5em;
+  }
+
+  background: darken($light-gray, 4%);
+  padding: 0.5em 0.5em 1.5em 0.5em;
+}
+
+.link-box__inner {
+  padding: 0.75em;
+
+    blockquote {   
+      &.link-description {
+        @include margin(0.8em null)
+      }
+
+      @include media($medium-screen, $large-screen) { 
+        border-left: 2px solid darken($medium-gray, 8%);
+      }
+      
+      font-size: 0.95em;
+      border-left: 2px solid $light-gray;
+    }
+
+    span.quote {
+        font-size: 0.95em;
+        color: darken($medium-gray, 8%)
+    }
+}
+
+.link-box__title {
+  margin-bottom: 0.5em;
+  font-size: $h5-font-size;
+}
+
+.link-box__description { 
+  @include margin(1em null 1em null);
+}
+
+.link-box__tweet {
+  @include media ($large-screen) {
+    @include shift(0.95);
+  }
+
+}
+
+.link-box__permalink {
+  @include media ($medium-screen-up) {
+        @include span-columns(3 of 10);  
+        @include shift(7);
+        margin-top: -0.8em;
+  }
+
+  @include span-columns(5 of 10);  
+  @include shift(5);
+  text-align: right;
+
+    &:hover {
+      .permalink__text {
+        opacity: 1;
+      }
+    }
+}
+
+.permalink__text {  
+  opacity: 0;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.permalink__icon {
+  height: 18px;
+  vertical-align: middle;
+}
+
+.link-box__img {
+  padding: 0em;
+  margin: -1.25em;
+  margin-bottom: 0.5em;
+
+  img {
+    width: 100%;
+  }
+} 

@@ -7,7 +7,6 @@
 @import "../../_vendor/neat/app/assets/stylesheets/neat";
 @import "../../_vendor/twemoji-awesome/twemoji-awesome";
 
-
 // Theme-specific Variables
 // ------------------------------------------------------------------------
 @import "_variables";
@@ -23,10 +22,12 @@
 
 // Modules
 // ------------------------------------------------------------------------
+@import "../../_modules/_m-item-box";	
 @import "../../_modules/_m-hero-collections";
 @import "../../_modules/_m-cards";
-@import "../../_modules/_m-collectionbox";
-@import "../../_modules/_m-toolbox";
+@import "../../_modules/_m-collection-box";
+@import "../../_modules/_m-tool-box";
+
 
 
 // Utilities

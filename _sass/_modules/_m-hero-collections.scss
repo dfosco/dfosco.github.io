@@ -40,7 +40,7 @@
 .hero-copy {
   text-align: center;
  
-  h1 {
+  h1, h3 {
     color: $quarter-base;
     margin-bottom: 0.1em;
 
@@ -52,6 +52,8 @@
       }
     }
   }
+
+  h3 { font-size: $h1-font-size; }
 
   h2 {
     color: $quarter-base;
