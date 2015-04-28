@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Daniel Fosco</title>
+ <link href="danielfos.co/" rel="self"/>
+ <link href="danielfos.co"/>
+ <updated>2014-09-14T14:05:37-05:00</updated>
+ <id>danielfos.co</id>
+ <author>
+   <name>Daniel Fosco</name>
+   <email>danielfosco@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>UX Jobs</title>
+   <link href="danielfos.co/blog/ux_jobs"/>
+   <updated>2014-05-27T00:00:00-05:00</updated>
+   <id>danielfos.co/blog/ux_jobs</id>
+   <content type="html">&lt;p&gt;After analyzing 20 UX job offerings, here are some initial impressions on the UX job market:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Jobs with the same name can vary wildly in the required skills, but most lean either to visual design and prototyping. Front-end development and knowledge of dev tools are still a plus on most jobs, but are not uncommon.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Most spots, with or without experience/academic requirements, require some level of previous experience by describing communication skills/leadership that are not common for junior designers.  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Not only that, even admittedly Junior positions have way too many requirements, akin to some dev positions that require a full-stack skillset from junior programmers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;After roughly dividing each job requirement by “skill type”, this is the outcome:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;26%: &lt;strong&gt;Core UX&lt;/strong&gt;. That is requirements that described research, prototyping or other tasks common for UX professionas&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;18%: &lt;strong&gt;Previous experience&lt;/strong&gt;. Requirements that described previous work experience necessary for the job&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;17%: &lt;strong&gt;Soft Skills&lt;/strong&gt;. Requirements describing good communication, independency, leadership or other “soft” skills&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;16%: &lt;strong&gt;Visual Design&lt;/strong&gt;. Requirements describing visual/interacion design skills and prowess with design software&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;11%: &lt;strong&gt;Front-end Dev&lt;/strong&gt;. Requirements related to front-end development or experience with developer tools&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;5%: &lt;strong&gt;Academic&lt;/strong&gt;. Requirements describing necessary BA/BS background.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;3%: &lt;strong&gt;Analysis&lt;/strong&gt;. Requirements related to data-analysis and extensive research. Google and Facebook, basically.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;2%: &lt;strong&gt;Others&lt;/strong&gt;. Requirements that didn’t fit any of the above criteria&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s important to note that this interpretations are very subjective, as one requirement can be in several groups at once. This is still an ongoing analysis, and will soon account for this factor — as well as present the data in a proper manner.&lt;/p&gt;
+
+&lt;p&gt;For now, the full data can be found on &lt;a href=&quot;https://www.dropbox.com/s/l5xa5870zvgt68m/ux_jobs.xlsx&quot;&gt;this spreadsheet&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Eu Odeio Supermercados</title>
+   <link href="danielfos.co/blog/eu-odeio-supermercados"/>
+   <updated>2014-03-31T00:00:00-05:00</updated>
+   <id>danielfos.co/blog/eu-odeio-supermercados</id>
+   <content type="html">&lt;h3 id=&quot;uma-relao-de-dio-e-dio&quot;&gt;Uma relação de ódio e ódio&lt;/h3&gt;
+
+&lt;p&gt;Eu odeio supermercados. Da forma como são hoje, supermercados são uma gigantesca perda de tempo para clientes e para as empresas, além de uma ótima oportunidade de inovação desperdiçada.&lt;/p&gt;
+
+&lt;p&gt;Supermercados são ineficientes — ainda mais se comparados ao e-commerce, que, ainda que melhor, é também um mercado muito conversador em termos de modelo de negócios&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Para destrinchar este sentimento de rejeição violenta, vejamos os passos necessários para fazer compras no mercado (uma vez que você já esteja lá):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pegue um carrinho de compras&lt;/li&gt;
+  &lt;li&gt;Coloque seus produtos no carrinho de compras&lt;/li&gt;
+  &lt;li&gt;Coloque seus produtos no caixa&lt;/li&gt;
+  &lt;li&gt;Coloque seus produtos em sacolas&lt;/li&gt;
+  &lt;li&gt;Coloque as sacolas no carrinho de compras&lt;/li&gt;
+  &lt;li&gt;Coloque as sacolas em seu carro&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Parece muito? Por que é. E esta lista sequer considera filas no mercado ou trânsito no caminho. Mas não se desespere. Dá pra fazer melhor.&lt;/p&gt;
+
+&lt;h3 id=&quot;checkout-expresso&quot;&gt;Checkout expresso&lt;/h3&gt;
+
+&lt;p&gt;A resposta para esta era das trevas contemporânea está na tecnologia de &lt;strong&gt;tags RFID&lt;/strong&gt;. Elas já são largamente usadas em cartões recarregáveis e em alguns produtos eletrônicos em certas lojas (pense DVD nas lojas americanas).&lt;/p&gt;
+
+&lt;p&gt;Uma vez que &lt;strong&gt;todos&lt;/strong&gt; os produtos de um supermercado tenham tags RFID, metade do problema já está resolvido: pegue o produto, saia pela porta. A cobrança vem automaticamente pelo cartão de crédito que você passou na máquina de auto-atendimento. Para quem acha imposível, assista a este &lt;a href=&quot;http://www.youtube.com/watch?v=eob532iEpqk&quot;&gt;vídeo da IBM&lt;/a&gt;. É de 2006.&lt;/p&gt;
+
+&lt;p&gt;Há mais de 10 anos atras, o RFID Journal anunciava &lt;a href=&quot;http://www.rfidjournal.com/articles/view?363&quot;&gt;etiquetas RFID de 1 centavo&lt;/a&gt; em um futuro próximo. O preço ainda está acima de 10 centavos por etiqueta, o que torna o sistema muito caro para implementar em larga escala — teoricamente, esta é a razão pela qual as empresas de supermercados ainda nos mantêm na era das trevas.&lt;/p&gt;
+
+&lt;p&gt;Mas a verdade é que o sistema não precisa ser implementado em larga escala. Se os clientes quiserem uma infraestrutura que torne sua vida mais cômoda, é só passar o custo adiante.&lt;/p&gt;
+
+&lt;h3 id=&quot;um-supermercado-dentro-do-supermercado&quot;&gt;Um supermercado dentro do supermercado&lt;/h3&gt;
+
+&lt;p&gt;Este é um problema que tem limitações não apenas em seu custo de implementação, mas também na logística envolvida. Como deixar que um cliente saia do supermercado sem passar por um caixa? E se ele estiver com uma barrinha de chocolate sem a etiqueta RFID?&lt;/p&gt;
+
+&lt;p&gt;É por isto que a solução deve ser implementada em &lt;em&gt;níveis&lt;/em&gt;. A solução é criar um supermercado dentro do supermercado: uma seção isolada com uma quantidade menor de cada tipo de produto, todos devidamente etiquetados, permitindo que o cliente faça um &lt;em&gt;checkout expresso&lt;/em&gt;, como um passe mensal de pedágio. Obviamente, tal regalia vem com um custo mensal de assinatura.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/DjmIIGF.png&quot; alt=&quot;Chekout expresso&quot; /&gt;
+&lt;small&gt;Chekout expresso&lt;/small&gt;&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;carrinho-de-compras-inimigo-nmero-1&quot;&gt;Carrinho de compras: inimigo número 1&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/fhCRUpO.png&quot; alt=&quot;Primos?&quot; /&gt;
+&lt;small&gt;Primos?&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Você sai do supermercado sem pegar fila ou ter que tirar (e recolocar) seus produtos do carrinho de compras. Você sai do mercado. Você vai até seu carro. Você então pára e percebe que todo este processo não funciona sem sacolas e que sua alface vai ter que ir jogada no porta-malas. &lt;/p&gt;
+
+&lt;p&gt;Afinal, como levar os produtos com segurança até sua casa se você não pode levar o carrinho junto?&lt;/p&gt;
+
+&lt;p&gt;A resposta é simples: basta levar o carrinho de compras junto.&lt;/p&gt;
+
+&lt;p&gt;O carrinho de compras deve se tornar um esqueleto modular composto por caixas, usadas para organizar os produtos dentro do mercado e estocá-los no caminho de casa.
+Idealmente, estas “caixas” seriam apenas uma camada de silicone encaixada no molde do carrinho, para que pudessem ser usadas como sacolas ao serem levadas do mercado.&lt;/p&gt;
+
+&lt;p&gt;Na próxima visita ao mercado, basta retornar as caixas; ou não: se você levar um número muito grande delas para casa é possível que descubra uma cobrança em seu cartão de crédito.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/iskW4hI.png&quot; alt=&quot;Carrinho de Compras Modular  alt=&amp;quot;Carrinho de Compras Modular&amp;quot;&quot; /&gt;
+&lt;small&gt;Carrinho de Compras Modular&lt;/small&gt;&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;a-sim&quot;&gt;Aí sim&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pegue um carrinho de compras&lt;/li&gt;
+  &lt;li&gt;Coloque seus produtos no carrinho de compras&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;strike&quot;&gt;Coloque seus produtos no caixa&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;strike&quot;&gt;Coloque seus produtos em sacolas&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;strike&quot;&gt;Coloque as sacolas no carrinho de compras&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;Coloque as &lt;span class=&quot;strike&quot;&gt;sacolas&lt;/span&gt; bolsas de silicone de alta durabilidade em seu carro&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Este ensaio é apenas um rascunho do que uma experiência de compra em um mercado poderia se tornar e muito provavelmente pessoas na indústria de varejo com décadas de experiência trabalham em soluções como esta neste exato momento.&lt;/p&gt;
+
+&lt;p&gt;Ainda assim, espero que este ensaio contribua para avançar a discussão sobre o futuro do varejo (físico) e ajude a visualizar quanto melhor &lt;strong&gt;e mais rápida&lt;/strong&gt; poderia ser uma tarde no supermercado.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;1) Existem players inovadores nesta área, como (&lt;a href=&quot;https://fresh.amazon.com/&quot;&gt;Amazon Fresh&lt;/a&gt; e &lt;a href=&quot;http://www.dollarshaveclub.com/&quot;&gt;Dollar Shave Club&lt;/a&gt;), mas a frustração vem da morosidade da maior parcela do mercado (grandes redes principalmente) de adotar novas práticas e modelos de negócios. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;2) Icon Credits: Shopping Cart by Ulrich Pohl from The Noun Project; Person by Alex Fuller from The Noun Project; Michochip by Thomas Uebe from The Noun Project &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;3) Icon Credits: Box by Nono Martínez Alonso from The Noun Project; Shopping Cart by Ulrich Pohl from The Noun Project &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>25 Anos da Web</title>
+   <link href="danielfos.co/blog/25-anos-da-web"/>
+   <updated>2014-03-16T00:00:00-05:00</updated>
+   <id>danielfos.co/blog/25-anos-da-web</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/DiMDAJ3.jpg&quot; alt=&quot;Proposta inicial de Tim Berners-Lee para o CERN&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Em parte, a World Wide Web é a primeira implementação prática de um sistema de hipertexto global tal como imaginado pelos pioneiros do hipertexto.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://www.w3.org/DesignIssues/TimBook-old/WhatIsWWW.html&quot;&gt;(Tim Berners-Lee, 1993/1994b)&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Desenvolvida a partir de 1989 por Tim Berners-Lee, à época pesquisador no CERN, a www foi até hoje o projeto de sistema de hipertexto mais bem-sucedido. De fato, a web foi tão universalmente adotada que se tornou, para um usuário leigo, sinônimo da própria Internet&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;A web surgiu com o objetivo inicial de facilitar a colaboração remota entre pesquisadores do CERN, evitando perda de documentos, dados de experimentos e outras informações em meio à alta rotatividade de pesquisadores no instituto. Demonstrando uma visão precisa sobre o problema do excesso de informação, há muito destacado por Vannevar Bush, Berners-Lee afirmava na especificação inicial da www que o “CERN se depara hoje com problemas que o restante do mundo terá de enfrentar em breve” &lt;a href=&quot;http://www.w3.org/History/1989/proposal.html&quot;&gt;(Tim Berners-Lee, 1989)&lt;/a&gt;.
+Sua especificação inicial descrevia um sistema de organização de documentos hipertextual não-hierárquico, em rede (daí o termo “web”), que permitiria a inserção de qualquer tipo de conteúdo. Tal rede seria composta por nós — que poderiam ser notas, comentários, documentos, etc — conectados por &lt;em&gt;links&lt;/em&gt; &lt;a href=&quot;http://www.w3.org/History/1989/proposal.html&quot;&gt;(Tim Berners-Lee, 1989)&lt;/a&gt;. A arquitetura da web segue um modelo onde &lt;em&gt;browsers&lt;/em&gt; (navegadores) se conectam a &lt;em&gt;servers&lt;/em&gt; (servidores), onde uma ponta pode desconhecer o sistema operacional ou formato de dados da outra, pois são intermediados por uma interface HTTP, que traduz quaisquer diferenças de linguagem entre os dois. &lt;a href=&quot;http://www.freehep.org/chep92www.pdf&quot;&gt;(Tim Berners-Lee e Robert Caillau, 1992)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;O projeto inicial de Tim Berners-Lee inclui ainda algumas premissas básicas, postas como pré-requisitos diante das necessidades do CERN, mas que se provariam fundamentais para o desenvolvimento e sucesso do sistema &lt;a href=&quot;http://www.w3.org/History/1989/proposal.html&quot;&gt;(Tim Berners-Lee, 1989)&lt;/a&gt;: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Descentralização do conteúdo&lt;/strong&gt;, permitindo que novos sistemas possam se conectar sem necessitar uma autoridade central;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Heterogeneidade&lt;/strong&gt;, permitindo que diversos sistemas operacionais possam acessar a web;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Acesso à dados já existentes&lt;/strong&gt;, reinterpretando-os para um formato de hipertexto, o que impulsionaria a adoção da web;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Links “live”&lt;/strong&gt;, permitindo que documentos em hipertexto sejam linkados a informações atualizadas em tempo real;&lt;/li&gt;
+  &lt;li&gt;E ainda &lt;strong&gt;“não requerimentos”&lt;/strong&gt;, onde Berners-Lee afirma que questões técnicas a respeito do suporte de copyright e proteção de dados, mesmo sendo viáveis, não seriam propostas naquele documento.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Este último ponto reflete um posicionamento ideológico muito importante de Tim Berners-Lee. Em um artigo posterior&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, ele descreve a web como “um universo aberto de informação distribuída através de uma interface hipertextual &lt;a href=&quot;http://www.w3.org/DesignIssues/TimBook-old/WhatIsWWW.html&quot;&gt;(Tim Berners-Lee, 1993/1994b)&lt;/a&gt;. O aspecto aberto da web permitiu sua rápida difusão para além do meio acadêmico: por meio de “gateways”, a web permitia a conexão com sistemas já existentes; a facilidade de criar um servidor www, que não requeria registro central, possibilitou à rede um crescimento exponencial&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;; e a disponibilização de todo o código-fonte pelo CERN em licença livre (&lt;em&gt;open source&lt;/em&gt;) fez com que rapidamente, estudantes e programadores de diferentes partes do mundo criassem browsers de acesso à web para a maioria dos sistemas operacionais disponíveis à época &lt;a href=&quot;http://www.w3.org/DesignIssues/TimBook-old/History.html&quot;&gt;(Tim Berners-Lee, 1993/1994a)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tal difusão não foi apenas um empurrão para a adoção da web, mas crucial para sua sobrevivência como sistema: segundo Berners-Lee, a www não era tão amplamente adotada dentro do CERN, sendo portanto “pessoas interessadas na internet que providenciavam o feedback, estímulo, ideias, contribuições de código-fonte (…) as pessoas na internet construíram a web.” (Idem). Este movimento não foi acidental, já que, tendo pensado um sistema modular e descentralizado que permitia (mais que isto, requeria) amplas contribuições externas, Tim Berners-Lee esperava que a web “alcançasse muito cedo uma utilidade crítica” &lt;a href=&quot;http://www.w3.org/History/1989/proposal.html&quot;&gt;(Tim Berners-Lee, 1989)&lt;/a&gt;, de forma que a própria utilidade do sistema iria encorajar a participação de novos usuários.&lt;/p&gt;
+
+&lt;p&gt;Por mais que a atual ubiquidade da web seja prova auto-evidente do sucesso desta estratégia, à época, outros sistemas seguiam o caminho oposto. Em 1993, a Universidade de Minnesota anunciou que passaria a cobrar uma licença pelo uso comercial de seu protocolo de compartilhamento de documentos online Gopher &lt;a href=&quot;http://www.nic.funet.fi/pub/vms/networking/gopher/gopher-software-licensing-policy.ancient&quot;&gt;(1993)&lt;/a&gt;, concorrente da web, em um movimento que ajudou a impulsionar a adoção e desenvolvimento das tecnologias da www. Apenas sete anos depois o código-fonte do projeto Gopher foi liberado para uso comercial, mas então já era tarde e o lançamento gerou pouco interesse, pois o protocolo se encontrava em desuso &lt;a href=&quot;https://groups.google.com/forum/#!msg/comp.infosystems.gopher/4A-LS_A6qtA/nT89yWKzzsIJ&quot;&gt;(2000)&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Similarmente, o sistema Xanadu, que nunca foi lançado, jamais teve seu código-fonte compartilhado, por ser marca registrada do Projeto Xanadu. Uma das invenções do projeto, uma estrutura de dados chamada enfilade, nunca teve sua especificação técnica publicada. Segundo Ted Nelson, líder do projeto original, o motivo para isto seria por que a invenção “ainda é uma &lt;em&gt;parada quente&lt;/em&gt;” — nosso itálico &lt;a href=&quot;http://www.wired.com/wired/archive/3.06/xanadu.html&quot;&gt;(Wired, 1995)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;O trabalho inicial de Tim-Berners Lee e diversos outros colaboradores criaram as tecnologias básicas da web, entre elas o HTML (Hypertext Markup Language), sintaxe para visualização hipertextual de conteúdo durante a navegação da web; o servidor HTTP (Hypertext Transfer Protocol), que rege a comunicação cliente-servidor na web; os primeiros browsers, que permitem comunicação com os servidores da web através de linhas de código ou interfaces gráficas; e as URLs (Uniform Resource Locator), protocolo de endereçamento universal que permite aos usuários da web acessarem recursos e documentos em diferentes sistemas.
+Este legado técnico foi adotado pelo W3C, World Wide Web Consortium, fundado em 1994 numa parceria entre CERN e DARPA&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;, sendo encabeçado pelo próprio Tim Berners-Lee &lt;a href=&quot;http://www.w3.org/Consortium/facts#history&quot;&gt;(W3C)&lt;/a&gt;. Com um corpo técnico hoje formado por cientistas e desenvolvedores de empresas e instituições acadêmicas de todo o mundo&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;, a W3C tem como missão levar adiante a Web respeitando os valores de abertura e acessibilidade que a acompanham desde sua incepção, desenvolvendo protocolos e diretrizes que garantam o crescimento unificado da Web no longo prazo &lt;a href=&quot;http://www.w3.org/Consortium/mission.html#principles&quot;&gt;(W3C)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;referncias&quot;&gt;Referências&lt;/h3&gt;
+
+&lt;p&gt;BERNERS-LEE, Tim. Information Management: A Proposal. Mar 1989. Disponível em &lt;a href=&quot;http://www.w3.org/History/1989/proposal.html&quot;&gt;http://www.w3.org/History/1989/proposal.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;BERNERS-LEE, Tim. A Brief History of the Web. 1993/1994a. Disponível em &lt;a href=&quot;http://www.w3.org/DesignIssues/TimBook-old/History.html&quot;&gt;http://www.w3.org/DesignIssues/TimBook-old/History.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;BERNERS-LEE, Tim. What is the World-Wide Web? 1993/1994b. Disponível em &lt;a href=&quot;http://www.w3.org/DesignIssues/TimBook-old/WhatIsWWW.html&quot;&gt;http://www.w3.org/DesignIssues/TimBook-old/WhatIsWWW.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;BERNERS-LEE, Tim; CAILLAU, Robert. World-Wide Web. Set 1992. Disponível em &lt;a href=&quot;http://www.freehep.org/chep92www.pdf&quot;&gt;http://www.freehep.org/chep92www.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;WIRED Magazine; WOLF, Gary. The Curse of Xanadu. Jun 1995. Disponível em &lt;a href=&quot;http://www.wired.com/wired/archive/3.06/xanadu.html&quot;&gt;http://www.wired.com/wired/archive/3.06/xanadu.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;W3C a. Facts About W3C - History. Disponível em &lt;a href=&quot;http://www.w3.org/Consortium/facts#history&quot;&gt;http://www.w3.org/Consortium/facts#history&lt;/a&gt;
+86&lt;/p&gt;
+
+&lt;p&gt;W3C b. W3C Mission. Disponível em
+&lt;a href=&quot;http://www.w3.org/Consortium/mission.html#principles&quot;&gt;http://www.w3.org/Consortium/mission.html#principles&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(1993) MINNESOTA GOPHER TEAM. University of Minnesota Gopher software licensing policy. 11 Mar 1993. Disponível em &lt;a href=&quot;http://www.nic.funet.fi/pub/vms/networking/gopher/gopher-software-licensing-policy.ancient&quot;&gt;http://www.nic.funet.fi/pub/vms/networking/gopher/gopher-software-licensing-policy.ancient&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(2000) KOSTECKE, Steve. “UMN Gopher(d) released under the GPL!”. comp.infosystems.gopher Google Group. 1 Set 2000. Disponível em &lt;a href=&quot;https://groups.google.com/forum/#!msg/comp.infosystems.gopher/4A- LS_A6qtA/nT89yWKzzsIJ&quot;&gt;https://groups.google.com/forum/#!msg/comp.infosystems.gopher/4A- LS_A6qtA/nT89yWKzzsIJ&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Para pautar a diferença, o termo Internet se refere à conexão internacional entre computadores através de cabos telefônicos/de fibra óptica ou via satélite que, utilizando diversos sistemas e protocolos como www, email, FTP e Usenet, constitui um “vasto conglomerado de redes de computadores interconectadas” &lt;a href=&quot;http://www.w3.org/DesignIssues/TimBook-old/History.html&quot;&gt;(Tim Berners-Lee, 1993/1994a)&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Parte de uma série de artigos que Tim Berners-Lee pretendia publicar como um livro sobre o histórico e funcionamento da web, todos escritos entre 1993 e 1994. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Tim Berners-Lee afirma que entre Julho de 1991 e Julho de 1994, a rede dobrava de tamanho a cada quatro meses — fator que pulava para 10x, se considerados os 12 meses anteriores. (1993/1994a, capítulo “Proliferation”).  &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Defense Advanced Research Projects Agency, agência do governo norte-americano responsável por promover a pesquisa e desenvolvimento de novas tecnologias voltadas para aplicação militar. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;Uma lista completa das empresas e instituições participantes pode ser consultada em &lt;a href=&quot;http://www.w3.org/Consortium/Member/List&quot;&gt;http://www.w3.org/Consortium/Member/List&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

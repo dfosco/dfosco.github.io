@@ -1,0 +1,332 @@
+/*-------------------------------------------------*/
+/* Custom Main Classes */
+/*-------------------------------------------------*/
+body {
+  background: #ffffff;
+  color: #333333;
+  font-family: 'Vollkorn', 'Times';
+  font-size: 21px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+::selection {
+  background: #999; /* Safari */
+  }
+
+::-moz-selection {
+  background: #555; /* Firefox */
+}
+
+h1 {
+  color: #001497;
+  font-family: 'Vollkorn', serif; 
+  font-weight: 100;
+  font-size: 80px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;  
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Vollkorn', 'Times';
+  font-size: 21px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 100;
+  color: #001497;
+  text-align: center;
+  margin: 45px 0 5px 0;
+  letter-spacing: 0.02em;
+}
+
+
+.row-fluid hr {
+  margin: 0 auto;
+  border:0;
+  border-top: 1px solid #D6D6D6;
+  border-bottom: -1px solid #B8B8B8;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; 
+  margin-bottom: 20px;
+}
+
+.container-narrow > hr {
+  margin:30px 0 5px 0;
+  border:0;
+  border-top: 1px solid #D6D6D6;
+  border-bottom: -1px solid #B8B8B8;
+}
+
+a {
+  color: #2D43BB;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #5E72DB;
+}
+
+ul {
+  padding:0;margin:0 0 10px 0;
+
+}
+
+ul a {
+  color: #BB9A4B;
+}
+
+ul a:hover {
+  text-decoration: none;
+  color: #CAAD6A;
+}
+
+ol {
+  padding:0;margin:0 0 30px 0;
+  list-style-type:none;
+}
+
+ul li {
+  color: #BA9A50;
+  text-align: center;
+  line-height: 44px;
+  list-style-type:none;
+}
+
+ul li:first-child {
+ margin-top: 15px;
+}
+
+ul li:last-child {
+  margin-bottom: 15px;
+  text-decoration: line-through;
+}
+
+.page-header {
+  text-align: center;
+  margin: 50px 0 20px 0;
+  padding-bottom: 0px;
+}
+
+p.port {
+ margin-bottom: 25px;
+}
+
+/*-------------------------------------------------*/
+/* CUSTOM CLASSES */
+/*-------------------------------------------------*/
+
+/*General*/
+
+.row-fluid {
+   margin: 0 auto; 
+   width: 73%; 
+}
+
+.screen-reader-text { /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.cc { 
+  font-family: 'Lato', sans-serif; 
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.text-center { 
+  text-align: center
+}
+
+#translate {
+  padding-top: 70px;
+}
+
+.nowrap {
+  white-space:nowrap;
+}
+
+/*Botões*/
+
+.button-desktop {
+  text-align: center;
+  width: 130%;
+  margin-left: -14%
+}
+
+.button-phone {
+  text-align: center;
+  width: 130%;
+  margin-left: -14%
+}
+
+.spaace {
+  word-spacing: -5px;
+}
+
+/*Icons*/
+
+.icon {
+  float: left;
+  margin-left: 8%;
+  margin-right: 7%;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; 
+}
+
+/*-------------------------------------------------*/
+/*CODROPS BUTTONS*/
+/*-------------------------------------------------*/
+
+/* General button style (reset) */
+.btnn {
+  border: none;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  display: inline-block;
+  margin: 5px 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; 
+}
+
+.btnn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btnn:hover {
+box-shadow: 0 4px #444;
+top: 2px;
+}
+
+.btnn:active {
+  box-shadow: 0 0 #444;
+  top: 6px;
+}
+
+
+/* Button 2 */
+.btnn-2 {
+  background: #CE574E;
+  color: #333333;
+  box-shadow: 0 6px #973E38;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+  text-transform: uppercase;
+}
+
+/* Button 2c */
+.btnn-2c {
+  border-radius: 5px;
+}
+
+.btnn-2c:hover {
+  box-shadow: 0 4px #984038;
+  top: 2px;
+  color: #333333;
+}
+
+.btnn-2c:active {
+  box-shadow: 0 0 #984038;
+  top: 6px;
+  color: #333333;
+}
+
+/*-------------------------------------------------*/
+/*MEDIA QUERIES*/
+/*-------------------------------------------------*/
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+.row-fluid {
+    width: 92%;
+  }
+
+h1 {
+  margin-top: -30px;
+}
+
+body {
+  font-size: 21px;
+  line-height: 30px;
+  text-align: left;
+}
+
+ }
+
+/* Additional Break Point to Correct H1 top-margin behavior*/ 
+@media (min-width: 609px) and (max-width: 768px) { 
+
+  h1 {
+   margin-top: 30px;
+  }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 768px) { 
+
+
+.row-fluid {
+  width: 62%;
+}
+
+h1 {
+  margin-top: -30px;
+}
+
+body {
+  font-size: 21px;
+  line-height: 30px;
+}
+
+ }
+ 
+/* Portrait tablet to landscape and desktop 
+@media (min-width: 768px) and (max-width: 940px) { ... }
+ */
+ 
+/* Default: 940px and up  
+ 
+@media (min-width: 1210px) { ... }
+*/
+
+/* Large desktop  
+@media (min-width: 1210px) { ... }
+*/ 
+
+
