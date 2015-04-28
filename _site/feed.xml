@@ -5,8 +5,8 @@
     <description>The website of Daniel Fosco</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Apr 2015 13:36:37 -0300</pubDate>
-    <lastBuildDate>Tue, 28 Apr 2015 13:36:37 -0300</lastBuildDate>
+    <pubDate>Tue, 28 Apr 2015 14:43:12 -0300</pubDate>
+    <lastBuildDate>Tue, 28 Apr 2015 14:43:12 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -15,15 +15,17 @@
   &lt;p&gt;&lt;strong&gt;Introducing Marvel UX Testing Tools Beta&lt;/strong&gt;&lt;br /&gt;
 We’re introducing some incredible tools that will allow you to get in-depth insights into how users interact with your prototypes including:&lt;/p&gt;
 
-  &lt;p&gt;Screen recordings of users moving through your prototype&lt;br /&gt;
-Indicators of where users tapped or clicked on each screen&lt;br /&gt;
-User reactions via audio and video feedback as they use your prototype&lt;br /&gt;
-Ability to share test results with your team and stakeholders&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Screen recordings of users moving through your prototype&lt;/li&gt;
+    &lt;li&gt;Indicators of where users tapped or clicked on each screen&lt;/li&gt;
+    &lt;li&gt;User reactions via audio and video feedback as they use your prototype&lt;/li&gt;
+    &lt;li&gt;Ability to share test results with your team and stakeholders&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;For the past 3 years or so, a lot of prototyping tools popped up in the market, with Marvel and InVision being the leaders in the &lt;em&gt;export-your-png-assets-and-link-them-with-hotspots&lt;/em&gt; category.&lt;/p&gt;
 
-&lt;p&gt;InVision has been paving the way with an extensive feature-set, being the first to offer Dropbox integration, automatic Sketch import, as well as the only one to add a &lt;em&gt;Google Hangouts&lt;/em&gt; style live-call for remote user testing (which is absolutely fantastic).&lt;/p&gt;
+&lt;p&gt;InVision has been paving the way with an extensive feature-set, being the first to offer Dropbox integration, automatic Sketch import, as well as the only one to add a &lt;em&gt;Google Hangouts&lt;/em&gt; style live-call for remote user testing (it’s absolutely fantastic).&lt;/p&gt;
 
 &lt;p&gt;Marvel, on the other hand, has been on its own feature-spree the past few months: just after releasing prototype annotations and a Sketch import plugin, they now announced this beta for screen &amp;amp; front-camera recording — which, without jumping to early conclusions, seems to be a killer feature.&lt;/p&gt;
 
