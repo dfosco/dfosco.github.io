@@ -13,10 +13,10 @@ image-alt: "A mockup of Marvel app's new recording function"
 >**Introducing Marvel UX Testing Tools Beta**  
 >We’re introducing some incredible tools that will allow you to get in-depth insights into how users interact with your prototypes including:
 >  
->Screen recordings of users moving through your prototype  
->Indicators of where users tapped or clicked on each screen  
->User reactions via audio and video feedback as they use your prototype  
->Ability to share test results with your team and stakeholders  
+> - Screen recordings of users moving through your prototype  
+> - Indicators of where users tapped or clicked on each screen  
+> - User reactions via audio and video feedback as they use your prototype  
+> - Ability to share test results with your team and stakeholders  
 
 For the past 3 years or so, a lot of prototyping tools popped up in the market, with Marvel and InVision being the leaders in the _export-your-png-assets-and-link-them-with-hotspots_ category. 
 
