@@ -29,6 +29,10 @@
         border-left: 2px solid darken($medium-gray, 8%);
       }
       
+      ul {
+        margin-left: 1em;
+        list-style-type: disc;
+      }
       font-size: 0.95em;
       border-left: 2px solid $light-gray;
     }
