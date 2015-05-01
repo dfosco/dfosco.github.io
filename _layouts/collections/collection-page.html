@@ -1,0 +1,53 @@
+---
+section: Collections
+---
+
+<!DOCTYPE html>
+
+<html>
+
+  {% include head.html %}
+  
+  <body>
+
+    <div id="viewport" class="container">
+
+      {% include collections/header.html %}
+
+      <div class="wrapper">
+        <section class="content--regular content--post">
+          
+          <div class="card-item__section-title">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.intro }}</p>
+          </div>
+            
+{% capture current_collection %}{{ page.url | remove: "collections" | remove: "/" | remove: " " }}{% endcapture %}
+
+            {% for item in site.items %}
+            {% if item.parent-collection == current_collection %}
+            <article class="card-item">
+              <div class="card-item__inner">
+                <a href="{{ item.source }}">
+                  <h3 class="card-item__title">
+                    {{ item.name }}
+                  </h3>
+                </a>
+                <p>
+                  {{ item.description }}
+                </p>
+              </div>
+            </article>
+            {% endif %}
+            {% endfor %}
+        </section>
+
+        {% include collections/sidebar.html %}
+      
+      </div>
+    </div>
+
+      {% include collections/footer.html %}
+  </body>
+</html>
+

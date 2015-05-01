@@ -1,5 +1,5 @@
 ---
-layout: collections/collection-post
+layout: collections/collection-page
 date:   2015-05-01 16:58:00
 
 title: UI Inspiration

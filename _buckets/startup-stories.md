@@ -1,5 +1,5 @@
 ---
-layout: collections/collection-post
+layout: collections/collection-page
 date:   2015-05-01 16:55:00
 
 title: Startup Stories

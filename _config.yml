@@ -1,9 +1,9 @@
 # Site settings
 title: Daniel Fosco
 email: danielfosco@gmail.com
-description: "The website of Daniel Fosco"
+description: "Hi, my name is Daniel and this is my website. Hope you enjoy it."
 baseurl: "http://dfosco.github.io"
-
+domain: "http://danielfos.co"
 
 # Author settings
 author:

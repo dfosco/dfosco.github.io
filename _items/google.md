@@ -1,8 +1,8 @@
 ---
-layout: collections/collection-post
+layout: collections/collection-page
 date:   2015-02-23 22:20:00
 
-parent-collection: Learn CSS
+parent-collection: learn-css
 tags: front-end, development
 
 name: Google
