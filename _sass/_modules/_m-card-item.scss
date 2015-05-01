@@ -1,65 +1,66 @@
-.link-section-title {
+.card-item__section-title {
   margin-top: 1em;
-  h3 { font-size: $h5-font-size; }
+
+  h1 { 
+  	font-size: $h3-font-size; 
+  	color: $strong-accent;
+    margin-bottom: 0.5em;
+  }
 }
 
-.link-box {
+.card-item {
   
   @include margin(1em null 1.5em null);
 
   @include media($medium-screen, $large-screen) { 
-  &:hover { background: darken($light-gray, 6%); }
-  background: darken($light-gray, 4%);
+  &:hover { background: $box-background-hover; }
+  background: $box-background-color;
   padding: 0.5em;
   }
 
-  background: darken($light-gray, 4%);
-  padding: 0.5em 0.5em 1.5em 0.5em;
+  background: $box-background-color;
 }
 
-.link-box__inner {
-  padding: 0.75em;
+.card-item__inner {
+	
+	padding: 0.75em;
+    blockquote {
+    
+	    &.link-description {
+	      @include margin(0.8em null)
+	    }
 
-    blockquote {   
-      &.link-description {
-        @include margin(0.8em null)
-      }
+	    @include media($medium-screen, $large-screen) { 
+	      border-left: 2px solid darken($medium-gray, 8%);
+	    }
+	    
+	    font-size: 0.95em;
+	    border-left: 2px solid $light-gray;
+  }
 
-      @include media($medium-screen, $large-screen) { 
-        border-left: 2px solid darken($medium-gray, 8%);
-      }
-      
-      ul {
-        margin-left: 1em;
-        list-style-type: disc;
-      }
+  span.quote {
       font-size: 0.95em;
-      border-left: 2px solid $light-gray;
-    }
-
-    span.quote {
-        font-size: 0.95em;
-        color: darken($medium-gray, 8%)
-    }
+      color: darken($medium-gray, 8%)
+  }
 }
 
-.link-box__title {
+.card-item__title {
   margin-bottom: 0.5em;
   font-size: $h5-font-size;
 }
 
-.link-box__description { 
+.card-item__description { 
   @include margin(1em null 1em null);
 }
 
-.link-box__tweet {
+.card-item__tweet {
   @include media ($large-screen) {
     @include shift(0.95);
   }
 
 }
 
-.link-box__permalink {
+.card-item__permalink {
   @include media ($medium-screen-up) {
         @include span-columns(3 of 10);  
         @include shift(7);
@@ -88,7 +89,7 @@
   vertical-align: middle;
 }
 
-.link-box__img {
+.card-item__img {
   padding: 0em;
   margin: -1.25em;
   margin-bottom: 0.5em;

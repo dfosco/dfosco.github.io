@@ -16,17 +16,16 @@ section: Collections
   <div class="wrapper">
     <section class="content--regular content--post">
       
-      <div class="item-section-title">
+      <div class="card-item__section-title">
         <h1>{{ page.title }}</h1>
-        <p>{{ content }}</p>
+        <p>{{ page.intro }}</p>
       </div>
 
-      <div class="item-box__outer">
         {% for item in site.items %}
-        <article class="item-box">
-          <div class="item-box__inner">
-            <a href="{{ item.url }}">
-              <h3 class="item-box__title">
+        <article class="card-item">
+          <div class="card-item__inner">
+            <a href="{{ item.source }}">
+              <h3 class="card-item__title">
                 {{ item.name }}
               </h3>
             </a>
@@ -34,7 +33,7 @@ section: Collections
           </div>
         </article>
         {% endfor %}
-      </div>
+      
     
     </section>
 

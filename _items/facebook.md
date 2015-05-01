@@ -1,12 +1,12 @@
 ---
 layout: collections/collection-post
-date:   2015-02-23 22:20:00
+date:   2015-05-01 16:42:00
 
 parent-collection: Learn CSS
 tags: front-end, development
 
-name: Google
-source: http://google.com
-description: A search engine
+name: Facebook
+source: http://facebook.com
+description: A social network
 
 ---

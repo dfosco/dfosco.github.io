@@ -2,27 +2,25 @@
 layout: collections/default
 ---
 
-{% for collection in site.collections %}
-{% endfor %}
+<div class="card-collections">
 
-<div class="cards">
-  <div class="card">
-    <div class="card-header">
-      <h3>Learn CSS</h3>
+  {% for page in site.buckets %}
+
+    <div class="card-collection">
+      <a href="{{ page.url }}" class="card-collection__inner">
+      <div class="card-collection__header">
+        <h3>{{ page.title }}</h3>
+        <p>
+          
+          {% if page.intro != "" %}
+            {{ page.intro }}
+          {% else %}
+            {{ page.description }}
+          {% endif %}
+
+        </p>
+      </div>
+      </a>
     </div>
-  </div>
 
-  <div class="card">
-    <div class="card-header">
-      <h3>Startup Stories</h3>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
-      <h3>Mobile UI Inspiration</h3>
-    </div>
-  </div>
-</div>
-
-      
+  {% endfor %}

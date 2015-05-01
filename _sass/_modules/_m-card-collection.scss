@@ -1,0 +1,39 @@
+.card-collections {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+  @include align-items(center);
+
+}
+
+.card-collection {
+  @include display(flex);
+  @include flex-basis(28em);
+  @include flex-grow(1);
+  @include transition (all 0.2s ease-in-out);
+
+  background-color: #DCC8F4;
+  box-shadow: 0 2px 4px darken(white, 10%);
+  cursor: pointer;
+  margin: 0.8em;
+  min-height: 130px;
+  position: relative;
+
+  .card-collection__inner {
+    @include display(flex);
+    justify-content: left;
+    min-width: 100%;
+  }
+
+  .card-collection__header {
+    align-self: center;
+    border-bottom: 2em;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 30px;
+    
+    h3 {
+      text-align: left;
+    }
+  }
+}

@@ -16,7 +16,7 @@ image-alt:
 
 It's really easy to overlook these "details", specially with the president of Y Combinator (the most prestigious accelerator in the US) tweeting stuff like this:
 
-<div class="link-box__tweet">
+<div class="card-link__tweet">
 <blockquote class="twitter-tweet" lang="en"><p>also, when people say &quot;we need to train more coders domestically&quot;: while that&#39;s true, anyone who wants can teach themselves to code online</p>&mdash; Sam Altman (@sama) <a href="https://twitter.com/sama/status/549745218371592192">December 30, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
