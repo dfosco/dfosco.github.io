@@ -26,5 +26,6 @@ paginate_path: "/links/page:num/"
 collections:
   items:
     output: true
-  collections:
+  buckets:
     output: true
+    permalink: /collections/:path/
