@@ -12,7 +12,7 @@
   @include flex-grow(1);
   @include transition (all 0.2s ease-in-out);
 
-  background-color: #DCC8F4;
+  background: $box-background-color;
   box-shadow: 0 2px 4px darken(white, 10%);
   cursor: pointer;
   margin: 0.8em;

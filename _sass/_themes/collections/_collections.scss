@@ -30,8 +30,16 @@
 
 
 
-// Utilities
+// Utilities and Classes
 // ------------------------------------------------------------------------
 @include pesticide(false);
 $img-url: "/images";
 // Example of how to use -- background: url("#{$img-url}/background-image.png") repeat top left;
+
+//collection-page
+
+.collection-nav {
+	font-size: 0.95em;
+	font-weight: 700;
+	margin-bottom: 1em;
+}
