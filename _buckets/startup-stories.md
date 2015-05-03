@@ -1,11 +1,12 @@
 ---
 layout: collections/collection-page
 date:   2015-05-01 16:55:00
+tags: tech, longreads
 
 title: Startup Stories
-intro: "Stories about startups big and small, and the journey to where they are today"
-tags: tech, longreads
+
 
 ---
 
+Stories about startups big and small, and the journey to where they are today
 

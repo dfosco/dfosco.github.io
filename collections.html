@@ -10,15 +10,7 @@ layout: collections/default
       <a href="{{ page.url }}" class="card-collection__inner">
       <div class="card-collection__header">
         <h3>{{ page.title }}</h3>
-        <p>
-          
-          {% if page.intro != "" %}
-            {{ page.intro }}
-          {% else %}
-            {{ page.description }}
-          {% endif %}
-
-        </p>
+        <p>{{ page.content }}</p>
       </div>
       </a>
     </div>
