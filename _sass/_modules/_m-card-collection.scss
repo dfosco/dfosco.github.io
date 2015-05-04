@@ -23,6 +23,10 @@
     @include display(flex);
     justify-content: left;
     min-width: 100%;
+
+    &:hover {
+      //h3 { color: darken($accent, 20%); }
+    }
   }
 
   .card-collection__header {
@@ -34,6 +38,7 @@
     
     h3 {
       text-align: left;
+      color: $accent;
     }
   }
 }

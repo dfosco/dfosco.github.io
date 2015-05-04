@@ -26,9 +26,12 @@
 }
 
 .sidebar__box--collection {
-  @extend .sidebar__box--links;
-  margin-top: 6.5em;
+  @extend .sidebar__box--links; 
   background: $strong-clear;
+
+  @include media($medium-screen, $large-screen) {
+    margin-top: 11.4em;
+  }
 }
 
 .sidebar__inner {

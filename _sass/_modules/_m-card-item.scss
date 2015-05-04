@@ -1,12 +1,15 @@
 .card-item__section-title {
-  margin-top: 1em;
-
-  h1 { 
-  	font-size: $h3-font-size; 
-  	color: $strong-accent;
-    margin-bottom: 0.5em;
-  }
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
 }
+
+  .section-title__header {
+    font-size: $h3-font-size; 
+    color: $accent;
+    margin-bottom: 0.1em;
+  }
+
+  .section-title__subheader { }
 
 .card-item {
   

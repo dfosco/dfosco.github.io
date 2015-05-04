@@ -28,10 +28,6 @@ body {
 
 .content {
 
-  h5 {
-    @include margin(2em null 1em null);
-  }
-
   margin-bottom: 1.5em;
   margin-top: 1em;
   padding-left: 0.5em;
