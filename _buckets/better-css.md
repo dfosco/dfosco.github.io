@@ -9,5 +9,5 @@ title: Better CSS
 
 ---
 
-Articles and guidelines for writing better CSS.
+Articles, guidelines and tools for writing better CSS.
 
