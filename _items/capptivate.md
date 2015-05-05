@@ -1,5 +1,5 @@
 ---
-layout: collections/collection-page
+layout: buckets/bucket-page
 date:   201 5-05-02 03:56:00
 
 parent-collection: mobile-ui-inspiration

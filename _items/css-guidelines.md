@@ -1,5 +1,5 @@
 ---
-layout: collections/collection-page
+layout: buckets/bucket-page
 date:   2015-05-03 19:19:00
 
 parent-collection: better-css

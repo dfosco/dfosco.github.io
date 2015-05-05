@@ -1,5 +1,5 @@
 ---
-layout: collections/collection-page
+layout: buckets/bucket-page
 date:   2015-05-01 16:58:00
 tags: UI design, inspiration
 

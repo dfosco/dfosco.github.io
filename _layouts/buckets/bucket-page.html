@@ -1,0 +1,62 @@
+---
+section: Buckets
+---
+
+<!DOCTYPE html>
+
+<html>
+
+  {% include head.html %}
+  
+  <body>
+
+    <div id="viewport" class="container">
+
+      {% include buckets/header.html %}
+
+      <div class="wrapper">
+        <section class="content--regular content--post">
+          
+          <div class="collection-nav">
+            <a href="/buckets">&#8592 back to Buckets</a>
+          </div>
+
+{% capture current_collection %}{{ page.url | remove: "buckets" | remove: "/" | remove: " " }}{% endcapture %}
+
+          <div class="card-item__header-section">
+            <div class="header-section__icon">
+              <img src="{{ site.baseurl }}/assets/images/interface/bucket_icon/{{ current_collection }}.svg" alt="{{ page.title }} Bucket's Icon">
+            </div>
+
+            <div class="header-section__title">
+              <h1 class="header-section__title-text">{{ page.title }}</h1>
+              <h2 class="header-section__subtitle-text">{{ content }}</h2>
+            </div>
+          </div>
+
+
+            {% for item in site.items %}
+            {% if item.parent-collection == current_collection %}
+            <article class="card-item">
+              <div class="card-item__inner">
+                <a href="{{ item.source }}">
+                  <h3 class="card-item__title">
+                    {{ item.name }}
+                  </h3>
+                </a>
+                <p class="card-item__text">{{ item.content }}</p>
+              </div>
+            </article>
+            {% endif %}
+            {% endfor %}
+        </section>
+
+        {% include buckets/sidebar.html %}
+      
+      </div>
+    </div>
+
+      {% include buckets/footer.html %}
+  </body>
+</html>
+

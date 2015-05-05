@@ -1,14 +1,3 @@
-// Hero Variables
-// ------------------------------------------------------------------------
-
-  ///////////////////////////////////////////////////////////////////////////////////
-  $base-border-radius: 3px !default;
-  $large-screen: em(860) !default;
-  //////////////////////////////////////////////////////////////////////////////////
-
-  $hero-color: $strong-base;
-  $gradient-angle: 10deg;
-  $hero-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
 
 // Hero
 // ------------------------------------------------------------------------
@@ -40,66 +29,64 @@
 
 .hero-copy {
   text-align: center;
-  
-  h1, h2 {
-    color: $dark-gray;
-    margin-bottom: 0.1em;
+}  
 
-    a {
-      color: $dark-gray;
-      
-      &:hover { 
-        color: darken($dark-gray, 10%)
-      }
+.hero-title { 
+  color: $dark-gray;
+  font-size: $h1-font-size; 
+  margin-bottom: 0.1em;
+
+  a {
+    color: $dark-gray;
+    
+    &:hover { 
+      color: darken($dark-gray, 10%)
     }
   }
+}
 
-  h2 { font-size: $h1-font-size; }
+.hero-list { 
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
 
-  .hero-list { 
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+.hero-list__item {
+  color: $dark-gray;
+  display: inline;
 
-    li {
-      color: $dark-gray;
-      display: inline;
+  font-family: $header-font-family;
+  font-size: $h4-font-size;
+  font-weight: 300;
 
-      font-family: $header-font-family;
-      font-size: $h4-font-size;
-      font-weight: 300;
+  line-height: 1.4em;
+  list-style-type: none;
 
-      line-height: 1.4em;
-      list-style-type: none;
- 
-      margin: 0 auto 0 auto; 
-      padding: 0.25em 0em;
-      //text-align: left;
-    }      
-    
-      li:nth-child(odd)::after {
-            content: " ·";
-            font-weight: 700;
-      }
+  margin: 0 auto 0 auto; 
+  padding: 0.25em 0em;
+  //text-align: left;
+      
 
-      li:nth-child(2)::after {        
-            content:"\a";
-            white-space: pre;
-      }
-    
+  &:nth-child(odd)::after {
+        content: " ·";
+        font-weight: 700;
+  }
 
-      @include media($medium-screen, $large-screen) { 
+  &:nth-child(2)::after {        
+        content:"\a";
+        white-space: pre;
+  }
 
-        li:nth-child(1)::after, li:nth-child(2)::after, li:nth-child(3)::after { 
-          content: " ·";
-          font-weight: 700;
-        }
 
-        li:last-of-type {
-          content: " "
-        }
-      }
+  @include media($medium-screen, $large-screen) { 
+
+    &:nth-child(1)::after, &:nth-child(2)::after, &:nth-child(3)::after { 
+      content: " ·";
+      font-weight: 700;
     }
 
-//
+    &:last-of-type {
+      content: " "
+    }
+  }
 
 }

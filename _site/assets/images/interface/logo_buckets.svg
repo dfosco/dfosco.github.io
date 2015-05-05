@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="74px" height="86px" viewBox="0 0 74 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.822890094   0 0 0 0 0.810426932   0 0 0 0 0.781346222  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" in="SourceAlpha" operator="dilate" result="shadowSpreadInner1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadInner1" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.301960784   0 0 0 0 0.188235294   0 0 0 0 0.670588235  0 0 0 0.42 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logos_buckets" transform="translate(-44.000000, -34.000000)">
+            <g id="logo_buckets" transform="translate(41.353659, 34.615625)">
+                <g id="bg" transform="translate(0.000000, 0.000000)">
+                    <path d="M38.457883,0.129807065 C43.1613868,0.129807065 69.5529452,15.5536649 72.5297644,20.7571495 C75.5065837,25.9606341 74.9484721,56.8942264 72.5297644,62.0118345 C70.1110567,67.1294425 43.4596529,82.6391769 38.457883,82.6391769 C33.4561131,82.6391769 6.71731138,66.0119868 4.38600165,62.0118345 C2.05469191,58.0116822 2.73211014,25.6001646 4.38600165,20.7571495 C6.03989315,15.9141345 33.7543793,0.129807065 38.457883,0.129807065 Z" id="base" fill="#F5F2EB" filter="url(#filter-1)"></path>
+                    <g id="inner" transform="translate(7.913046, 5.847102)">
+                        <path d="M30.7670501,0.0047083806 C34.8181804,0.0047083806 57.5492436,13.2892853 60.1131796,17.7710494 C62.6771156,22.2528134 62.1964139,48.8959329 60.1131796,53.3037314 C58.0299454,57.7115299 35.0750772,71.0700724 30.7670501,71.0700724 C26.4590231,71.0700724 3.42887893,56.7490647 1.42092062,53.3037314 C-0.587037686,49.8583981 -0.00357700881,21.9423408 1.42092062,17.7710494 C2.84541826,13.599758 26.7159199,0.0047083806 30.7670501,0.0047083806 Z" id="inner_bg" fill="#9F6FE4" filter="url(#filter-2)"></path>
+                        <path d="M30.6062947,5.67475604 C34.010975,5.67475604 53.11478,16.8394765 55.2695817,20.6060732 C57.4243834,24.3726699 57.0203886,46.7642736 55.2695817,50.4687076 C53.5187749,54.1731416 34.2268781,65.4000247 30.6062947,65.4000247 C26.9857114,65.4000247 7.63055058,53.3642596 5.94300769,50.4687076 C4.2554648,47.5731556 4.74582106,24.1117402 5.94300769,20.6060732 C7.14019433,17.1004062 27.2016144,5.67475604 30.6062947,5.67475604 Z" id="inner_front" fill="#DCC8F4"></path>
+                    </g>
+                </g>
+                <path d="M38.3712808,25.4 C32.090296,25.4 25.4150724,27.3452822 25.4150724,30.9526608 L25.4150724,38.0637683 L27.2011782,36.3526233 C27.5685793,35.997253 28.1553105,36.0111347 28.5088299,36.3803866 C28.8632747,36.7496386 28.8503185,37.3345188 28.4810666,37.6880382 L21.5430169,44.3364241 C20.8146929,45.0369848 20.593512,46.0466436 20.9655402,46.9748634 C21.3468229,47.9234429 22.2685646,48.5360865 23.3143157,48.5360865 L25.4150724,48.5360865 L25.4150724,51.3124169 C25.4150724,54.91887 32.090296,56.8650776 38.3712808,56.8650776 C44.6522656,56.8650776 51.3274892,54.91887 51.3274892,51.3124169 L51.3274892,30.9526608 C51.3274892,27.3452822 44.6522656,25.4 38.3712808,25.4 L38.3712808,25.4 Z M25.4150724,46.6851996 L23.3143157,46.6851996 C22.8784319,46.6851996 22.7211065,46.3788778 22.6831633,46.2844825 C22.6313384,46.1558459 22.5813645,45.9041253 22.8256816,45.6690626 L25.4150724,43.1879487 L25.4150724,46.6851996 Z M38.2733372,32.166214 C43.4954184,32.166214 49.392904,31.4528811 48.8129725,29.8478822 C48.2330409,28.2428833 43.4954183,26.727051 38.273337,26.727051 C33.0512557,26.727051 28.3808722,28.1537167 27.9186075,29.8478822 C27.4563428,31.5420477 33.0512559,32.166214 38.2733372,32.166214 Z" id="bucket-mark" fill="#643DBA"></path>
+            </g>
+        </g>
+    </g>
+</svg>

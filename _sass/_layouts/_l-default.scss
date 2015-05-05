@@ -50,6 +50,7 @@ body {
 
 .content--full {
   @extend .content;
+  margin-top: 2.3em;
 
   @include media($medium-screen, $large-screen) {
   @include span-columns(14 of 16);

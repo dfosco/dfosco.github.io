@@ -1,5 +1,5 @@
 ---
-layout: collections/collection-page
+layout: buckets/bucket-page
 date:   2015-05-01 16:55:00
 tags: tech, longreads
 

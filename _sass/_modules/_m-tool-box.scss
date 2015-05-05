@@ -22,14 +22,14 @@
 	display: none !important;
 }
 	@include media($medium-screen, $large-screen) {
-		display: inline;
+		display: inherit;
 	}
 }
 
 .desktop-hide {
 
 @include media($small-screen) {
-	display: inline;
+	display: inherit;
 }
 
 	@include media($medium-screen, $large-screen) {

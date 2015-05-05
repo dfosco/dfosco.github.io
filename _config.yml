@@ -28,4 +28,4 @@ collections:
     output: true
   buckets:
     output: true
-    permalink: /collections/:path/
+    permalink: /buckets/:path/

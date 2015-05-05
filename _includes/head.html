@@ -19,8 +19,8 @@
 
     {% if page.layout contains "links" %}
     <link rel="stylesheet" href="{{ "/assets/stylesheets/links.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
-    {% elsif page.layout contains "collections" %}
-    <link rel="stylesheet" href="{{ "/assets/stylesheets/collections.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
+    {% elsif page.layout contains "buckets" %}
+    <link rel="stylesheet" href="{{ "/assets/stylesheets/buckets.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
     {% else %}
     <link rel="stylesheet" href="{{ "/assets/stylesheets/main.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
     {% endif %}

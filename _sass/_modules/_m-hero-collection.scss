@@ -39,69 +39,24 @@
 
 .hero-copy {
   text-align: center;
- 
-  h1, h3 {
-    color: $quarter-base;
-    margin-bottom: 0.1em;
-
-    a {
-      color: $quarter-base;
-      
-      &:hover { 
-        color: darken($quarter-base, 10%)
-      }
-    }
-  }
-
-  h2, h5 {
-    color: $quarter-base;
-    font-size: $h5-font-size;
-  }
-
-  .hero-list { 
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-
-    li {
-      color: $quarter-base;
-      display: inline;
-
-      font-family: $header-font-family;
-      font-size: $h4-font-size;
-      font-weight: 300;
-
-      line-height: 1.4em;
-      list-style-type: none;
- 
-      margin: 0 auto 0 auto; 
-      padding: 0.25em 0em;
-      //text-align: left;
-    }      
-    
-      li:nth-child(odd)::after {
-            content: " ·";
-            font-weight: 700;
-      }
-
-      li:nth-child(2)::after {        
-            content:"\a";
-            white-space: pre;
-      }
-    
-
-      @include media($medium-screen, $large-screen) { 
-
-        li:nth-child(1)::after, li:nth-child(2)::after, li:nth-child(3)::after { 
-          content: " ·";
-          font-weight: 700;
-        }
-
-        li:last-of-type {
-          content: " "
-        }
-      }
-    }
-
-//
-
 }
+
+.hero-title {
+  color: $quarter-base;
+  margin-bottom: 0.1em;
+  font-size: $h1-font-size;
+
+  a {
+    color: $quarter-base;
+    
+    &:hover { 
+      color: darken($quarter-base, 10%)
+    }
+  }
+}
+
+.hero-subtitle {
+  font-size: $h5-font-size;
+  color: $upper-clear;
+}
+

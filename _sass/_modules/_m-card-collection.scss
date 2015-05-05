@@ -3,7 +3,6 @@
   @include flex-wrap(wrap);
   @include justify-content(space-between);
   @include align-items(center);
-
 }
 
 .card-collection {
@@ -28,17 +27,43 @@
       //h3 { color: darken($accent, 20%); }
     }
   }
+}
 
-  .card-collection__header {
-    align-self: center;
-    border-bottom: 2em;
-    font-weight: bold;
-    line-height: 1.5em;
-    padding: 30px;
+.card-collection__content {
+  align-self: center;
+  order: 1;
+  border-bottom: 2em;
+  flex-shrink: 50;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding: 1.5em;
+}
+
+.card-collection__title {
+  text-align: left;
+  color: $accent;
+}
+
+.card-collection__text { 
+ //@extend .mobile-hide;
+ p { margin-top: 0.5em; }
+}
+
+.card-collection__text--mobile { 
+ @extend .desktop-hide;
+ order: 2;
+}
+
+.card-collection__image {
     
-    h3 {
-      text-align: left;
-      color: $accent;
+    img { max-width: 2.8em }
+    align-self: flex-start;
+    padding: 1.8em 0em 0em 1.5em;
+
+    @include media($medium-screen, $large-screen) {
+      img { max-width: 4em }
+      align-self: center;
+      padding: 0em 0em 0em 1.5em;
     }
-  }
+
 }
