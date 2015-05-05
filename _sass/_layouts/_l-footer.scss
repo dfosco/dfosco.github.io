@@ -1,63 +1,37 @@
-
-
 .footer {
-  ///////////////////////////////////////////////////////////////////////////////////
-  $base-spacing: 1.5em !default;
-  $medium-screen: em(640) !default;
-  $large-screen: em(860) !default; 
   
-  ul {
-    padding: 0;
-  }
-
-  li {
-    list-style: none;
-    line-height: 1.5em;
-  }
-
-  a {
-    text-decoration: none;
-    color: $light-gray;
-    &:hover { color: darken($light-gray, 10%) }
-  }
-  //////////////////////////////////////////////////////////////////////////////////
-
-  background: $footer-background;
-  
-  padding: ($base-spacing) $gutter;
   @include span-columns(16 of 16);
-
-  .footer-logo {
-    margin-bottom: 2em;
-    text-align: center;
-
-    img {
-      height: 2.5em;
-    }
-  } 
-
-  .footer-links {
-    @include clearfix;
-    margin-bottom: $base-spacing;
-
-    @include media($medium-screen) {
-      @include shift(3);
-    }
+  a { 
+    text-decoration: none; 
+    color: $light-gray; 
+    &:hover { color: darken($light-gray, 10%) } 
   }
-
-  hr {
-    border: 1px solid transparentize($light-gray, 0.4);
-    margin: 0 auto $base-spacing;
-    width: 12em;
-  }
-
-  p {
-    color: $footer-disclaimer-color;
-    font-size: 0.9em;
-    font-weight: 700;
-    line-height: 1.5em;
-    margin: auto;
-    max-width: 35em;
-    text-align: center;
-  }
+  
+  background: $footer-background;  
+  padding: ($base-spacing) $gutter;
 }
+
+.footer__text {
+  color: $footer-disclaimer-color;
+  font-size: 0.9em;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin: auto;
+  max-width: 35em;
+  text-align: center;
+}
+
+.footer__hr {
+  border: 1px solid transparentize($light-gray, 0.4);
+  margin: 0 auto $base-spacing;
+  width: 12em;
+}
+
+.footer__logo {
+  margin-bottom: 2em;
+  text-align: center;
+
+  img {
+    height: 2.5em;
+  }
+} 

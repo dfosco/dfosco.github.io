@@ -37,35 +37,36 @@
 .sidebar__inner {
   @include outer-container;
   padding: 1.5em;
+}
 
-  h5 {  
-    margin-bottom: 1em;
-    font-weight: 300;
-  }
+.sidebar__title {  
+  margin-bottom: 1em;
+  font-weight: 300;
+}
 
-  p {
-    text-align: left;
-    font-size: 0.95em;
-  }
+.sidebar__text {
+  text-align: left;
+  font-size: 0.95em;
+}
 
-  form {
-    @include span-columns(12 of 12);
-    display: inline-block;
-  }
-  
-  .input, button {
-    @include span-columns(12 of 12);
-  }
+.sidebar__form {
+  @include span-columns(12 of 12);
+  display: inline-block;
+}
 
-  input {
-    font-size: 0.95em;
-    box-shadow: none;
-  }
+.sidebar__input, .sidebar__button {
+  @include span-columns(12 of 12);
+}
+
+.sidebar__inputs {
+  font-size: 0.95em;
+  box-shadow: none;
 
   input + input {
     margin-top: -0.5em;
   }
 }
+
 
 .sidebar__box--links--cta {
   @extend .sidebar__box--links;
@@ -78,8 +79,4 @@
 .sidebar__inner--cta {
   @extend .sidebar__inner;
   padding: 1em 0.5em 0em 0.5em;
-
-  h5 {
-    //margin-bottom: 0;
-  }
 }
