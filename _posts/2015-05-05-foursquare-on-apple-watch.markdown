@@ -6,8 +6,8 @@ category: links
 title: Foursquare on Apple Watch
 source: http://www.producthunt.com/posts/foursquare-on-apple-watch#comment-91267
 
-image-name: none
-image-alt: 
+image-name: foursquare_watch.png
+image-alt: Some screenshots of the Foursquare App for Apple Watch
 ---
 
 > We’re been working towards this “when you walk around, your phone should buzz you and tell you about the awesome things you don’t yet know about” vision of the future for a long time. Honestly, we were thinking about this stuff with Dodgeball @ Google, and were motivated to build Foursquare because we wanted this to exist so badly. So, want a brief history of how we got from 2009 -> 2015?
