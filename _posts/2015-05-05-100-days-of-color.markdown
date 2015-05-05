@@ -1,0 +1,15 @@
+---
+layout: links/post
+date:   2015-05-05 11:43:00
+category: links
+
+title: 100 Days of Color
+source: http://100daysofcolor.tumblr.com/
+
+image-name: 100_days.png
+image-alt: One of Jaclyn's color palettes
+---
+
+Designer and artist Jaclyn Lenee is on a 100-day stretch doing a color palette everyday based on a different picture. 
+
+See all of her palettes so far [on her Tumblr](http://100daysofcolor.tumblr.com/?ref=danielfosco-linklist). 

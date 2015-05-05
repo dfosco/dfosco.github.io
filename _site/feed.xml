@@ -5,9 +5,76 @@
     <description>Hi, my name is Daniel and this is my website. Hope you enjoy it.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 May 2015 01:57:30 -0300</pubDate>
-    <lastBuildDate>Tue, 05 May 2015 01:57:30 -0300</lastBuildDate>
+    <pubDate>Tue, 05 May 2015 12:26:02 -0300</pubDate>
+    <lastBuildDate>Tue, 05 May 2015 12:26:02 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Slack’s $2.8 Billion Dollar Secret Sauce</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Like a well-built home, great software focuses on giving its users hundreds of small, satisfying interactions. A great transition in a mobile app gives us the same feeling we get from using a well-made door handle on a solid oak door — you may not be able to put your finger on it, but man, does the house ever feel well built. Slack is really fun to use. It feels like a well-built house.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Andrew Wilkinson lays out the design work they did for Slack and how it is (or might be?) their secret recipe for success.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 05 May 2015 09:15:00 -0300</pubDate>
+        <link>/links/slacks-2-8-billion-dollar-secret-sauce</link>
+        <guid isPermaLink="true">/links/slacks-2-8-billion-dollar-secret-sauce</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Foursquare on Apple Watch</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;We’re been working towards this “when you walk around, your phone should buzz you and tell you about the awesome things you don’t yet know about” vision of the future for a long time. Honestly, we were thinking about this stuff with Dodgeball @ Google, and were motivated to build Foursquare because we wanted this to exist so badly. So, want a brief history of how we got from 2009 -&amp;gt; 2015?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Buried deep inside a Product Hunt discussion thread, Foursquare founder &lt;a href=&quot;https://twitter.com/dens&quot;&gt;Dennis Crowley&lt;/a&gt; gives a recap of Foursquare’s design history and lays out the vision behind their Apple Watch app.&lt;/p&gt;
+
+&lt;p&gt;Essential reading for anyone looking to understand the long-term evolution of a product.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 May 2015 08:59:00 -0300</pubDate>
+        <link>/links/foursquare-on-apple-watch</link>
+        <guid isPermaLink="true">/links/foursquare-on-apple-watch</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>RightFont App</title>
+        <description>&lt;p&gt;A tiny Mac app for people tired of the old Fontbook. Still in beta, but pretty useful — allows for filtering by Google or Typekit fonts.&lt;/p&gt;
+
+&lt;p&gt;Get it for free &lt;a href=&quot;http://rightfontapp.com/?ref=danielfosco-linklist&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 May 2015 08:52:00 -0300</pubDate>
+        <link>/links/rightfont-app</link>
+        <guid isPermaLink="true">/links/rightfont-app</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>100 Days of Color</title>
+        <description>&lt;p&gt;Designer and artist Jaclyn Lenee is on a 100-day stretch doing a color palette everyday based on a different picture.&lt;/p&gt;
+
+&lt;p&gt;See all of her palettes so far &lt;a href=&quot;http://100daysofcolor.tumblr.com/?ref=danielfosco-linklist&quot;&gt;on her Tumblr&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 May 2015 08:43:00 -0300</pubDate>
+        <link>/links/100-days-of-color</link>
+        <guid isPermaLink="true">/links/100-days-of-color</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Nobody Famous</title>
@@ -137,74 +204,6 @@ We’re introducing some incredible tools that will allow you to get in-depth in
         <pubDate>Mon, 23 Mar 2015 09:50:00 -0300</pubDate>
         <link>/links/learning-to-see</link>
         <guid isPermaLink="true">/links/learning-to-see</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>The Tweeting Child, or What I Learned about Social Media from a Five Year-Old</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;His tweets can be cute, or goofy, or nonsensical, and always, always childish. They show the five year-old’s view of the touchscreen keyboard, the emoji set, the world captured by a phone camera and Google image search. They reveal some of his interests — sharks, himself and his family—and his mode of expression. […]&lt;/p&gt;
-
-  &lt;p&gt;Emoji are such a perfect medium for a child. […] “I like how beautiful they are,” says @beebaaahp. “Emoji is cool and it has amazing pictures. I like to type emoji a lot and be funny.”&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 23 Mar 2015 09:40:00 -0300</pubDate>
-        <link>/links/the-tweeting-child-or-what-i-learned-about-social-media-from-a-five-year-old</link>
-        <guid isPermaLink="true">/links/the-tweeting-child-or-what-i-learned-about-social-media-from-a-five-year-old</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Hitting the Self-Destruct Button</title>
-        <description>&lt;p&gt;I recently nuked my personal website, partly inspired by Kevin M. Jackson’s &lt;em&gt;new&lt;/em&gt; site above. This link blog is pretty much what’s left of it.&lt;/p&gt;
-
-&lt;p&gt;Without getting too sentimental about it, the weight of keeping a &lt;em&gt;personal brand&lt;/em&gt; while selling myself as a designer and constantly worrying about presenting my old work was beginning to weight on my shoulders. Better to nuke the whole thing and start fresh &lt;sup&gt;&lt;b&gt;1&lt;/b&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;By the way, if you’re in the midst of re-doing your portfolio, &lt;a href=&quot;http://alexcican.com/post/personal-websites/&quot;&gt;this article&lt;/a&gt; by Alex Cican might come in handy.&lt;/p&gt;
-
-&lt;p&gt;&lt;sub&gt;&lt;strong&gt;1.&lt;/strong&gt; It’s relevant to note that my personal website is not my main source of work and/or revenue, &lt;em&gt;by any means&lt;/em&gt;. Needless to say, don’t destroy your portfolio site if your bread &amp;amp; butter depends on it. &lt;i class=&quot;twa twa-lg twa-boom&quot;&gt;&lt;/i&gt; &lt;i class=&quot;twa twa-lg twa-boom&quot;&gt;&lt;/i&gt; &lt;i class=&quot;twa twa-lg twa-boom&quot;&gt;&lt;/i&gt;&lt;/sub&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 Mar 2015 09:30:00 -0300</pubDate>
-        <link>/links/hitting-the-self-destruct-button</link>
-        <guid isPermaLink="true">/links/hitting-the-self-destruct-button</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Why can&#39;t you track periods in Apple&#39;s Health app?</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;When I checked the documentation for HealthKit […] I was disappointed to find out that Apple did not include anything related to menstruation and the reproductive health of roughly half of the world’s population.&lt;/p&gt;
-
-  &lt;p&gt;In case you’re wondering whether Health is only concerned with a few basics: Apple has predicted the need to input data about blood oxygen saturation, &lt;strong&gt;your daily molybdenum or pathogenic acid intake, cycling distance, number of times fallen and your electrodermal activity&lt;/strong&gt;, but nothing to do with recording information about your menstrual cycle.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Mon, 23 Mar 2015 09:20:00 -0300</pubDate>
-        <link>/links/why-cant-you-track-periods-in-apples-health-app</link>
-        <guid isPermaLink="true">/links/why-cant-you-track-periods-in-apples-health-app</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>The Legion of Real Life Supervillains by Butcher Billy</title>
-        <description>&lt;p&gt;These are all incredible, but Zuckerberg Loki takes the cake.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 23 Mar 2015 09:10:00 -0300</pubDate>
-        <link>/links/the-legion-of-real-life-supervillains-by-butcher-billy</link>
-        <guid isPermaLink="true">/links/the-legion-of-real-life-supervillains-by-butcher-billy</guid>
         
         
         <category>links</category>
