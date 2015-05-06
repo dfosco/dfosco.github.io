@@ -16,7 +16,7 @@ layout: links/default
         </div>
       {% endif %}
 
-        <article class="card-link">
+        <article class="card-link" id="{{ post.title | replace: ' ', '-' }}">
           <div class="card-link__inner">
         
         {% if post.image-name == "none" %}
