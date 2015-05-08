@@ -1,6 +1,6 @@
 ---
 layout: links/post
-date:   2015-05-05 11:43:00
+date:   2015-05-07 23:59:00
 category: links
 
 title: 100 Days of Color
@@ -10,6 +10,22 @@ image-name: 100_days.png
 image-alt: One of Jaclyn's color palettes
 ---
 
-Designer and artist Jaclyn Lenee is on a 100-day stretch doing a color palette everyday based on a different picture. 
+Designer and artist Jaclyn Leneé is on a 100-day stretch doing a color palette everyday based on a different picture. See all of her palettes so far [on her Tumblr](http://100daysofcolor.tumblr.com/?ref=danielfosco-linklist).
 
-See all of her palettes so far [on her Tumblr](http://100daysofcolor.tumblr.com/?ref=danielfosco-linklist). 
+_~~Update~~_
+
+I reached out to Jaclyn [on Twitter](https://twitter.com/jaclynlenee) to ask a couple of questions about her inspiration and feelings around the project — see below:
+
+>**What's your process for coming up with the color palette for each photograph?**
+>
+>**Jaclyn**: I'm delighted by color in everyday life. I snap photos of subjects and textures I find beautiful, and pull colors from them.
+>
+>**How does this project relates to the way you use color in your design work?**
+>
+>**Jaclyn:** I frequently look online for color inspiration. Since I started this project, I've pulled from my own palettes. It is satisfying to design with my own color stories, rather than use a palette from Kuler, or elsewhere.
+>
+>**Do you expect things to get... repetitive by the 100th day? How do you look for new subjects and/or diff results?**
+>
+>**Jaclyn:** I doubt it. Every image is different, the lighting different, the subject different. Endless possibilities. It is all about opening my eyes to the world around me. I take a lot of walks and keep my eyes peeled for color and texture.
+
+I'd like to thank Jaclyn for taking the time to answer these questions -- great insights for anyone who wants to dive deeper into working with color <i class="twa twa-lg twa-smiley"></i>
