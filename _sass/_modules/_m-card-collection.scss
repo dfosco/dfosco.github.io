@@ -60,7 +60,7 @@
     align-self: flex-start;
     padding: 1.8em 0em 0em 1.5em;
 
-    @include media($medium-screen, $large-screen) {
+    @include media($medium-screen-up) {
       img { max-width: 4em }
       align-self: center;
       padding: 0em 0em 0em 1.5em;
