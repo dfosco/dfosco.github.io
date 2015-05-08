@@ -5,8 +5,8 @@
     <description>Hi, my name is Daniel and this is my website. Hope you enjoy it.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 May 2015 02:12:07 -0300</pubDate>
-    <lastBuildDate>Fri, 08 May 2015 02:12:07 -0300</lastBuildDate>
+    <pubDate>Fri, 08 May 2015 20:56:46 -0300</pubDate>
+    <lastBuildDate>Fri, 08 May 2015 20:56:46 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -44,9 +44,9 @@
     
       <item>
         <title>Learning to Love BEM</title>
-        <description>&lt;p&gt;A primer to start writing CSS with BEM-style syntax by &lt;a href=&quot;https://twitter.com/johan_ronsse&quot;&gt;Johan Ronsse&lt;/a&gt;. I disagree with Johan when he says BEM is unnecessary for small and personal sites, however.&lt;/p&gt;
+        <description>&lt;p&gt;A primer to start writing CSS with BEM-style syntax by &lt;a href=&quot;https://twitter.com/johan_ronsse&quot;&gt;Johan Ronsse&lt;/a&gt;. Good stuff, although I disagree with Johan when he says BEM is unnecessary for small and personal sites.&lt;/p&gt;
 
-&lt;p&gt;Personal project or not, writing CSS with BEM makes class-naming much more constrained (and well-documented), and nudges you to write styling and markup in a more structured manner.&lt;/p&gt;
+&lt;p&gt;Personal project or not, writing CSS with BEM makes class-naming much more constrained (and well-documented), pushing you to write styling and markup in a more structured manner.&lt;/p&gt;
 
 &lt;p&gt;If you’ve never heard of BEM, &lt;a href=&quot;https://css-tricks.com/bem-101/&quot;&gt;this article&lt;/a&gt; by CSS-Tricks is another great way to get started.&lt;/p&gt;
 </description>
