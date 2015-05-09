@@ -6,16 +6,18 @@ layout: links/default
     
     {% if post.category == "links" %}
 
-    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
-    {% capture next_month %}{{ post.next.date | date: "%B" }}{% endcapture %}
-    
+    {% comment %}   
+      {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+      {% capture next_month %}{{ post.next.date | date: "%B" }}{% endcapture %}
+      
       {% if this_month == next_month %}
       {% else %}
-        <div class="link-section-title">
-          <h3>{{ post.date | date: "%B" }}</h3>
+        <div class="card-note__section-title">
+          <h3 class="section-title__header-text">{{ post.date | date: "%B" }}</h3>
         </div>
       {% endif %}
-
+    {% endcomment %}   
+      
         <article class="card-note" id="{{ post.url | replace: '/links/', '' | replace: '/notes/', '' }}">
           <div class="card-note__inner">
         

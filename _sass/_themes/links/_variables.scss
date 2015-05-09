@@ -9,7 +9,7 @@ $img-url: "../../images";
 $sans-serif: $helvetica;
 $serif: $georgia;
 $base-font-family: "proxima-nova", $sans-serif;
-$header-font-family: "omnes-pro";
+$header-font-family: "freight-sans-pro", $sans-serif;
 
 // Font Sizes
 $base-font-size: 1em;
@@ -50,10 +50,11 @@ $strong-base: #f09a36;
 // New Colors
 //--- --- --- ---
 
-$accent: #CC3B38;
+$accent: #CC3B38; //Actually the primary now
 $outlier: #D5CAB1;	
-$primary: #214370;
-$primary-second: #509AFA;
+
+$primary: #214370; //Actually the accent now
+$primary-second: #509AFA; //Actually the accent now
 
 $base-dark: #1B1F24;
 $base-dark-second: #4B5057;
