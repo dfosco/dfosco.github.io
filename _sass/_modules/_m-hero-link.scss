@@ -3,15 +3,10 @@
 // ------------------------------------------------------------------------
 
 .hero {
-
   @include span-columns(16 of 16);  
-  background: url("../images/interface/bg_link.png");
-  background-repeat: repeat-x 0 0;
-
-  button {
-    background-color: $base-accent-color;
-    padding: 0.7em 1em;
-  }
+  background: none;
+  margin-bottom: -1em;
+  border-top: 10px solid $accent;
 }
 
 .hero-logo {
@@ -23,26 +18,34 @@
   @include omega;
   @include clearfix;
   margin: auto;
-  padding: 3.5em;
+  padding: 1.5em 6.5em;
   text-align: center;
 }
 
 .hero-copy {
-  text-align: center;
+  text-align: left;
 }  
 
-.hero-title { 
-  color: $dark-gray;
-  font-size: $h1-font-size; 
+.hero-copy__title { 
+  color: $accent;
+  font-size: $h4-font-size;
+  font-weight: 400;
   margin-bottom: 0.1em;
 
-  a {
-    color: $dark-gray;
+  .title__link {
+    color: $accent;
     
     &:hover { 
-      color: darken($dark-gray, 10%)
+      color: lighten($accent, 15%);
     }
   }
+}
+
+.hero-copy__sitename {
+  color: $base-light;
+  font-size: $h3-font-size;
+  font-weight: 400;
+  
 }
 
 .hero-list { 

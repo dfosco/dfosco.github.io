@@ -2,48 +2,43 @@
 section: The Link List
 ---
 
-<!DOCTYPE html>
-<html>
+{% include head.html %}
 
-  {% include head.html %}
+<div id="viewport" class="container">
 
-  <body>
+  {% include links/header.html %}
+    <div class="wrapper">
 
-  <div id="viewport" class="container">
+      <section class="content--regular content--post">
+        <article class="card-note">
+          <div class="card-note__inner">
+            
+            {% comment %}{% include post-image.html %}{% endcomment %}
+            
+            {% if page.source == null %}
+            <h1 class="card-note__title">{{ page.title }}</h1>
+            {% else %}
+            <a href="{{ page.source }}?ref=danielfosco-linklist" target="_blank">
+            <h1 class="card-note__title">{{ page.title }}</h1>
+            </a>
+            {% endif %}
 
-    {% include links/header.html %}
-      <div class="wrapper">
-
-        <section class="content--regular content--post">
-          <article class="card-note">
-            <div class="card-note__inner">
-              
-              {% comment %}{% include post-image.html %}{% endcomment %}
-              
-              {% if page.source == null %}
-              <h1 class="card-note__title">{{ page.title }}</h1>
-              {% else %}
-              <a href="{{ page.source }}?ref=danielfosco-linklist" target="_blank">
-              <h1 class="card-note__title">{{ page.title }}</h1>
-              </a>
-              {% endif %}
-
-              <div>
-                {{ content }}
-              </div>
-
+            <div>
+              {{ content }}
             </div>
 
-         </article> 
-        </section>
+          </div>
 
-              {% include links/sidebar.html %}
-      
-      </div>
-  </div>
+       </article> 
+      </section>
 
-  {% include links/footer.html %}
-  
-  </body>
+            {% include links/sidebar.html %}
+    
+    </div>
+</div>
+
+{% include links/footer.html %}
+
+</body>
 
 </html>
