@@ -50,11 +50,13 @@ $strong-base: #f09a36;
 // New Colors
 //--- --- --- ---
 
-$accent: #CC3B38; //Actually the primary now
-$outlier: #D5CAB1;	
+$primary: #CC3B38; 
+$primary-buckets: #673AB7;
+$primary-projects: #FD620D;
 
-$primary: #214370; //Actually the accent now
-$primary-second: #509AFA; //Actually the accent now
+$accent: #214370;
+
+$outlier: #D5CAB1;
 
 $base-dark: #1B1F24;
 $base-dark-second: #4B5057;
@@ -72,13 +74,13 @@ $base-font-color: $base-dark-second;
 $base-accent-color: $primary;
 
 // Link Colors
-$base-link-color: $accent;
-$hover-link-color: $primary;
+$base-link-color: $primary;
+$hover-link-color: lighten($primary, 10%);
 $base-button-color: $accent;
-$hover-button-color: $primary;
+$hover-button-color: lighten($accent, 10%);
 
 //Footer Colors
-$footer-background: $primary-second;
+$footer-background: $accent;
 $footer-color: $base-dark-second;
 $footer-link-color: transparentize($footer-color, 0.4);
 $footer-disclaimer-color: transparentize($accent, 0.4);

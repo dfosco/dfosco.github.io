@@ -1,50 +1,117 @@
 header {
-  height: 80.4px;
+  height: 12.5em;
+  @include media($medium-screen-up) { height: 80.4px }
 }
+
 
 .header {
   @include span-columns(16 of 16);
   background: none;
   margin-bottom: -1em;
-  border-top: 10px solid $accent;
+  border-top: 10px solid $primary;
 }
+
 
 .header-logo {
   height: 6em;
   margin-bottom: 1em;
 }
 
-.header-inner {
+
+.nav__wrapper {
   @include outer-container;
-  @include media($medium-screen-up) { padding: 1.5em 0.5em; };
+  @include media($medium-screen-up) { padding: 1.5em 0.5em }
   text-align: center;
   padding: 1.5em 1em;
   
 }
 
-.header-copy {
-  text-align: left;
+//General Layout and Flex Configuration for Nav Parent
+.nav {
   @include span-columns(12 of 16);
-}  
-
-.header-copy__title { 
-  color: $accent;
-  font-size: $h2-font-size;
-  font-weight: 400;
-  margin-bottom: 0.1em;
-}
-
-.title__link {
-color: $accent;
-}
-
-.title__link:hover { 
-  color: $primary;
-}
-
-.header-copy__sitename {
-  color: $base-light;
-  font-size: $h3-font-size;
-  font-weight: 400;
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+  @include align-items(baseline);
   
+} 
+
+//General Layout and Flex Configuration for Nav Children
+.subnav { 
+  @include display(flex);
+  @include justify-content(flex-start);
+  @include align-items(baseline);
+  text-align: left;
+
+  @include media($small-screen) {
+    @include span-columns(16 of 16);
+  }
 }
+
+//Select Nav Items based on their position and apply spacings accordingly
+
+.subnav:nth-child(1) {
+  @include media($medium-screen-up) {
+    @include flex-grow(0.4);
+  }
+}
+
+.subnav:nth-child(2), .subnav:nth-child(3), .subnav:nth-child(4) {
+  @include media($medium-screen-up) {
+    @include flex-grow(0.3);
+  }
+}
+
+.subnav:nth-last-child(2) {
+  @include media($medium-screen-up) {
+    @include flex-grow(3);
+  }
+}
+
+.subnav:nth-last-child(1) {  
+  @include justify-content(flex-end);
+}
+
+//Styling Text Inside Nav Items
+
+.subnav__text {
+  a:hover { color: $accent }
+  
+  font-size: $h4-font-size * 0.935;
+  font-weight: 500;
+  padding-bottom: 0.25em;
+}
+
+    .subnav__text--type__page-title { 
+      @extend .subnav__text;
+
+      font-size: $h1-font-size;
+      a { color: $primary }
+      a:hover { color: lighten($primary, 10%) }  
+    }
+
+    .subnav__text--type__site-title {
+      @extend .subnav__text;
+
+      @include media($medium-screen-up) {
+        a { color: $accent }
+        a:hover { color: lighten($accent, 10%) }    
+      }
+
+      @include media($small-screen) {
+        a { color: $base-light-second }
+        a:hover { color: lighten($base-light-second, 10%) }
+      }
+    }
+
+    .subnav__text--color__buckets {
+      @extend .subnav__text;
+      a { color: $primary-buckets }
+      a:hover { color: lighten($primary-buckets, 10%) }
+    }
+
+    .subnav__text--color__projects {
+      @extend .subnav__text;
+      a { color: $primary-projects }
+      a:hover { color: lighten($primary-projects, 10%) }
+    }

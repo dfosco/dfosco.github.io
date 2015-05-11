@@ -1,24 +1,72 @@
-<header role="banner">
-<div class="page-header">
+<header role="navigation">
   <div class="header">
-    <div class="header-inner">
+    <div class="nav__wrapper">
 
-      <div class="header-copy">
+      <nav class="nav">
         
-        {% if page.layout contains "post" %}
-        <h2 class="header-copy__title">
-        {% else %}
-        <h1 class="header-copy__title">
-        {% endif %}
+        <nav class="subnav">
+            {% if page.layout contains "post" %}
+            <h2 class="subnav__text--type__page-title">
+            {% else %}
+            <h1 class="subnav__text--type__page-title">
+            {% endif %}
 
-          <a href="{{ site.domain }}/links" class="title__link">Notes</a>
+              <a href="{{ site.domain }}/links">NOTES</a>
 
-        {% if page.layout contains "post" %}
-        </h2>
-        {% else %}
-        </h1>
-        {% endif %}
+            {% if page.layout contains "post" %}
+            </h2>
+            {% else %}
+            </h1>
+            {% endif %}
+        </nav>
 
+        <nav class="subnav">
+            {% if page.layout contains "post" %}
+            <h3 class="subnav__text--color__buckets">
+            {% else %}
+            <h2 class="subnav__text--color__buckets">
+            {% endif %}
+
+              <a href="{{ site.domain }}/links">BUCKETS</a>
+
+            {% if page.layout contains "post" %}
+            </h3>
+            {% else %}
+            </h2>
+            {% endif %}            
+        </nav>
+
+        <nav class="subnav">
+            {% if page.layout contains "post" %}
+            <h3 class="subnav__text--color__projects">
+            {% else %}
+            <h2 class="subnav__text--color__projects">
+            {% endif %}
+
+              <a href="{{ site.domain }}/links">WORK</a>
+
+            {% if page.layout contains "post" %}
+            </h3>
+            {% else %}
+            </h2>
+            {% endif %}            
+        </nav>
+
+        <nav class="subnav">
+            {% if page.layout contains "post" %}
+            <h3 class="subnav__text--type__site-title">
+            {% else %}
+            <h2 class="subnav__text--type__site-title">
+            {% endif %}
+
+              <a href="{{ site.domain }}/links">DANIEL FOSCO</a>
+
+            {% if page.layout contains "post" %}
+            </h3>
+            {% else %}
+            </h2>
+            {% endif %}            
+        </nav>
 		<!-- 
         {% if page.layout contains "post" %}
         <h3 class="header-copy__sitename">
@@ -34,11 +82,11 @@
         </h2>
         {% endif %}
 		 -->
-      </div>
+
+      </nav>
 
     </div>
   </div>
-</div>
 
 </header>
 
