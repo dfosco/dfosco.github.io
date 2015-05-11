@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-11 02:48:03
-category: links
+category: notes
 
 title: Affinity Photo Beta
 source: https://affinity.serif.com/en-gb/photo

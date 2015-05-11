@@ -1,32 +1,31 @@
 .sidebar {
   @include media($medium-screen-up) {
-    @include span-columns(5.5 of 16);
+    @include span-columns(4 of 16);
   }
 }
 
-.sidebar__box--links {
-  @include margin(-2.5em 0.5em 1.5em 0.5em);
+.sidebar__box--notes {
+  @include margin(3em 0.5em -1.5em);
 
   @include media($medium-screen-up) {
-    @include margin(4.5em 0.5em 1.5em 0.5em);
+    @include margin(3em 0.5em 1.5em 0.5em);
   }
   
-  background: $quarter-base;
-  border-radius: 5px;
+  background: $black-2;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
 
-.sidebar__box--links--post {
-  @extend .sidebar__box--links;
-  @include margin(2em null 1.5em null);  
+.sidebar__box--notes--post {
+  @extend .sidebar__box--notes;
+  @include margin(1.5em null 1.5em null);  
 
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
 
 .sidebar__box--collection {
-  @extend .sidebar__box--links; 
+  @extend .sidebar__box--notes; 
   background: $strong-clear;
 
   @include media($medium-screen-up) {
@@ -36,17 +35,24 @@
 
 .sidebar__inner {
   @include outer-container;
-  padding: 1.5em;
+  padding: 1em;
 }
 
 .sidebar__title {  
+  font-size: $h4-font-size;
+  font-weight: 500;
+  color: $primary;
   margin-bottom: 1em;
-  font-weight: 300;
 }
 
 .sidebar__text {
+  color: $white-1;
   text-align: left;
-  font-size: 0.95em;
+
+  @include media($medium-screen-up) {
+    font-size: 0.97em;
+  }
+  
 }
 
 .sidebar__form {
@@ -68,8 +74,8 @@
 }
 
 
-.sidebar__box--links--cta {
-  @extend .sidebar__box--links;
+.sidebar__box--notes--cta {
+  @extend .sidebar__box--notes;
 
   margin-top: 1.5em;
   background: $quarter-base;

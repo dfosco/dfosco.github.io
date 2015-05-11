@@ -1,0 +1,62 @@
+// Hero Variables
+// ------------------------------------------------------------------------
+
+  ///////////////////////////////////////////////////////////////////////////////////
+  $base-border-radius: 3px !default;
+  $large-screen-up: em(860) !default;
+  //////////////////////////////////////////////////////////////////////////////////
+
+  $hero-color: $strong-base;
+  $gradient-angle: 10deg;
+  $hero-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
+
+// Hero
+// ------------------------------------------------------------------------
+
+.hero {
+
+  @include span-columns(16 of 16);
+  @include linear-gradient(90deg, #6441A5 10%, #2a0845 90%);
+  
+  button {
+    background-color: $base-accent-color;
+    padding: 0.7em 1em;
+  }
+}
+
+.hero-logo {
+  height: 6em;
+  margin-bottom: 1em;
+}
+
+.hero-inner {
+  @include omega;
+  @include clearfix;
+  margin: auto;
+  padding: 3.5em;
+  text-align: center;
+}
+
+.hero-copy {
+  text-align: center;
+}
+
+.hero-title {
+  color: $quarter-base;
+  margin-bottom: 0.1em;
+  font-size: $h1-font-size;
+
+  a {
+    color: $quarter-base;
+    
+    &:hover { 
+      color: darken($quarter-base, 10%)
+    }
+  }
+}
+
+.hero-subtitle {
+  font-size: $h5-font-size;
+  color: $white-4;
+}
+

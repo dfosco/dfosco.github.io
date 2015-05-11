@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-05-07 23:59:00
-category: links
+category: notes
 
 title: 100 Days of Color
 source: http://100daysofcolor.tumblr.com/

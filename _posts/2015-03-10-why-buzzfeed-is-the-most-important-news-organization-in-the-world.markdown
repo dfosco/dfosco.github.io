@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-10 12:20:00
-category: links
+category: notes
 
 title:  Why Buzzfeed is The Most Important News Organization in the World
 source: http://stratechery.com/2015/buzzfeed-important-news-organization-world/
@@ -10,7 +10,7 @@ image-name: none
 image-alt:
 ---
 
-I know I've been heavy on the _Buzzfeed_ bandwagon lately, but Ben Thompson's analysis is too good an opportunity to pass up. Seriously, [follow this guy](https://twitter.com/monkbent).
+I know I‘ve been heavy on the _Buzzfeed_ bandwagon lately, but Ben Thompson’s analysis is too good an opportunity to pass up. Seriously, [follow this guy](https://twitter.com/monkbent).
 
 This small tidbit serves as the perfect example to his argument — overheard at a recent New York Times editorial meeting:
 

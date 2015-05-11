@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-05 15:45:04
-category: links
+category: notes
 
 title:  Why I Would Never Want to Compete with Travis Kalanick
 source: http://lowercasecapital.com/2015/02/04/why-i-would-never-want-to-compete-with-travis-kalanick
@@ -14,4 +14,4 @@ image-alt:
 
 Impressive account of how _awesome_ the CEO of Uber is. 
 
-It's also an impressively self-serving pat on the back, as this _randian-esque_ admiration makes for a cozy narrative in which Uber investors can accomodate Travis' general douchebaggery and Uber's predatory business practices.
+It‘s also an impressively self-serving pat on the back, as this _randian-esque_ admiration makes for a cozy narrative in which Uber investors can accomodate Travis' general douchebaggery and Uber’s predatory business practices.

@@ -1,0 +1,78 @@
+/* --- --- --- --- --- --- --- */
+// Collections Theme Variables
+/* --- --- --- --- --- --- --- */
+
+//General
+$img-url: "../images";
+
+// Typography
+$sans-serif: $helvetica;
+$serif: $georgia;
+$base-font-family: $sans-serif;
+$header-font-family: "calluna-sans";
+
+// Font Sizes
+$base-font-size: 1em;
+$h1-font-size: $base-font-size * 2.5;
+$h2-font-size: $base-font-size * 2.25;
+$h3-font-size: $base-font-size * 1.75;
+$h4-font-size: $base-font-size * 1.5;
+$h5-font-size: $base-font-size * 1.25;
+$h6-font-size: $base-font-size;
+
+// Line height
+$base-line-height: 1.65;
+$header-line-height: 1.25;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$base-z-index: 0;
+
+// Colors
+$black-1: #1B1F24;
+$black-2: #22282E;
+$black-3: #4B5057;
+$white-1: #F5F2EB;
+$white-2: #B8B7B3;
+$white-3: lighten($white-2, 15%);
+$white-4: #EEEBF5;
+
+$primary: #673ab7;
+
+$accent: #29274C;
+
+// Background Color
+$base-background-color: $white-3;
+$box-background-color: $white-4;
+$box-background-hover: $white-2;
+
+// Font Colors
+$base-font-color: $black-3;
+$base-accent-color: $accent;
+
+// Link Colors
+$base-link-color: lighten($accent, 20%);
+$hover-link-color: $accent;
+$base-button-color: $base-link-color;
+$hover-button-color: $hover-link-color;
+
+//Footer Colors
+$footer-background: desaturate($strong-base, 20%);
+$footer-color: $white-2;
+$footer-link-color: transparentize($footer-color, 0.4);
+$footer-disclaimer-color: transparentize($white-2, 0.4);
+
+// Border color
+$base-border-color: $white-2;
+$base-border: 1px solid $base-border-color;
+
+// Forms
+$form-border-color: $base-border-color;
+$form-border-color-hover: darken($base-border-color, 10);
+$form-border-color-focus: $base-accent-color;
+//$form-border-radius: $base-border-radius;
+//$form-box-shadow: inset 0 1px 3px rgba(black,0.06);
+//$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+//$form-font-size: $base-font-size;
+//$form-font-family: $base-font-family;

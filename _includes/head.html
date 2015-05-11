@@ -6,19 +6,19 @@
     <title>
       {% if page.title %}
 
-        {{ page.title }} | {% if page.section %}{{ page.section }}{% else %}{{ site.author.name }}{% endif %}
+        {{ page.title }} • {% if page.section %}{{ page.section }}{% else %}{{ site.author.name }}{% endif %}
       
       {% else %}
 
-        {% if page.section %}{{ page.section }} | {{ site.author.name }}{% else %}{{ site.author.name }}{% endif %}
+        {% if page.section %}{{ page.section }} • {{ site.author.name }}{% else %}{{ site.author.name }}{% endif %}
 
       {% endif %}
     </title>
 
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    {% if page.layout contains "links" %}
-    <link rel="stylesheet" href="{{ "/assets/stylesheets/links.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
+    {% if page.layout contains "notes" %}
+    <link rel="stylesheet" href="{{ "/assets/stylesheets/notes.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
     {% elsif page.layout contains "buckets" %}
     <link rel="stylesheet" href="{{ "/assets/stylesheets/buckets.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
     {% else %}

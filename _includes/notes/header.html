@@ -1,0 +1,80 @@
+<header role="navigation">
+  <div class="header">
+    <div class="nav__wrapper">
+
+      <nav class="nav">
+        
+        <nav class="subnav--only">
+            {% if page.layout contains "post" %}
+            <h2 class="subnav__text--type__page-title">
+            {% else %}
+            <h1 class="subnav__text--type__page-title">
+            {% endif %}
+
+              <a href="/notes">NOTES</a>
+
+            {% if page.layout contains "post" %}
+            </h2>
+            {% else %}
+            </h1>
+            {% endif %}
+        </nav>
+    <!-- 
+        <nav class="subnav">
+            {% if page.layout contains "post" %}
+            <h3 class="subnav__text--color__buckets">
+            {% else %}
+            <h2 class="subnav__text--color__buckets">
+            {% endif %}
+
+              <a href="/buckets">BUCKETS</a>
+
+            {% if page.layout contains "post" %}
+            </h3>
+            {% else %}
+            </h2>
+            {% endif %}            
+        </nav>
+        
+    
+        <nav class="subnav">
+            {% if page.layout contains "post" %}
+            <h3 class="subnav__text--color__projects">
+            {% else %}
+            <h2 class="subnav__text--color__projects">
+            {% endif %}
+
+              <a href="/work">WORK</a>
+
+            {% if page.layout contains "post" %}
+            </h3>
+            {% else %}
+            </h2>
+            {% endif %}            
+        </nav>
+    
+        <nav class="subnav">
+            {% if page.layout contains "post" %}
+            <h3 class="subnav__text--type__site-title">
+            {% else %}
+            <h2 class="subnav__text--type__site-title">
+            {% endif %}
+
+              <a href="/">HOME</a>
+
+            {% if page.layout contains "post" %}
+            </h3>
+            {% else %}
+            </h2>
+            {% endif %}            
+        </nav>
+        -->
+
+      </nav>
+
+    </div>
+  </div>
+
+</header>
+
+      

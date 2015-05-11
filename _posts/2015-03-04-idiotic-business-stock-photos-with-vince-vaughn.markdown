@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-04 12:00:00
-category: links
+category: notes
 
 title:  Idiotic Business Stock Photos with Vince Vaughn
 source: http://www.adweek.com/adfreak/vince-vaughn-and-costars-pose-idiotic-stock-photos-you-can-have-free-163239

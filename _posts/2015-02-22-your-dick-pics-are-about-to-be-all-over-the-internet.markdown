@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-22 15:52:20
-category: links
+category: notes
 
 title:  Your Dick Pics Are About to Be All Over the Internet
 source: http://www.wired.com/2015/02/dick-pics/

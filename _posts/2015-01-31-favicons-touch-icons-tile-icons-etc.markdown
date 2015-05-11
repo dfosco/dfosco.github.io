@@ -1,9 +1,9 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-01-31 12:10:00
-category: links
+category: notes
 
-title: "Favicons, Touch Icons, Tile Icons, etc. What All Do You Need?"
+title: “Favicons, Touch Icons, Tile Icons, etc. What All Do You Need?”
 source: http://css-tricks.com/favicon-quiz/
 
 image-name: none 

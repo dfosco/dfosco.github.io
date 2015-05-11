@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-15 00:06:16
-category: links
+category: notes
 
 title: Coding Resources
 source: 

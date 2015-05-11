@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-01-31 12:13:00
-category: links
+category: notes
 
 title:  Fuck You, Pay Me
 source: https://vimeo.com/22053820

@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-22 15:52:30
-category: links
+category: notes
 
 title:  Better Motherfucking Website
 source: http://bettermotherfuckingwebsite.com

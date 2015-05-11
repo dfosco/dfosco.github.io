@@ -1,0 +1,29 @@
+---
+section: Notes
+---
+
+{% include head.html %}
+
+  <div id="viewport" class="container">
+
+  {% include notes/header.html %}
+
+    <div class="wrapper">
+    
+      {% include notes/sidebar-mobile.html %}
+
+        <section class="content--regular">
+          {{ content }}
+        </section>
+        
+      {% include notes/sidebar.html %}
+      
+    </div>
+
+  </div>
+
+  {% include notes/footer.html %}
+  
+  </body>
+
+</html>

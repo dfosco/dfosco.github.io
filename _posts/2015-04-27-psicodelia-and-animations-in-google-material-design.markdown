@@ -1,9 +1,9 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-04-27 13:24:00
-category: links
+category: notes
 
-title:  "Psicodelia and Animations in Google’s Material Design"
+title: "Psicodelia and Animations in Google’s Material Design"
 source: https://medium.com/@RafaTorres/psicodelia-in-material-design-animations-89555c264238
 
 image-name: material_rafa.gif

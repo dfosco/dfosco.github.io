@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-23 12:50:00
-category: links
+category: notes
 
 title:  Learning to See
 source: https://ia.net/know-how/learning-to-see

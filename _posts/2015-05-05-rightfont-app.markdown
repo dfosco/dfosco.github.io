@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-05-05 11:52:00
-category: links
+category: notes
 
 title: RightFont App
 source: http://rightfontapp.com/

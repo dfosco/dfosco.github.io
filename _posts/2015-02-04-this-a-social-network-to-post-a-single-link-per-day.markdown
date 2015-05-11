@@ -1,9 +1,9 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-02 03:40:01
-category: links
+category: notes
 
-title:  "This. — A Social Network to Post a Single Link per Day"
+title: "This. — A Social Network to Post a Single Link per Day"
 source: https://this.cm
 
 image-name: none 

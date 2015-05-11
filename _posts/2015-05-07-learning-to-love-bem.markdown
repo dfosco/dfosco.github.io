@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-05-07 23:46:00
-category: links
+category: notes
 
 title: Learning to Love BEM
 source: http://mono.company/2015/05/06/learning-to-love-bem/

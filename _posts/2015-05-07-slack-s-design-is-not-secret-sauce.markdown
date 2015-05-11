@@ -1,9 +1,9 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-05-07 23:33:00
-category: links
+category: notes
 
-title: "Slack’s design is not secret sauce"
+title: “Slack’s design is not secret sauce”
 source: https://medium.com/@MattBond21/slack-s-design-is-not-secret-sauce-8e07bdb67d84
 
 image-name: sauce.jpeg
@@ -14,4 +14,4 @@ image-alt: Actual sauce
 >
 >Here’s my list.
 
-A great follow-up to [Andrew Wilkinson's piece](http://danielfos.co/links/slacks-2-8-billion-dollar-secret-sauce) about Slack and its secret sauce — both have their merits, and both are right to a certain extent.
+A great follow-up to [Andrew Wilkinson's piece](/notes/slacks-2-8-billion-dollar-secret-sauce) about Slack and its secret sauce — both have their merits, and both are right to a certain extent.

@@ -33,9 +33,9 @@ $light-yellow: #FFF6BF !default;
 $light-green: #E6EFC2 !default;
 
 // LinkList Colors
-$dark-gray: #757473;
-$medium-gray: #cccbc8 !default;
-$light-gray: #f5f2eb !default;
+$black-3: #757473;
+$white-1: #cccbc8 !default;
+$white-2: #f5f2eb !default;
 
 $strong-clear: #F5E8C7 !default;
 
@@ -47,10 +47,10 @@ $strong-base: #f09a36 !default;
 $accent: #cc514e !default;
 
 // Background Color
-$base-background-color: $light-gray !default;
+$base-background-color: $white-2 !default;
 
 // Font Colors
-$base-font-color: $dark-gray !default;
+$base-font-color: $black-3 !default;
 $base-accent-color: $accent !default;
 
 // Link Colors
@@ -61,9 +61,9 @@ $hover-button-color: $hover-link-color !default;
 
 // Footer Colors
 $footer-background: desaturate($strong-base, 20%);
-$footer-color: $dark-gray;
+$footer-color: $black-3;
 $footer-link-color: transparentize($footer-color, 0.4);
-$footer-disclaimer-color: transparentize($light-gray, 0.4);
+$footer-disclaimer-color: transparentize($white-2, 0.4);
 
 // Flash Colors
 $alert-color: $light-yellow !default;
@@ -72,7 +72,7 @@ $notice-color: lighten($base-accent-color, 40) !default;
 $success-color: $light-green !default;
 
 // Border color
-$base-border-color: $light-gray !default;
+$base-border-color: $white-2 !default;
 $base-border: 1px solid $base-border-color !default;
 
 // Forms

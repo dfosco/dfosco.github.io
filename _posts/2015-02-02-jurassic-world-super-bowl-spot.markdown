@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-02 12:01:00
-category: links
+category: notes
 
 title:  Jurassic World Super Bowl Spot
 source: https://www.youtube.com/watch?v=MaAZXbQs3SM

@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-02 12:03:00
-category: links
+category: notes
 
 title:  Lookback — Record user feedback right through your iPhone
 source: https://lookback.io

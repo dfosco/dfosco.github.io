@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-11 02:48:01
-category: links
+category: notes
 
 title:  The Ultimate Guide To iPhone Resolutions
 source: http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions

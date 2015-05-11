@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-05-05 12:15:00
-category: links
+category: notes
 
 title: Slack’s $2.8 Billion Dollar Secret Sauce
 source: https://medium.com/@awilkinson/slack-s-2-8-billion-dollar-secret-sauce-5c5ec7117908

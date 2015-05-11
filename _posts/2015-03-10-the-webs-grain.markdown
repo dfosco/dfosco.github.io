@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-10 12:40:00
-category: links
+category: notes
 
 title:  The Web's Grain — Frank Chimero
 source: http://frankchimero.com/talks/the-webs-grain/transcript/

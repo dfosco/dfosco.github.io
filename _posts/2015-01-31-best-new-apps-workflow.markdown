@@ -1,9 +1,9 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-01-31 12:14:00
-category: links
+category: notes
 
-title:  "Best New Apps: Workflow"
+title: "Best New Apps: Workflow"
 source: http://www.theverge.com/2014/12/11/7377917/best-new-apps-workflow
 
 image-name: none 

@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-05-07 22:30:00
-category: links
+category: notes
 
 title: Getting Started with Command-Line Interfaces
 source: http://sixrevisions.com/tutorials/command-line/

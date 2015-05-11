@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-28 12:00:00
-category: links
+category: notes
 
 title:  The Art of Andrew B. Myers
 source: http://andrewbmyers.tumblr.com
@@ -11,4 +11,4 @@ image-alt: The tropical art of Andrew B. Myers
 
 ---
 
-Assorted tiny fruits, among other objects. <i class="twa twa-lg twa-watermelon">
+Assorted tiny fruits, among other objects. <i class="twa twa-lg twa-watermelon"></i>

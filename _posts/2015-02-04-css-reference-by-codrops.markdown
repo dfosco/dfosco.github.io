@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-04 03:40:03
-category: links
+category: notes
 
 title:  CSS Reference by Codrops
 source: http://tympanus.net/codrops/css_reference

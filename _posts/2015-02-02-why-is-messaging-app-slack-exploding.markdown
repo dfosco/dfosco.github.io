@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-02 12:00:00
-category: links
+category: notes
 
 title:  Why is messaging app Slack exploding?
 source: http://venturebeat.com/2015/01/19/why-is-messaging-app-slack-exploding-founder-i-have-no-f-king-idea

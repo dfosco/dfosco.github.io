@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-01-31 12:07:00
-category: links
+category: notes
 
 title:  How to Give Feedback that Doesn’t Suck
 source: http://www.benedikt-lehnert.de/blog/how-to-give-feedback-that-doesnt-suck

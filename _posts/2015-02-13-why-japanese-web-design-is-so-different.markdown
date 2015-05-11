@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-13 12:30:01
-category: links
+category: notes
 
 title:  Why Japanese Web Design Is So… Different
 source: http://randomwire.com/why-japanese-web-design-is-so-different
