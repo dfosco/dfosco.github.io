@@ -5,21 +5,20 @@
 }
 
 .sidebar__box--notes {
-  @include margin(-2.5em 0.5em 1.5em 0.5em);
+  @include margin(3em 0.5em -1.5em);
 
   @include media($medium-screen-up) {
-    @include margin(4.5em 0.5em 1.5em 0.5em);
+    @include margin(3em 0.5em 1.5em 0.5em);
   }
   
-  background: $grey-2;
-  border-radius: 5px;
+  background: $black-2;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
 
 .sidebar__box--notes--post {
   @extend .sidebar__box--notes;
-  @include margin(2em null 1.5em null);  
+  @include margin(1.5em null 1.5em null);  
 
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -36,17 +35,24 @@
 
 .sidebar__inner {
   @include outer-container;
-  padding: 1.5em;
+  padding: 1em;
 }
 
 .sidebar__title {  
+  font-size: $h4-font-size;
+  font-weight: 500;
+  color: $primary;
   margin-bottom: 1em;
-  font-weight: 300;
 }
 
 .sidebar__text {
+  color: $white-1;
   text-align: left;
-  font-size: 0.95em;
+
+  @include media($medium-screen-up) {
+    font-size: 0.97em;
+  }
+  
 }
 
 .sidebar__form {

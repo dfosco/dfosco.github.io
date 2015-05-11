@@ -26,6 +26,16 @@
 	}
 }
 
+%mobile-hide {
+
+  @include media($small-screen) {
+  display: none !important;
+}
+  @include media($medium-screen-up) {
+    display: inherit;
+  }
+}
+
 .desktop-hide {
 
 @include media($small-screen) {

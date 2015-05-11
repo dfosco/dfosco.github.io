@@ -30,24 +30,25 @@ $base-spacing: $base-line-height * 1em;
 $base-z-index: 0;
 
 // Colors
-$grey-1: #1B1F24;
-$grey-2: #4B5057;
-$grey-3: #F5F2EB;
-$grey-4: #B8B7B3;
-$grey-5: lighten($grey-4, 15%);
+$black-1: #1B1F24;
+$black-2: #22282E;
+$black-3: #4B5057;
+$white-1: #F5F2EB;
+$white-2: #B8B7B3;
+$white-3: lighten($white-2, 15%);
+$white-4: #EEEBF5;
 
-$light-base: #EEEBF5;
-$base: #673ab7;
+$primary: #673ab7;
 
 $accent: #29274C;
 
 // Background Color
-$base-background-color: $grey-5;
-$box-background-color: $light-base;
-$box-background-hover: $strong-clear;
+$base-background-color: $white-3;
+$box-background-color: $white-4;
+$box-background-hover: $white-2;
 
 // Font Colors
-$base-font-color: $grey-2;
+$base-font-color: $black-3;
 $base-accent-color: $accent;
 
 // Link Colors
@@ -58,12 +59,12 @@ $hover-button-color: $hover-link-color;
 
 //Footer Colors
 $footer-background: desaturate($strong-base, 20%);
-$footer-color: $quarter-base;
+$footer-color: $white-2;
 $footer-link-color: transparentize($footer-color, 0.4);
-$footer-disclaimer-color: transparentize($quarter-base, 0.4);
+$footer-disclaimer-color: transparentize($white-2, 0.4);
 
 // Border color
-$base-border-color: $quarter-base;
+$base-border-color: $white-2;
 $base-border: 1px solid $base-border-color;
 
 // Forms

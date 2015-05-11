@@ -3,8 +3,8 @@
   @include span-columns(16 of 16);
   a { 
     text-decoration: none; 
-    color: $grey-4; 
-    &:hover { color: darken($grey-4, 10%) } 
+    color: $white-2; 
+    &:hover { color: darken($white-2, 10%) } 
   }
   
   background: $footer-background;  
@@ -22,7 +22,7 @@
 }
 
 .footer__hr {
-  border: 1px solid transparentize($grey-4, 0.4);
+  border: 1px solid transparentize($white-2, 0.4);
   margin: 0 auto $base-spacing;
   width: 12em;
 }

@@ -32,15 +32,15 @@
 }  
 
 .hero-title { 
-  color: $grey-2;
+  color: $black-3;
   font-size: $h1-font-size; 
   margin-bottom: 0.1em;
 
   a {
-    color: $grey-2;
+    color: $black-3;
     
     &:hover { 
-      color: darken($grey-2, 10%)
+      color: darken($black-3, 10%)
   }
 }
 }
@@ -51,7 +51,7 @@
 }
 
 .hero-list__item {
-  color: $grey-2;
+  color: $black-3;
   display: inline;
 
   font-family: $header-font-family;

@@ -31,11 +31,12 @@ $base-z-index: 0;
 
 // Colors
 
-$grey-1: #1B1F24;
-$grey-2: #4B5057;
-$grey-3: #F5F2EB;
-$grey-4: #B8B7B3;
-$grey-5: lighten($grey-4, 15%);
+$black-1: #1B1F24;
+$black-2: #22282E;
+$black-3: #4B5057;
+$white-1: #B8B7B3;
+$white-2: #F5F2EB;
+$white-3: lighten($white-2, 15%);
 
 $primary: #CC3B38; 
 $accent: #214370;
@@ -43,7 +44,7 @@ $outlier: #D5CAB1;
 
 $primary-buckets: #673AB7;
 $primary-projects: #FD620D;
-$primary-homepage: $grey-4;
+$primary-homepage: $white-2;
 
 
 
@@ -51,10 +52,10 @@ $primary-homepage: $grey-4;
 
 
 // Background Color
-$base-background-color: $grey-1;
+$base-background-color: $black-1;
 
 // Font Colors
-$base-font-color: $grey-2;
+$base-font-color: $black-3;
 $base-accent-color: $primary;
 
 // Link Colors
@@ -65,9 +66,8 @@ $hover-button-color: lighten($accent, 10%);
 
 //Footer Colors
 $footer-background: $accent;
-$footer-color: $grey-2;
+$footer-color: $black-3;
 $footer-link-color: transparentize($footer-color, 0.4);
-$footer-disclaimer-color: transparentize($accent, 0.4);
   
 // Flash Colors
 $alert-color: $light-yellow;
@@ -76,7 +76,7 @@ $notice-color: lighten($base-accent-color, 40);
 $success-color: $light-green;
 
 // Border color
-$base-border-color: $grey-4;
+$base-border-color: $white-2;
 $base-border: 1px solid $base-border-color;
 
 // Forms

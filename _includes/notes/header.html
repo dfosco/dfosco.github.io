@@ -4,7 +4,7 @@
 
       <nav class="nav">
         
-        <nav class="subnav">
+        <nav class="subnav--only">
             {% if page.layout contains "post" %}
             <h2 class="subnav__text--type__page-title">
             {% else %}
@@ -19,7 +19,7 @@
             </h1>
             {% endif %}
         </nav>
-
+    <!-- 
         <nav class="subnav">
             {% if page.layout contains "post" %}
             <h3 class="subnav__text--color__buckets">
@@ -36,7 +36,7 @@
             {% endif %}            
         </nav>
         
-    <!-- 
+    
         <nav class="subnav">
             {% if page.layout contains "post" %}
             <h3 class="subnav__text--color__projects">
@@ -52,7 +52,7 @@
             </h2>
             {% endif %}            
         </nav>
-    -->
+    
         <nav class="subnav">
             {% if page.layout contains "post" %}
             <h3 class="subnav__text--type__site-title">
@@ -68,21 +68,7 @@
             </h2>
             {% endif %}            
         </nav>
-		<!-- 
-        {% if page.layout contains "post" %}
-        <h3 class="header-copy__sitename">
-        {% else %}
-        <h2 class="header-copy__sitename">
-        {% endif %}
-			
-		Daniel Fosco
-
-        {% if page.layout contains "post" %}
-        </h3>
-        {% else %}
-        </h2>
-        {% endif %}
-		 -->
+        -->
 
       </nav>
 

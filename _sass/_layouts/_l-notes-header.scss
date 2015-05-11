@@ -1,5 +1,10 @@
 header {
-  height: 12.5em;
+  //For Multiple Nav Items
+  //height: 12.5em;
+
+  //For Single Nav Item
+  height: 4.5em;
+
   @include media($medium-screen-up) { height: 80.4px }
 }
 
@@ -48,7 +53,7 @@ header {
   }
 }
 
-//Select Nav Items based on their position and apply spacings accordingly
+//Select Nav Items based on their position and apply spacings accordingly...
 
 .subnav:nth-child(1) {
   @include media($medium-screen-up) {
@@ -71,6 +76,13 @@ header {
 .subnav:nth-last-child(1) {  
   @include justify-content(flex-end);
 }
+
+//...but if you only have a single item, use this one
+
+.subnav--only { 
+  @include justify-content(flex-start);
+}
+
 
 //Styling Text Inside Nav Items
 
