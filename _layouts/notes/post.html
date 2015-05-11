@@ -1,19 +1,19 @@
 ---
-section: The Link List
+section: Notes
 ---
 
 {% include head.html %}
 
 <div id="viewport" class="container">
 
-  {% include links/header.html %}
+  {% include notes/header.html %}
     <div class="wrapper">
 
       <section class="content--regular content--post">
         <article class="card-note">
           <div class="card-note__inner">
             
-            {% comment %}{% include post-image.html %}{% endcomment %}
+            {% comment %}{% include notes/post-image.html %}{% endcomment %}
             
             {% if page.source == null %}
             <h1 class="card-note__title">{{ page.title }}</h1>
@@ -32,12 +32,12 @@ section: The Link List
        </article> 
       </section>
 
-            {% include links/sidebar.html %}
+            {% include notes/sidebar.html %}
     
     </div>
 </div>
 
-{% include links/footer.html %}
+{% include notes/footer.html %}
 
 </body>
 

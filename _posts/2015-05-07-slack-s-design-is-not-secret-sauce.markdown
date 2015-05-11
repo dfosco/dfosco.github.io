@@ -14,4 +14,4 @@ image-alt: Actual sauce
 >
 >Here’s my list.
 
-A great follow-up to [Andrew Wilkinson's piece](http://danielfos.co/links/slacks-2-8-billion-dollar-secret-sauce) about Slack and its secret sauce — both have their merits, and both are right to a certain extent.
+A great follow-up to [Andrew Wilkinson's piece](/notes/slacks-2-8-billion-dollar-secret-sauce) about Slack and its secret sauce — both have their merits, and both are right to a certain extent.

@@ -6,11 +6,11 @@
     <title>
       {% if page.title %}
 
-        {{ page.title }} | {% if page.section %}{{ page.section }}{% else %}{{ site.author.name }}{% endif %}
+        {{ page.title }} • {% if page.section %}{{ page.section }}{% else %}{{ site.author.name }}{% endif %}
       
       {% else %}
 
-        {% if page.section %}{{ page.section }} | {{ site.author.name }}{% else %}{{ site.author.name }}{% endif %}
+        {% if page.section %}{{ page.section }} • {{ site.author.name }}{% else %}{{ site.author.name }}{% endif %}
 
       {% endif %}
     </title>

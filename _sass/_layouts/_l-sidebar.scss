@@ -4,7 +4,7 @@
   }
 }
 
-.sidebar__box--links {
+.sidebar__box--notes {
   @include margin(-2.5em 0.5em 1.5em 0.5em);
 
   @include media($medium-screen-up) {
@@ -17,8 +17,8 @@
   padding-right: 0.5em;
 }
 
-.sidebar__box--links--post {
-  @extend .sidebar__box--links;
+.sidebar__box--notes--post {
+  @extend .sidebar__box--notes;
   @include margin(2em null 1.5em null);  
 
   padding-left: 0.5em;
@@ -26,7 +26,7 @@
 }
 
 .sidebar__box--collection {
-  @extend .sidebar__box--links; 
+  @extend .sidebar__box--notes; 
   background: $strong-clear;
 
   @include media($medium-screen-up) {
@@ -68,8 +68,8 @@
 }
 
 
-.sidebar__box--links--cta {
-  @extend .sidebar__box--links;
+.sidebar__box--notes--cta {
+  @extend .sidebar__box--notes;
 
   margin-top: 1.5em;
   background: $quarter-base;
