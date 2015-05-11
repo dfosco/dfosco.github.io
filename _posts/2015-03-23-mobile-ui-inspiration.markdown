@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-23 12:00:00
-category: links
+category: notes
 
 title:  Mobile UI Inspiration
 source: 

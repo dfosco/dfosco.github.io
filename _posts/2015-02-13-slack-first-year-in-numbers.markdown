@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-13 12:30:02
-category: links
+category: notes
 
 title: "Slack: First Year in Numbers"
 source: http://slackhq.com/post/110820064015/our-year-in-numbers

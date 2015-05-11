@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-23 12:10:00
-category: links
+category: notes
 
 title:  The Legion of Real Life Supervillains by Butcher Billy
 source: https://www.behance.net/gallery/7095371/The-Legion-of-Real-Life-Supervillains-by-Butcher-Billy

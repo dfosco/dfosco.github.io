@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-09 23:27:00
-category: links
+category: notes
 
 title:  Tech’s High Barrier to Entry for the Underprivileged
 source: https://medium.com/backchannel/techs-high-barrier-to-entry-for-the-underprivileged-da254356547d

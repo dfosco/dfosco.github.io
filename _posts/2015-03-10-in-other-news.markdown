@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-10 12:30:00
-category: links
+category: notes
 
 title:  In other news...
 source: http://www.theverge.com/2015/3/9/8176159/apple-watch-macbook-event-news-specs-features

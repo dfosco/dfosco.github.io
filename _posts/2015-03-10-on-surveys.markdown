@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-10 12:00:00
-category: links
+category: notes
 
 title:  On Surveys — Erika Hall
 source: https://medium.com/research-things/on-surveys-5a73dda5e9a0

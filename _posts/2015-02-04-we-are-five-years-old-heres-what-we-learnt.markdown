@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-04 03:40:04
-category: links
+category: notes
 
 title:  We are Five Years Old. Here's what we learnt.
 source: http://madebymany.com/blog/we-are-five-years-old-here-is-what-we-learnt

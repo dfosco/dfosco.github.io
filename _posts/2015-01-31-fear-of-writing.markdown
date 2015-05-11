@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-01-31 12:08:00
-category: links
+category: notes
 
 title:  Fear of Writing
 source: http://williamthomas.io/fear-of-writing

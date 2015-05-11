@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-04-27 11:55:00
-category: links
+category: notes
 
 title: "Facebook isn’t a charity. The poor will pay by surrendering their data"
 source: http://www.theguardian.com/commentisfree/2015/apr/26/facebook-isnt-charity-poor-pay-by-surrending-their-data

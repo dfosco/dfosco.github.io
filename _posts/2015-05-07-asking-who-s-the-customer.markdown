@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-05-07 23:28:00
-category: links
+category: notes
 
 title: "Asking “who’s the customer?”"
 source: http://kottke.org/15/05/asking-whos-the-customer

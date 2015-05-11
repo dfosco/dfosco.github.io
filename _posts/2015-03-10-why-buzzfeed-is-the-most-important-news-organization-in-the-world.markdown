@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-10 12:20:00
-category: links
+category: notes
 
 title:  Why Buzzfeed is The Most Important News Organization in the World
 source: http://stratechery.com/2015/buzzfeed-important-news-organization-world/

@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-04 03:40:02
-category: links
+category: notes
 
 title:  Designing Twitter Video
 source: http://paulstamatiou.com/twitter-video/

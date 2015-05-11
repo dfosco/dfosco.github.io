@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-04 03:40:00
-category: links
+category: notes
 
 title:  Americans Try Brazilian Snacks For The First Time
 source: https://www.youtube.com/watch?v=OjmOr_c04qQ

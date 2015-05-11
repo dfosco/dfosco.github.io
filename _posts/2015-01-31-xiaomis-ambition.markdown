@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-01-31 12:04:00
-category: links
+category: notes
 
 title:  Xiaomi's Ambition
 source: http://stratechery.com/2015/xiaomis-ambition/

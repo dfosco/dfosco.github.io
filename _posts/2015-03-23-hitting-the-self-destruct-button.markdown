@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-23 12:30:00
-category: links
+category: notes
 
 title:  Hitting the Self-Destruct Button
 source: http://chuise.com/2015/03/18/self-destruction

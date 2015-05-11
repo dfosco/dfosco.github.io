@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-04 12:10:00
-category: links
+category: notes
 
 title:  Hillary Clinton Runs Her Own Email Server
 source: http://bigstory.ap.org/article/b78ba433af3a45209668f745158d994c/clinton-ran-homebrew-computer-system-official-emails

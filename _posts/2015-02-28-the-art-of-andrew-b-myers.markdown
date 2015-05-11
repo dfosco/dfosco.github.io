@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-28 12:00:00
-category: links
+category: notes
 
 title:  The Art of Andrew B. Myers
 source: http://andrewbmyers.tumblr.com

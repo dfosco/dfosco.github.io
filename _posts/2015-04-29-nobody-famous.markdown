@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-04-29 12:58:00
-category: links
+category: notes
 
 title: Nobody Famous 
 source: https://medium.com/message/nobody-famous-37790cb4d014

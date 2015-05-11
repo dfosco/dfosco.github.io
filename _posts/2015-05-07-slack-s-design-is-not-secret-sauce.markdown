@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-05-07 23:33:00
-category: links
+category: notes
 
 title: “Slack’s design is not secret sauce”
 source: https://medium.com/@MattBond21/slack-s-design-is-not-secret-sauce-8e07bdb67d84

@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-22 15:52:40
-category: links
+category: notes
 
 title:  The Shape of Things to Come
 source: http://www.newyorker.com/magazine/2015/02/23/shape-things-come

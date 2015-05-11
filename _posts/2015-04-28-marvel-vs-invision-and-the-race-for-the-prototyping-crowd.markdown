@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-04-28 12:38:00
-category: links
+category: notes
 
 title: Marvel vs. InVision — and the race for the prototyping crowd
 source: http://blog.marvelapp.com/introducing-marvel-ux-testing-tools-beta/

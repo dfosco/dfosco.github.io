@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-01-31 12:08:00
-category: links
+category: notes
 
 title:  Positioning in Web Design
 source: http://blog.froont.com/positioning-in-web-design/

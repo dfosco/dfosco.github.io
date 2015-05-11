@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-05 15:45:02
-category: links
+category: notes
 
 title:  We Won the Internet Back
 source: http://www.theverge.com/2015/2/4/7977963/fcc-net-neutrality-victory

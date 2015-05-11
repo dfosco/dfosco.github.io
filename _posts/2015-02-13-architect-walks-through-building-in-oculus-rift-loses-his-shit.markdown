@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-13 12:30:00
-category: links
+category: notes
 
 title: “Architect walks through building in Oculus Rift; loses his shit” 
 source: https://www.reddit.com/r/oculus/comments/2knx3e/architects_i_work_for_just_gave_the_best

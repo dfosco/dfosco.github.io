@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-01-31 12:02:00
-category: links
+category: notes
 
 title: My $2375 Amazon EC2 Mistake
 source: http://www.devfactor.net/2014/12/30/2375-amazon-mistake

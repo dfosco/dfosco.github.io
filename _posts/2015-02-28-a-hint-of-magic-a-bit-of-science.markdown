@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-28 12:30:00
-category: links
+category: notes
 
 title: “A Hint of Magic, a Bit of Science”
 source: https://medium.com/message/yes-to-the-dress-5ec06c06aca4

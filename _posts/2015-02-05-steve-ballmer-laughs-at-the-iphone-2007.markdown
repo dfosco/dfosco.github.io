@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-05 15:45:00
-category: links
+category: notes
 
 title:  Steve Ballmer Laughs at the iPhone (2007)
 source: https://www.youtube.com/watch?v=eywi0h_Y5_U

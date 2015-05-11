@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-02-22 15:52:00
-category: links
+category: notes
 
 title: Unicorns vs. Horses  
 source: https://medium.com/@awilkinson/unicorns-vs-horses-f81d8dd61f17

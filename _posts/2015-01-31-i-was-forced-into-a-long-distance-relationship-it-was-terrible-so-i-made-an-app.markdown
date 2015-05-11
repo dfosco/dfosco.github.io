@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-01-31 12:12:00
-category: links
+category: notes
 
 title:  I was forced into a long distance relationship and it was terrible so I made an app to make it less terrible.
 

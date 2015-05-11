@@ -1,7 +1,7 @@
 ---
-layout: links/post
+layout: notes/post
 date:   2015-03-10 12:10:00
-category: links
+category: notes
 
 title:  Marissa Mayer is turning Yahoo back on its feet
 source: https://medium.com/backchannel/marissa-mayer-has-completed-step-one-71dc31912855
