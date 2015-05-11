@@ -29,37 +29,25 @@ $base-border-radius: 3px;
 $base-spacing: $base-line-height * 1em;
 $base-z-index: 0;
 
-// Default Colors
-$blue: #477DCA;
-$light-red: #FBE3E4;
-$light-yellow: #FFF6BF;
-$light-green: #E6EFC2;
+// Colors
+$grey-1: #1B1F24;
+$grey-2: #4B5057;
+$grey-3: #F5F2EB;
+$grey-4: #B8B7B3;
+$grey-5: lighten($grey-4, 15%);
 
-$dark-gray: #757473;
-$medium-gray: #727272;
-$light-gray: #b6b6b6;
-
-$clear: #EEEBF5;
-$upper-clear: #E2DDED;
-$strong-clear: #DCD5EB;
-$bold-clear: #DBC7F4;
-
-$quarter-base: #EEEBF5;
-$half-base: #a16de1;
+$light-base: #EEEBF5;
 $base: #673ab7;
-$strong-base: #512da8;
 
-$half-accent: #726CE0;
-$accent: #5551A8;
-$strong-accent: #29274C;
+$accent: #29274C;
 
 // Background Color
-$base-background-color: $clear;
-$box-background-color: $upper-clear;
+$base-background-color: $grey-5;
+$box-background-color: $light-base;
 $box-background-hover: $strong-clear;
 
 // Font Colors
-$base-font-color: $dark-gray;
+$base-font-color: $grey-2;
 $base-accent-color: $accent;
 
 // Link Colors

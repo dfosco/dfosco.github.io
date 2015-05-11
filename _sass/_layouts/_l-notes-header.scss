@@ -92,17 +92,9 @@ header {
 
     .subnav__text--type__site-title {
       @extend .subnav__text;
-
-      @include media($medium-screen-up) {
-        a { color: $accent }
-        a:hover { color: lighten($accent, 10%) }    
+        a { color: $primary-homepage }
+        a:hover { color: lighten($primary-homepage, 10%) }
       }
-
-      @include media($small-screen) {
-        a { color: $base-light-second }
-        a:hover { color: lighten($base-light-second, 10%) }
-      }
-    }
 
     .subnav__text--color__buckets {
       @extend .subnav__text;

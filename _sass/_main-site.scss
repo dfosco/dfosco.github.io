@@ -11,15 +11,14 @@
 
 // Layouts
 // ------------------------------------------------------------------------
-@import "_layouts/_layouts-dir";
+
 
 
 // Modules
 // ------------------------------------------------------------------------
-@import "_modules/_modules-dir";
+
 
 
 // Utilities
 // ------------------------------------------------------------------------
-@include pesticide(false);
-$img-url: "/images";
+//@include pesticide(false);

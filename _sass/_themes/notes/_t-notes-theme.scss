@@ -9,37 +9,28 @@
 
 // Theme-specific Variables
 // ------------------------------------------------------------------------
-@import "_variables";
-@import "_typography";
+@import "_t-notes-variables";
+@import "_t-notes-typography";
 
 
 // Layouts
 // ------------------------------------------------------------------------
 @import "../../_layouts/_l-default";
-@import "../../_layouts/_l-sidebar";
 @import "../../_layouts/_l-footer";
-@import "../../_layouts/_l-header";
+@import "../../_layouts/_l-notes-header";
+@import "../../_layouts/_l-sidebar";
 
 
 // Modules
 // ------------------------------------------------------------------------
-@import "../../_modules/_m-buckets-item-card";	
-@import "../../_modules/_m-buckets-card";
-@import "../../_modules/_m-buckets-hero";
-@import "../../_modules/_m-toolbox";
+@import "_modules/_m-notes-card";
+@import "_modules/_m-notes-hero";
+@import "_modules/_m-notes-button-pagination";
+@import "_modules/_m-toolbox";
 
 
-
-// Utilities and Classes
+// Utilities
 // ------------------------------------------------------------------------
 @include pesticide(false);
 $img-url: "/images";
 // Example of how to use -- background: url("#{$img-url}/background-image.png") repeat top left;
-
-//collection-page
-
-.collection-nav {
-	font-size: 0.95em;
-	font-weight: 700;
-	margin-bottom: 1em;
-}

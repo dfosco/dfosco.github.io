@@ -1,5 +1,5 @@
 .card-note__section-title {
-  background: $base-dark;
+  background: $grey-1;
   border-bottom: 1px solid $outlier;
   border-top: 0px;
 }
@@ -12,7 +12,7 @@
 }
 
 .card-note {
-  background: $base-light;
+  background: $grey-3;
   border-bottom: 1px solid $outlier;
   padding:0.5em 0.5em 1.5em 0.5em;
 
@@ -31,7 +31,7 @@
 
     span.quote {
         font-size: 0.95em;
-        color: darken($medium-gray, 8%)
+        color: darken($grey-3, 8%)
     }
 
   blockquote {   
@@ -43,7 +43,7 @@
     }
 
     @include media($medium-screen-up) { 
-      border-left: 2px solid darken($medium-gray, 8%);
+      border-left: 2px solid darken($grey-3, 8%);
     }
     
     ul {
@@ -51,7 +51,7 @@
       list-style-type: disc;
     }
 
-    border-left: 2px solid $light-gray;
+    border-left: 2px solid $grey-4;
   }
 
 }
