@@ -16,4 +16,4 @@ Without getting too sentimental about it, the weight of keeping a _personal bran
 
 By the way, if you're in the midst of re-doing your portfolio, [this article](http://alexcican.com/post/personal-websites/) by Alex Cican might come in handy.
 
-<sub>**1.** It‘s relevant to note that my personal website is not my main source of work and/or revenue, _by any means_. Needless to say, don’t destroy your portfolio site if your bread & butter depends on it. <i class="twa twa-lg twa-boom"></i> <i class="twa twa-lg twa-boom"></i> <i class="twa twa-lg twa-boom"></i></sub>
+<sub>**1.** It‘s relevant to note that my personal website is not my main source of work and/or revenue, _by any means_. Needless to say, don’t destroy your portfolio site if your bread & butter depends on it. <i class="twa twa twa-boom"></i> <i class="twa twa twa-boom"></i> <i class="twa twa twa-boom"></i></sub>

@@ -11,4 +11,4 @@ image-alt: The tropical art of Andrew B. Myers
 
 ---
 
-Assorted tiny fruits, among other objects. <i class="twa twa-lg twa-watermelon"></i>
+Assorted tiny fruits, among other objects. <i class="twa twa twa-watermelon"></i>

@@ -5,18 +5,8 @@
     <description>Hi, my name is Daniel and this is my website. Hope you enjoy it.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <pubDate>Fri, 08 May 2015 20:56:46 -0300</pubDate>
-    <lastBuildDate>Fri, 08 May 2015 20:56:46 -0300</lastBuildDate>
-=======
-    <pubDate>Sat, 09 May 2015 13:27:56 -0300</pubDate>
-    <lastBuildDate>Sat, 09 May 2015 13:27:56 -0300</lastBuildDate>
->>>>>>> 16b0c92efa354ea328f9b7f32660225bdb68b607
-=======
-    <pubDate>Mon, 11 May 2015 03:13:04 -0300</pubDate>
-    <lastBuildDate>Mon, 11 May 2015 03:13:04 -0300</lastBuildDate>
->>>>>>> dev
+    <pubDate>Mon, 11 May 2015 18:58:27 -0300</pubDate>
+    <lastBuildDate>Mon, 11 May 2015 18:58:27 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -41,7 +31,7 @@
   &lt;p&gt;&lt;strong&gt;Jaclyn:&lt;/strong&gt; I doubt it. Every image is different, the lighting different, the subject different. Endless possibilities. It is all about opening my eyes to the world around me. I take a lot of walks and keep my eyes peeled for color and texture.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I’d like to thank Jaclyn for taking the time to answer these questions – great insights for anyone who wants to dive deeper into working with color &lt;i class=&quot;twa twa-lg twa-smiley&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;I’d like to thank Jaclyn for taking the time to answer these questions – great insights for anyone who wants to dive deeper into working with color &lt;i class=&quot;twa twa twa-smiley&quot;&gt;&lt;/i&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 May 2015 20:59:00 -0300</pubDate>
         <link>http://danielfos.co/notes/100-days-of-color</link>

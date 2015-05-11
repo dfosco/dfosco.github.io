@@ -77,9 +77,7 @@ header {
   @include justify-content(flex-end);
 }
 
-//...but if you only have a single item, use this one
-
-.subnav--only { 
+.subnav:only-child { 
   @include justify-content(flex-start);
 }
 

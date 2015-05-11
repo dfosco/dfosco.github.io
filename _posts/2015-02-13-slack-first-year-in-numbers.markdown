@@ -12,4 +12,4 @@ image-alt: Slack is now adding an additional $1 million in new Annual Recurring 
 
 Anyone following Slack's trajectory already knows they have great numbers, but this is just ridiculous.
 
-It's like every message sent generated $0.01 for them. <i class="twa twa-lg twa-moneybag"></i><i class="twa twa-lg twa-moneybag"></i><i class="twa twa-lg twa-moneybag"></i>
+It's like every message sent generated $0.01 for them. <i class="twa twa twa-moneybag"></i><i class="twa twa twa-moneybag"></i><i class="twa twa twa-moneybag"></i>

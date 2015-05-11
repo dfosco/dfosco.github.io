@@ -11,7 +11,7 @@ image-alt: A black llama in blue stripes and a white llama in golden stripes
 ---
 
 
-This week, a dress broke the internet (with the help of two llamas), yielding BuzzFeed <i class="twa twa-lg twa-zap"></i>_28 million_<i class="twa twa-lg twa-zap"></i> pageviews for a single article in less than 24 hours — and leaving traditional media shuffling their feet trying not to miss the tsunami.
+This week, a dress broke the internet (with the help of two llamas), yielding BuzzFeed <i class="twa twa twa-zap"></i>_28 million_<i class="twa twa twa-zap"></i> pageviews for a single article in less than 24 hours — and leaving traditional media shuffling their feet trying not to miss the tsunami.
 
 Paul Ford [on Medium](https://medium.com/message/yes-to-the-dress-5ec06c06aca4) tries to understand the reasons behind the dress's success and the consequences it will bring to newsrooms around the globe:
 
