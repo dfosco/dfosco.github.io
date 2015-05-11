@@ -3,25 +3,22 @@
 
 body {
 	margin: 0px;
+  background-color: $base-background-color;
+  color: $base-font-color;
 }
 
 // ------------------------------------------------------------------------
 
 .container {
-  @include media($medium-screen, $large-screen) {
-    @include span-columns(16 of 16);
-  }
+  @include span-columns(16 of 16);
 }
 
 // ------------------------------------------------------------------------
 
 .wrapper {
-  @include outer-container;
+ 
+ @include outer-container;
 
-  @include media($small-screen) {
-    @include span-columns(9.5 of 10);
-    @include shift(0.375);
-  }
 }
 
 // ------------------------------------------------------------------------
@@ -29,7 +26,7 @@ body {
 .content {
 
   margin-bottom: 1.5em;
-  margin-top: 1em;
+  margin-top: 3em;
   padding-left: 0.5em;
   padding-right: 0.5em;
 
@@ -38,9 +35,8 @@ body {
 .content--regular {
   @extend .content;
 
-  @include media($medium-screen, $large-screen) {
-  @include span-columns(10 of 16);
-  @include shift(0.25); 
+  @include media($medium-screen-up) {
+    @include span-columns(12 of 16);
   }
 
   &, .content--post {
@@ -52,7 +48,7 @@ body {
   @extend .content;
   margin-top: 2.3em;
 
-  @include media($medium-screen, $large-screen) {
+  @include media($medium-screen-up) {
   @include span-columns(14 of 16);
   @include shift(1);
   }
@@ -73,7 +69,7 @@ body {
   $action-color: #477DCA !default;
   $base-link-color: $action-color !default;
   $dark-gray: #333 !default;
-  $large-screen: em(860) !default;
+  $large-screen-up: em(860) !default;
   $base-font-color: $dark-gray !default;
   $pagination-border-color: $base-border-color;
   $pagination-border: 1px solid $pagination-border-color;
@@ -103,7 +99,7 @@ body {
         display: inline;
       }
 
-      @include media($large-screen) {
+      @include media($large-screen-up) {
         display: inline;
       }
     }

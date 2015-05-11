@@ -8,8 +8,8 @@ $img-url: "../../images";
 // Typography
 $sans-serif: $helvetica;
 $serif: $georgia;
-$base-font-family: $sans-serif;
-$header-font-family: "calluna-sans";
+$base-font-family: "proxima-nova", $sans-serif;
+$header-font-family: "freight-sans-pro", $sans-serif;
 
 // Font Sizes
 $base-font-size: 1em;
@@ -46,26 +46,42 @@ $half-base: #f5da9d;
 $base: #fbc751;
 $strong-base: #f09a36;
 
-$accent: #cc514e;
+//--- --- --- ---
+// New Colors
+//--- --- --- ---
+
+$accent: #CC3B38; //Actually the primary now
+$outlier: #D5CAB1;	
+
+$primary: #214370; //Actually the accent now
+$primary-second: #509AFA; //Actually the accent now
+
+$base-dark: #1B1F24;
+$base-dark-second: #4B5057;
+$base-light: #F5F2EB;
+$base-light-second: #B8B7B3;
+
+//--- --- --- ---
+
 
 // Background Color
-$base-background-color: $light-gray;
+$base-background-color: $base-dark;
 
 // Font Colors
-$base-font-color: $dark-gray;
-$base-accent-color: $accent;
+$base-font-color: $base-dark-second;
+$base-accent-color: $primary;
 
 // Link Colors
 $base-link-color: $accent;
-$hover-link-color: $accent;
-$base-button-color: $base-link-color;
-$hover-button-color: $hover-link-color;
+$hover-link-color: $primary;
+$base-button-color: $accent;
+$hover-button-color: $primary;
 
 //Footer Colors
-$footer-background: desaturate($strong-base, 20%);
-$footer-color: $dark-gray;
+$footer-background: $primary-second;
+$footer-color: $base-dark-second;
 $footer-link-color: transparentize($footer-color, 0.4);
-$footer-disclaimer-color: transparentize($light-gray, 0.4);
+$footer-disclaimer-color: transparentize($accent, 0.4);
   
 // Flash Colors
 $alert-color: $light-yellow;

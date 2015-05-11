@@ -3,7 +3,7 @@
 
   ///////////////////////////////////////////////////////////////////////////////////
   $base-border-radius: 3px !default;
-  $large-screen: em(860) !default;
+  $large-screen-up: em(860) !default;
   //////////////////////////////////////////////////////////////////////////////////
 
   $hero-color: $strong-base;
@@ -90,7 +90,7 @@
       }
     
 
-      @include media($medium-screen, $large-screen) { 
+      @include media($medium-screen-up) { 
 
         li:nth-child(1)::after, li:nth-child(2)::after, li:nth-child(3)::after { 
           content: " ·";

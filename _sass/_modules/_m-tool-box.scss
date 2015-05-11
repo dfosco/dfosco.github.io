@@ -21,7 +21,7 @@
 	@include media($small-screen) {
 	display: none !important;
 }
-	@include media($medium-screen, $large-screen) {
+	@include media($medium-screen-up) {
 		display: inherit;
 	}
 }
@@ -32,7 +32,7 @@
 	display: inherit;
 }
 
-	@include media($medium-screen, $large-screen) {
+	@include media($medium-screen-up) {
 		display: none !important;
 	}
 }

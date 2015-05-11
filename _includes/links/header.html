@@ -1,22 +1,17 @@
 <header role="banner">
-
 <div class="page-header">
-  <div class="hero">
-    <div class="hero-inner">
-      
-      <a href="{{ site.domain }}/links">
-        <img class="hero-logo" src="{{ site.baseurl }}/assets/images/interface/logo.svg?bust={{ site.time | date: '%s' }}" alt="Logo Image">
-      </a>
-      
-      <div class="hero-copy">
+  <div class="header">
+    <div class="header-inner">
+
+      <div class="header-copy">
         
         {% if page.layout contains "post" %}
-        <h2 class="hero-title">
+        <h2 class="header-copy__title">
         {% else %}
-        <h1 class="hero-title">
+        <h1 class="header-copy__title">
         {% endif %}
 
-          <a href="{{ site.domain }}/links">The Link List</a>
+          <a href="{{ site.domain }}/links" class="title__link">Notes</a>
 
         {% if page.layout contains "post" %}
         </h2>
@@ -24,13 +19,21 @@
         </h1>
         {% endif %}
 
-        <ul class="hero-list">
-            <li class="hero-list__item">Design</li>
-            <li class="hero-list__item">Development</li>
-            <li class="hero-list__item">Startups</li>
-            <li class="hero-list__item">Weird News</li>
-        </ul>
+		<!-- 
+        {% if page.layout contains "post" %}
+        <h3 class="header-copy__sitename">
+        {% else %}
+        <h2 class="header-copy__sitename">
+        {% endif %}
+			
+		Daniel Fosco
 
+        {% if page.layout contains "post" %}
+        </h3>
+        {% else %}
+        </h2>
+        {% endif %}
+		 -->
       </div>
 
     </div>

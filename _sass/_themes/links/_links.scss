@@ -17,14 +17,14 @@
 // ------------------------------------------------------------------------
 @import "../../_layouts/_l-default";
 @import "../../_layouts/_l-footer";
-@import "../../_layouts/_l-header";
+@import "../../_layouts/_l-header-notes";
 @import "../../_layouts/_l-sidebar";
 
 
 // Modules
 // ------------------------------------------------------------------------
+@import "_modules/_m-card-note.scss";
 @import "_modules/_m-hero-link.scss";
-@import "_modules/_m-card-link.scss";
 @import "_modules/_m-tool-box.scss";
 
 // Utilities

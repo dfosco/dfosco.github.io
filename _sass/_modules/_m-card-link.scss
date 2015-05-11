@@ -7,7 +7,7 @@
   
   @include margin(1em null 1.5em null);
 
-  @include media($medium-screen, $large-screen) { 
+  @include media($medium-screen-up) { 
   &:hover { background: darken($light-gray, 6%); }
   background: darken($light-gray, 4%);
   padding: 0.5em;
@@ -25,7 +25,7 @@
         @include margin(0.8em null)
       }
 
-      @include media($medium-screen, $large-screen) { 
+      @include media($medium-screen-up) { 
         border-left: 2px solid darken($medium-gray, 8%);
       }
       
@@ -53,7 +53,7 @@
 }
 
 .card-link__tweet {
-  @include media ($large-screen) {
+  @include media ($large-screen-up) {
     @include shift(0.95);
   }
 

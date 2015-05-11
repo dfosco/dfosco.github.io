@@ -27,7 +27,7 @@ $navigation-height: 60px;
 }
 
 .back-arrow {
-  @include media($medium-screen, $large-screen) { 
+  @include media($medium-screen-up) { 
     height: 15px;
     width: 20px;
     margin-right: 5px

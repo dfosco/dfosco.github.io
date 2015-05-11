@@ -3,26 +3,21 @@ section: The Link List
 ---
 
 
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
+{% include head.html %}
 
   <div id="viewport" class="container">
 
-    {% include links/header.html %}
+  {% include links/header.html %}
 
     <div class="wrapper">
     
-      {% include links/sidebar-cta.html %}
+      {% comment %} {% include links/sidebar-cta.html %} {% endcomment %}
 
         <section class="content--regular">
           {{ content }}
         </section>
         
-      {% include links/sidebar.html %}
+      {% comment %} {% include links/sidebar.html %} {% endcomment %}
       
     </div>
 

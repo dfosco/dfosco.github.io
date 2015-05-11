@@ -27,7 +27,7 @@
   @include flex-wrap(wrap);
   align-items: center;
 
-  @include media($medium-screen, $large-screen) {
+  @include media($medium-screen-up) {
     flex-shrink: 50;
   }
 }
@@ -51,7 +51,7 @@
   @include margin(1em null 1.5em null);
   background: $box-background-color;
 
-  @include media($medium-screen, $large-screen) { 
+  @include media($medium-screen-up) { 
     &:hover { background: $box-background-hover; }
     background: $box-background-color;
     padding: 0.5em;

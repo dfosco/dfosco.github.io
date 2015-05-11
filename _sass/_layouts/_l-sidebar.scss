@@ -7,7 +7,7 @@
 .sidebar__box--links {
   @include margin(-2.5em 0.5em 1.5em 0.5em);
 
-  @include media($medium-screen, $large-screen) {
+  @include media($medium-screen-up) {
     @include margin(4.5em 0.5em 1.5em 0.5em);
   }
   
@@ -29,7 +29,7 @@
   @extend .sidebar__box--links; 
   background: $strong-clear;
 
-  @include media($medium-screen, $large-screen) {
+  @include media($medium-screen-up) {
     margin-top: 12.4em;
   }
 }

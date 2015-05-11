@@ -1,0 +1,15 @@
+        {% if post.image-name == "none" %}
+        {% else %}
+
+              <div class="card-note__img">
+                <a href="{{ post.source }}?ref=danielfosco-notes" target="_blank">
+                
+                {% if page.url contains "page" %}
+                <img src="../../assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
+                {% else %}
+                <img src="../assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
+                {% endif %}
+                </a>
+              </div>
+        
+        {% endif %}
