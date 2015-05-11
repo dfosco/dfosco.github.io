@@ -3,7 +3,7 @@ layout: links/post
 date:   2015-02-28 12:10:00
 category: links
 
-title: "A Decade Later, YouTube Remains a Mystery, Especially to Itself"
+title: “A Decade Later, YouTube Remains a Mystery, Especially to Itself”
 source: https://medium.com/@hankgreen/a-decade-later-youtube-remains-a-mystery-especially-to-itself-80a1c38feeaf
 
 image-name: none 

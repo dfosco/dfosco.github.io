@@ -7,7 +7,7 @@ title: Marvel vs. InVision — and the race for the prototyping crowd
 source: http://blog.marvelapp.com/introducing-marvel-ux-testing-tools-beta/
 
 image-name: marvel_app.png
-image-alt: "A mockup of Marvel app's new recording function"
+image-alt: “A mockup of Marvel app's new recording function”
 ---
 
 >**Introducing Marvel UX Testing Tools Beta**  
@@ -28,6 +28,6 @@ Not only that, but this kind of feature ties in pretty closely to one of the mos
 
 InVision, with [$35m in funding](https://www.crunchbase.com/organization/invision-2) rolling in since early 2012, had a good head start, but Marvel's _mere_ [$900k](https://www.crunchbase.com/organization/marvel) raised last year is clearly being put to good use by their team.
 
-Considering the gigantic difference in funding they have, Marvel is kicking some serious Invision ass — while also raising the question of "perhaps you shouldn't take **35 million dollars** in funding for a freaking prototyping tool?".
+Considering the gigantic difference in funding they have, Marvel is kicking some serious Invision ass — while also raising the question of “perhaps you shouldn't take **35 million dollars** in funding for a freaking prototyping tool?”.
 
 But then again, who am I to say how one should or should not run their company? Although Fred Wilson provides a compelling argument for [why raising too much capital can be a bad thing](https://www.youtube.com/watch?v=yC_tjoQmf5g).

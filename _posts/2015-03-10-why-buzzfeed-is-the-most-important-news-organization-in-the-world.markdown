@@ -10,7 +10,7 @@ image-name: none
 image-alt:
 ---
 
-I know I've been heavy on the _Buzzfeed_ bandwagon lately, but Ben Thompson's analysis is too good an opportunity to pass up. Seriously, [follow this guy](https://twitter.com/monkbent).
+I know I‘ve been heavy on the _Buzzfeed_ bandwagon lately, but Ben Thompson’s analysis is too good an opportunity to pass up. Seriously, [follow this guy](https://twitter.com/monkbent).
 
 This small tidbit serves as the perfect example to his argument — overheard at a recent New York Times editorial meeting:
 

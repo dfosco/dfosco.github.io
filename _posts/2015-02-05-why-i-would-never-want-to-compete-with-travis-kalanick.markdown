@@ -14,4 +14,4 @@ image-alt:
 
 Impressive account of how _awesome_ the CEO of Uber is. 
 
-It's also an impressively self-serving pat on the back, as this _randian-esque_ admiration makes for a cozy narrative in which Uber investors can accomodate Travis' general douchebaggery and Uber's predatory business practices.
+It‘s also an impressively self-serving pat on the back, as this _randian-esque_ admiration makes for a cozy narrative in which Uber investors can accomodate Travis' general douchebaggery and Uber’s predatory business practices.

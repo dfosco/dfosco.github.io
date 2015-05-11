@@ -10,7 +10,7 @@ image-name: none
 image-alt:
 ---
 
-Anil Dash shares what it's like to have 500.000 Twitter followers without being an "actual celebrity", dropping honest (but also hilarious) insights along the way:
+Anil Dash shares what it's like to have 500.000 Twitter followers without being an “actual celebrity”, dropping honest (but also hilarious) insights along the way:
 
 >In all, aside from making people roll their eyes at me, the biggest impact of having this absurdly distended online network is that it makes my online life really weird. The weirdness is probably best demonstrated by a few of the recurring conversations that arise as a result:
 >

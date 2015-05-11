@@ -12,4 +12,4 @@ image-alt:
 
 This is so much funnier to me than it is to you. 
 
-Yes, because I'm brazilian, for those of you that don't know.
+Yes, because I‘m brazilian, for those of you that don’t know.

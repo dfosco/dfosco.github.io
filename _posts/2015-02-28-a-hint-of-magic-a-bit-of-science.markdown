@@ -3,7 +3,7 @@ layout: links/post
 date:   2015-02-28 12:30:00
 category: links
 
-title: "A Hint of Magic, a Bit of Science"
+title: “A Hint of Magic, a Bit of Science”
 source: https://medium.com/message/yes-to-the-dress-5ec06c06aca4
 
 image-name: llamas.jpg
@@ -21,6 +21,6 @@ Brian Morrissey echoes a similar feeling [on Digiday](http://digiday.com/publish
 
 > In this game, BuzzFeed is winning. It must boggle the mind at traditional publishers that seemingly the entire Internet is talking about content that was created not by a seasoned reporter but a “community growth manager.” These so-called premium publishing brands will inevitably lose their pricing power in the ad market as they continue to copy BuzzFeed.
 
-With a massive audience that's becoming bigger and wider every day, solid “news” coverage, an experimental app development team and a friggin' movie studio, Buzzfeed is shaping up to be the media company of the future.
+With a massive audience that‘s becoming bigger and wider every day, solid “news” coverage, an experimental app development team and a friggin’ movie studio, Buzzfeed is shaping up to be the media company of the future.
 
 By the way, [they're hiring](https://twitter.com/cap/status/570775132697980928).

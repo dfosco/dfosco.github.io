@@ -10,12 +10,12 @@ image-name: none
 image-alt: 
 ---
 
->**Ballmer**: We've got great Windows mobile devices in the market today -- you can get a Motorola Q now for $99, it's a very capable machine [...]
+>**Ballmer**: We‘ve got great Windows mobile devices in the market today -- you can get a Motorola Q now for $99, it’s a very capable machine [...]
 >
 >**Interviewer**: But how do you compete with that, though? [the iPhone]
 >
 >**Ballmer**: Right now we're selling millions and millions and millions of phones a year, Apple is selling... zero phones a year.
 
 
-There's just too many good quotes here. Can't really fit them all, so go and watch the video.
+There‘s just too many good quotes here. Can’t really fit them all, so go and watch the video.
 

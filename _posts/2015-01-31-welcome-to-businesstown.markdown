@@ -10,5 +10,5 @@ image-name: none
 image-alt:
 ---
 
-Weirdly amusing comics about our "highly intangible, deeply disruptive, data-driven, venture-backed, gluten-free economic meritocracy."
+Weirdly amusing comics about our “highly intangible, deeply disruptive, data-driven, venture-backed, gluten-free economic meritocracy.”
 

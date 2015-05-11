@@ -3,7 +3,7 @@ layout: links/post
 date:   2015-03-23 12:20:00
 category: links
 
-title:  Why can't you track periods in Apple's Health app?
+title:  Why can‘t you track periods in Apple’s Health app?
 source: http://ntlk.net/2014/09/26/why-cant-you-track-periods-in-apples-health-app/
 
 image-name: none

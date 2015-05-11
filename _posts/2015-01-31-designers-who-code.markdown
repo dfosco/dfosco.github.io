@@ -10,4 +10,4 @@ image-name: none
 image-alt:
 ---
 
-This is pretty much the nail in the coffin of the "Should designers code?" discussion. Designers who don't code shouldn't be dead worried, but seriously, **read it**.
+This is pretty much the nail in the coffin of the “Should designers code?” discussion. Designers who don‘t code shouldn’t be dead worried, but seriously, **read it**.

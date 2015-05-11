@@ -10,7 +10,7 @@ image-name: none
 image-alt:
 ---
 
->The computer server that transmitted and received Hillary Rodham Clinton's emails — on a private account she used exclusively for official business when she was secretary of state — traced back to an Internet service registered to her family's home in Chappaqua, New York, according to Internet records reviewed by The Associated Press.
+>The computer server that transmitted and received Hillary Rodham Clinton‘s emails — on a private account she used exclusively for official business when she was secretary of state — traced back to an Internet service registered to her family’s home in Chappaqua, New York, according to Internet records reviewed by The Associated Press.
 
 From her residence, no less. That's some serious badassery right there.
 Also, illegal in the United States since 2009. Oops.
