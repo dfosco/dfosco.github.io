@@ -8,7 +8,7 @@
     <title>
       {% if page.title %}
 
-        {{ page.title }} • {% if page.section %}{{ page.section }}{% else %}{{ site.author.name }}{% endif %}
+        {% if page.section %}{{ page.section }}{% else %}{{ site.author.name }}{% endif %} • {{ page.title }}
       
       {% else %}
 
@@ -47,7 +47,7 @@
     
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/v2/assets/img/favicon.ico">
+    <link rel="shortcut icon" href="/assets/images/interface/favicon.ico">
 
 
     <!-- Facebook OG Tags -->

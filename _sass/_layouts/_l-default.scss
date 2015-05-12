@@ -38,23 +38,25 @@ body {
 
   @include media($medium-screen-up) {
     @include span-columns(12 of 16);
-  }
-
-  &, .content--post {
     margin-bottom: 6em;
   }
+}
+
+.content--post {
+    @include media($medium-screen-up) {
+      margin-bottom: 6em;
+    }
+
+    margin-bottom: 0.5em;
 }
 
 .content--full {
   @extend .content;
   margin-top: 2.3em;
+  margin-bottom: 6em;
 
   @include media($medium-screen-up) {
   @include span-columns(14 of 16);
   @include shift(1);
-  }
-
-  &, .content--post {
-    margin-bottom: 6em;
   }
 }

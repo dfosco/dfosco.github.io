@@ -24,13 +24,10 @@
   @extend .sidebar__box--notes;
   padding-left: 0.5em;
   padding-right: 0.5em;
-}
 
-section + .sidebar {
-  margin-bottom: 5em;
-  margin-top: -5em;
+  margin-top: 0em;
+  margin-bottom: 4em;
 }
-
 
 .sidebar__box--collection {
   @extend .sidebar__box--notes; 
