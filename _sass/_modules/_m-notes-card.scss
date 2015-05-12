@@ -29,29 +29,24 @@
   margin-bottom: 1.5em;
   width: 85%;
 
-    span.quote {
-        font-size: 0.95em;
-        color: darken($white-1, 8%)
-    }
+  span.quote {
+    font-size: 0.95em;
+    color: darken($white-1, 8%)
+  }
 
-  blockquote {   
+  blockquote {    
     
     @include margin(1em null);
+    border-left: 2px solid darken($white-1, 8%);
 
     p {
       font-size: 0.97em;
-    }
-
-    @include media($medium-screen-up) { 
-      border-left: 2px solid darken($white-1, 8%);
     }
     
     ul {
       margin-left: 1em;
       list-style-type: disc;
     }
-
-    border-left: 2px solid $white-2;
   }
 
 }
@@ -62,7 +57,7 @@
 }
 
 .card-note__description { 
-  @include margin(1em null 1em null);
+  @include margin(null null 1em null);
 
   hr {
     border-bottom: 1px solid #F5F2EB;
