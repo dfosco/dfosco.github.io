@@ -38,7 +38,8 @@
     
     @include margin(1em null);
     border-left: 2px solid darken($white-1, 8%);
-    font-family: "freight-sans-pro";
+    font-family: $header-font-family
+;
     font-weight: 500;
     font-size: 0.98em;
 
@@ -70,7 +71,8 @@
   p {
     sup {  
       font-weight: 600;
-      font-family: "freight-sans-pro";
+      font-family: $header-font-family
+;
       margin-left: 0.1em;
     }
   }
