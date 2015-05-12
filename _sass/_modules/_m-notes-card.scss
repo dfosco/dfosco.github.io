@@ -38,9 +38,12 @@
     
     @include margin(1em null);
     border-left: 2px solid darken($white-1, 8%);
+    font-family: "freight-sans-pro";
+    font-weight: 500;
+    font-size: 0.98em;
 
-    p {
-      font-size: 0.97em;
+    strong {
+      font-weight: 600;
     }
     
     ul {
