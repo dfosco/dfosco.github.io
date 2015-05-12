@@ -10,7 +10,7 @@ image-name: none
 image-alt: 
 ---
 
-Emily Guendelsberger goes undercover as an Uber driver to figure out how deep the rabbit hole goes — and comes out with a 6000-word beast, sprinkled with moments like this:
+Emily Guendelsberger goes undercover as an Uber driver in Philadelphia to figure out how deep the rabbit hole goes — and comes out of it with a 6000-word article, sprinkled with moments like this:
 
 >**Passenger**: So what's Uber like? I hear you can make a ton of money!
 >
