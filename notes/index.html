@@ -1,5 +1,5 @@
 ---
-layout: notes/default
+layout: default
 ---
 
   {% for post in paginator.posts %}
@@ -19,7 +19,23 @@ layout: notes/default
         <article class="card-note" id="{{ post.url | replace: '/links/', '' | replace: '/notes/', '' }}">
           <div class="card-note__inner">
         
-              {% comment %} {% include post-image--homefeed.html %} {% endcomment %}
+        {% comment %}
+          {% if post.image-name == "none" %}
+          {% else %}
+
+                <div class="card-note__img">
+                  <a href="{{ post.source }}?ref=danielfosco-notes" target="_blank">
+                  
+                  {% if page.url contains "page" %}
+                  <img src="../../assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
+                  {% else %}
+                  <img src="../assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
+                  {% endif %}
+                  </a>
+                </div>
+          
+          {% endif %}
+        {% endcomment %}              
 
               {% if post.source == null %}
               <a href="{{ post.url }}" target="_blank"><h2 class="card-note__title">{{ post.title }}</h2></a>

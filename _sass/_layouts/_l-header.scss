@@ -1,38 +1,119 @@
-$navigation-padding: 1em;
-$navigation-height: 60px;
+header {
+  //For Multiple Nav Items
+  //height: 12.5em;
 
-.navigation {
-  min-height: $navigation-height;
-  margin-bottom: -$navigation-height;
-  width: 100%;
-  z-index: 999;
+  //For Single Nav Item
+  height: 4.5em;
+
+  @include media($medium-screen-up) { height: 80.4px }
+}
+
+
+.header {
+  @include span-columns(16 of 16);
   background: none;
+  margin-bottom: -1em;
+  border-top: 10px solid $primary;
 }
 
-.navigation-wrapper {
-  @include clearfix;
+
+.header-logo {
+  height: 6em;
+  margin-bottom: 1em;
+}
+
+
+.nav__wrapper {
   @include outer-container;
-  position: relative;
-  z-index: 9999;
-}
-
-.back-home {
-  font-family: 'jaf-domus-titling-web', $sans-serif;
-  font-weight: 700;
-  font-size: $h5-font-size;
-  padding-left: $navigation-padding;
+  @include media($medium-screen-up) { padding: 1.5em 0.5em }
+  text-align: center;
+  padding: 1.5em 1em;
   
-  a { color: #CC514E };
-  a:hover { color: #CB4D4E };
 }
 
-.back-arrow {
-  @include media($medium-screen-up) { 
-    height: 15px;
-    width: 20px;
-    margin-right: 5px
+//General Layout and Flex Configuration for Nav Parent
+.nav {
+  @include span-columns(12 of 16);
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+  @include align-items(baseline);
+  
+} 
+
+//General Layout and Flex Configuration for Nav Children
+.subnav { 
+  @include display(flex);
+  @include justify-content(flex-start);
+  @include align-items(baseline);
+  text-align: left;
+
+  @include media($small-screen) {
+    @include span-columns(16 of 16);
   }
-
-    height: 25px;
-    margin-top: 15px;
 }
+
+//Select Nav Items based on their position and apply spacings accordingly...
+
+.subnav:nth-child(1) {
+  @include media($medium-screen-up) {
+    @include flex-grow(0.4);
+  }
+}
+
+.subnav:nth-child(2), .subnav:nth-child(3), .subnav:nth-child(4) {
+  @include media($medium-screen-up) {
+    @include flex-grow(0.3);
+  }
+}
+
+.subnav:nth-last-child(2) {
+  @include media($medium-screen-up) {
+    @include flex-grow(3);
+  }
+}
+
+.subnav:nth-last-child(1) {  
+  @include justify-content(flex-end);
+}
+
+.subnav:only-child { 
+  @include justify-content(flex-start);
+}
+
+
+//Styling Text Inside Nav Items
+
+.subnav__text {
+  a:hover { color: $accent }
+  
+  font-size: $h4-font-size * 0.935;
+  font-weight: 500;
+  padding-bottom: 0.25em;
+}
+
+    .subnav__text--type__page-title { 
+      @extend .subnav__text;
+
+      font-size: $h1-font-size;
+      a { color: $primary }
+      a:hover { color: lighten($primary, 10%) }  
+    }
+
+    .subnav__text--type__site-title {
+      @extend .subnav__text;
+        a { color: $primary-homepage }
+        a:hover { color: lighten($primary-homepage, 10%) }
+      }
+
+    .subnav__text--color__buckets {
+      @extend .subnav__text;
+      a { color: $primary-buckets }
+      a:hover { color: lighten($primary-buckets, 10%) }
+    }
+
+    .subnav__text--color__projects {
+      @extend .subnav__text;
+      a { color: $primary-projects }
+      a:hover { color: lighten($primary-projects, 10%) }
+    }

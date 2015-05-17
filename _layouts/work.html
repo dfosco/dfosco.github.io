@@ -1,0 +1,71 @@
+{% include head.html %}
+
+<div id="viewport" class="container">
+
+  {% include header.html %}
+    <div class="wrapper">
+
+      <section class="content--regular content--post">
+        <article class="card-note">
+          <div class="card-note__inner">
+            
+            {% comment %}
+              {% if page.image-name == "none" %}
+              {% else %}
+              
+                <div class="card-note__img">
+                  {% if page.source == null %}
+                  <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
+                  {% else %}
+                  <a href="{{ page.source }}?ref=danielfosco-linklist" target="_blank">
+                  <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
+                  </a>
+                  {% endif %}
+                </div>
+              
+              {% endif %}
+            {% endcomment %}            
+            
+            {% if page.source == null %}
+            <h1 class="card-note__title">{{ page.title }}</h1>
+            {% else %}
+            <a href="{{ page.source }}?ref=danielfosco-linklist" target="_blank">
+            <h1 class="card-note__title">{{ page.title }}</h1>
+            </a>
+            {% endif %}
+
+            <div class="card-note__work-metadata">
+              <ul class="work-metadata__list">
+
+                {% if page.meta-project %}
+                <li class="work-metadata__item"><strong>Project:</strong>{{ page.meta-project }}</li>
+                {% endif %}
+
+                {% if page.meta-role %}
+                <li class="work-metadata__item"><strong>Role:</strong>{{ page.meta-role }}</li>
+                {% endif %}
+
+                {% if page.meta-timeline %}
+                <li class="work-metadata__item"><strong>Timeline:</strong>{{ page.meta-timeline }}</li>
+                {% endif %}
+
+              </ul>
+            </div>
+
+            <div>
+              {{ content }}
+            </div>
+
+          </div>
+
+       </article> 
+      </section>
+    
+    </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>

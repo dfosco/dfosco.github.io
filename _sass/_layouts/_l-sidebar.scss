@@ -32,7 +32,7 @@
 
 .sidebar__box--collection {
   @extend .sidebar__box--notes; 
-  background: $strong-clear;
+  background: $white-1;
 
   @include media($medium-screen-up) {
     margin-top: 12.4em;
@@ -84,7 +84,7 @@
   @extend .sidebar__box--notes;
 
   margin-top: 1.5em;
-  background: $quarter-base;
+  background: $white-2;
   border-radius: 5px;
 }
 

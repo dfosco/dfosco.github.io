@@ -1,0 +1,34 @@
+// Application Style Controller
+
+// Vendor & Base Sass
+// ------------------------------------------------------------------------
+@import "../../_vendor/bourbon/app/assets/stylesheets/bourbon";
+@import "../../_base/base";
+@import "../../_vendor/neat/app/assets/stylesheets/neat";
+@import "../../_vendor/twemoji-awesome/twemoji-awesome";
+
+// Theme-specific Variables
+// ------------------------------------------------------------------------
+@import "_t-work-variables";
+@import "_t-work-typography";
+
+
+// Layouts
+// ------------------------------------------------------------------------
+@import "../../_layouts/_l-default";
+@import "../../_layouts/_l-footer";
+@import "../../_layouts/_l-header";
+@import "../../_layouts/_l-sidebar";
+
+
+// Modules
+// ------------------------------------------------------------------------
+
+@import "_modules/_m-pagination";
+@import "_modules/_m-card";
+@import "_modules/_m-toolbox";
+
+
+// Theme Overrides
+// ------------------------------------------------------------------------
+

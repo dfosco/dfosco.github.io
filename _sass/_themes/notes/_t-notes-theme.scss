@@ -17,15 +17,14 @@
 // ------------------------------------------------------------------------
 @import "../../_layouts/_l-default";
 @import "../../_layouts/_l-footer";
-@import "../../_layouts/_l-notes-header";
+@import "../../_layouts/_l-header";
 @import "../../_layouts/_l-sidebar";
 
 
 // Modules
 // ------------------------------------------------------------------------
-@import "_modules/_m-notes-card";
-@import "_modules/_m-notes-hero";
-@import "_modules/_m-notes-button-pagination";
+@import "_modules/_m-card";
+@import "_modules/_m-pagination";
 @import "_modules/_m-toolbox";
 
 

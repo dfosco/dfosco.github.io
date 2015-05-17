@@ -1,8 +1,14 @@
 body {
   -webkit-font-smoothing: antialiased;
+  background-color: $base-background-color;
+  color: $base-font-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
+}
+
+p {
+  font-size: 1.14em;
 }
 
 h1,
@@ -31,14 +37,17 @@ h3 {
 
 h4 {
   font-size: $h4-font-size;
+  font-weight: 300;
 }
 
 h5 {
   font-size: $h5-font-size;
+  font-weight: 300;
 }
 
 h6 {
   font-size: $h6-font-size;
+  font-weight: 300;
 }
 
 p {
@@ -61,7 +70,7 @@ a {
 }
 
 hr {
-  border-bottom: $base-border;
+  border-bottom: 1px solid $white-2;
   border-left: none;
   border-right: none;
   border-top: none;

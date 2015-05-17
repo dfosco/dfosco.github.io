@@ -6,7 +6,7 @@
   $large-screen-up: em(860) !default;
   //////////////////////////////////////////////////////////////////////////////////
 
-  $hero-color: $strong-base;
+  $hero-color: $white-2;
   $gradient-angle: 10deg;
   $hero-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
 
@@ -42,21 +42,21 @@
 }
 
 .hero-title {
-  color: $quarter-base;
+  color: $white-2;
   margin-bottom: 0.1em;
   font-size: $h1-font-size;
 
   a {
-    color: $quarter-base;
+    color: $white-2;
     
     &:hover { 
-      color: darken($quarter-base, 10%)
+      color: darken($white-2, 10%)
     }
   }
 }
 
 .hero-subtitle {
   font-size: $h5-font-size;
-  color: $white-4;
+  color: $white-3;
 }
 

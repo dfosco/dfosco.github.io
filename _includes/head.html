@@ -8,7 +8,7 @@
     <title>
       {% if page.title %}
 
-        {% if page.section %}{{ page.section }}{% else %}{{ site.author.name }}{% endif %} • {{ page.title }}
+        {{ page.title }} • {% if page.section %}{{ page.section }}{% else %}{{ site.author.name }}{% endif %}
       
       {% else %}
 
@@ -33,12 +33,14 @@
     
 
     <!-- CSS -->
-    {% if page.layout contains "notes" %}
-    <link rel="stylesheet" href="{{ "/assets/stylesheets/notes.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
-    {% elsif page.layout contains "buckets" %}
-    <link rel="stylesheet" href="{{ "/assets/stylesheets/buckets.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
+    {% if page.url contains "/buckets/" %}
+      <link rel="stylesheet" href="{{ "/assets/stylesheets/buckets.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
+    
+    {% elsif page.url contains "/work/" %}
+      <link rel="stylesheet" href="{{ "/assets/stylesheets/work.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
+
     {% else %}
-    <link rel="stylesheet" href="{{ "/assets/stylesheets/main.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
+      <link rel="stylesheet" href="{{ "/assets/stylesheets/notes.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
     {% endif %}
     
 
@@ -54,9 +56,9 @@
     <meta property="og:site_name" content="{{ site.title }}"/>
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
-    {% if page.layout == "notes/post" %}
+    {% if page.url contains "/notes/" && page.layout == post %}
       <meta property="og:description" content="{{ content | strip_html | strip_newlines | truncate: 250 }}"/>
-    {% elsif page.layout == "notes/default" %}
+    {% elsif page.url contains "/notes/" %}
       <meta property="og:description" content="NOTES is a tiny blog by designer & developer Daniel Fosco."/>
     {% else %}
       <meta property="og:description" content="Hi, my name is Daniel and I made this website. Hope you enjoy it."/>

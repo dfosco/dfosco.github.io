@@ -49,11 +49,11 @@
 .card-item {
   
   @include margin(1em null 1.5em null);
-  background: $box-background-color;
+  background: $white-2;
 
   @include media($medium-screen-up) { 
-    &:hover { background: $box-background-hover; }
-    background: $box-background-color;
+    &:hover { background: $white-3; }
+    background: $white-2;
     padding: 0.5em;
   }
 }

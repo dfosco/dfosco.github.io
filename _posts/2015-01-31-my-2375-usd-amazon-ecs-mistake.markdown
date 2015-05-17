@@ -1,5 +1,5 @@
 ---
-layout: notes/post
+layout: post
 date:   2015-01-31 12:02:00
 category: notes
 
