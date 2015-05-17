@@ -4,12 +4,16 @@ layout: work
 title: "2 ½ Weeks of UX"
 tagline: Sweating out Swerve Fitness' mobile app
 
-hero: http://i.imgur.com/bnRzVnV.png
-hero-alt: Swerve Fitness Mobile App Screens
+meta-hero: http://i.imgur.com/bnRzVnV.png
+meta-alt: Swerve Fitness Mobile App Screens
 
 meta-project: Mobile App Prototype for Swerve Fitness
-meta-role: UX Designer • Prototyper
+meta-role: UX Designer
 meta-timeline: 2 ½ Weeks • 3 Designers • August 2014
+
+prototype: yes
+prototype-url: http://invis.io/2630BJKC7
+invision-embed: //invis.io/T82U3I3V6
 
 ---
 
@@ -36,17 +40,7 @@ Finally, I can't help but mention that this project would never have been succes
 
 Much of the project's quality is due either to Ashton's obsessive UI Design skills and Alfredo's tireless leadership and research. The late nights and crazy hours were a pleasure with these two around.
 
-<div class="prototype">
-<iframe width="396" height="834" src="//invis.io/T82U3I3V6" frameborder="0" allowfullscreen></iframe>
-</div>
 
-<div class="button-wrap">
-    <a href="http://invis.io/5N1MWHHCS" target="_blank">
-        <div class="btn">
-            Open Prototype
-        </div>
-    </a>
-</div>
 
 
 

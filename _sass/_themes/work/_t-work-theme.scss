@@ -32,3 +32,31 @@
 // Theme Overrides
 // ------------------------------------------------------------------------
 
+//Post Page -- Small "back" navigation
+
+.inpage-nav {
+	font-size: 0.95em;
+	font-weight: 600;
+	margin-bottom: 1em;
+}
+
+//Post Page (Card)
+
+.card-note__img {
+  padding: 0em;
+  margin: 0;
+
+  img {
+    width: 100%;
+  }
+} 
+
+//Prototype Stuff
+
+.prototype {
+	@include shift(2);
+}
+
+.prototype__button {
+	@include shift(2);
+}

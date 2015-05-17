@@ -6,58 +6,89 @@
     <div class="wrapper">
 
       <section class="content--regular content--post">
+
+          <div class="card-note__img">
+            {% if page.meta-hero %}
+              {% if page.meta-hero contains "http" %}
+                <img src="{{ page.meta-hero }}" alt="{{ page.meta-alt }}">
+              {% else %}
+                <img src="{{ site.baseurl }}/assets/images/work/{{ page.title | slugify }}.png" alt="{{ page.image-alt }}">
+              {% endif %}
+            {% endif %}
+          </div>
+
         <article class="card-note">
           <div class="card-note__inner">
-            
-            {% comment %}
-              {% if page.image-name == "none" %}
-              {% else %}
-              
-                <div class="card-note__img">
-                  {% if page.source == null %}
-                  <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
-                  {% else %}
-                  <a href="{{ page.source }}?ref=danielfosco-linklist" target="_blank">
-                  <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
-                  </a>
-                  {% endif %}
-                </div>
-              
+        <!-- 
+        <div class="inpage-nav">
+          <a href="/work">&#8592 back to Work</a>
+        </div>
+         -->
+
+          {% if page.source == null %}
+          <h1 class="card-note__title">{{ page.title }}</h1>
+          {% else %}
+          <a href="{{ page.source }}?ref=danielfosco-linklist" target="_blank">
+          <h1 class="card-note__title">{{ page.title }}</h1>
+          </a>
+          {% endif %}
+
+          <div class="card-note__work-metadata">
+            <ul class="work-metadata__list">
+
+              {% if page.meta-project %}
+              <li class="work-metadata__item"><strong>Project:</strong>{{ page.meta-project }}</li>
               {% endif %}
-            {% endcomment %}            
-            
-            {% if page.source == null %}
-            <h1 class="card-note__title">{{ page.title }}</h1>
-            {% else %}
-            <a href="{{ page.source }}?ref=danielfosco-linklist" target="_blank">
-            <h1 class="card-note__title">{{ page.title }}</h1>
-            </a>
-            {% endif %}
 
-            <div class="card-note__work-metadata">
-              <ul class="work-metadata__list">
+              {% if page.meta-role %}
+              <li class="work-metadata__item"><strong>Role:</strong>{{ page.meta-role }}</li>
+              {% endif %}
 
-                {% if page.meta-project %}
-                <li class="work-metadata__item"><strong>Project:</strong>{{ page.meta-project }}</li>
-                {% endif %}
+              {% if page.meta-timeline %}
+              <li class="work-metadata__item"><strong>Timeline:</strong>{{ page.meta-timeline }}</li>
+              {% endif %}
 
-                {% if page.meta-role %}
-                <li class="work-metadata__item"><strong>Role:</strong>{{ page.meta-role }}</li>
-                {% endif %}
+            </ul>
+          </div>
+          
+          {% if page.prototype %}
+          <div class="prototype__cta mobile-hide">
+              <a href="#prototype">
+                <button>See the prototype</button>
+              </a>
+          </div>
 
-                {% if page.meta-timeline %}
-                <li class="work-metadata__item"><strong>Timeline:</strong>{{ page.meta-timeline }}</li>
-                {% endif %}
-
-              </ul>
-            </div>
+          <div class="prototype__cta desktop-hide">
+              <a href="{{ page.prototype-url }}" target="_blank">
+                <button>See the prototype</button>
+              </a>
+          </div>
+          {% endif %}
 
             <div>
               {{ content }}
             </div>
 
-          </div>
+            {% if page.prototype %}
+            
+            <div class="prototype-wrapper" id="prototype">
+              {% if page.invision-embed %}
+              <div class="prototype mobile-hide">
+                <iframe width="396" height="834" src="{{ page.invision-embed }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+              {% endif %}
 
+              <div class="prototype__button desktop-hide">
+                  <a href="{{ page.prototype-url }}" target="_blank">
+                      <button>
+                          Open Prototype
+                      </button>
+                  </a>
+              </div>    
+              {% endif %}
+            </div>
+
+          </div>
        </article> 
       </section>
     
