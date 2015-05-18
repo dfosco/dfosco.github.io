@@ -33,7 +33,7 @@
 // ------------------------------------------------------------------------
 
 // ------ ------ ------
-//Post Page
+//Work Page Metadata & Headings
 // ------ ------ ------
 
 .inpage-nav {
@@ -49,10 +49,6 @@
 	font-size: 0.90em;
 	li: initial;
 }
-
-// ------ ------ ------
-//Post Page Card
-// ------ ------ ------
 
 .card-note__img {
   padding: 0em;
@@ -78,7 +74,7 @@
 }
 
 .card-note__title {
-	margin-bottom: 0em;
+	margin-bottom: 0.25em;
 }
 
 .card-note__subtitle {
@@ -86,8 +82,10 @@
 }
 
 // ------ ------ ------
-//Fixing Unordered Lists
+//Fixing markup tags on CONTENT for Work Page
 // ------ ------ ------
+
+//Adjust headings and margins ONLY inside the post content
 
 .card-note__content {
 	
@@ -105,6 +103,7 @@
 	}
 }
 
+//Add bullets and margin on lists ONLY inside the post content
 .card-note__content > ul {
 	margin: 1em 0em;
 }
@@ -115,10 +114,26 @@
 	margin-left: 1.2em;
 }
 
+//Adjust the native markup Jekyll uses for images
+//so I can use markdown (with no classes) and still have the styling as I want it to be
+
+//Here, default styling for images (and for .image-grid__full class) will be full width
+//and the last image in a series will have bottom margin
+.card-note__content > p > img, .image-grid__full {
+	@include span-columns(12 of 12);
+	&:nth-last-child(1) {
+		margin-bottom: 1em;
+	}
+}
+
+//Here, whenever more than one image appear in a row, they'll have margins added ONLY between them
+.card-note__content > p > img + img, .image-grid__full + .image-grid__full  {	
+	margin-top: 1em;		
+}	
 
 
 // ------ ------ ------
-//Prototype Display
+//Prototype Display in Work Page CONTENT
 // ------ ------ ------
 
 .prototype {
@@ -173,4 +188,74 @@
 
 .append-bucket__title {
 	font-weight: 600;
+}
+
+// ------ ------ ------
+// Complex Image Grids on Word Pages
+// ------ ------ ------
+
+.image-grid {
+	margin: 1.5em 0em 1em 0em;
+	@include outer-container;
+}
+
+.image-grid__inner--phones {
+	@include media($large-screen) {
+		@include shift(0.5);
+	}
+}
+
+.image-grid__thirds {
+	margin-right: 0.5em;
+	@include span-columns(4 of 12);
+}
+
+.image-grid__thirds:nth-last-child(1) {
+	margin-right: 0em;
+}
+
+.image-grid__thirds:only-child {
+	@include shift(4);
+	@include span-columns(4 of 12);
+	margin-right: 0em;
+}
+
+.image-grid__halves {
+	
+	@include media($medium-screen-up) {
+		@include span-columns(6 of 12);
+	}
+	
+	@include span-columns(12 of 12);
+	margin-right: 0.5em;
+	
+	@include media($small-screen) {
+		& + & {
+			margin-top: 1em;		
+		}
+	}
+}
+
+.image-grid__persona {
+	@extend .image-grid__thirds;
+}
+
+.persona__avatar {
+	border-radius: 50%;
+}
+
+.persona__info {
+	margin: 1.5em 0em 0em 0.5em;
+	font-weight: 600;
+}
+
+//WARNING -- Specificity conflict here: _m-card.scss has a general "blockquote"
+//selector that's overriding this one unless the blockquote selector is added here as well
+blockquote.persona__description {
+	border-left: none;
+	margin-top: 0em;
+}
+
+.image-grid__persona:nth-last-child(1) {
+	margin-right: 0em;
 }

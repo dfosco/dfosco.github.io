@@ -21,21 +21,24 @@ append-collection:
 
 ---
 
+
+![test](/assets/images/work/instagram-print/information_architecture_1.png)
+![test](/assets/images/work/instagram-print/information_architecture_1.png)
 Instagram Print was a project for General Assembly's UXDI class in partnership with Paz Perez and Christina Vu. In the (fictional) brief, Instagram needed a way to diversify their revenue stream and needed a new printing feature to be developed.
 
 The team for this project was really tight-knit, and the process was a big exercise in participatory design, from user research to prototyping. 
 
 Towards the end of the project, my role shifted to assembling the app prototype using Axure, which you can play around with <a href="http://y9d00x.axshare.com/#c=2" target="_blank">here</a>.
 
-<section class="image-grid" style="margin-bottom:1em">
-    <img src="/assets/img/intro_phone_1.png" alt="Phone 1" class="img-3col shift-1-5col">
-    <img src="/assets/img/intro_phone_2.png" alt="Phone 2" class="img-3col">
-    <img src="/assets/img/intro_phone_3.png" alt="Phone 3" class="img-3col">
+<section class="image-grid mobile-hide">
+    <div class="image-grid__inner--phones">
+        <img src="/assets/images/work/instagram-print/intro_phone_1.png" alt="Phone 1" class="image-grid__phone">
+        <img src="/assets/images/work/instagram-print/intro_phone_2.png" alt="Phone 2" class="image-grid__phone">
+        <img src="/assets/images/work/instagram-print/intro_phone_3.png" alt="Phone 3" class="image-grid__phone">
+    </div>
 </section>
 
-###Research
-
-####Competitive analysis, User Research and Affinity Mapping
+#####Competitive analysis, User Research and Affinity Mapping
 
 We set our core concept as an expansion of Instagram's brand into the real world by connecting Instagram into the old way of sharing — through printing and gifting pictures.
 
@@ -46,76 +49,76 @@ Competitive research showed pain-points of competitors and highlighted one of ou
 Research results were aggregated in an affinity map, to prioritize user needs and features, which was then used to build three personas for the project.
 
 <section class="image-grid">
-    <img src="/assets/img/research_1.png" alt="Affinity Mapping" class="img-6col">
-    <img src="/assets/img/research_2.png" alt="Aggregating into personas" class="img-6col">
+    <img src="/assets/images/work/instagram-print/research_1.png" alt="Affinity Mapping" class="image-grid__halves">
+    <img src="/assets/images/work/instagram-print/research_2.png" alt="Aggregating into personas" class="image-grid__halves">
 </section>
 
-<section class="persona-panel">
-    <section class="persona">
-    <img src="/assets/img/karen_round.png" alt="Personas" class="avatar-2col">
-    <legend><h4>Karen, 27</h4></legend>
-    <blockquote>"Love my new apartment and my roommate, can’t wait to decorate the empty walls."
-    </blockquote>
-    </section>
+<section class="image-grid">
 
-<section class="persona">
-    <img src="/assets/img/ashley_round.png" alt="Personas" class="avatar-2col">
-    <legend><h4>Ashley, 15</h4></legend>
-    <blockquote>"I Instagram from the moment I wake up to the moment I go to sleep."
+<div class="image-grid__persona">
+<img src="/assets/images/work/instagram-print/karen_round.png" class="persona__avatar" alt="Karen's picture">
+<legend class="persona__info">Karen, 27</legend>
+<blockquote class="persona__description">"Love my new apartment and my roommate, can’t wait to decorate the empty walls."
+</blockquote>
+</div>
+
+<div class="image-grid__persona">
+    <img src="/assets/images/work/instagram-print/ashley_round.png" class="persona__avatar" alt="Ashley's picture">
+    <legend class="persona__info">Ashley, 15</legend>
+    <blockquote class="persona__description">"I Instagram from the moment I wake up to the moment I go to sleep."
     </blockquote>
+</div>
+
+<div class="image-grid__persona">
+    <img src="/assets/images/work/instagram-print/bill_round.png" class="persona__avatar" alt="Bill's picture">
+    <legend class="persona__info">Bill, 51</legend>
+    <blockquote class="persona__description">"I love taking pictures, but I love not wasting my time even more."
+    </blockquote>
+</div>
+
 </section>
 
-<section class="persona">
-    <img src="/assets/img/bill_round.png" alt="Personas" class="avatar-2col">
-    <legend><h4>Bill, 51</h4></legend>
-    <blockquote>"I love taking pictures, but I love not wasting my time even more."
-    </blockquote>
-    </section>
-</section>
-
-###Information Architecture
-
-####Storyboarding and User Flows
+#####Storyboarding and User Flows
 
 A quick storyboarding session helped to shape the first user flows and made clear how the user would move through the new feature in order to print their pictures. 
 
 The flows were complemented by an overview of the new feature in comparison to the rest of app's architecture.
 
-![Storyboarding to get started with user flows](/assets/img/information_architecture_1.png)
+<div class="image-grid">
+<img src="/assets/images/work/instagram-print/information_architecture_1.png" class="image-grid__full" alt="Storyboarding to get started with user flows">
 
-![App's Information Architecture](/assets/img/information_architecture_2.png)
+<img src="/assets/images/work/instagram-print/information_architecture_2.png" class="image-grid__full" alt="App's Information Architecture">
+</div>
 
-###Interaction Design
-
-####Sketching, Testing, Prototyping, Testing, Testing
+#####Sketching, Testing, Prototyping, Testing, Testing
 
 Early sketches were done in group on the whiteboard, as a way to get the team on the same page and define initial expectations for the interface.
 
 These were followed by several batches of rough wireframes that solidified the idea we had for the interface and allowed us to move forward to user testing.
 
 <section class="image-grid">
-    <img src="/assets/img/sketch_1.png" alt="Loose Sketches" class="img-6col">
-    <img src="/assets/img/sketch_2.png" alt="More Loose Sketches" class="img-6col">
+    <img src="/assets/images/work/instagram-print/sketch_1.png" alt="Loose Sketches" class="image-grid__halves">
+    <img src="/assets/images/work/instagram-print/sketch_2.png" alt="More Loose Sketches" class="image-grid__halves">
 </section>
-<img src="/assets/img/interaction_design_3.png" alt="Paper Prototyping">
+<img src="/assets/images/work/instagram-print/interaction_design_3.png" alt="Paper Prototyping">
 
 Doing tests with paper prototypes allowed us to sketch, test and incorporate feedback much faster than going straight to digital.
 
 Product selection and checkout screens were specially challenging, interface-wise: our first version had too much information density, while further down the road we over-simplified. Only through several iterations and a lot of testing we found the right balance.
 
-![User Testing](/assets/img/interaction_design_4.png)
+<section class="image-grid">
+    <img src="/assets/images/work/instagram-print/interaction_design_4.png" alt="User Testing with our GA Instructor, Rashida White">
+</section>
 
 When we were ready to move forward, the team finished the final mockups, while I prepared the interactive prototype using Axure -- which included mimicking some of Instagram's native interactions, as pictured below.
 
 Check out the fully interactive prototype <a href="http://y9d00x.axshare.com/#c=2" target="_blank">here</a>.
 
 <section class="image-grid">
-    <img src="/assets/img/interaction_design_2.gif" alt="App Animation Swipe" class="img-6col shift-3col" style="margin-bottom: 1em">
+    <img src="/assets/images/work/instagram-print/interaction_design_2.gif" alt="App Animation Swipe" class="image-grid__thirds" style="margin-bottom: 1em">
 </section>
 
-###Key Takeaways
-
-####Design at close quarters
+#####Design at close quarters
 
 The deadline was tough, but the close-knit teamwork and the test-driven approach enabled us to achieve great results in a short ammount of time. 
 

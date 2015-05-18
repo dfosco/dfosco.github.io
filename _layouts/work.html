@@ -56,10 +56,14 @@
                       <li class="work-metadata__item"><strong><a href="{{ page.project-url }}">See the Project</a></strong></li>
                     {% endif %}                  
 
-                    {% if.page.prototype %}        
-                      <li class="work-metadata__item mobile-hide"><strong><a href="#prototype">See the Prototype</a></strong></li>
+                    {% if.page.prototype %}
+                      {% if.page.prototype-embed-url %}        
+                        <li class="work-metadata__item mobile-hide"><strong><a href="#prototype">See the Prototype</a></strong></li>
 
-                      <li class="work-metadata__item desktop-hide"><strong><a href="{{ page.prototype-url }}" target="_blank">See the prototype</a></strong></li>
+                        <li class="work-metadata__item desktop-hide"><strong><a href="{{ page.prototype-url }}" target="_blank">See the prototype</a></strong></li>
+                      {% else %}
+                        <li class="work-metadata__item"><strong><a href="{{ page.prototype-url }}" target="_blank">See the prototype</a></strong></li>                      
+                      {% endif %}  
                     {% endif %}  
                   </ul>
                 </div>
