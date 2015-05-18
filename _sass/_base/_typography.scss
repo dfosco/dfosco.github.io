@@ -7,7 +7,7 @@ body {
   line-height: $base-line-height;
 }
 
-p {
+p, li, span {
   font-size: 1.14em;
 }
 
@@ -30,10 +30,12 @@ h1 {
 
 h2 {
   font-size: $h2-font-size;
+  font-weight: 400;
 }
 
 h3 {
   font-size: $h3-font-size;
+  font-weight: 400;
 }
 
 h4 {

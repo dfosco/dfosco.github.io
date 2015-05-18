@@ -21,39 +21,54 @@
           <article class="card-note">
             
             <div class="card-note__inner">
-                    
-              <h1 class="card-note__title">{{ page.title }}</h1>
-              <h2 class="card-note__subtitle">{{ page.tagline }}</h2>
               
-              <div class="card-note__work-metadata">
-                <ul class="work-metadata__list">
+              <div class="card-note__info">
+                <h1 class="card-note__title">{{ page.title }}</h1>
+                <h2 class="card-note__subtitle">{{ page.tagline }}</h2>
+                
+                <div class="card-note__work-metadata">
+                  <ul class="work-metadata__list">
 
-                  {% if page.meta-project %}
-                  <li class="work-metadata__item"><strong>Project:</strong>{{ page.meta-project }}</li>
-                  {% endif %}
-                  
-                  {% if page.meta-client %}
-                  <li class="work-metadata__item"><strong>Client:</strong>{{ page.meta-client }}</li>
-                  {% endif %}
+                    {% if page.meta-project %}
+                    <li class="work-metadata__item"><strong>Project: </strong>{{ page.meta-project }}</li>
+                    {% endif %}
+                    
+                    {% if page.meta-client %}
+                    <li class="work-metadata__item"><strong>Client: </strong>{{ page.meta-client }}</li>
+                    {% endif %}
 
-                  {% if page.meta-role %}
-                  <li class="work-metadata__item"><strong>Role:</strong>{{ page.meta-role }}</li>
-                  {% endif %}
+                    {% if page.meta-role %}
+                    <li class="work-metadata__item"><strong>Role: </strong>{{ page.meta-role }}</li>
+                    {% endif %}
 
-                  {% if page.meta-timeline %}
-                  <li class="work-metadata__item"><strong>Timeline:</strong>{{ page.meta-timeline }}</li>
-                  {% endif %}
+                    {% if page.meta-timeline %}
+                    <li class="work-metadata__item"><strong>Timeline: </strong>{{ page.meta-timeline }}</li>
+                    {% endif %}
 
-                </ul>
-              </div>
-            
-              {% if.page.project-url %}        
-                <div class="project__cta">
-                    <a href="{{ page.project-url }}">
-                        <button>See the project</button>
-                    </a>
+                    {% if.page.project-url %}        
+                      <li class="work-metadata__item"><strong><a href="{{ page.project-url }}">See the project</a></strong></li>
+                    {% endif %}                  
+
+                    {% if.page.prototype %}        
+                      <li class="work-metadata__item"><strong><a href="#prototype">See the prototype</a></strong></li>
+                    {% endif %}  
+
+                    {% if.page.meta-freestyle %}        
+                      {% if.page.meta-freestyle-link %}
+                      <a href="{{ page.meta-freestyle-link }}">
+                      {% endif %}
+                          
+                          <li class="work-metadata__item"><strong>{{ page.meta-freestyle }}</strong></li>                    
+                      
+                      {% if.page.meta-freestyle-link %}
+                      </a>
+                      {% endif %}                      
+                    {% endif %}  
+
+                  </ul>
                 </div>
-              {% endif %}
+              </div>      
+
 
               {% if page.prototype %}
                   <div class="project__cta mobile-hide">

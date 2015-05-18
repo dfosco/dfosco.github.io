@@ -2,7 +2,7 @@
 layout: work
 
 title: Motion 
-tagline: Experiments with FramerJS
+tagline: Experiments with Framer.JS
 
 append-bucket: learn-framer
 

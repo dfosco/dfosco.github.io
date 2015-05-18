@@ -11,6 +11,9 @@ meta-client:
 meta-role: UX Designer • Information Architecture
 meta-timeline: November 2015
 
+meta-freestyle: 3rd place at SESI Cultura Digital Hackathon
+meta-freestyle-link: http://www.firjan.org.br/main.jsp?lumPageId=40288081201F4C3E012068444B1B7304&lumItemId=2C908CEC47A29CFC0148A8FBBBF509B0 
+
 project-url: 
 
 prototype: 
@@ -20,8 +23,6 @@ prototype-embed-url:
 append-collection:
 
 ---
-
-<h4><a href="http://www.firjan.org.br/main.jsp?lumPageId=40288081201F4C3E012068444B1B7304&lumItemId=2C908CEC47A29CFC0148A8FBBBF509B0">3rd place in SESI Cultura Digital Hackathon</a></h4>
 
 The Circular App protoype was created during the 2-day Hackaton promoted by the SESI institute for its event Semana de Cultura Digital (Digital Culture Week). 
 

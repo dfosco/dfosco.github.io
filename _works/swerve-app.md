@@ -2,7 +2,7 @@
 layout: work
 
 title: Swerve Fitness
-tagline: Mobile App Prototype for **Swerve Fitness**
+tagline: Mobile App Prototype
 
 meta-hero: http://i.imgur.com/bnRzVnV.png
 meta-alt: Swerve Fitness Mobile App Screens

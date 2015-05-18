@@ -32,7 +32,7 @@
 // Theme Overrides
 // ------------------------------------------------------------------------
 
-//Post Page -- Small "back" navigation
+//Post Page
 
 .inpage-nav {
 	font-size: 0.95em;
@@ -43,7 +43,16 @@
 	width: 85%;
 }
 
-//Post Page (Card)
+.footnotes {
+	font-size: 0.90em;
+}
+
+
+//Post Page Card
+
+.card-note__info {
+	margin-bottom: 2em;
+}
 
 .card-note__img {
   padding: 0em;
@@ -54,8 +63,16 @@
   }
 } 
 
-.footnotes {
-	font-size: 0.90em;
+.card-note__work-metadata {
+	margin: 1em 0em;
+}
+
+.card-note__title {
+	margin-bottom: 0em;
+}
+
+.card-note__subtitle {
+
 }
 
 //Prototype Stuff

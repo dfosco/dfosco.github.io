@@ -2,7 +2,7 @@
 layout: work
 
 title: Instagram Print
-tagline: Mobile App Prototype @ **General Assembly**
+tagline: Mobile App Prototype @ General Assembly
 
 meta-hero: 
 meta-alt: 
