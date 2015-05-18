@@ -37,7 +37,10 @@
 .inpage-nav {
 	font-size: 0.95em;
 	font-weight: 600;
-	margin-bottom: 1em;
+	padding:0.75em;
+	margin: auto;
+	margin-bottom: 1.5em;
+	width: 85%;
 }
 
 //Post Page (Card)
@@ -51,12 +54,12 @@
   }
 } 
 
-//Prototype Stuff
-
-.prototype {
-	@include shift(2);
+.footnotes {
+	font-size: 0.90em;
 }
 
-.prototype__button {
+//Prototype Stuff
+
+.prototype, .prototype__button, .prototype__cta, .project__cta {
 	@include shift(2);
 }

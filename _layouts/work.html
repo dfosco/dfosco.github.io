@@ -19,25 +19,20 @@
 
         <article class="card-note">
           <div class="card-note__inner">
-        <!-- 
-        <div class="inpage-nav">
-          <a href="/work">&#8592 back to Work</a>
-        </div>
-         -->
-
-          {% if page.source == null %}
+                  
           <h1 class="card-note__title">{{ page.title }}</h1>
-          {% else %}
-          <a href="{{ page.source }}?ref=danielfosco-linklist" target="_blank">
-          <h1 class="card-note__title">{{ page.title }}</h1>
-          </a>
-          {% endif %}
+          <h2 class="card-note__subtitle">{{ page.tagline }}</h2>
+          
 
           <div class="card-note__work-metadata">
             <ul class="work-metadata__list">
 
               {% if page.meta-project %}
               <li class="work-metadata__item"><strong>Project:</strong>{{ page.meta-project }}</li>
+              {% endif %}
+              
+              {% if page.meta-client %}
+              <li class="work-metadata__item"><strong>Client:</strong>{{ page.meta-client }}</li>
               {% endif %}
 
               {% if page.meta-role %}
@@ -51,6 +46,14 @@
             </ul>
           </div>
           
+          {% if.page.project-url %}
+          <div class="project__cta">
+              <a href="{{ page.project-url }}">
+                <button>See the project</button>
+              </a>
+          </div>          
+          {% endif %}
+
           {% if page.prototype %}
           <div class="prototype__cta mobile-hide">
               <a href="#prototype">
@@ -72,9 +75,9 @@
             {% if page.prototype %}
             
             <div class="prototype-wrapper" id="prototype">
-              {% if page.invision-embed %}
+              {% if page.prototype-embed %}
               <div class="prototype mobile-hide">
-                <iframe width="396" height="834" src="{{ page.invision-embed }}" frameborder="0" allowfullscreen></iframe>
+                <iframe width="396" height="834" src="{{ page.prototype-embed }}" frameborder="0" allowfullscreen></iframe>
               </div>
               {% endif %}
 
@@ -87,8 +90,13 @@
               </div>    
               {% endif %}
             </div>
+        
+            <nav class="inpage-nav">
+              <a href="/work">&#8592 back to Work</a>
+            </nav>
 
           </div>
+              
        </article> 
       </section>
     

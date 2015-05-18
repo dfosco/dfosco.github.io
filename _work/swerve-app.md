@@ -1,19 +1,18 @@
 ---
 layout: work
 
-title: "2 ½ Weeks of UX"
-tagline: Sweating out Swerve Fitness' mobile app
+title: "Swerve Fitness"
+tagline: A mobile app prototype for Swerve Fitness
 
 meta-hero: http://i.imgur.com/bnRzVnV.png
 meta-alt: Swerve Fitness Mobile App Screens
 
-meta-project: Mobile App Prototype for Swerve Fitness
 meta-role: UX Designer
 meta-timeline: 2 ½ Weeks • 3 Designers • August 2014
 
 prototype: yes
 prototype-url: http://invis.io/2630BJKC7
-invision-embed: //invis.io/T82U3I3V6
+prototype-embed: //invis.io/T82U3I3V6
 
 ---
 
