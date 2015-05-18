@@ -50,10 +50,6 @@
 
 //Post Page Card
 
-.card-note__info {
-	margin-bottom: 2em;
-}
-
 .card-note__img {
   padding: 0em;
   margin: 0;
@@ -62,7 +58,17 @@
     width: 100%;
   }
 } 
+.card-note__heading {
+	margin-bottom: 1.5em;
+}
 
+.card-note__info {
+	margin-bottom: 2em;
+}
+
+.card-note__project-url-cta {
+
+}
 .card-note__work-metadata {
 	margin: 1em 0em;
 }
@@ -72,7 +78,22 @@
 }
 
 .card-note__subtitle {
+	font-size: $h3-font-size;
+}
 
+//Fixing Unordered Lists
+
+.card-note__content {
+	
+	ul {
+		margin: 1em 0em;
+	}
+
+	li {
+	    list-style-type: disc;
+	    margin-bottom: 0.2em;
+	    margin-left: 1.2em;
+	}
 }
 
 //Prototype Stuff

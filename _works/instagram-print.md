@@ -7,8 +7,9 @@ tagline: Mobile App Prototype @ General Assembly
 meta-hero: 
 meta-alt: 
 
+meta-client: General Assembly
 meta-role: UX Designer • Information Architecture
-meta-timeline: 2 Weeks • 3 Designers • July 2014
+meta-timeline: 2 Weeks • July 2014
 
 project-url: 
 

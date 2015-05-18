@@ -7,7 +7,9 @@
       <div class="wrapper">
 
         <section class="content--regular content--post">
-
+              
+            <!-- === === === === === === HERO IMAGE === === === === === ===  -->
+            
             <div class="card-note__img">
               {% if page.meta-hero %}
                 {% if page.meta-hero contains "http" %}
@@ -21,11 +23,16 @@
           <article class="card-note">
             
             <div class="card-note__inner">
+
+              <!-- === === === === === === PAGE METADATA === === === === === ===  -->
               
               <div class="card-note__info">
-                <h1 class="card-note__title">{{ page.title }}</h1>
-                <h2 class="card-note__subtitle">{{ page.tagline }}</h2>
                 
+                <div class="card-note__heading">
+                  <h1 class="card-note__title">{{ page.title }}</h1>
+                  <h2 class="card-note__subtitle">{{ page.tagline }}</h2>
+                </div>
+
                 <div class="card-note__work-metadata">
                   <ul class="work-metadata__list">
 
@@ -42,7 +49,7 @@
                     {% endif %}
 
                     {% if page.meta-timeline %}
-                    <li class="work-metadata__item"><strong>Timeline: </strong>{{ page.meta-timeline }}</li>
+                    <li class="work-metadata__item"><strong>When: </strong>{{ page.meta-timeline }}</li>
                     {% endif %}
 
                     {% if.page.project-url %}        
@@ -50,43 +57,19 @@
                     {% endif %}                  
 
                     {% if.page.prototype %}        
-                      <li class="work-metadata__item"><strong><a href="#prototype">See the prototype</a></strong></li>
-                    {% endif %}  
+                      <li class="work-metadata__item mobile-hide"><strong><a href="#prototype">See the prototype</a></strong></li>
 
-                    {% if.page.meta-freestyle %}        
-                      {% if.page.meta-freestyle-link %}
-                      <a href="{{ page.meta-freestyle-link }}">
-                      {% endif %}
-                          
-                          <li class="work-metadata__item"><strong>{{ page.meta-freestyle }}</strong></li>                    
-                      
-                      {% if.page.meta-freestyle-link %}
-                      </a>
-                      {% endif %}                      
+                      <li class="work-metadata__item desktop-hide"><strong><a href="{{ page.prototype-url }}" target="_blank">See the prototype</a></strong></li>
                     {% endif %}  
-
                   </ul>
                 </div>
               </div>      
 
-
-              {% if page.prototype %}
-                  <div class="project__cta mobile-hide">
-                      <a href="#prototype">
-                        <button>See the prototype</button>
-                      </a>
-                  </div>
-
-                  <div class="project__cta desktop-hide">
-                      <a href="{{ page.prototype-url }}" target="_blank">
-                        <button>See the prototype</button>
-                      </a>
-                  </div>
-              {% endif %}
-
               <!-- === === === === === === CONTENT === === === === === ===  -->
-                {{ content }}
-              <!-- === === === === === === CONTENT === === === === === ===  -->            
+                <div class="card-note__content">
+                  {{ content }}
+                </div>
+              <!-- === === === === === === ADDITIONAL INFO === === === === === ===  -->
 
               {% if page.prototype %}
                 <div class="prototype-wrapper" id="prototype">
@@ -98,9 +81,9 @@
 
                   <div class="prototype__button desktop-hide">
                       <a href="{{ page.prototype-url }}" target="_blank">
-                          <button>
-                              Open Prototype
-                          </button>
+                          <strong>
+                              See the Prototype
+                          </strong>
                       </a>
                   </div>    
                 </div>
@@ -125,7 +108,9 @@
                 {% endfor %}
               {% endif %}
             </div>
-            
+              
+              <!-- === === === === === === "BACK BUTTON" NAV === === === === === ===  -->            
+              
               <nav class="inpage-nav">
                 <a href="/work">&#8592 back to Work</a>
               </nav>

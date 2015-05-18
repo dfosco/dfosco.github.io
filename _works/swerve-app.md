@@ -2,14 +2,14 @@
 layout: work
 
 title: Swerve Fitness
-tagline: Mobile App Prototype
+tagline: Sweating a research-driven Mobile App Prototype 
 
 meta-hero: http://i.imgur.com/bnRzVnV.png
 meta-alt: Swerve Fitness Mobile App Screens
 
 meta-client: Swerve Fitness
 meta-role: UX Designer
-meta-timeline: 2 ½ Weeks • 3 Designers • August 2014
+meta-timeline: 2 ½ Weeks • August 2014
 
 prototype: yes
 prototype-url: http://invis.io/2630BJKC7
@@ -23,10 +23,8 @@ Swerve is a indoor cycling studio in Manhattan with a unique approach: their ind
 
 Our focus with this prototype was to allow Swerve users to:
 
-<ul class="not-metadata">
-    <li><span class="accent">Book classes with ease in their mobile phones.</span></li>
-    <li><span class="accent">Visualize their performance stats in a dedicated interface.</span></li>
-</ul>
+ - **Book classes with ease in their mobile phones**
+ - **Visualize their performance stats in a dedicated interface**
 
 For this, we performed an industry-wide research that included interviews with fitness users and specialists, in-depth surveys, detailed analysis of the competition's offerings and *lots* of spinning classes.
 

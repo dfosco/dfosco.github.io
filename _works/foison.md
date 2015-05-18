@@ -9,7 +9,7 @@ meta-alt: Foison E-commerce Product Page
 
 meta-client: Cobra CNC
 meta-role: Designer & Developer
-meta-timeline: 2 Designers • March 2015
+meta-timeline: March 2015
 
 project-url: http://foison.com.br/
 
