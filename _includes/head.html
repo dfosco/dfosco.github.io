@@ -6,13 +6,19 @@
 
     <!-- Title -->
     <title>
-      {% if page.title %}
+      {% if page.title == site.author.name %}
 
-        {{ page.title }} | {% if page.section %}{{ page.section }}{% else %}{{ site.author.name }}{% endif %}
+        {{ page.title }}
       
       {% else %}
-
-        {% if page.section %}{{ page.section }} | {{ site.author.name }}{% else %}{{ site.author.name }}{% endif %}
+      
+      <!-- Improve this code with CASES assigning strings according to page.url -->
+      
+        {% if page.section %}
+          {{ page.title }} | {{ page.section }}
+        {% else %}
+          {{ page.title }} | {{ site.author.name }}
+        {% endif %}
 
       {% endif %}
     </title>
