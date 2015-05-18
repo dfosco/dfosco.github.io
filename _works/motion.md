@@ -8,11 +8,11 @@ append-bucket: learn-framer
 
 ---
 
-I recently started playing around with [Framer.js](framerjs.com), a JS framework to build high-definition mobile prototypes.
+I recently started playing around with [Framer.JS](framerjs.com), a JavaScript-based framework to build high definition mobile prototypes.
 
-Framer uses CoffeeScript, which is easier on the eyes than vanilla JS, but still got quite the learning curve — you still have to know what you're doing to pull out the crazy stuff. 
+Framer lets you write CoffeeScript, which is easier on the eyes than vanilla JS, but still got quite the learning curve — you still have to know what you're doing to pull out the crazy stuff. 
 
-Regardless, it's _really_ fun to play with. This is what I came up with so far.
+Regardless, it's _really_ fun to play with. Here's a list of ongoing experiments:
 
 <div class="framer-item__wrapper">
     <div class="framer-item">
@@ -48,7 +48,7 @@ Regardless, it's _really_ fun to play with. This is what I came up with so far.
 
 <hr>
 
-See below some resources to get started with Framer:
+####Some resources to get started with Framer
 
 
 
