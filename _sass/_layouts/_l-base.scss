@@ -60,8 +60,7 @@ code {
 
 .content--full {
   @extend .content;
-  margin-top: 2.3em;
-  margin-bottom: 6em;
+  margin-top: 0em;
 
   @include media($medium-screen-up) {
   @include span-columns(14 of 16);

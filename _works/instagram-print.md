@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work/work-page
 
 title: Instagram Print
 tagline: Mobile App Prototype @ General Assembly

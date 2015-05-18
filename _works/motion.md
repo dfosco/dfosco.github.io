@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work/work-page
 
 title: Motion 
 tagline: Experiments with Framer.JS

@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work/work-page
 
 title: Swerve Fitness
 tagline: Sweating a research-driven Mobile App Prototype 

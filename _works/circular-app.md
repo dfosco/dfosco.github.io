@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work/work-page
 
 title: Circular App
 tagline: Mobile App Prototype @ SESI Cultura Digital Hackathon

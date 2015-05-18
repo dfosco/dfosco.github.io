@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work/work-page
 
 title: Foison
 tagline: E-Commerce Website built with Shopify
