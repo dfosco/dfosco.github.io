@@ -1,1 +1,22 @@
-index.html
+---
+layout: default
+---
+
+<div class="card-collections">
+
+  {% for page in site.works %}
+
+    <div class="card-collection">
+      <a href="{{ page.url }}" class="card-collection__inner">
+      <div class="card-collection__image">
+        <img src="{{ site.baseurl }}/assets/images/works/{{ page.url }}_thumb.png" alt="{{ page.title }} Page Thumb">
+      </div>
+      <div class="card-collection__content">
+        <h3 class="card-collection__title">{{ page.title }}</h3>
+        <h3 class="card-collection__title">{{ page.tagline }}</h3>        
+      </div>
+      <!-- <div class="card-collection__text--mobile">{{ page.content }}</div> -->
+      </a>
+    </div>
+
+  {% endfor %}

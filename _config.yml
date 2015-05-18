@@ -29,6 +29,6 @@ collections:
   buckets:
     output: true
     permalink: /buckets/:path/
-  work:
+  works:
     output: true
     permalink: /work/:path/
