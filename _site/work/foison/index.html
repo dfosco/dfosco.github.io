@@ -26,9 +26,9 @@
 
     <!-- CSS and Favicons -->
     
-      <link rel="stylesheet" href="/assets/stylesheets/work.css?bust=1431971957">
+      <link rel="stylesheet" href="/assets/stylesheets/work.css?bust=1431974831">
 
-      <link rel="shortcut icon" href="/assets/images/interface/favicon_work.ico?bust=1431971957">
+      <link rel="shortcut icon" href="/assets/images/interface/favicon_work.ico?bust=1431974831">
 
     
     
@@ -158,6 +158,10 @@
             
             <div class="card-note__img">
               
+                
+                  <img src="/assets/images/work/foison/foison.png" alt="">
+                
+              
             </div>
 
           <article class="card-note">
@@ -203,53 +207,48 @@
                 <div class="card-note__content">
                   <p>Foison is a brand for cutting plotters that distributed in Brazil by Cobra CNC, a small business owned by my family.</p>
 
-<p><img src="plotter.png" alt="This is a cutting plotter" /></p>
+<p><img src="/assets/images/work/foison/plotter.jpg" alt="This is a cutting plotter" />
+<small><strong>This is a cutting plotter</strong></small></p>
 
-<p>After a few years doing web design and digital marketing for them, we figured it was time to have an e-commerce to have direct online sales — and also to replace the terrible website they had before… made by myself, of course<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+<p>After a few years doing web design and digital marketing for them, we figured it was time to have an e-commerce to have direct online sales — and also to replace the terrible website they had before… <sup>made by myself, of course</sup></p>
 
-<p>This project was done in collaboration with designer and photographer Luisa Fosco<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> — without her superb photography and graphic design skillset, the site wouldn’t be half of what it is.</p>
+<p>This project was done in collaboration with designer and photographer Luisa Fosco<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> — without her superb photography and graphic design skillset, the site wouldn’t be half of what it is.</p>
 
 <h3 id="highlights">Highlights</h3>
 
-<ul>
-  <li>Shopify</li>
-</ul>
+<h5 id="shopify">Shopify</h5>
 
 <p>Shopify is an emotional roller-coaster — a great platform to work with, but full of frustrating constraints.</p>
 
-<p>While it’s great not having to deal with PHP and local databases<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>, it all comes at a price: Jekyll has abysmal support for custom post types, gateway support in Brazil is severely lacking and their themes force you to keep all of your SCSS in a single monster file (unless you have a build system in place). Oh, and local development is unavailable <i class="twa twa-grin"></i>.</p>
+<p>While it’s great not having to deal with PHP and local databases<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>, it comes at a price: Shopify has abysmal support for custom post types, gateway support in Brazil is severely lacking and their themes force you to keep all of your SCSS in a single monster file (unless you have a build system in place). Oh, and local development is unavailable <i class="twa twa-grin"></i>.</p>
 
-<p>It is <em>so</em> worth it, though. All of these problems are met by theme developers — merchants have it really easy with Shopify. Their admin dashboard is thoroughly well designed — from media uploads to pricing updates, to email notifications. All of these would add up to a ton of work if they had to be prepares outside of Shopify.</p>
+<p>It has many upsides, though. Most of the platform issues are only seen by theme developers — merchants have it really easy with Shopify. Their admin dashboard is thoroughly well designed, from media uploads to pricing updates and email notifications. All of these would add up to a ton of work if they had to be prepared outside of Shopify, either by mashing together a bunch of plugins or coding from scratch.</p>
 
-<ul>
-  <li>Information Architecture</li>
-</ul>
+<h5 id="information-architecture">Information Architecture</h5>
 
 <p>We conducted interviews with sales and support teams and delved deep into support tickets to figure out the needs, the language and the modelling the products should have on the new site.</p>
 
-<ul>
-  <li>Graphic Design</li>
-</ul>
+<h5 id="graphic-design">Graphic Design</h5>
 
 <p>Even though developing the site theme (based on Shopify’s Timber framework) was a huge amount of work, the base graphic design work done by Luisa was essential to make a pattern library to support further phases of the project.</p>
 
-<ul>
-  <li>Snooping on your Users to make their lives better</li>
-</ul>
+<h5 id="snooping-on-your-users-to-make-their-lives-better">Snooping on your Users to make their lives better</h5>
 
-<p>Hotjar was an essential tool in iterating the design early on — seeing a playback of users visiting your site makes it so much easier to uncover roadblocks in your user flow.</p>
+<p><a href="http://hotjar.com/">HotJar Analytics</a> was an essential tool for iterating the design right after going live — seeing a playback of users visiting your site makes it so much easier to uncover roadblocks in your user flow.</p>
 
-<ul>
-  <li>Build &amp; Deploy</li>
-</ul>
+<h5 id="build--deploy">Build &amp; Deploy</h5>
 
-<p>Although asset handling in Shopify is dismal, I have to commend them for the command-line interface that made my life so much easier. Using Dploy.io towards the end of the development also easened a burden and allowed me to develop exclusively on a <code>dev</code> branch that deploys to a dummy store and then send it to production on the press of a button — no more breaking changes on the live site. Next step would be to add Gulp to the workflow to make asset handling more sane, but one thing at a time…</p>
+<p>Although asset handling in Shopify is dismal, I have to commend them for the command-line interface that made my life so much easier.</p>
+
+<p>Using <a href="http://dploy.io/">dploy.io</a> towards the end of the development also easened a burden and allowed me to develop exclusively on a <code>dev</code> branch that deploys to a test store and then sends it to production on the press of a button — no more breaking changes on the live site or messing with config files.</p>
+
+<p>Next step would be to add Gulp to the workflow to make asset handling more sane, but one thing at a time…</p>
 
 <h3 id="outcomes">Outcomes</h3>
 
 <p>While visitor engagement and overall leads went up, the online sales never really took off… which is a bit disappointing, but also clear when looking in retrospect.</p>
 
-<p>One reason for that might be the average ticket — a product starting at around $1000, is a bit too high for a traditional e-commerce setting.</p>
+<p>One reason for that might be the average ticket — for a product starting at around $1000, a traditional e-commerce setting may not work in the same way.</p>
 
 <p>It may also be that, due to the highly specialized and technical nature of the product, more brand recognition is needed for a direct sale online without contact with a sales rep.</p>
 
@@ -260,13 +259,10 @@
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p><strong>1.</strong> Witness <a href="horror.png"><em>the horror</em></a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+      <p><strong>1.​</strong> Who happens to be my sister — and the child that actually went to Design School. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:2">
-      <p><strong>2.​</strong> Who happens to be my sister — and the child that actually went to Design School. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p><strong>3.</strong> Having experience with Jekyll and Liquid, the templating language it shares with Shopify, proved to be instrumental in getting up to speed with Shopify’s theme development. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+      <p><strong>2.</strong> Having experience with Jekyll (and thus with Liquid, the templating language it shares with Shopify) proved to be instrumental in getting up to speed with Shopify’s theme development. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>

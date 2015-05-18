@@ -8,6 +8,14 @@ body {
   color: $base-font-color;
 }
 
+code {
+    font-size: 1.1em;
+    background: #4B5057;
+    padding: 0.2em;
+    border-radius: 2px;
+    color: #F5F2EB;
+}
+
 // ------------------------------------------------------------------------
 
 .container {
