@@ -8,7 +8,7 @@ meta-hero:
 meta-alt: 
 
 meta-client: General Assembly
-meta-role: UX Designer • Information Architecture
+meta-role: UX Designer • Information Architect
 meta-timeline: 2 Weeks • July 2014
 
 project-url: 
