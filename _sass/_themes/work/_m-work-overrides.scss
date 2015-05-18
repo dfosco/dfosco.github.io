@@ -53,21 +53,21 @@
 
 //Adjust headings and margins ONLY inside the post content
 
-.card-note__content {
-	
+.card-note__content {	
 	margin-bottom: 1.5em;
-
-	h3 {
-		margin: 1em 0em;
-		font-weight: 600;
-	}
-
-	h5 {
-		font-weight: 600;
-		margin-bottom: 0.75em;
-		margin-top: 1.5em;
-	}
 }
+
+.card-note__content > h3 {
+	margin: 1em 0em;
+	font-weight: 600;
+}
+
+.card-note__content > h5 {
+	font-weight: 600;
+	margin-bottom: 0.75em;
+	margin-top: 1.5em;
+}
+
 
 //Add bullets and margin on lists ONLY inside the post content
 .card-note__content > ul {
