@@ -93,16 +93,13 @@
                   {% for item in site.items %}
                     {% if item.parent-collection == page.append-bucket %}
                       <section class="append-bucket">
-                        <div class="">
-                          <div class="">
-                            <a href="{{ item.source }}">
-                              <h3 class="card-item__title">
+                            <h5 class="append-bucket__title">
+                              <a href="{{ item.source }}">
                                 {{ item.name }}
-                              </h3>
-                            </a>
+                              </a>
+                            </h5>
+
                             <p class="card-item__text">{{ item.content }}</p>
-                          </div>
-                        </div>                      
                       </section>
                   {% endif %}
                 {% endfor %}

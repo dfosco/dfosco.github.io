@@ -32,7 +32,9 @@
 // Theme Overrides
 // ------------------------------------------------------------------------
 
+// ------ ------ ------
 //Post Page
+// ------ ------ ------
 
 .inpage-nav {
 	font-size: 0.95em;
@@ -47,8 +49,9 @@
 	font-size: 0.90em;
 }
 
-
+// ------ ------ ------
 //Post Page Card
+// ------ ------ ------
 
 .card-note__img {
   padding: 0em;
@@ -81,7 +84,9 @@
 	font-size: $h3-font-size;
 }
 
+// ------ ------ ------
 //Fixing Unordered Lists
+// ------ ------ ------
 
 .card-note__content {
 	
@@ -96,8 +101,60 @@
 	}
 }
 
-//Prototype Stuff
+// ------ ------ ------
+//Prototype Display
+// ------ ------ ------
 
 .prototype {
 	@include shift(2);
+}
+
+// ------ ------ ------
+// Framer Items in Work Pages
+// ------ ------ ------
+
+.framer-item__wrapper {
+	@include margin(2em null);
+	@include outer-container;
+
+}
+
+.framer-item {
+	@include media($medium-screen-up) {
+		@include span-columns(6 of 12);
+	}
+
+	@include span-columns(12 of 12);
+	background: $black-2-half;
+	color: $white-1;
+	margin-bottom: 1.25em;
+}
+
+.framer-item__inner {
+	padding: 0.5em 0.75em 0.75em 0.75em;
+	min-height: 192px;
+}
+
+.framer-item__title {
+	margin-bottom: 0.25em;
+	font-weight: 500;
+}
+
+.framer-item__github-link {
+	font-weight: 600;
+}
+
+// ------ ------ ------
+// Append Bucket to Work Pages
+// ------ ------ ------
+
+.append-bucket {
+    padding: 1em 1em 0.50em 1em;
+    margin-bottom: 0.75em;
+    background: $black-2-half;
+    color: $white-1;
+}
+
+.append-bucket__title {
+	font-weight: 600;
 }

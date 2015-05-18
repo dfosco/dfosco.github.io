@@ -14,37 +14,41 @@ Framer uses CoffeeScript, which is easier on the eyes than vanilla JS, but still
 
 Regardless, it's _really_ fun to play with. This is what I came up with so far.
 
-<div class="framer-item">
-    <img src="" alt="" class="framer-item__thumb">
-    
-    <h3 class="framer-item__title">
-        <a href="#" class="framer-item__url">Pulse</a>
-    </h3>
+<div class="framer-item__wrapper">
+    <div class="framer-item">
+        <img src="/assets/images/work/motion/motion_thumb-pulse.png" alt="Pulsing Button" class="framer-item__thumb">        
+        <div class="framer-item__inner">
+            <h3 class="framer-item__title">
+                <a href="/work/motion/pulse" class="framer-item__url" target="_blank">Pulse</a>
+            </h3>
 
-    <p class="framer-item__description">
-        A pulsing circle — a test to get used to the basic features of Framer
-    </p>
+            <p class="framer-item__description">
+                Just a test to get used to the basic features of Framer
+            </p>
 
-    <span class="framer-item__github-link">See the code on GitHub</span>
-</div>
+            <span class="framer-item__github-link"><a href="">See the code on GitHub</a></span>
+        </div>
+    </div>
 
-<div class="framer-item">
-    <img src="" alt="" class="framer-item__thumb">
-    
-    <h3 class="framer-item__title">
-        <a href="#" class="framer-item__url">iOS Notification</a>
-    </h3>
+    <div class="framer-item">
+        <img src="/assets/images/work/motion/motion_thumb-ios.png" alt="iOS Notification on a light blue iPhone" class="framer-item__thumb" class="framer-item__thumb">
+        <div class="framer-item__inner">
+            <h3 class="framer-item__title">
+                <a href="/work/motion/ios-notification" class="framer-item__url" target="_blank">iOS Notification</a>
+            </h3>
 
-    <p class="framer-item__description">
-        A small prototype that simulates an iOS Notification. Notification sound was supposed to be working <i class="twa twa-weary"></i>
-    </p>
+            <p class="framer-item__description">
+                A small prototype that simulates drag behavior of an iOS Notification.
+            </p>
 
-    <span class="framer-item__github-link">See the code on GitHub</span>
+            <span class="framer-item__github-link"><a href="">See the code on GitHub</a></span>
+        </div>
+    </div>
 </div>
 
 <hr>
 
-Also, see below some resources to get started with Framer:
+See below some resources to get started with Framer:
 
 
 
