@@ -5,7 +5,9 @@
 @import "../../_base/variables";
 
 $primary: #FC8544;
-$outlier: #D5CAB1;
+
+
+// The variables below need to be here to make sure any overriden colors will be propagated to them
 
 // Background Color
 $base-background-color: $black-1;
