@@ -1,0 +1,50 @@
+// ------ ------ ------
+// Fixing default styling for naked markup tags on Jekyll content
+// ------ ------ ------
+
+// Adjust headings and margins ONLY inside the post content
+
+.card__content {	
+	margin-bottom: 1.5em;
+}
+
+.card__content > h3 {
+	margin: 1em 0em;
+	font-weight: 600;
+}
+
+.card__content > h5 {
+	font-weight: 600;
+	margin-bottom: 0.75em;
+	margin-top: 1.5em;
+}
+
+
+// Add bullets and margin on lists ONLY inside the post content
+.card__content > ul {
+	margin: 1em 0em;
+	margin: 1em 0em;
+}
+
+.card__content > ul li {
+	list-style-type: disc;
+	margin-bottom: 0.2em;
+	margin-left: 1.2em;
+}
+
+// Adjust the native markup Jekyll uses for images
+// so I can use markdown (with no classes) and still have the styling as I want it to be
+
+// Here, default styling for images (and for .image-grid__full class) will be full width
+// and the last image in a series will have bottom margin
+.card__content > p > img, .image-grid__full {
+	@include span-columns(12 of 12);
+	&:nth-last-child(1) {
+		margin-bottom: 1em;
+	}
+}
+
+// Here, whenever more than one image appear in a row, they'll have margins added ONLY between them
+.card__content > p > img + img, .image-grid__full + .image-grid__full  {	
+	margin-top: 1em;		
+}	

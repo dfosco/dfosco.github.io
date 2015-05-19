@@ -10,7 +10,7 @@
               
             <!-- === === === === === === HERO IMAGE === === === === === ===  -->
             
-            <div class="card-note__img">
+            <div class="card__img">
               {% if page.meta-hero %}
                 {% if page.meta-hero contains "http" %}
                   <img src="{{ page.meta-hero }}" alt="{{ page.meta-alt }}">
@@ -20,20 +20,20 @@
               {% endif %}
             </div>
 
-          <article class="card-note">
+          <article class="card">
             
-            <div class="card-note__inner">
+            <div class="card__inner">
 
               <!-- === === === === === === PAGE METADATA === === === === === ===  -->
               
-              <div class="card-note__info">
+              <div class="card__info">
                 
-                <div class="card-note__heading">
-                  <h1 class="card-note__title">{{ page.title }}</h1>
-                  <h2 class="card-note__subtitle">{{ page.tagline }}</h2>
+                <div class="card__heading">
+                  <h1 class="card__title">{{ page.title }}</h1>
+                  <h2 class="card__subtitle">{{ page.tagline }}</h2>
                 </div>
 
-                <div class="card-note__work-metadata">
+                <div class="card__work-metadata">
                   <ul class="work-metadata__list">
 
                     {% if page.meta-project %}
@@ -70,7 +70,7 @@
               </div>      
 
               <!-- === === === === === === CONTENT === === === === === ===  -->
-                <div class="card-note__content">
+                <div class="card__content">
                   {{ content }}
                 </div>
               <!-- === === === === === === ADDITIONAL INFO === === === === === ===  -->

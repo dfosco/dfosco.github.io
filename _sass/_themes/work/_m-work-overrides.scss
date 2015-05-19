@@ -16,7 +16,7 @@
 	li: initial;
 }
 
-.card-note__img {
+.card__img {
   padding: 0em;
   margin: 0;
 
@@ -24,79 +24,28 @@
     width: 100%;
   }
 } 
-.card-note__heading {
+.card__heading {
 	margin-bottom: 1.5em;
 }
 
-.card-note__info {
+.card__info {
 	margin-bottom: 2em;
 }
 
-.card-note__project-url-cta {
+.card__project-url-cta {
 
 }
-.card-note__work-metadata {
+.card__work-metadata {
 	margin: 1em 0em;
 }
 
-.card-note__title {
+.card__title {
 	margin-bottom: 0.25em;
 }
 
-.card-note__subtitle {
+.card__subtitle {
 	font-size: $h3-font-size;
 }
-
-// ------ ------ ------
-// Fixing markup tags on CONTENT for Work Page
-// ------ ------ ------
-
-// Adjust headings and margins ONLY inside the post content
-
-.card-note__content {	
-	margin-bottom: 1.5em;
-}
-
-.card-note__content > h3 {
-	margin: 1em 0em;
-	font-weight: 600;
-}
-
-.card-note__content > h5 {
-	font-weight: 600;
-	margin-bottom: 0.75em;
-	margin-top: 1.5em;
-}
-
-
-// Add bullets and margin on lists ONLY inside the post content
-.card-note__content > ul {
-	margin: 1em 0em;
-}
-
-.card-note__content > ul li {
-	list-style-type: disc;
-	margin-bottom: 0.2em;
-	margin-left: 1.2em;
-}
-
-// Adjust the native markup Jekyll uses for images
-// so I can use markdown (with no classes) and still have the styling as I want it to be
-
-// Here, default styling for images (and for .image-grid__full class) will be full width
-// and the last image in a series will have bottom margin
-.card-note__content > p > img, .image-grid__full {
-	@include span-columns(12 of 12);
-	&:nth-last-child(1) {
-		margin-bottom: 1em;
-	}
-}
-
-// Here, whenever more than one image appear in a row, they'll have margins added ONLY between them
-.card-note__content > p > img + img, .image-grid__full + .image-grid__full  {	
-	margin-top: 1em;		
-}	
-
 
 // ------ ------ ------
 // Prototype Display in Work Page CONTENT

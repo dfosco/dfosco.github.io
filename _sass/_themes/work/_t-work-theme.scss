@@ -16,19 +16,21 @@
 // Layouts
 // ------------------------------------------------------------------------
 @import "../../_layouts/_l-base";
+@import "../../_layouts/_l-jekyll";
 @import "../../_layouts/_l-default--full";
 @import "../../_layouts/_l-footer";
 @import "../../_layouts/_l-header";
 @import "../../_layouts/_l-hero";
 
 
+
 // Modules
 // ------------------------------------------------------------------------
 
-@import "_modules/_m-pagination";
-@import "_modules/_m-card";
-@import "_modules/_m-work-card";
-@import "_modules/_m-toolbox";
+@import "../../_modules/_m-pagination";
+@import "../../_modules/_m-card";
+@import "../../_modules/_m-work-card";
+@import "../../_modules/_m-toolbox";
 
 
 // Theme Modules & Overrides

@@ -1,4 +1,4 @@
-.card-note__section-title {
+.card__section-title {
   background: $black-1;
   border-bottom: 1px solid $outlier;
   border-top: 0px;
@@ -11,7 +11,7 @@
   padding: 1em 0em;
 }
 
-.card-note {
+.card {
   background: $white-2;
   border-bottom: 1px solid $outlier;
   padding:0.5em 0.5em 1.5em 0.5em;
@@ -21,7 +21,7 @@
   }
 }
 
-.card-note__inner {
+.card__inner {
   padding: 0.75em;
   
   margin: auto;
@@ -55,12 +55,12 @@
 
 }
 
-.card-note__title {
+.card__title {
   margin-bottom: 1em;
   font-weight: 700;
 }
 
-.card-note__description { 
+.card__description { 
   @include margin(null null 1em null);
 
   hr {
@@ -78,13 +78,13 @@
   }
 }
 
-.card-note__tweet {
+.card__tweet {
   @include media ($large-screen-up) {
     @include shift(0.95);
   }
 }
 
-.card-note__permalink {
+.card__permalink {
   @include media ($medium-screen-up) {
         @include span-columns(3 of 10);  
         @include shift(7);
@@ -113,7 +113,7 @@
   vertical-align: middle;
 }
 
-.card-note__img {
+.card__img {
   padding: 0em;
   margin: -1.25em;
   margin-bottom: 0.5em;
