@@ -2,75 +2,64 @@
   <div class="header">
     <div class="nav__wrapper">
 
-      <nav class="nav">
+<nav class="nav">
+
+    {% for nav in site.data.navs %}
+
+    {% capture nav_section %}{{ nav.section | downcase }}{% endcapture %}
+    {% capture page_section %}{{ page.section | downcase }}{% endcapture %}
+
+        <nav class="subnav">
+            
+            {% if nav_section == page_section %}
+                {% assign nav_class = "subnav__text--type__page-title" %}
+                {% assign site.nav.order = 1 %}
+            {% else %}
+                {% assign nav_class = nav.section | prepend: "subnav__text--color__" | downcase %}
+            {% endif %}        
+
+                {% if page.layout contains "post" && nav_section == page_section %}
+                <h1 class="{{ nav_class }}">
+                {% elsif page.layout contains "post" && nav_section != page_section %}
+                <h3 class="{{ nav_class }}">
+                {% else %}
+                <h2 class="{{ nav_class }}">
+                {% endif %}
+            
+
+                <a href="{{ nav.url }}">{{ nav.section | upcase }}</a>
+
+
+                {% if page.layout contains "post" && nav_section == page_section %}
+                </h1>
+                 {% elsif page.layout contains "post" && nav_section != page_section %}
+                </h3>
+                {% else %}
+                </h2>
+                {% endif %}
+        </nav>
+
+      {% endfor %}
+
+        <nav class="subnav">
+
+            {% if page.layout contains "post" %}
+                <h3 class="subnav__text--color__daniel-fosco">
+            {% else %}
+                <h2 class="subnav__text--color__daniel-fosco">
+            {% endif %}
+
+              <a href="{{ base.url }}">DANIEL FOSCO</a>
+
+            {% if page.layout contains "post" %}
+            </h3>
+            {% else %}
+            </h2>
+            {% endif %}                       
         
-        <nav class="subnav">
-            {% if page.layout contains "post" %}
-            <h2 class="subnav__text--type__page-title">
-            {% else %}
-            <h1 class="subnav__text--type__page-title">
-            {% endif %}
-
-              <a href="/notes">NOTES</a>
-
-            {% if page.layout contains "post" %}
-            </h2>
-            {% else %}
-            </h1>
-            {% endif %}
         </nav>
-    <!-- 
-        <nav class="subnav">
-            {% if page.layout contains "post" %}
-            <h3 class="subnav__text--color__buckets">
-            {% else %}
-            <h2 class="subnav__text--color__buckets">
-            {% endif %}
 
-              <a href="/buckets">BUCKETS</a>
-
-            {% if page.layout contains "post" %}
-            </h3>
-            {% else %}
-            </h2>
-            {% endif %}            
-        </nav>
-        
-    
-        <nav class="subnav">
-            {% if page.layout contains "post" %}
-            <h3 class="subnav__text--color__projects">
-            {% else %}
-            <h2 class="subnav__text--color__projects">
-            {% endif %}
-
-              <a href="/work">WORK</a>
-
-            {% if page.layout contains "post" %}
-            </h3>
-            {% else %}
-            </h2>
-            {% endif %}            
-        </nav>
-    
-        <nav class="subnav">
-            {% if page.layout contains "post" %}
-            <h3 class="subnav__text--type__site-title">
-            {% else %}
-            <h2 class="subnav__text--type__site-title">
-            {% endif %}
-
-              <a href="/">HOME</a>
-
-            {% if page.layout contains "post" %}
-            </h3>
-            {% else %}
-            </h2>
-            {% endif %}            
-        </nav>
-        -->
-
-      </nav>
+</nav>
 
     </div>
   </div>

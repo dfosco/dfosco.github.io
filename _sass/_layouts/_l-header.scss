@@ -100,20 +100,26 @@ header {
       a:hover { color: lighten($primary, 10%) }  
     }
 
-    .subnav__text--type__site-title {
+    .subnav__text--color__daniel-fosco {
       @extend .subnav__text;
-        a { color: $primary-homepage }
-        a:hover { color: lighten($primary-homepage, 10%) }
+        a { color: $white-2 }
+        a:hover { color: lighten($accent, 10%) }
       }
+
+    .subnav__text--color__notes {
+      @extend .subnav__text;
+        a { color: $white-2 }
+        a:hover { color: lighten($primary-homepage, 10%) }
+      }      
 
     .subnav__text--color__buckets {
       @extend .subnav__text;
-      a { color: $primary-buckets }
+      a { color: $white-2 }
       a:hover { color: lighten($primary-buckets, 10%) }
     }
 
-    .subnav__text--color__projects {
+    .subnav__text--color__work {
       @extend .subnav__text;
-      a { color: $primary-projects }
-      a:hover { color: lighten($primary-projects, 10%) }
+      a { color: $white-2 }
+      a:hover { color: lighten($primary-work, 10%) }
     }
