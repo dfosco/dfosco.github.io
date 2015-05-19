@@ -1,5 +1,5 @@
 // ------ ------ ------
-//Work Page Metadata & Headings
+// Work Page Metadata & Headings
 // ------ ------ ------
 
 .inpage-nav {
@@ -48,10 +48,10 @@
 }
 
 // ------ ------ ------
-//Fixing markup tags on CONTENT for Work Page
+// Fixing markup tags on CONTENT for Work Page
 // ------ ------ ------
 
-//Adjust headings and margins ONLY inside the post content
+// Adjust headings and margins ONLY inside the post content
 
 .card-note__content {	
 	margin-bottom: 1.5em;
@@ -69,7 +69,7 @@
 }
 
 
-//Add bullets and margin on lists ONLY inside the post content
+// Add bullets and margin on lists ONLY inside the post content
 .card-note__content > ul {
 	margin: 1em 0em;
 }
@@ -80,11 +80,11 @@
 	margin-left: 1.2em;
 }
 
-//Adjust the native markup Jekyll uses for images
-//so I can use markdown (with no classes) and still have the styling as I want it to be
+// Adjust the native markup Jekyll uses for images
+// so I can use markdown (with no classes) and still have the styling as I want it to be
 
-//Here, default styling for images (and for .image-grid__full class) will be full width
-//and the last image in a series will have bottom margin
+// Here, default styling for images (and for .image-grid__full class) will be full width
+// and the last image in a series will have bottom margin
 .card-note__content > p > img, .image-grid__full {
 	@include span-columns(12 of 12);
 	&:nth-last-child(1) {
@@ -92,14 +92,14 @@
 	}
 }
 
-//Here, whenever more than one image appear in a row, they'll have margins added ONLY between them
+// Here, whenever more than one image appear in a row, they'll have margins added ONLY between them
 .card-note__content > p > img + img, .image-grid__full + .image-grid__full  {	
 	margin-top: 1em;		
 }	
 
 
 // ------ ------ ------
-//Prototype Display in Work Page CONTENT
+// Prototype Display in Work Page CONTENT
 // ------ ------ ------
 
 .prototype {
@@ -215,8 +215,9 @@
 	font-weight: 600;
 }
 
-//WARNING -- Specificity conflict here: _m-card.scss has a general "blockquote"
-//selector that's overriding this one unless the blockquote selector is added here as well
+// WARNING -- Specificity conflict here: _m-card.scss has a general "blockquote"
+// selector that's overriding this one unless the blockquote selector is added here as well
+
 blockquote.persona__description {
 	border-left: none;
 	margin-top: 0em;

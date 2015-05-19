@@ -33,12 +33,10 @@ code {
 // ------------------------------------------------------------------------
 
 .content {
-
   margin-bottom: 1.5em;
   margin-top: 3em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-
 }
 
 .content--regular {
@@ -60,10 +58,9 @@ code {
 
 .content--full {
   @extend .content;
-  margin-top: 0em;
+  margin-top: 3em;
 
   @include media($medium-screen-up) {
-  @include span-columns(14 of 16);
-  @include shift(1);
+  @include span-columns(16 of 16);
   }
 }

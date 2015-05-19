@@ -1,0 +1,40 @@
+// ------ ------ ------
+// work-card
+// ------ ------ ------
+
+.work-card__wrapper {
+	@include margin(2em 3em);
+	@include outer-container;
+	padding: 2em 0em 2em 2em;
+}
+
+.work-card {
+	
+	@include media($medium-screen-up) {
+		@include span-columns(3.9 of 12);
+	}
+	
+	@include span-columns(11.2);
+
+	background: $black-2-half;
+	color: $white-1;
+	margin-bottom: 1.25em;
+}
+
+.work-card__inner {
+	padding: 0.5em 0.75em 0.75em 0.75em;
+	min-height: 9em;
+
+	@include media($medium-screen-up) {
+		min-height: 12.5em;
+	}
+}
+
+.work-card__title {
+	margin-bottom: 0.25em;
+	font-weight: 500;
+}
+
+.work-card__github-link {
+	font-weight: 600;
+}
