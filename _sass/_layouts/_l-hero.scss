@@ -1,11 +1,23 @@
 
 .hero__wrapper {
-  @include span-columns(11 of 16);
-  @include shift(2.5);
+  @include media($medium-screen-up) {
+  	@include span-columns(16 of 16);
+
+    //This keeps the text left-aligned but half-way centered
+    //It looks good, but when there's too little text it's weird again
+
+    //@include span-columns(11 of 16);
+  	//@include shift(2.5);
+  }
 }
 
 .hero {
-  margin: 4em 0em;
+  @include span-columns(14.5 of 16);
+  @include shift(0.75);
+  @include margin(4em null);
+
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .hero__inner { }
@@ -19,5 +31,24 @@
 }
 
 .hero__text {
+  font-size: $h2-font-size;
+  font-weight: 400;
   color: $white-2;
+
+  @include media($small-screen) {
+    & + & {
+  	  margin-top: 0.5em;
+    }
+  }
+}
+
+.hero__contact {
+  margin-top: 2em;
+}
+
+.hero__text--tiny {
+  font-size: $h5-font-size;
+  color: $white-2;
+  font-weight: 500;
+  margin-top: 0.25em;
 }

@@ -3,6 +3,8 @@ layout: work/work-page
 
 title: This Site
 tagline: A Jekyll-based playground
+type: featured
+order: 3
 
 meta-alt: This.
 

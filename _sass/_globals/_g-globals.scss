@@ -9,3 +9,41 @@ body {
 	}
 }
 
+.work-accent {
+	color: lighten($primary-work, 7%);
+	&:hover { color: lighten($primary-work, 17%); }
+}
+
+.notes-accent {
+	color: $primary-lighter;
+	&:hover { color: lighten($primary-lighter, 7%); }	
+}
+
+.buckets-accent {
+	color: lighten($primary-buckets, 7%);
+	&:hover { color: lighten($primary-buckets, 17%); }
+}
+
+.main-accent {
+	color: lighten($accent-lighter, 7%);
+	&:hover { color: lighten($accent-lighter, 17%); }
+}
+
+.social-media-accents {
+	color: $accent-lighter;
+}
+
+.dribbble-accent {
+	@extend .social-media-accents;
+	&:hover { color: #EA4C89 }	
+}
+
+.twitter-accent {
+	@extend .social-media-accents;
+	&:hover { color: #00B0ED }	
+}
+
+.github-accent {
+	@extend .social-media-accents;
+	&:hover { color: lighten(#201F1F, 47%); }	
+}

@@ -11,8 +11,6 @@
         {{ page.title }}
       
       {% else %}
-      
-      {% comment %} <!-- Improve this code with CASES assigning strings according to page.url -->{% endcomment %}
 
         {% if page.section %}
         
@@ -48,6 +46,8 @@
     
 
     <!-- CSS and Favicons -->
+    {% comment %} <!-- Improve this code with CASES assigning strings according to page.section -->{% endcomment %}
+
     {% if page.url contains "/buckets/" %}
       <link rel="stylesheet" href="{{ "/assets/stylesheets/buckets.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
 
@@ -61,7 +61,8 @@
     {% elsif page.url contains "/notes/" %}
       <link rel="stylesheet" href="{{ "/assets/stylesheets/notes.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
 
-      <link rel="shortcut icon" href="/assets/images/interface/favicon.ico?bust={{ site.time | date: '%s' }}">
+      <link rel="shortcut icon" href="/assets/images/interface/favicon_notes.ico?bust={{ site.time | date: '%s' }}">
+    
     {% else %}
       <link rel="stylesheet" href="{{ "/assets/stylesheets/main.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
 

@@ -53,12 +53,9 @@ code {
 }
 
 .content--full {
-  @extend .content;
-  @include media($medium-screen-up) {
-  @include span-columns(16 of 16);
-  
-  margin-top: 1em;
-  }
+  @extend .content;  
+    @include span-columns(16 of 16);
+    margin-top: 1em;
 }
 
 .content--post {

@@ -29,7 +29,7 @@ Regardless, it's _really_ fun to play with. Here's a list of ongoing experiments
                 Just a test to get used to the basic features of Framer
             </p>
 
-            <span class="framer-item__github-link"><a href="">See the code on GitHub</a></span>
+            <span class="framer-item__github-link"><a href="https://github.com/dfosco/framer-basic-pulse">See the code on GitHub</a></span>
         </div>
     </div>
 
@@ -44,7 +44,7 @@ Regardless, it's _really_ fun to play with. Here's a list of ongoing experiments
                 A small prototype that simulates drag behavior of an iOS Notification.
             </p>
 
-            <span class="framer-item__github-link"><a href="">See the code on GitHub</a></span>
+            <span class="framer-item__github-link"><a href="https://github.com/dfosco/framer-ios-notification">See the code on GitHub</a></span>
         </div>
     </div>
 </div>

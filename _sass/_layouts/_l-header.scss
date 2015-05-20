@@ -106,14 +106,14 @@
   }
 
   a { color: $primary-lighter }
-  a:hover { color: saturate($primary-lighter, 10%) }  
+  a:hover { color: lighten($primary-lighter, 10%) }  
 }
 
 //This is the style for the last nav item -- doesn't get hidden on mobile
 .subnav__text--color__daniel-fosco {
   @extend .subnav__text;
   a { color: $white-2 }
-  a:hover { color: $primary-lighter }
+  a:hover { color: lighten($primary-lighter, 10%) }
 
   @include media($medium-screen-up) { a { color: $primary-lighter } }
 }

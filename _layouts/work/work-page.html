@@ -16,13 +16,21 @@ width: regular
             <!-- === === === === === === HERO IMAGE === === === === === ===  -->
             
             <div class="card__img">
+
               {% if page.meta-hero %}
-                {% if page.meta-hero contains "http" %}
+
+                {% if page.meta-hero contains 'http' %}
                   <img src="{{ page.meta-hero }}" alt="{{ page.meta-alt }}">
                 {% else %}
-                  <img src="{{ site.baseurl }}/assets/images/work/{{ page.title | slugify }}/{{ page.meta-hero }}" alt="{{ page.image-alt }}">
+                  <img src="{{ site.baseurl }}/assets/images/work/{{ page.title | slugify }}/{{ page.meta-hero }}" alt="{{ page.meta-alt }}">
                 {% endif %}
+
+              {% else %}
+
+                  <img src="{{ site.baseurl }}/assets/images/work/{{ page.title | slugify }}/{{ page.title | slugify }}.png" alt="{{ page.image-alt }}">
+
               {% endif %}
+              
             </div>
 
           <article class="card">

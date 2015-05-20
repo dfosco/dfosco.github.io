@@ -3,6 +3,8 @@ layout: work/work-page
 
 title: Foison
 tagline: E-Commerce Website built with Shopify
+type: featured
+order: 1
 
 meta-alt: Foison E-commerce Product Page
 

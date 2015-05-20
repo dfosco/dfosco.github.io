@@ -3,6 +3,8 @@ layout: work/work-page
 
 title: Swerve Fitness
 tagline: Sweating a research-driven Mobile App Prototype 
+type: featured
+order: 2
 
 meta-hero: http://i.imgur.com/bnRzVnV.png
 meta-alt: Swerve Fitness Mobile App Screens

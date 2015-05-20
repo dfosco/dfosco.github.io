@@ -1,0 +1,78 @@
+body {
+	@include selection {
+		background-color: transparentize($accent, 0.8);
+	}
+}
+
+.latest { }
+
+.latest__section-header {
+	font-size: $h2-font-size;
+	text-transform: lowercase;
+	margin-bottom: 0.5em;
+}
+
+.latest__work {	
+	@include span-columns(16 of 16);
+
+	.work-card {
+		@include span-columns(16 of 16);
+	}
+
+	@include media($medium-screen-up) {
+		@include span-columns(6 of 16);
+
+		.work-card {
+			@include span-columns(6 of 6);
+		}
+	}
+
+	.work-card__title {
+		a { color: lighten($primary-work, 7%) }
+		a:hover { color: lighten($primary-work, 17%) }
+		font-weight: 600;
+	}
+}
+
+.latest__posts {
+	@include span-columns(16 of 16);
+	
+	@include media($medium-screen-up) {
+		@include span-columns(10 of 16);
+	}
+}
+
+.latest__work--more {
+	@include span-columns(16 of 16);
+	&:hover { background: $black-3 };	
+	background: $black-2-half;
+	margin-top: -0.5em;
+	margin-bottom: 2.5em;	
+	
+	@include media($medium-screen-up) {
+		@include span-columns(6 of 6);
+	}
+}
+
+.latest__posts--more {
+	@include span-columns(16 of 16);
+	&:hover { background: lighten($white-2, 6%) };	
+	background: $white-2;
+	margin-top: 0.5em;
+	margin-bottom: 2.5em;
+
+	@include media($medium-screen-up) {
+		@include span-columns(16 of 16);
+	}
+}
+
+.more__button-text {
+	font-family: $header-font-family;
+	font-size: $h5-font-size;
+	font-weight: 500;
+
+	@include media($medium-screen-up) {
+		font-size: $h4-font-size;	
+		font-weight: 500;
+	}	
+}

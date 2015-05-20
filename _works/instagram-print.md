@@ -4,7 +4,7 @@ layout: work/work-page
 title: Instagram Print
 tagline: Mobile App Prototype @ General Assembly
 
-meta-hero: 
+meta-hero:
 meta-alt: Some paper prototypes from the Instagram Print project
 
 meta-client: General Assembly
@@ -21,9 +21,6 @@ append-collection:
 
 ---
 
-
-![test](/assets/images/work/instagram-print/information_architecture_1.png)
-![test](/assets/images/work/instagram-print/information_architecture_1.png)
 Instagram Print was a project for General Assembly's UXDI class in partnership with Paz Perez and Christina Vu. In the (fictional) brief, Instagram needed a way to diversify their revenue stream and needed a new printing feature to be developed.
 
 The team for this project was really tight-knit, and the process was a big exercise in participatory design, from user research to prototyping. 
