@@ -2,6 +2,7 @@
 layout: notes/post
 date:   2015-05-11 19:35:00
 category: notes
+section: notes
 
 title: "The State of Design Tools: An Unscientific Survey"
 source: http://www.subtraction.com/2015/05/07/the-state-of-design-tools/
