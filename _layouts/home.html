@@ -1,0 +1,36 @@
+
+{% include head.html %}
+
+  <div id="viewport" class="container">
+
+  <header class="hero__wrapper">
+    <div class="hero">
+      <div class="hero__inner">
+
+          <span class="hero__mega">Hi.</span>
+          <div class="hero__description">
+              <h2 class="hero__text">I’m Daniel Fosco, a freelancer designer & developer living in Rio de Janeiro.</h2>
+              <h2 class="hero__text">I make things for the web and write as often as I can.</h2>
+
+              <h3 class="hero__text">Get in touch</h3>    
+          </div>
+
+      </div>
+    </div>
+  </header>  
+
+  <div class="wrapper">
+    <div class="base">
+      <section class="content--{{ page.width }}">
+        {{ content }}
+      </section>
+    </div>
+  </div>
+
+  </div>
+
+  {% include footer.html %}
+  
+  </body>
+
+</html>

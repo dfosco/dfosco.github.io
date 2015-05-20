@@ -1,16 +1,3 @@
-header {
-  //For Multiple Nav Items
-  //height: 12.5em;
-
-  //For a couple of Nav Items
-  height: 6.5em;
-  
-  //For Single Nav Item
-  //height: 4.5em;
-
-  @include media($medium-screen-up) { height: 80.4px }
-}
-
 
 .header {
   @include span-columns(16 of 16);
