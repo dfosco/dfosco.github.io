@@ -50,7 +50,6 @@ code {
 
 .content--full {
   @extend .content;
-  margin-top: 3em;
 
   @include media($medium-screen-up) {
   @include span-columns(16 of 16);

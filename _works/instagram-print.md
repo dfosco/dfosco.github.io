@@ -5,7 +5,7 @@ title: Instagram Print
 tagline: Mobile App Prototype @ General Assembly
 
 meta-hero: 
-meta-alt: 
+meta-alt: Some paper prototypes from the Instagram Print project
 
 meta-client: General Assembly
 meta-role: UX Designer • Information Architect

@@ -6,6 +6,9 @@ tagline: Experiments with Framer.JS
 
 append-bucket: learn-framer
 
+meta-hero: motion_thumb-pulse.gif
+meta-alt: A red pulse   
+
 ---
 
 I recently started playing around with [Framer.JS](framerjs.com), a JavaScript-based framework to build high definition mobile prototypes.

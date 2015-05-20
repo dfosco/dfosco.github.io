@@ -4,8 +4,7 @@ layout: work/work-page
 title: This Site
 tagline: A Jekyll-based playground
 
-meta-hero: 
-meta-alt: 
+meta-alt: This.
 
 meta-client:
 meta-role:
