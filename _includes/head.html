@@ -15,9 +15,18 @@
       {% comment %} <!-- Improve this code with CASES assigning strings according to page.url -->{% endcomment %}
 
         {% if page.section %}
-          {{ page.title }} | {{ page.section }}
+        
+          {% capture page_title %}{{ page.title | downcase }}{% endcapture %}
+          {% if page_title == page.section %}
+            {{ page.title }} | {{ site.author.name }}
+          {% else %}
+            {{ page.title }} | {{ page.section }}
+          {% endif %}
+        
         {% else %}
-          {{ page.title }} | {{ site.author.name }}
+        
+            {{ page.title }} | {{ site.author.name }}
+        
         {% endif %}
 
       {% endif %}

@@ -5,7 +5,11 @@
 .work-card__wrapper {
 	@include margin(2em 3em);
 	@include outer-container;
+	padding: 1.5em 0em 1.5em 1.5em;
+	
+	@include media($medium-screen-up) {
 	padding: 2em 0em 2em 2em;
+	}
 }
 
 .work-card {

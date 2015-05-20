@@ -2,16 +2,19 @@
   <div class="header">
     <div class="nav__wrapper">
 
-<nav class="nav">
+{% capture width %}{% if page.width %}{{ page.width }}{% else %}{{ layout.width }}{% endif %}{% endcapture %}
+
+<nav class="nav--{{ width }}">
 
     {% for nav in site.data.navs %}
 
     {% capture nav_section %}{{ nav.section | downcase }}{% endcapture %}
     {% capture page_section %}{{ page.section | downcase }}{% endcapture %}
+    {% capture layout_section %}{{ layout.section | downcase }}{% endcapture %}
 
         <nav class="subnav">
             
-            {% if nav_section == page_section %}
+            {% if nav_section == page_section or nav_section == layout_section %}
                 {% assign nav_class = "subnav__text--type__page-title" %}
                 {% assign site.nav.order = 1 %}
             {% else %}
@@ -25,9 +28,9 @@
                 {% else %}
                 <h2 class="{{ nav_class }}">
                 {% endif %}
-            
 
-                <a href="{{ nav.url }}">{{ nav.section | upcase }}</a>
+
+                    <a href="{{ nav.url }}">{{ nav.section | upcase }}</a>
 
 
                 {% if page.layout contains "post" && nav_section == page_section %}

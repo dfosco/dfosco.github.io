@@ -11,5 +11,3 @@ image-alt:
 ---
 
 > Founder: ‘I have no fucking idea’.
-
-

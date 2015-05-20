@@ -33,8 +33,6 @@ A collection of useful resources for learning how to code.
  - [Ruby Warrior](https://www.bloc.io/ruby-warrior/)
 
 
-
-
       
  
     
