@@ -9,10 +9,35 @@ width: full
 <div class="base">
 
   <div class="work-card__wrapper">
-
+  
+  <div class="work-card__content">
+    <h1 class="wc-content__title">This what I do</h1>
+    <div class="wc-content__text">
+      <p>From web design & development to mobile apps and experiments of every kind. All day, every day.</p>
+    </div>
+  </div>
     {% for page in site.works %}
       <div class="work-card">
           <!-- <img src="" alt="{{ page.tagline }}" class="work-card__thumb">  -->
+
+          <div class="work-card__thumb">
+          <a href="{{ page.url }}">
+            {% if page.meta-hero %}
+
+              {% if page.meta-hero contains 'http' %}
+                <img src="{{ page.meta-hero }}" alt="{{ page.meta-alt }}">
+              {% else %}
+                <img src="{{ site.baseurl }}/assets/images/work/{{ page.title | slugify }}/{{ page.meta-hero }}" alt="{{ page.meta-alt }}">
+              {% endif %}
+
+            {% else %}
+
+                <img src="{{ site.baseurl }}/assets/images/work/{{ page.title | slugify }}/{{ page.title | slugify }}.png" alt="{{ page.image-alt }}">
+
+            {% endif %}
+          </a>
+          </div>
+
           <div class="work-card__inner">
               <h3 class="work-card__title">
                   <a href="{{ page.url }}" class="work-card__url">{{ page.title }}</a>

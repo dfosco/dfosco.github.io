@@ -30,8 +30,24 @@
 	min-height: 9em;
 
 	@include media($medium-screen-up) {
-		min-height: 12.5em;
+		min-height: 8.5em;
 	}
+}
+
+.work-card__content {
+	@include media($medium-screen-up) {
+		@include span-columns(9.5 of 12);
+	}
+
+	padding-right: 1.5em;
+}
+
+.wc-content__title {
+	margin-bottom: 0.5em
+}
+
+.wc-content__text {
+	margin-bottom: 1.5em
 }
 
 .work-card__title {

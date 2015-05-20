@@ -4,7 +4,6 @@ layout: work/work-page
 title: Foison
 tagline: E-Commerce Website built with Shopify
 
-meta-hero: foison.png
 meta-alt: Foison E-commerce Product Page
 
 meta-client: Cobra CNC
