@@ -11,5 +11,3 @@ image-alt:
 ---
 
 _BLASPHEMY!_ A single link?!
-
-

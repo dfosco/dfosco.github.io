@@ -17,5 +17,3 @@ image-alt:
 > Newspapers, magazines, and television networks have dealt with this same issue for decades now. (...) from hiding a magazine‘s table of contents in 20 pages of ads to shrieking online advertising to commercials that are louder than the shows to clunky product placement to trimming scenes from syndicated shows to cram in more commercials. From ABC to Vogue to the New York Times, you’re not the customer and it shows.
 
 Good insights by [Kottke](http://kottke.org/) on products and the eternal battle (some) companies wage against their own customers.
-
-

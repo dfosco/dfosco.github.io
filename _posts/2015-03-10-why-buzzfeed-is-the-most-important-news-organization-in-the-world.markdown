@@ -17,5 +17,3 @@ This small tidbit serves as the perfect example to his argument — overheard at
 >[...] When the conversation turns to a vivid story from Liberia, where Ebola has overtaken a particular neighborhood in Monrovia, one editor proudly reports that she believes the Times is the only outlet with a reporter on the ground, which makes everyone happy until another editor says, “I think BuzzFeed actually has somebody there.” There is momentary silence.
 
 
-
-

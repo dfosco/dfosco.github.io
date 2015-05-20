@@ -2,7 +2,7 @@
 layout: work/work-page
 
 title: This Site
-tagline: 
+tagline: A Jekyll-based playground
 
 meta-hero: 
 meta-alt: 
@@ -21,7 +21,7 @@ append-collection:
 
 ---
 
-This website is my playground. Here I [write whatever I feel like](/notes), use a shit-ton of flexbox and don't give a crap about IE. 
+This website is my sandbox. Here I [write whatever I feel like](/notes), use a bunch of flexbox and don't give a single crap about IE. 
 
 It's powered by Jekyll (I'm [a huge nerd about it](http://stackoverflow.com/questions/30205465/jekyll-including-a-post-inside-another-post/30231142#30231142) whenever I can) on Github Pages and uses the [Bourbon](http://bourbon.io/) & [Neat](http://neat.bourbon.io/) Sass libraries. 
 

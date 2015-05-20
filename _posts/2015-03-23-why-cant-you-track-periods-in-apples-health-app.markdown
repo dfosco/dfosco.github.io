@@ -14,7 +14,3 @@ image-alt:
 >
 >In case you’re wondering whether Health is only concerned with a few basics: Apple has predicted the need to input data about blood oxygen saturation, **your daily molybdenum or pathogenic acid intake, cycling distance, number of times fallen and your electrodermal activity**, but nothing to do with recording information about your menstrual cycle.
 
-
-
-
-

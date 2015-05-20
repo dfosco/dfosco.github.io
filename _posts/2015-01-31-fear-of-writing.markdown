@@ -12,5 +12,3 @@ image-alt:
 
 For someone who constantly flakes out when trying to write, this really hits home.
 
-
-

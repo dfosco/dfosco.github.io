@@ -17,5 +17,3 @@ Lots of insight on Apple's design process, but this quote takes the cake for _mo
 >Ive once sat next to J. J. Abrams at a boozy dinner party in New York, and made what Abrams recalled as “very specific” suggestions about the design of lightsabres.
 >
 >“I thought it would be interesting if it were less precise, and just a little bit more spitty.” A redesigned weapon could be “more analog and more primitive, and I think, in that way, somehow more ominous.”
-
-

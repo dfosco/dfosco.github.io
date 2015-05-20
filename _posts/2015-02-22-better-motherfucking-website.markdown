@@ -15,7 +15,3 @@ A silly design joke that spawned from the (now classic) [Motherfucking Website](
 Funny thing is, there's actually good design advice in there.
 
 
-
-
-
-

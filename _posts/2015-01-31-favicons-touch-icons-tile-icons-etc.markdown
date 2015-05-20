@@ -11,5 +11,3 @@ image-alt:
 ---
 
 A handy primer to favicons and their kin.
-
-

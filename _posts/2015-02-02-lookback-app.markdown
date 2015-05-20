@@ -9,7 +9,5 @@ source: https://lookback.io
 image-name: none 
 image-alt:
 ---
-
-
 Too bad you need a jailbreak to use this app. It's ok though: this is the kind of app you jailbreak your phone for.
 

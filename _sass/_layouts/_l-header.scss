@@ -2,8 +2,11 @@ header {
   //For Multiple Nav Items
   //height: 12.5em;
 
+  //For a couple of Nav Items
+  height: 6.5em;
+  
   //For Single Nav Item
-  height: 4.5em;
+  //height: 4.5em;
 
   @include media($medium-screen-up) { height: 80.4px }
 }
@@ -12,16 +15,8 @@ header {
 .header {
   @include span-columns(16 of 16);
   background: none;
-  margin-bottom: -1em;
   border-top: 10px solid $primary;
 }
-
-
-.header-logo {
-  height: 6em;
-  margin-bottom: 1em;
-}
-
 
 .nav__wrapper {
   @include outer-container;
@@ -32,13 +27,18 @@ header {
 }
 
 //General Layout and Flex Configuration for Nav Parent
-.nav {
+.nav--regular {
   @include span-columns(12 of 16);
   @include display(flex);
   @include flex-wrap(wrap);
   @include justify-content(space-between);
   @include align-items(baseline);
   
+}
+
+.nav--full {
+  width: 100%;
+  @extend .nav--regular;
 } 
 
 //General Layout and Flex Configuration for Nav Children
@@ -50,6 +50,7 @@ header {
 
   @include media($small-screen) {
     @include span-columns(16 of 16);
+
   }
 }
 
@@ -95,31 +96,42 @@ header {
     .subnav__text--type__page-title { 
       @extend .subnav__text;
 
-      font-size: $h1-font-size;
+      @include media($medium-screen-up) { 
+        font-size: $h1-font-size; 
+      }
+
       a { color: $primary }
       a:hover { color: lighten($primary, 10%) }  
     }
 
     .subnav__text--color__daniel-fosco {
       @extend .subnav__text;
+      
         a { color: $white-2 }
-        a:hover { color: lighten($accent, 10%) }
+        a:hover { color: lighten($primary, 10%) }
+
+        @include media($medium-screen-up) { 
+          a { color: $primary }
+        }
       }
 
     .subnav__text--color__notes {
       @extend .subnav__text;
+      @extend .mobile-hide;
         a { color: $white-2 }
         a:hover { color: lighten($primary-homepage, 10%) }
       }      
 
     .subnav__text--color__buckets {
       @extend .subnav__text;
+      @extend .mobile-hide;
       a { color: $white-2 }
       a:hover { color: lighten($primary-buckets, 10%) }
     }
 
     .subnav__text--color__work {
       @extend .subnav__text;
+      @extend .mobile-hide;
       a { color: $white-2 }
       a:hover { color: lighten($primary-work, 10%) }
     }

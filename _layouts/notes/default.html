@@ -1,3 +1,6 @@
+---
+section: notes
+---
 
 {% include head.html %}
 
@@ -9,7 +12,7 @@
     
       {% include notes/sidebar-mobile.html %}
 
-        <section class="content--regular">
+        <section class="content--{{ page.width }}">
           {{ content }}
         </section>
         

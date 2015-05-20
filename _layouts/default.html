@@ -6,14 +6,10 @@
   {% include header.html %}
 
     <div class="wrapper">
-    
-      {% include notes/sidebar-mobile.html %}
-
-        <section class="content--regular">
+      
+        <section class="content--{{ page.width }}">
           {{ content }}
         </section>
-        
-      {% include notes/sidebar.html %}
       
     </div>
 

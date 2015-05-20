@@ -13,7 +13,3 @@ image-alt:
 If you do things for the web, this will be a beautiful and eye-opening read.
           
 
-
-
-
-
