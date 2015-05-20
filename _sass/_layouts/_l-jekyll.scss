@@ -2,6 +2,12 @@
 // Fixing default styling for naked markup tags on Jekyll content
 // ------ ------ ------
 
+body {
+	@include selection {
+		background-color: transparentize($primary, 0.8);
+	}
+}
+
 // Adjust headings and margins ONLY inside the post content
 
 .card__content {	
