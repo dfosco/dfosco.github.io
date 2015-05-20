@@ -3,10 +3,10 @@
   <channel>
     <title>Daniel Fosco</title>
     <description>Hi, my name is Daniel and this is my website. Hope you enjoy it.</description>
-    <link>http://danielfos.co/</link>
-    <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 May 2015 16:27:14 -0300</pubDate>
-    <lastBuildDate>Wed, 20 May 2015 16:27:14 -0300</lastBuildDate>
+    <link>http://danielfos.cohttp://dfosco.github.io/</link>
+    <atom:link href="http://danielfos.cohttp://dfosco.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 20 May 2015 16:37:12 -0300</pubDate>
+    <lastBuildDate>Wed, 20 May 2015 16:37:12 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -18,8 +18,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 11 May 2015 16:35:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/the-state-of-design-tools-an-unscientific-survey</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/the-state-of-design-tools-an-unscientific-survey</guid>
+        <link>http://danielfos.cohttp://dfosco.github.io/notes/the-state-of-design-tools-an-unscientific-survey</link>
+        <guid isPermaLink="true">http://danielfos.cohttp://dfosco.github.io/notes/the-state-of-design-tools-an-unscientific-survey</guid>
         
         
         <category>notes</category>
@@ -35,8 +35,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 11 May 2015 16:30:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/designing-a-good-portfolio</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/designing-a-good-portfolio</guid>
+        <link>http://danielfos.cohttp://dfosco.github.io/notes/designing-a-good-portfolio</link>
+        <guid isPermaLink="true">http://danielfos.cohttp://dfosco.github.io/notes/designing-a-good-portfolio</guid>
         
         
         <category>notes</category>
@@ -60,8 +60,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 11 May 2015 16:19:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/i-was-an-undercover-uber-driver</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/i-was-an-undercover-uber-driver</guid>
+        <link>http://danielfos.cohttp://dfosco.github.io/notes/i-was-an-undercover-uber-driver</link>
+        <guid isPermaLink="true">http://danielfos.cohttp://dfosco.github.io/notes/i-was-an-undercover-uber-driver</guid>
         
         
         <category>notes</category>
@@ -93,8 +93,8 @@
 &lt;p&gt;I’d like to thank Jaclyn for taking the time to answer these questions – great insights for anyone who wants to dive deeper into working with color &lt;i class=&quot;twa twa twa-smiley&quot;&gt;&lt;/i&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 May 2015 20:59:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/100-days-of-color</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/100-days-of-color</guid>
+        <link>http://danielfos.cohttp://dfosco.github.io/notes/100-days-of-color</link>
+        <guid isPermaLink="true">http://danielfos.cohttp://dfosco.github.io/notes/100-days-of-color</guid>
         
         
         <category>notes</category>
@@ -110,8 +110,8 @@
 &lt;p&gt;If you’ve never heard of BEM, &lt;a href=&quot;https://css-tricks.com/bem-101/&quot;&gt;this article&lt;/a&gt; by CSS-Tricks is another great way to get started.&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 May 2015 20:46:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/learning-to-love-bem</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/learning-to-love-bem</guid>
+        <link>http://danielfos.cohttp://dfosco.github.io/notes/learning-to-love-bem</link>
+        <guid isPermaLink="true">http://danielfos.cohttp://dfosco.github.io/notes/learning-to-love-bem</guid>
         
         
         <category>notes</category>
@@ -129,8 +129,8 @@
 &lt;p&gt;A great follow-up to &lt;a href=&quot;/notes/slacks-2-8-billion-dollar-secret-sauce&quot;&gt;Andrew Wilkinson’s piece&lt;/a&gt; about Slack and its secret sauce — both have their merits, and both are right to a certain extent.&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 May 2015 20:33:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/slack-s-design-is-not-secret-sauce</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/slack-s-design-is-not-secret-sauce</guid>
+        <link>http://danielfos.cohttp://dfosco.github.io/notes/slack-s-design-is-not-secret-sauce</link>
+        <guid isPermaLink="true">http://danielfos.cohttp://dfosco.github.io/notes/slack-s-design-is-not-secret-sauce</guid>
         
         
         <category>notes</category>
@@ -150,8 +150,8 @@
 &lt;p&gt;Good insights by &lt;a href=&quot;http://kottke.org/&quot;&gt;Kottke&lt;/a&gt; on products and the eternal battle (some) companies wage against their own customers.&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 May 2015 20:28:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/asking-who-s-the-customer</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/asking-who-s-the-customer</guid>
+        <link>http://danielfos.cohttp://dfosco.github.io/notes/asking-who-s-the-customer</link>
+        <guid isPermaLink="true">http://danielfos.cohttp://dfosco.github.io/notes/asking-who-s-the-customer</guid>
         
         
         <category>notes</category>
@@ -175,8 +175,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 07 May 2015 19:30:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/getting-started-with-command-line-interfaces</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/getting-started-with-command-line-interfaces</guid>
+        <link>http://danielfos.cohttp://dfosco.github.io/notes/getting-started-with-command-line-interfaces</link>
+        <guid isPermaLink="true">http://danielfos.cohttp://dfosco.github.io/notes/getting-started-with-command-line-interfaces</guid>
         
         
         <category>notes</category>
@@ -193,8 +193,8 @@
 
 </description>
         <pubDate>Tue, 05 May 2015 09:15:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/slacks-2-8-billion-dollar-secret-sauce</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/slacks-2-8-billion-dollar-secret-sauce</guid>
+        <link>http://danielfos.cohttp://dfosco.github.io/notes/slacks-2-8-billion-dollar-secret-sauce</link>
+        <guid isPermaLink="true">http://danielfos.cohttp://dfosco.github.io/notes/slacks-2-8-billion-dollar-secret-sauce</guid>
         
         
         <category>notes</category>
@@ -212,8 +212,8 @@
 &lt;p&gt;Essential reading for anyone looking to understand the long-term evolution of a product.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 May 2015 08:59:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/foursquare-on-apple-watch</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/foursquare-on-apple-watch</guid>
+        <link>http://danielfos.cohttp://dfosco.github.io/notes/foursquare-on-apple-watch</link>
+        <guid isPermaLink="true">http://danielfos.cohttp://dfosco.github.io/notes/foursquare-on-apple-watch</guid>
         
         
         <category>notes</category>
