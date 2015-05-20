@@ -1,4 +1,23 @@
 
-.hero--full {
-	height: 200px;
+.hero__wrapper {
+  @include span-columns(11 of 16);
+  @include shift(2.5);
+}
+
+.hero {
+  margin: 4em 0em;
+}
+
+.hero__inner { }
+
+.hero__mega {
+  color: $white-2;
+  font-size: 2.75em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.hero__text {
+  color: $white-2;
 }

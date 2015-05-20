@@ -8,7 +8,7 @@ meta-hero: http://i.imgur.com/nc1Nr9p.png
 meta-alt: Some screenshots from the Circular App
 
 meta-client:
-meta-role: UX Designer • Information Architecture
+meta-role: UX Designer • Information Architect
 meta-timeline: November 2015
 
 project-url: 
@@ -42,11 +42,7 @@ The first point was achieved by a semi-anonymous interface: in the app, the user
 
 The second point happens by ordering the feed of itens algorithmically and giving priority the ones closer to you (either geographically or by facebook connections).
 
-The prototype is no longer available, but here are some of the main screens designed during the hackaton:
-
----
-
-A shout-out to the team that took part in this project:
+Here's the team that took part in the project:
 
  - Luisa Fosco: Designer and Team Leader
  - Gustavo Massena: Strategy, Information Architecture and Pitch

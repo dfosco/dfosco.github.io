@@ -34,7 +34,7 @@
 	}
 }
 
-.work-card__content {
+.work-content--jekyll {
 	@include media($medium-screen-up) {
 		@include span-columns(9.5 of 12);
 	}

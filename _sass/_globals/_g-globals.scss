@@ -1,0 +1,11 @@
+// ------ ------ ------
+// Global Styles
+// ------ ------ ------
+
+
+body {
+	@include selection {
+		background-color: transparentize($primary, 0.8);
+	}
+}
+

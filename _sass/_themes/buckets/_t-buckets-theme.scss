@@ -13,20 +13,27 @@
 @import "_t-buckets-typography";
 
 
-// Layouts
+// Globals
 // ------------------------------------------------------------------------
+@import "../../_globals/_g-globals";
+@import "../../_globals/_g-jekyll-reset";
+
+
+// Layout Components
+// ------------------------------------------------------------------------
+
 @import "../../_layouts/_l-base";
-@import "../../_layouts/_l-jekyll";
+
 @import "../../_layouts/_l-sidebar";
 @import "../../_layouts/_l-footer";
 @import "../../_layouts/_l-header";
+@import "../../_layouts/_l-hero";
 
 
 // Modules
 // ------------------------------------------------------------------------
 @import "../../_modules/_m-buckets-item-card";	
 @import "../../_modules/_m-buckets-card";
-@import "../../_modules/_m-buckets-hero";
 @import "../../_modules/_m-toolbox";
 
 

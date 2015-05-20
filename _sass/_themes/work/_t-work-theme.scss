@@ -13,15 +13,19 @@
 @import "_t-work-typography";
 
 
-// Layouts
+// Globals
 // ------------------------------------------------------------------------
+@import "../../_globals/_g-globals";
+@import "../../_globals/_g-jekyll-reset";
+
+
+// Layout Components
+// ------------------------------------------------------------------------
+
 @import "../../_layouts/_l-base";
-@import "../../_layouts/_l-jekyll";
-@import "../../_layouts/_l-default--full";
 @import "../../_layouts/_l-footer";
 @import "../../_layouts/_l-header";
 @import "../../_layouts/_l-hero";
-
 
 
 // Modules
