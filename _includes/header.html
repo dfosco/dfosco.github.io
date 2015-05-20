@@ -7,44 +7,35 @@
 <nav class="nav--{{ width }}">
 
     {% for nav in site.data.navs %}
-
+    
     {% capture nav_section %}{{ nav.section | downcase }}{% endcapture %}
     {% capture page_section %}{{ page.section | downcase }}{% endcapture %}
     {% capture layout_section %}{{ layout.section | downcase }}{% endcapture %}
-
-        <nav class="subnav">
-            
-            {% if nav_section == page_section or nav_section == layout_section %}
-                {% assign nav_class = "subnav__text--type__page-title" %}
-                {% assign site.nav.order = 1 %}
+    
+        {% if nav_section == page_section or nav_section == layout_section %}
+            {% assign nav_class = "subnav__text--type__page-title" %}
+            {% assign nav_order = "--first" %}
+        {% else %}
+            {% assign nav_class = nav.section | prepend: "subnav__text--color__" | downcase %}
+            {% assign nav_order = "--middle" %}
+        {% endif %}   
+    
+        <nav class="subnav{{ nav_order }}">
+        
+            {% if nav_section == page_section %}
+                <h2 class="{{ nav_class }}">                    
             {% else %}
-                {% assign nav_class = nav.section | prepend: "subnav__text--color__" | downcase %}
-            {% endif %}        
-
-                {% if page.layout contains "post" && nav_section == page_section %}
-                <h1 class="{{ nav_class }}">
-                {% elsif page.layout contains "post" && nav_section != page_section %}
-                <h3 class="{{ nav_class }}">
-                {% else %}
                 <h2 class="{{ nav_class }}">
-                {% endif %}
+            {% endif %}
 
+                <a href="{{ nav.url }}">{{ nav.section | upcase }}</a>
 
-                    <a href="{{ nav.url }}">{{ nav.section | upcase }}</a>
-
-
-                {% if page.layout contains "post" && nav_section == page_section %}
-                </h1>
-                 {% elsif page.layout contains "post" && nav_section != page_section %}
-                </h3>
-                {% else %}
                 </h2>
-                {% endif %}
         </nav>
 
       {% endfor %}
 
-        <nav class="subnav">
+        <nav class="subnav--last">
 
             {% if page.layout contains "post" %}
                 <h3 class="subnav__text--color__daniel-fosco">

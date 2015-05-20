@@ -5,7 +5,7 @@
 @import "../../_base/variables";
 
 $primary: #FC8544;
-
+$primary-lighter: #F28A52;
 
 // The variables below need to be here to make sure any overriden colors will be propagated to them
 
@@ -18,7 +18,7 @@ $base-accent-color: $primary;
 
 // Link Colors
 $base-link-color: $primary;
-$hover-link-color: lighten($primary, 10%);
+$hover-link-color: $primary-lighter;
 $base-button-color: $accent;
 $hover-button-color: lighten($accent, 10%);
 

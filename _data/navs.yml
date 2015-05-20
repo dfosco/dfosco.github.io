@@ -1,11 +1,5 @@
  - section: Notes
    url: /notes  
-   order: 1
  
  - section: Work
    url: /work
-   order: 2
- 
- - section: Buckets
-   url: /buckets
-   order: 3

@@ -15,7 +15,7 @@ header {
 .header {
   @include span-columns(16 of 16);
   background: none;
-  border-top: 10px solid $primary;
+  border-top: 10px solid $primary-lighter;
 }
 
 .nav__wrapper {
@@ -26,7 +26,10 @@ header {
   
 }
 
+//--- --- ---
 //General Layout and Flex Configuration for Nav Parent
+//--- --- ---
+
 .nav--regular {
   @include span-columns(12 of 16);
   @include display(flex);
@@ -41,7 +44,10 @@ header {
   @extend .nav--regular;
 } 
 
+//--- --- ---
 //General Layout and Flex Configuration for Nav Children
+//--- --- ---
+
 .subnav { 
   @include display(flex);
   @include justify-content(flex-start);
@@ -54,37 +60,41 @@ header {
   }
 }
 
-//Select Nav Items based on their position and apply spacings accordingly...
+//--- --- ---
+//Style elements with flex-order according to classes defined by Liquid Logic
+//--- --- ---
 
-.subnav:nth-child(1) {
+.subnav--first {
+  @extend .subnav;
+  @include order(0);
+
   @include media($medium-screen-up) {
-    @include flex-grow(0.4);
+    @include flex-grow(0.02);
   }
+
 }
 
-.subnav:nth-child(2), .subnav:nth-child(3), .subnav:nth-child(4) {
+//This is still a fucking spaghetti, because I have no control over the order on the middle...
+.subnav--middle {
+  @extend .subnav;
+  @include order(1);
+
   @include media($medium-screen-up) {
     @include flex-grow(0.3);
-  }
+  }  
 }
 
-.subnav:nth-last-child(2) {
-  @include media($medium-screen-up) {
-    @include flex-grow(3);
-  }
-}
-
-.subnav:nth-last-child(1) {  
+.subnav--last {
+  @extend .subnav;
+  @include order(10);
   @include justify-content(flex-end);
 }
 
-.subnav:only-child { 
-  @include justify-content(flex-start);
-}
+//--- --- ---
+//Subnav Item Styling
+//--- --- ---
 
-
-//Styling Text Inside Nav Items
-
+//This is the basic setup
 .subnav__text {
   a:hover { color: $accent }
   
@@ -93,45 +103,46 @@ header {
   padding-bottom: 0.25em;
 }
 
-    .subnav__text--type__page-title { 
-      @extend .subnav__text;
+//These are generic styles for regular nav items
+.subnav__text--color {
+  @extend .subnav__text;
+  @extend .mobile-hide;
+  a { color: $white-2 }
+}
 
-      @include media($medium-screen-up) { 
-        font-size: $h1-font-size; 
-      }
+//This is the style for the current active nav item
+.subnav__text--type__page-title { 
+  @extend .subnav__text;
 
-      a { color: $primary }
-      a:hover { color: lighten($primary, 10%) }  
-    }
+  @include media($medium-screen-up) { 
+    font-size: $h1-font-size; 
+  }
 
-    .subnav__text--color__daniel-fosco {
-      @extend .subnav__text;
-      
-        a { color: $white-2 }
-        a:hover { color: lighten($primary, 10%) }
+  a { color: $primary-lighter }
+  a:hover { color: saturate($primary-lighter, 10%) }  
+}
 
-        @include media($medium-screen-up) { 
-          a { color: $primary }
-        }
-      }
+//This is the style for the last nav item -- doesn't get hidden on mobile
+.subnav__text--color__daniel-fosco {
+  @extend .subnav__text;
+  a { color: $white-2 }
+  a:hover { color: $primary-lighter }
 
-    .subnav__text--color__notes {
-      @extend .subnav__text;
-      @extend .mobile-hide;
-        a { color: $white-2 }
-        a:hover { color: lighten($primary-homepage, 10%) }
-      }      
+  @include media($medium-screen-up) { a { color: $primary-lighter } }
+}
 
-    .subnav__text--color__buckets {
-      @extend .subnav__text;
-      @extend .mobile-hide;
-      a { color: $white-2 }
-      a:hover { color: lighten($primary-buckets, 10%) }
-    }
+//These are the specific styles for the regular nav items
+.subnav__text--color__notes {
+  @extend .subnav__text--color;
+  a:hover { color: lighten($primary-homepage, 10%) }
+}      
 
-    .subnav__text--color__work {
-      @extend .subnav__text;
-      @extend .mobile-hide;
-      a { color: $white-2 }
-      a:hover { color: lighten($primary-work, 10%) }
-    }
+.subnav__text--color__buckets {
+  @extend .subnav__text--color;
+  a:hover { color: lighten($primary-buckets, 10%) }
+}
+
+.subnav__text--color__work {
+  @extend .subnav__text--color;
+  a:hover { color: lighten($primary-work, 10%) }
+}

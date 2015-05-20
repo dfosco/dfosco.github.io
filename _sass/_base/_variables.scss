@@ -39,7 +39,8 @@ $white-1: #B8B7B3;
 $white-2: #F5F2EB;
 $white-3: lighten($white-2, 15%);
 
-$primary: #CC3B38; 
+$primary: #CC3B38;
+$primary-lighter: #E85D5A; 
 $accent: #214370;
 $outlier: #D5CAB1;
 
@@ -58,7 +59,7 @@ $base-accent-color: $primary;
 
 // Link Colors
 $base-link-color: $primary;
-$hover-link-color: lighten($primary, 10%);
+$hover-link-color: $primary-lighter;
 $base-button-color: $accent;
 $hover-button-color: lighten($accent, 10%);
 
