@@ -25,8 +25,8 @@ body {
 }
 
 .main-accent {
-	color: lighten($accent-lighter, 7%);
-	&:hover { color: lighten($accent-lighter, 17%); }
+	color: $accent-lighter;
+	&:hover { color: lighten($accent-lighter, 10%); }
 }
 
 .social-media-accents {

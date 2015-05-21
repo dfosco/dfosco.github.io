@@ -113,9 +113,7 @@
 .subnav__text--color__daniel-fosco {
   @extend .subnav__text;
   a { color: $white-2 }
-  a:hover { color: lighten($primary-lighter, 10%) }
-
-  @include media($medium-screen-up) { a { color: $primary-lighter } }
+  a:hover { color: $accent-lighter }
 }
 
 //These are the specific styles for the regular nav items

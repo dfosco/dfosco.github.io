@@ -3,3 +3,27 @@
 /* --- --- --- --- --- --- --- */
 
 @import "../../_base/_variables";
+
+// The variables below need to be here to make sure any overriden colors will be propagated to them
+
+// Background Color
+$base-background-color: $black-1;
+
+// Font Colors
+$base-font-color: $black-3;
+$base-accent-color: $primary;
+
+// Link Colors
+$base-link-color: $primary;
+$hover-link-color: $primary-lighter;
+$base-button-color: $accent;
+$hover-button-color: lighten($accent, 10%);
+
+//Footer Colors
+$footer-background: $accent;
+$footer-color: $black-3;
+$footer-link-color: transparentize($footer-color, 0.4);
+
+// Border color
+$base-border-color: $white-2;
+$base-border: 1px solid $base-border-color;
