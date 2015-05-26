@@ -2,7 +2,7 @@
 layout: work/work-page
 
 title: Swerve Fitness
-tagline: Sweating a research-driven Mobile App Prototype 
+tagline: Sweating a research-driven mobile app prototype 
 type: featured
 order: 2
 

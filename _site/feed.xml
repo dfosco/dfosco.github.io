@@ -2,12 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel Fosco</title>
-    <description>Hi, my name is Daniel and this is my website. Hope you enjoy it.</description>
+    <description>Hi. I&#39;m Daniel Fosco, a freelance designer &amp; developer. I make things for web + mobile.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 May 2015 13:30:31 -0300</pubDate>
-    <lastBuildDate>Tue, 26 May 2015 13:30:31 -0300</lastBuildDate>
+    <pubDate>Tue, 26 May 2015 14:16:14 -0300</pubDate>
+    <lastBuildDate>Tue, 26 May 2015 14:16:14 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Marc Edwards&#39; icon design workflow</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/articles/2015/05/istat-menus-grid.jpg&quot; alt=&quot;iStat icon on top of a grid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Marc Edwards from Bjango gives some insight on his icon design process, with a couple of &lt;em&gt;rich tips&lt;/em&gt; on Illustrator along the way. Great read.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 May 2015 11:02:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/marc-edwards-icon-design-workflow</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/marc-edwards-icon-design-workflow</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Design user research explained for everyone</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Uncover values, not needs&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/images/articles/2015/05/froont-uncover-values-not-needs.gif&quot; alt=&quot;values, not needs&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Another great entry on FROONT’s gif-powered design guides, this time on the basics of user research. Their previous entries on &lt;a href=&quot;http://blog.froont.com/positioning-in-web-design/&quot;&gt;positioning in web design&lt;/a&gt; and &lt;a href=&quot;http://blog.froont.com/brief-history-of-web-design-for-designers/&quot;&gt;the history of the web&lt;/a&gt; are pretty neat too.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 May 2015 10:55:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/design-user-research-explained-for-everyone</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/design-user-research-explained-for-everyone</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>The freelancer&#39;s guide to finding and winning better client work online</title>
+        <description>&lt;p&gt;A compilation of articles and tips for freelancers by Robert Williams’ &lt;a href=&quot;https://letsworkshop.com/&quot;&gt;Workshop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you are a freelancer but haven’t come across any of his fantastic articles yet, now it’s the time.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 May 2015 10:51:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/the-freelancers-guide-to-finding-and-winning-better-client-work-online</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/the-freelancers-guide-to-finding-and-winning-better-client-work-online</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Electronic Items</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/articles/2015/05/electronic_items.gif&quot; alt=&quot;An animated old-school handicam&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Stylish gifs for old-school electronics&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 May 2015 10:44:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/electronic-items</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/electronic-items</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
     
       <item>
         <title>The State of Design Tools: An Unscientific Survey</title>
@@ -131,89 +195,6 @@
         <pubDate>Thu, 07 May 2015 20:33:00 -0300</pubDate>
         <link>http://danielfos.co/notes/slack-s-design-is-not-secret-sauce</link>
         <guid isPermaLink="true">http://danielfos.co/notes/slack-s-design-is-not-secret-sauce</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Asking “who’s the customer?”</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;Google gets most of their revenue from putting advertising into the products &amp;amp; services they provide. The people who use Google‘s products and services are not Google’s customers, the advertisers are Google’s customers.&lt;/p&gt;
-
-  &lt;p&gt;(…)&lt;/p&gt;
-
-  &lt;p&gt;Newspapers, magazines, and television networks have dealt with this same issue for decades now. (…) from hiding a magazine‘s table of contents in 20 pages of ads to shrieking online advertising to commercials that are louder than the shows to clunky product placement to trimming scenes from syndicated shows to cram in more commercials. From ABC to Vogue to the New York Times, you’re not the customer and it shows.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Good insights by &lt;a href=&quot;http://kottke.org/&quot;&gt;Kottke&lt;/a&gt; on products and the eternal battle (some) companies wage against their own customers.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 May 2015 20:28:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/asking-who-s-the-customer</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/asking-who-s-the-customer</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Getting Started with Command-Line Interfaces</title>
-        <description>&lt;p&gt;A great little tutorial on getting started with the command-line.&lt;/p&gt;
-
-&lt;p&gt;If you’re thinking of start using Git&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, Grunt or other kind of command-line based tool, this will be super helpful.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;small&gt;Though there are great apps for Git like &lt;a href=&quot;https://www.sourcetreeapp.com/&quot;&gt;SourceTree&lt;/a&gt; and &lt;a href=&quot;https://mac.github.com/&quot;&gt;Github for Mac&lt;/a&gt;, once you learn a few Git commands on the CLI, everyday things become &lt;em&gt;a lot&lt;/em&gt; faster.&lt;/small&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Thu, 07 May 2015 19:30:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/getting-started-with-command-line-interfaces</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/getting-started-with-command-line-interfaces</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Slack’s $2.8 Billion Dollar Secret Sauce</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;Like a well-built home, great software focuses on giving its users hundreds of small, satisfying interactions. A great transition in a mobile app gives us the same feeling we get from using a well-made door handle on a solid oak door — you may not be able to put your finger on it, but man, does the house ever feel well built. Slack is really fun to use. It feels like a well-built house.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Andrew Wilkinson lays out the design work they did for Slack and how it is (or might be?) their secret recipe for success.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 05 May 2015 09:15:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/slacks-2-8-billion-dollar-secret-sauce</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/slacks-2-8-billion-dollar-secret-sauce</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Foursquare on Apple Watch</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;We’re been working towards this “when you walk around, your phone should buzz you and tell you about the awesome things you don’t yet know about” vision of the future for a long time. Honestly, we were thinking about this stuff with Dodgeball @ Google, and were motivated to build Foursquare because we wanted this to exist so badly. So, want a brief history of how we got from 2009 -&amp;gt; 2015?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Buried deep inside a Product Hunt discussion thread, Foursquare founder &lt;a href=&quot;https://twitter.com/dens&quot;&gt;Dennis Crowley&lt;/a&gt; gives a recap of Foursquare’s design history and lays out the vision behind their Apple Watch app.&lt;/p&gt;
-
-&lt;p&gt;Essential reading for anyone looking to understand the long-term evolution of a product.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 May 2015 08:59:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/foursquare-on-apple-watch</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/foursquare-on-apple-watch</guid>
         
         
         <category>notes</category>
