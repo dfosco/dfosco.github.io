@@ -19,7 +19,7 @@ prototype-embed-url: //invis.io/T82U3I3V6
 
 ---
 
-I acted in a team of three UX Designers in this mobile app prototype project, developed for the Swerve Fitness Studio as my final project in General Assembly's <a href="https://generalassemb.ly/education/user-experience-design-immersive/new-york-city" target="_blank">UX Design Immersive Program</a>.
+I acted in a team of three UX Designers in this mobile app prototype project, developed for the Swerve Fitness indoor cycling studio.
 
 Swerve is a indoor cycling studio in Manhattan with a unique approach: their indoor bikes come equipped with a performance tracker that groups students into three teams that compete amongst each other every class.
 
