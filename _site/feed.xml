@@ -5,9 +5,73 @@
     <description>Hi. I&#39;m Daniel Fosco, a freelance designer &amp; developer. I make things for web + mobile.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 May 2015 11:33:00 -0300</pubDate>
-    <lastBuildDate>Wed, 27 May 2015 11:33:00 -0300</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2015 17:56:17 -0300</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2015 17:56:17 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>ZELDMAN.COM is 20 years old</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;I started this site with animated gifs and splash pages while living in a cheap rent stabilized apartment. PageSpinner was my jam. I was in love with HTML and certain that the whole world was about to learn it, ushering in a new era of DIY media, free expression, peace and democracy and human rights worldwide. That part didn’t work out so well, although the kids prefer YouTube to TV, so that’s something.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jeffrey Zeldman’s personal and nostalgic lookback on the 20th anniversary of his website — as much a part of the history of the web as anything can be.&lt;/p&gt;
+
+&lt;p&gt;The guy was blogging way, &lt;em&gt;way&lt;/em&gt; before it was cool.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Jun 2015 14:40:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/zeldman-dot-com-is-20-years-old</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/zeldman-dot-com-is-20-years-old</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Digital Design, the Optimism and the Pessimism</title>
+        <description>&lt;p&gt;An overview of the &lt;strong&gt;plus&lt;/strong&gt;’s and &lt;strong&gt;minus&lt;/strong&gt;’s of the current state of digital design by designer &lt;a href=&quot;http://twitter.com/ht_jun&quot;&gt;Hyungtak Jun&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pretty good points, and the subtle design made just for the post is killer!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 14:15:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/digital-design-the-optimism-and-the-pessimism</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/digital-design-the-optimism-and-the-pessimism</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Tutorial Hunt</title>
+        <description>&lt;p&gt;Fantastic compilation of free programming tutorials. For an alternative focused on programming books, see &lt;a href=&quot;http://hackershelf.com/browse/?popular=1&quot;&gt;Hacker Shelf&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 14:04:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/tutorial-hunt</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/tutorial-hunt</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>What Has Us Interested at Homebrew...</title>
+        <description>&lt;p&gt;Hunter Walk, founder and investor at &lt;a href=&quot;https://twitter.com/homebrew&quot;&gt;Homebrew&lt;/a&gt; came up with a huge list of subjects and areas of expertise that currently interest Homebrew.&lt;/p&gt;
+
+&lt;p&gt;Regardless if you’re looking for investment or not, this may be a good place to get a fresh set of ideas if you’re running dry.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Related:&lt;/strong&gt; &lt;a href=&quot;http://www.musklevel.com/&quot;&gt;Musk Level&lt;/a&gt;, a leaderboard of big ideas that one could develop if they had the resources available to Elon Musk.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 13:57:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/what-has-us-interested-at-homebrew</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/what-has-us-interested-at-homebrew</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
     
       <item>
         <title>Marc Edwards&#39; icon design workflow</title>
@@ -101,100 +165,6 @@
         <pubDate>Mon, 11 May 2015 16:30:00 -0300</pubDate>
         <link>http://danielfos.co/notes/designing-a-good-portfolio</link>
         <guid isPermaLink="true">http://danielfos.co/notes/designing-a-good-portfolio</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>I was an undercover Uber driver</title>
-        <description>&lt;p&gt;Emily Guendelsberger goes undercover as an Uber driver in Philadelphia to figure out how deep the rabbit hole goes — and comes out of it with a 6000-word article, sprinkled with moments like this:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Passenger&lt;/strong&gt;: So what’s Uber like? I hear you can make a ton of money!&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Emily&lt;/strong&gt;: Yeah, not really — when they take UberX into a new market like Philly, they start off by paying drivers a lot. So in the beginning, you get a lot of drivers who look like the drivers in Uber ads, like, suits and bottled water and no accents. And everyone gets the idea that Uber drivers have suits and make a ton of money. Then after a while, usually when a competitor comes in — you know Lyft just started up a couple weeks ago, right?&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Passenger&lt;/strong&gt;: Yeah …
-&lt;!--more--&gt;
-&lt;strong&gt;Emily&lt;/strong&gt;: So then Uber cuts fares down by, like, a lot. Like, here, they just cut fares almost in half. So most of those initial drivers quit and are replaced by people willing to work for the lower amount, who are the same people who used to drive cabs. They’re just doing it for a new boss, for less money and no tips, and they’re carrying most of the liability themselves. But most riders never change that first impression that drivers make a lot of money.&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Passenger&lt;/strong&gt;: … Oh, uh, OK.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 11 May 2015 16:19:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/i-was-an-undercover-uber-driver</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/i-was-an-undercover-uber-driver</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>100 Days of Color</title>
-        <description>&lt;p&gt;Designer and artist Jaclyn Leneé is on a 100-day stretch doing a color palette everyday based on a different picture. See all of her palettes so far &lt;a href=&quot;http://100daysofcolor.tumblr.com/?ref=danielfosco-linklist&quot;&gt;on her Tumblr&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~~Update~~&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I reached out to Jaclyn &lt;a href=&quot;https://twitter.com/jaclynlenee&quot;&gt;on Twitter&lt;/a&gt; to ask a couple of questions about her inspiration and feelings around the project — see below:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;What’s your process for coming up with the color palette for each photograph?&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Jaclyn&lt;/strong&gt;: I’m delighted by color in everyday life. I snap photos of subjects and textures I find beautiful, and pull colors from them.&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;How does this project relates to the way you use color in your design work?&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Jaclyn:&lt;/strong&gt; I frequently look online for color inspiration. Since I started this project, I’ve pulled from my own palettes. It is satisfying to design with my own color stories, rather than use a palette from Kuler, or elsewhere.&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Do you expect things to get… repetitive by the 100th day? How do you look for new subjects and/or diff results?&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Jaclyn:&lt;/strong&gt; I doubt it. Every image is different, the lighting different, the subject different. Endless possibilities. It is all about opening my eyes to the world around me. I take a lot of walks and keep my eyes peeled for color and texture.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’d like to thank Jaclyn for taking the time to answer these questions – great insights for anyone who wants to dive deeper into working with color &lt;i class=&quot;twa twa twa-smiley&quot;&gt;&lt;/i&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 May 2015 20:59:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/100-days-of-color</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/100-days-of-color</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Learning to Love BEM</title>
-        <description>&lt;p&gt;A primer to start writing CSS with BEM-style syntax by &lt;a href=&quot;https://twitter.com/johan_ronsse&quot;&gt;Johan Ronsse&lt;/a&gt;. Good stuff, although I disagree with Johan when he says BEM is unnecessary for small and personal sites.&lt;/p&gt;
-
-&lt;p&gt;Personal project or not, writing CSS with BEM makes class-naming much more constrained (and well-documented), pushing you to write styling and markup in a more structured manner.&lt;/p&gt;
-
-&lt;p&gt;If you’ve never heard of BEM, &lt;a href=&quot;https://css-tricks.com/bem-101/&quot;&gt;this article&lt;/a&gt; by CSS-Tricks is another great way to get started.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 May 2015 20:46:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/learning-to-love-bem</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/learning-to-love-bem</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>“Slack’s design is not secret sauce”</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;I can’t deny that Slack has a nicer aesthetic than HipChat. It does look nice and it is fun to use. But here’s the thing — a lot of nicely designed products never take off or get noticed. Good design is not enough. There are so many pieces to consider and things you have to nail to get a product out ahead of the pack.&lt;/p&gt;
-
-  &lt;p&gt;Here’s my list.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A great follow-up to &lt;a href=&quot;/notes/slacks-2-8-billion-dollar-secret-sauce&quot;&gt;Andrew Wilkinson’s piece&lt;/a&gt; about Slack and its secret sauce — both have their merits, and both are right to a certain extent.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 May 2015 20:33:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/slack-s-design-is-not-secret-sauce</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/slack-s-design-is-not-secret-sauce</guid>
         
         
         <category>notes</category>
