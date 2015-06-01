@@ -11,6 +11,4 @@ image-name: electronic_items.gif
 image-alt: An animated old-school handicam
 ---
 
-![An animated old-school handicam](/assets/images/articles/2015/05/electronic_items.gif)
-
 Stylish gifs for old-school electronics

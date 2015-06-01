@@ -22,24 +22,23 @@ title: Notes
       
         <article class="card" id="{{ post.url | replace: '/links/', '' | replace: '/notes/', '' }}">
           <div class="card__inner">
-        
-        {% comment %}
-          {% if post.image-name == "none" %}
-          {% else %}
 
+              {% if post.image-name != "none" %}
+              
                 <div class="card__img">
-                  <a href="{{ post.source }}?ref=danielfosco-notes" target="_blank">
-                  
-                  {% if page.url contains "page" %}
-                  <img src="../../assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
-                  {% else %}
-                  <img src="../assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
-                  {% endif %}
-                  </a>
+                  {% if post.source == null %}
+                    <a href="{{ site.url }}/{{ post.url }}" target="_blank">
+                      <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
+                     </a>
+                    {% else %}
+                    <a href="{{ post.source }}?ref=danielfosco" target="_blank">
+                      <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
+                    </a>
+                  {% endif %}   
                 </div>
-          
-          {% endif %}
-        {% endcomment %}              
+                
+              {% else %}
+              {% endif %}   
 
               {% if post.source == null %}
               <a href="{{ post.url }}" target="_blank"><h2 class="card__title">{{ post.title }}</h2></a>

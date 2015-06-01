@@ -7,13 +7,9 @@ section: notes
 title: Design user research explained for everyone
 source: http://blog.froont.com/design-user-research-explained/
 
-image-name: none
-image-alt:
+image-name: froont-uncover-values-not-needs.gif
+image-alt: values, not needs
 
 ---
-
-> **Uncover values, not needs**
->
->![values, not needs](/assets/images/articles/2015/05/froont-uncover-values-not-needs.gif)
 
 Another great entry on FROONT's gif-powered design guides, this time on the basics of user research. Their previous entries on [positioning in web design](http://blog.froont.com/positioning-in-web-design/) and [the history of the web](http://blog.froont.com/brief-history-of-web-design-for-designers/) are pretty neat too.

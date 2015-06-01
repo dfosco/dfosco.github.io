@@ -119,6 +119,14 @@
   margin-bottom: 0.5em;
 
   img {
+    border-radius: 10px;
+  }
+  
+  @include media ($medium-screen-up){
+    margin: 0.75em 0em;
+  }
+  
+  img {
     width: 100%;
   }
 } 

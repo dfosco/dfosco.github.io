@@ -7,7 +7,7 @@ section: notes
 title: ZELDMAN.COM is 20 years old
 source: http://www.zeldman.com/2015/05/31/my-website-is-20-years-old-today/
 
-image-name: zeldman.svg
+image-name: "zeldman.svg"
 image-alt: Jeffrey Zeldman's pixel avatar
 ---
 

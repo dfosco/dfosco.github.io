@@ -14,9 +14,9 @@ width: regular
         <article class="card">
           <div class="card__inner">
             
-            {% comment %}
-              {% if page.image-name == "none" %}
-              {% else %}
+            
+              {% if page.image-name != "none" %}
+              
               
                 <div class="card__img">
                   {% if page.source == null %}
@@ -28,8 +28,9 @@ width: regular
                   {% endif %}
                 </div>
               
+              {% else %}
               {% endif %}
-            {% endcomment %}            
+                     
             
             {% if page.source == null %}
             <h1 class="card__title">{{ page.title }}</h1>
