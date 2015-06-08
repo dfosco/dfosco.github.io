@@ -5,9 +5,99 @@
     <description>Hi. I&#39;m Daniel Fosco, a freelance designer &amp; developer. I make things for web + mobile.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Jun 2015 15:22:19 -0300</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2015 15:22:19 -0300</lastBuildDate>
+    <pubDate>Mon, 08 Jun 2015 12:14:18 -0300</pubDate>
+    <lastBuildDate>Mon, 08 Jun 2015 12:14:18 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Building a UX Team</title>
+        <description>&lt;p&gt;I recently came across this past issue from the Mailchimp UX Newsletter and remembered how outstanding is their writing. If you haven’t subscribed yet, &lt;a href=&quot;http://www.theuxnewsletter.com/&quot;&gt;do it now&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here are some highlights from the issue:&lt;/p&gt;
+
+&lt;h4 id=&quot;hiring&quot;&gt;&lt;strong&gt;Hiring&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s easy to hire someone who’s mediocre, but it’s really hard to fire them. Mediocre people are a drag on quality and moral, but they tend to do just enough good work to stick around. Managers have a tough time justifying letting them go because there’s no actionable offense. The scent of mediocrity on your team will also scare off talented candidates.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;respect&quot;&gt;&lt;strong&gt;Respect&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Respect between design and development is the most critical ingredient when making great products. It’s rare that respect between design and development happens organically. It has to be a core value of a company, demonstrated by leadership daily.&lt;/p&gt;
+
+  &lt;p&gt;Respect fosters a can-do attitude. Ideas are freely shared when they’re valued by colleagues, even when they’re not necessarily a winner. We could do a lot better if we started with &lt;a href=&quot;http://www.jesterzimprov.com/fundamental-improv-principles/&quot;&gt;“Yes, and..” instead of “No.”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;team-size&quot;&gt;&lt;strong&gt;Team Size&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Our UX team is tiny. Twelve of us do the research, design the UI, and build the front-end of the app. The engineering team we work with is equally small. But our size is not a shortcoming; it’s an advantage. Communication is easy when teams are small. Planning happens quickly so we can get back to making.&lt;/p&gt;
+
+  &lt;p&gt;Each little team has the autonomy to make decisions about their work, and when there’s uncertainty, they can go discuss with another autonomous team that can provide more definitive direction.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;These are traits I hope to find and foster at &lt;a href=&quot;http://www.vtex.com/&quot;&gt;VTEX&lt;/a&gt;, with whom I just started working as a product designer. The fact that this article about UX was shared by a developer from our team tells me these methods are already under way for the most part &lt;i class=&quot;twa twa-smile&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Jun 2015 08:31:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/building-a-ux-team</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/building-a-ux-team</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Rapidly Animate with Keynote</title>
+        <description>&lt;p&gt;I had heard before how far you can go with animations on Keynote, but this article just smashes the point through your skull — the two videos are super handy for that.&lt;/p&gt;
+
+&lt;p&gt;There’s no way I’m not trying this for prototyping really soon.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Jun 2015 08:25:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/rapidly-animate-with-keynote</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/rapidly-animate-with-keynote</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>On the topic of impostor syndrome</title>
+        <description>&lt;p&gt;Web Developer Ray Bango talks about impostor syndrome and how the ever-increasing pace of web technologies makes us all feel like we’re in a hamster wheel. Make sure to watch the short video embeded in the article, really drives the point home!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Jun 2015 08:20:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/on-the-topic-of-impostor-syndrome</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/on-the-topic-of-impostor-syndrome</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Modern Design Tools</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;We live in a world that is dynamic, designing and building software that lives on devices that are always changing and evolving. These devices have multiple screen sizes, densities, orientations. Our experiences live in this medium, and adapt to ever-changing constraints. This leads us to an important principle:&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Design tools should have the same properties as the medium for which we are designing.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Josh Puckett does an exploration on the properties of future design tools. Meanwhile, &lt;a href=&quot;https://medium.com/@almonk/design-like-it-s-1999-48ce5f5be14&quot;&gt;Alasdair Monk&lt;/a&gt; is building something quite like that.&lt;/p&gt;
+
+&lt;p&gt;Between Sketch, Framer, Pixate, Affinity Designer and this, I can wait barely wait to see the landscape of design tools in the next 5 years.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Related:&lt;/strong&gt; Khoi Vinh’s &lt;a href=&quot;http://www.subtraction.com/2015/06/02/the-subtraction-com-design-tools-survey/&quot;&gt;survey&lt;/a&gt; on the current state of design tools&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Jun 2015 08:04:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/modern-design-tools</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/modern-design-tools</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
     
       <item>
         <title>ZELDMAN.COM is 20 years old</title>
@@ -19,7 +109,7 @@
 
 &lt;p&gt;The guy was blogging way, &lt;em&gt;way&lt;/em&gt; before it was cool.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 10 Jun 2015 14:40:00 -0300</pubDate>
+        <pubDate>Mon, 01 Jun 2015 14:40:00 -0300</pubDate>
         <link>http://danielfos.co/notes/zeldman-dot-com-is-20-years-old</link>
         <guid isPermaLink="true">http://danielfos.co/notes/zeldman-dot-com-is-20-years-old</guid>
         
@@ -93,68 +183,6 @@
         <pubDate>Tue, 26 May 2015 10:55:00 -0300</pubDate>
         <link>http://danielfos.co/notes/design-user-research-explained-for-everyone</link>
         <guid isPermaLink="true">http://danielfos.co/notes/design-user-research-explained-for-everyone</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>The freelancer&#39;s guide to finding and winning better client work online</title>
-        <description>&lt;p&gt;A compilation of articles and tips for freelancers by Robert Williams’ &lt;a href=&quot;https://letsworkshop.com/&quot;&gt;Workshop&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you are a freelancer but haven’t come across any of his fantastic articles yet, now it’s the time.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 26 May 2015 10:51:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/the-freelancers-guide-to-finding-and-winning-better-client-work-online</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/the-freelancers-guide-to-finding-and-winning-better-client-work-online</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Electronic Items</title>
-        <description>&lt;p&gt;Stylish gifs for old-school electronics&lt;/p&gt;
-</description>
-        <pubDate>Tue, 26 May 2015 10:44:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/electronic-items</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/electronic-items</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>The State of Design Tools: An Unscientific Survey</title>
-        <description>&lt;p&gt;Khoi Vinh and the Adobe Team took a bunch of designers for breakfast and asked them about the tools they use. The results, albeit unscientific, still bring terrific insights — such as:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Prototyping is the Wild West. Every team we met with uses a variety of prototyping tools, whether Pixate, Marvel, InVision, Flinto or others. There seems to be little if any standardization; as new tools emerge and teams find that they offer new advantages, designers readily adopt them and set others aside. There’s a feeling that this space has lots of growth and evolution ahead of it.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 11 May 2015 16:35:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/the-state-of-design-tools-an-unscientific-survey</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/the-state-of-design-tools-an-unscientific-survey</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Designing a good portfolio</title>
-        <description>&lt;p&gt;Great advice by Mark Boulton for young designers.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;How can you demonstrate the value of design games, or collaborative moodboard exercises? Or that it took six months of negotiating with dozens of facets of an organisation in order for a content strategy to be adopted? My advice would be to write a story. Show photographs of workshops. Demonstrate how you approach these things. List the methods you’ve used and those that have worked. List those that haven’t and the reasons why.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 11 May 2015 16:30:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/designing-a-good-portfolio</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/designing-a-good-portfolio</guid>
         
         
         <category>notes</category>

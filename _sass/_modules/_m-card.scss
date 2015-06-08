@@ -36,10 +36,10 @@
 
   blockquote {    
     
-    @include margin(1em null);
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     border-left: 2px solid darken($white-1, 8%);
-    font-family: $header-font-family
-;
+    font-family: $header-font-family;
     font-weight: 500;
     font-size: 0.98em;
 
@@ -51,6 +51,14 @@
       margin-left: 1em;
       list-style-type: disc;
     }
+  }
+
+  h4 + blockquote {
+    margin-top: 1em;
+  }
+
+  h4 {
+    margin-top: 1.5em;
   }
 
 }
