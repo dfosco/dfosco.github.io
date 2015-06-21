@@ -9,6 +9,8 @@ source: https://medium.com/bridge-collection/modern-design-tools-adaptive-layout
 
 image-name: modern-design-tools.png
 image-alt: Smart constraints
+stroke: yes
+
 ---
 
 > We live in a world that is dynamic, designing and building software that lives on devices that are always changing and evolving. These devices have multiple screen sizes, densities, orientations. Our experiences live in this medium, and adapt to ever-changing constraints. This leads us to an important principle:

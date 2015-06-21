@@ -20,10 +20,10 @@ width: regular
               
                 <div class="card__img">
                   {% if page.source == null %}
-                  <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
+                  <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}" {% if page.stroke != null %}class="img__stroke"{% endif %}>
                   {% else %}
                   <a href="{{ page.source }}?ref=danielfosco" target="_blank">
-                  <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}">
+                  <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}" {% if page.stroke != null %}class="img__stroke"{% endif %}>
                   </a>
                   {% endif %}
                 </div>

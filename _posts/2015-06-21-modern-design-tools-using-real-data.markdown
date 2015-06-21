@@ -9,6 +9,8 @@ source: https://medium.com/@joshpuckett/modern-design-tools-using-real-data-62d4
 
 image-name: "modern-design-tools-2.gif"
 image-alt: Pulling JSON data directly into your layouts
+stroke: yes
+
 ---
 
 Another entry in Josh Puckett's exploration on future design tools for the workflow we need today.
