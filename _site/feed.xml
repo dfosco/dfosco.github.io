@@ -5,9 +5,68 @@
     <description>Hi. I&#39;m Daniel Fosco, a freelance designer &amp; developer. I make things for web + mobile.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Jun 2015 13:48:54 -0300</pubDate>
-    <lastBuildDate>Sun, 21 Jun 2015 13:48:54 -0300</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2015 15:21:04 -0300</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2015 15:21:04 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>The Tiny Designer: How Designers and Non-Designers can get along</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Each of us has a tiny designer somewhere inside&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;We can all contribute to a design. You probably think that’s ridiculous, but that’s also the reason design projects can devolve so quickly: respect is lacking.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A dual email course for designers and non-designers to improve understanding between both parts and make the design process less stressful and more productive.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Jun 2015 12:10:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/the-tiny-designer-how-designers%E2%80%93and%E2%80%93non-designers%E2%80%93can-get-along</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/the-tiny-designer-how-designers%E2%80%93and%E2%80%93non-designers%E2%80%93can-get-along</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Women of Silicon Valley — Sophie Xie</title>
+        <description>&lt;p&gt;I first found out about this project through their &lt;a href=&quot;https://www.facebook.com/womenofsiliconvalley&quot;&gt;Facebook page&lt;/a&gt; and was glad when they started doing more in-depth interviews on Medium. The first is with Sophie Xie, product designer formely working on Facebook.&lt;/p&gt;
+
+&lt;p&gt;The interview says a lot about being a woman in tech, including things that sometimes go unnoticed for me as a man. If men want to change the subtle sexist behavior in their workspace, paying actual attention to what we’re doing is the first step (I guess).&lt;/p&gt;
+
+&lt;p&gt;By the way, as far as advice goes, you can’t really get more badass than this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What advice do you have for any girls pursuing a future in tech?&lt;br /&gt;
+&lt;strong&gt;tldr; I was successful in moments I quit being a nice girl and started becoming a monster.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 21 Jun 2015 12:00:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/women-of-silicon-valley-sophie-xie-women-of-silicon-valley-sophie-xie</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/women-of-silicon-valley-sophie-xie-women-of-silicon-valley-sophie-xie</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Modern Design Tools: Using Real Data</title>
+        <description>&lt;p&gt;Another entry in Josh Puckett’s exploration on future design tools for the workflow we need today.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I believe one of the biggest flaws of today’s tools is their failure to allow designers to easily work with real data. (…)&lt;br /&gt;
+We spend an inordinate amount of time making our pixel-perfect fabrications. We then make sub-optimal decisions based on this, considering only our single, perfect state. We are surprised when our designs are implemented because we forgot to solve a variety of edge cases and problems. When we don’t work with real data, &lt;em&gt;we deceive ourselves&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 21 Jun 2015 11:37:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/modern-design-tools-using-real-data</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/modern-design-tools-using-real-data</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
     
       <item>
         <title>The Martian - Official Trailer</title>
@@ -142,49 +201,6 @@
         <pubDate>Mon, 01 Jun 2015 14:15:00 -0300</pubDate>
         <link>http://danielfos.co/notes/digital-design-the-optimism-and-the-pessimism</link>
         <guid isPermaLink="true">http://danielfos.co/notes/digital-design-the-optimism-and-the-pessimism</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Tutorial Hunt</title>
-        <description>&lt;p&gt;Fantastic compilation of free programming tutorials. For an alternative focused on programming books, see &lt;a href=&quot;http://hackershelf.com/browse/?popular=1&quot;&gt;Hacker Shelf&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Jun 2015 14:04:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/tutorial-hunt</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/tutorial-hunt</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>What Has Us Interested at Homebrew...</title>
-        <description>&lt;p&gt;Hunter Walk, founder and investor at &lt;a href=&quot;https://twitter.com/homebrew&quot;&gt;Homebrew&lt;/a&gt; came up with a huge list of subjects and areas of expertise that currently interest Homebrew.&lt;/p&gt;
-
-&lt;p&gt;Regardless if you’re looking for investment or not, this may be a good place to get a fresh set of ideas if you’re running dry.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Related:&lt;/strong&gt; &lt;a href=&quot;http://www.musklevel.com/&quot;&gt;Musk Level&lt;/a&gt;, a leaderboard of big ideas that one could develop if they had the resources available to Elon Musk.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Jun 2015 13:57:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/what-has-us-interested-at-homebrew</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/what-has-us-interested-at-homebrew</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Marc Edwards&#39; icon design workflow</title>
-        <description>&lt;p&gt;Marc Edwards from Bjango gives some insight on his icon design process, with a couple of &lt;em&gt;rich tips&lt;/em&gt; on Illustrator along the way. Great read.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 26 May 2015 11:02:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/marc-edwards-icon-design-workflow</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/marc-edwards-icon-design-workflow</guid>
         
         
         <category>notes</category>
