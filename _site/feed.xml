@@ -5,9 +5,32 @@
     <description>Hi. I&#39;m Daniel Fosco, a freelance designer &amp; developer. I make things for web + mobile.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Jun 2015 19:03:52 -0300</pubDate>
-    <lastBuildDate>Sat, 27 Jun 2015 19:03:52 -0300</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2015 19:24:35 -0300</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2015 19:24:35 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>“21 management things I learned at Imgur”</title>
+        <description>&lt;p&gt;So many good points on mission, values and &lt;em&gt;company-building&lt;/em&gt; here. Don’t let the title fool you, there’s no “management” advice in this list.&lt;/p&gt;
+
+&lt;p&gt;Some highlights:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s terribly difficult to manage unmotivated people. Make your job easier and don’t.&lt;/p&gt;
+
+  &lt;p&gt;Fire quickly. If you don’t fire bad performers fast, you’re at risk of losing your good performers. Don’t underestimate the effect bad performers have on good performers. Your team will likely move faster even with fewer bodies. Finally, firing for bad performance is easier than having to fire good people because you’ve run out of money, so fire the bad people before you have to fire the good people too.&lt;/p&gt;
+
+  &lt;p&gt;How you spend money is one of the biggest cultural signals you can send and is very hard to change. Where you spend money (and where you don’t) communicates what you think is important.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 27 Jun 2015 16:06:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/21-management-things-i-learned-at-imgur</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/21-management-things-i-learned-at-imgur</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
     
       <item>
         <title>The Tiny Designer: How Designers and Non-Designers can get along</title>
@@ -186,21 +209,6 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
         <pubDate>Mon, 01 Jun 2015 14:40:00 -0300</pubDate>
         <link>http://danielfos.co/notes/zeldman-dot-com-is-20-years-old</link>
         <guid isPermaLink="true">http://danielfos.co/notes/zeldman-dot-com-is-20-years-old</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Digital Design, the Optimism and the Pessimism</title>
-        <description>&lt;p&gt;An overview of the &lt;strong&gt;plus&lt;/strong&gt;’s and &lt;strong&gt;minus&lt;/strong&gt;’s of the current state of digital design by designer &lt;a href=&quot;http://twitter.com/ht_jun&quot;&gt;Hyungtak Jun&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Pretty good points, and the subtle design made just for the post is killer!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Jun 2015 14:15:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/digital-design-the-optimism-and-the-pessimism</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/digital-design-the-optimism-and-the-pessimism</guid>
         
         
         <category>notes</category>
