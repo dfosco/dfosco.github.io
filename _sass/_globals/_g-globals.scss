@@ -29,21 +29,26 @@ body {
 	&:hover { color: lighten($accent-lighter, 10%); }
 }
 
-.social-media-accents {
+%social-media-accents {
 	color: $accent-lighter;
 }
 
+.work-accent--tiny {
+	@extend %social-media-accents;
+	&:hover { color: lighten($primary-work, 17%); }
+}
+
 .dribbble-accent {
-	@extend .social-media-accents;
+	@extend %social-media-accents;
 	&:hover { color: #EA4C89 }	
 }
 
 .twitter-accent {
-	@extend .social-media-accents;
+	@extend %social-media-accents;
 	&:hover { color: #00B0ED }	
 }
 
 .github-accent {
-	@extend .social-media-accents;
+	@extend %social-media-accents;
 	&:hover { color: lighten(#201F1F, 47%); }	
 }

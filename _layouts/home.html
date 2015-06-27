@@ -8,8 +8,8 @@
     <div class="hero">
       <span class="hero__mega">Hi.</span>
       <div class="hero__description">
-          <h1 class="hero__text">I’m Daniel Fosco, a designer working at <a href="http://www.vtex.com/en/" class="main-accent">VTEX</a>.</h1>
-          <h2 class="hero__text">I make things for web + mobile.</h2>
+          <h1 class="hero__text">I’m Daniel Fosco, a designer working at <a href="http://lab.vtex.com" class="main-accent">VTEX</a>.</h1>
+          <h2 class="hero__text">I make things for web + mobile. Here’s <a href="/work" class="work-accent--tiny">some of my work</a>.</h2>
       </div>
    
       <div class="hero__contact">
@@ -91,11 +91,11 @@
                     <div class="card__img">
                       {% if post.source == null %}
                         <a href="{{ site.url }}/{{ post.url }}" target="_blank">
-                          <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
+                          <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}" {% if post.stroke != null %}class="img__stroke"{% endif %}>
                          </a>
                         {% else %}
                         <a href="{{ post.source }}?ref=danielfosco" target="_blank">
-                          <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
+                          <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}" {% if post.stroke != null %}class="img__stroke"{% endif %}>
                         </a>
                       {% endif %}                      
                     </div>
