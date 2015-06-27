@@ -11,7 +11,7 @@ image-name: none
 image-alt:
 ---
 
-So many good points on mission, values and _company-building_ here. Don't let the title fool you, there's no "management" advice in this list.
+So many good points on mission, values and building a company. Don't let the title fool you, there's no "management" advice in this list.
 
 Some highlights:
 
