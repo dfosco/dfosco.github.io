@@ -104,11 +104,14 @@
                        
 
                   {% if post.source == null %}
-                  <a href="{{ post.url }}" target="_blank"><h2 class="card__title">{{ post.title }}</h2></a>
+                  <a href="{{ post.url }}" target="_blank"><h2 class="card__title">{{ post.title }}</h2><br><span class="card__date">{{ post.date | date: "%B %-d" }}</span></a>
+                
                   {% else %}
-                  <a href="{{ post.source }}?ref=danielfosco" target="_blank"><h2 class="card__title">{{ post.title }}</h2></a>
-                  {% endif %}
+                  <a href="{{ post.source }}?ref=danielfosco" target="_blank"><h2 class="card__title">{{ post.title }}</h2></a><br>
+                  <span class="card__date">{{ post.date | date: "%B %-d" }}</span>
                   
+                  {% endif %}
+
                   <div class="card__description">{{ post.content }}</div>
                   
                   <a href="{{ post.url }}">

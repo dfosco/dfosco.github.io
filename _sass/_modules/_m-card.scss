@@ -68,6 +68,20 @@
   font-weight: 700;
 }
 
+.card__date {
+  color: lighten($black-3, 20%);
+  display: block;
+  
+  font-family: $header-font-family;
+  font-size: 1.4em;
+  font-weight: 600;
+  
+  margin-top: -2.25em;
+  margin-bottom: 1.75em;
+}
+
+
+
 .card__description { 
   @include margin(null null 1em null);
 
@@ -79,7 +93,7 @@
   p {
     sup {  
       font-weight: 600;
-      font-family: $header-font-family
+      font-family: $header-font-family;
 ;
       margin-left: 0.1em;
     }
