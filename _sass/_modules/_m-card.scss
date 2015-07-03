@@ -23,11 +23,13 @@
 
 .card__inner {
   padding: 0.75em;
-  
   margin: auto;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  width: 85%;
+
+  @include media($medium-screen-up) {
+    width: 85%;    
+  }
 
   span.quote {
     font-size: 0.95em;
@@ -66,6 +68,11 @@
 .card__title {
   margin-bottom: 1em;
   font-weight: 700;
+  font-size: 1.5em;
+
+  @include media($medium-screen-up) {
+    font-size: 2em;
+  }
 }
 
 .card__date {
@@ -73,11 +80,15 @@
   display: block;
   
   font-family: $header-font-family;
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: 600;
   
   margin-top: -2.25em;
   margin-bottom: 1.75em;
+
+    @include media($medium-screen-up) {
+    font-size: 1.4em;
+  }
 }
 
 
@@ -137,7 +148,6 @@
 
 .card__img {
   padding: 0em;
-  margin: -1.25em;
   margin-bottom: 0.5em;
 
   img {
@@ -145,7 +155,8 @@
   }
   
   @include media ($medium-screen-up){
-    margin: 0.75em 0em;
+    width: 100%;
+    margin: 0 auto;
   }
   
   img {
