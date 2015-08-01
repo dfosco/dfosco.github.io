@@ -1,0 +1,30 @@
+/* --- --- --- --- --- --- --- */
+// BUCKETS Theme Variables
+/* --- --- --- --- --- --- --- */
+
+@import "../../_base/variables";
+
+$primary: #60CD7C;
+$primary-lighter: lighten(#60CD7C, 15%);
+
+// Background Color
+$base-background-color: $black-1;
+
+// Font Colors
+$base-font-color: $black-3;
+$base-accent-color: $primary;
+
+// Link Colors
+$base-link-color: $primary;
+$hover-link-color: lighten($primary, 10%);
+$base-button-color: $accent;
+$hover-button-color: lighten($accent, 10%);
+
+//Footer Colors
+$footer-background: $accent;
+$footer-color: $black-3;
+$footer-link-color: transparentize($footer-color, 0.4);
+
+// Border color
+$base-border-color: $white-2;
+$base-border: 1px solid $base-border-color;

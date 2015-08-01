@@ -1,0 +1,48 @@
+---
+section: Docs
+---
+
+{% include head.html %}
+
+    <div id="viewport" class="container">
+
+      {% include docs/hero.html %}
+
+      <div class="wrapper">
+        <section class="content--regular content--post">
+
+          <div class="inpage-nav">
+            <a href="/docs">&#8592 back to docs</a>
+          </div>
+
+{% capture current_collection %}{{ page.url | remove: "docs" | remove: "/" | remove: " " }}{% endcapture %}
+
+          <div class="card-item__header-section">
+            <div class="header-section__title">
+              <h1 class="header-section__title-text">{{ page.title }}</h1>
+              <h2 class="header-section__subtitle-text">{{ content }}</h2>
+            </div>
+          </div>
+
+            {% for item in site.items %}
+            {% if item.parent-collection == current_collection %}
+            <article class="card-item">
+              <div class="card-item__inner">
+                <a href="{{ item.source }}">
+                  <h3 class="card-item__title">
+                    {{ item.name }}
+                  </h3>
+                </a>
+                <p class="card-item__text">{{ item.content }}</p>
+              </div>
+            </article>
+            {% endif %}
+            {% endfor %}
+        </section>
+
+      </div>
+    </div>
+
+      {% include footer.html %}
+  </body>
+</html>

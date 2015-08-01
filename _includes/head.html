@@ -1,33 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">  
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
 
     <!-- Title -->
     <title>
       {% if page.title == site.author.name %}
 
         {{ page.title }} | Product Designer
-      
+
       {% else %}
 
         {% if page.section %}
-        
+
           {% capture page_title %}{{ page.title | downcase }}{% endcapture %}
           {% if page_title == page.section %}
             {{ page.title }} | {{ site.author.name }}
           {% else %}
             {{ page.title }} | {{ page.section }}
           {% endif %}
-        
+
         {% else %}
-        
+
             {{ page.title }} | {{ site.author.name }}
-        
+
         {% endif %}
 
       {% endif %}
@@ -42,11 +42,11 @@
     {% else %}
       <meta name="description" content="Hi, my name is Daniel and I made this website. Hope you enjoy it."/>
     {% endif %}
-     
+
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-    
+
 
     <!-- CSS and Favicons -->
     {% comment %} <!-- Improve this code with CASES assigning strings according to page.section -->{% endcomment %}
@@ -55,7 +55,7 @@
       <link rel="stylesheet" href="{{ "/assets/stylesheets/buckets.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
 
       <link rel="shortcut icon" href="/assets/images/interface/favicon_buckets.ico?bust={{ site.time | date: '%s' }}">
-    
+
     {% elsif page.url contains "/work/" %}
       <link rel="stylesheet" href="{{ "/assets/stylesheets/work.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
 
@@ -65,17 +65,23 @@
       <link rel="stylesheet" href="{{ "/assets/stylesheets/notes.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
 
       <link rel="shortcut icon" href="/assets/images/interface/favicon_notes.ico?bust={{ site.time | date: '%s' }}">
-    
+
+      {% elsif page.url contains "/docs/" %}
+        <link rel="stylesheet" href="{{ "/assets/stylesheets/docs.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
+
+        <link rel="shortcut icon" href="/assets/images/interface/favicon_notes.ico?bust={{ site.time | date: '%s' }}">
+
+
     {% else %}
       <link rel="stylesheet" href="{{ "/assets/stylesheets/main.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
 
-      <link rel="shortcut icon" href="/assets/images/interface/favicon.ico?bust={{ site.time | date: '%s' }}">    
+      <link rel="shortcut icon" href="/assets/images/interface/favicon.ico?bust={{ site.time | date: '%s' }}">
     {% endif %}
-    
+
 
     <!-- RSS Feed -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}" />
-    
+
 
     <!-- Facebook OG Tags -->
     <meta property="og:site_name" content="{{ site.title }}"/>
@@ -113,7 +119,7 @@
       ga('send', 'pageview');
 
     </script>
-   
+
 
     <!-- Typekit -->
     {% if site.connection == "offline" %}
@@ -124,6 +130,6 @@
 
 </head>
 
-<body>  
+<body>
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->

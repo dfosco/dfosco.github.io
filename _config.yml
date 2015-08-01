@@ -33,3 +33,6 @@ collections:
   works:
     output: true
     permalink: /work/:path/
+  docs:
+    output: true
+    permalink: /docs/:path/    
