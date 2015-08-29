@@ -1,5 +1,8 @@
  - section: Notes
-   url: /notes  
- 
+   url: /notes
+
  - section: Work
    url: /work
+
+ - section: Buckets
+   url: /buckets
