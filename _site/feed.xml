@@ -5,9 +5,30 @@
     <description>Hi. I&#39;m Daniel Fosco, a freelance designer &amp; developer. I make things for web + mobile.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Aug 2015 09:30:21 -0300</pubDate>
-    <lastBuildDate>Sat, 01 Aug 2015 09:30:21 -0300</lastBuildDate>
+    <pubDate>Sat, 29 Aug 2015 17:28:54 -0300</pubDate>
+    <lastBuildDate>Sat, 29 Aug 2015 17:28:54 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>The UI Stack</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;We think in flows, and we’re used to the physical world. When a door opens, it swings on an arc. When something travels, you can see it move. When something falls, you can see it bounce.&lt;/p&gt;
+
+  &lt;p&gt;Awkward UI is when a product designer doesn’t take these things into account. That means that somewhere along the line, some rules have been broken.&lt;/p&gt;
+
+  &lt;p&gt;The rules of the UI Stack.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This fantastic article is really helpful to navigate the dizziness of the design process for large multi-state applications. It has some parallels with Everett McKay’s approach in &lt;a href=&quot;http://www.amazon.com/UI-Communication-Intuitive-Interfaces-Effective/dp/0123969808/&quot;&gt;UI is Communication&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Aug 2015 14:19:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/the-ui-stack</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/the-ui-stack</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
     
       <item>
         <title>Can a Font Make Us Believe Something is True?</title>
@@ -184,29 +205,6 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
         <pubDate>Mon, 08 Jun 2015 08:20:00 -0300</pubDate>
         <link>http://danielfos.co/notes/on-the-topic-of-impostor-syndrome</link>
         <guid isPermaLink="true">http://danielfos.co/notes/on-the-topic-of-impostor-syndrome</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Modern Design Tools</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;We live in a world that is dynamic, designing and building software that lives on devices that are always changing and evolving. These devices have multiple screen sizes, densities, orientations. Our experiences live in this medium, and adapt to ever-changing constraints. This leads us to an important principle:&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Design tools should have the same properties as the medium for which we are designing.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Josh Puckett does an exploration on the properties of future design tools. Meanwhile, &lt;a href=&quot;https://medium.com/@almonk/design-like-it-s-1999-48ce5f5be14&quot;&gt;Alasdair Monk&lt;/a&gt; is building something quite like that.&lt;/p&gt;
-
-&lt;p&gt;Between Sketch, Framer, Pixate, Affinity Designer and this, I can wait barely wait to see the landscape of design tools in the next 5 years.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Related:&lt;/strong&gt; Khoi Vinh’s &lt;a href=&quot;http://www.subtraction.com/2015/06/02/the-subtraction-com-design-tools-survey/&quot;&gt;survey&lt;/a&gt; on the current state of design tools&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Jun 2015 08:04:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/modern-design-tools</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/modern-design-tools</guid>
         
         
         <category>notes</category>
