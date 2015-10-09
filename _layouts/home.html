@@ -8,18 +8,18 @@
     <div class="hero">
       <span class="hero__mega">Hi.</span>
       <div class="hero__description">
-          <h1 class="hero__text">I’m Daniel Fosco, a designer working at <a href="http://lab.vtex.com.br" class="main-accent">VTEX</a>.</h1>
+          <h1 class="hero__text">I’m Daniel Fosco, a designer working at <a href="http://lab.vtex.com" class="main-accent">VTEX</a>.</h1>
           <h2 class="hero__text">I make things for web + mobile.</h2>
       </div>
-   
+
       <div class="hero__contact">
         <h3 class="hero__text">Got an idea? <a href="mailto:danielfosco@gmail.com" class="main-accent">Let’s chat</a>.</h3>
         <h5 class="hero__text--tiny">You can also find me on <a href="https://twitter.com/notdanielfosco" class="twitter-accent">Twitter</a>, <a href="https://dribbble.com/dfosco" class="dribbble-accent" >Dribbble</a> and <a href="https://github.com/dfosco" class="github-accent">Github</a>.</h5>
       </div>
     </div>
-  </header>  
+  </header>
 
-  
+
       <section class="content--{{ page.width }}">
         <div class="content--jekyll">
           {{ content }}
@@ -65,8 +65,8 @@
                     </div>
                 </div>
             {% else %}
-            {% endif %}                
-            
+            {% endif %}
+
             {% endfor %}
 
             <button class="latest__work--more">
@@ -76,16 +76,16 @@
             </button>
 
             </div>
-              
-          
+
+
           <div class="latest__posts">
             <a href="/notes"><h3 class="latest__section-header">Notes</h3>
             {% for post in site.posts | limit: 3 %}
-              
+
             <article class="card" id="{{ post.url | replace: '/links/', '' | replace: '/notes/', '' }}">
               <div class="card__inner">
-            
-            
+
+
               {% if post.image-name != "none" %}
 
                     <div class="card__img">
@@ -97,23 +97,23 @@
                         <a href="{{ post.source }}?ref=danielfosco" target="_blank">
                           <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}">
                         </a>
-                      {% endif %}                      
+                      {% endif %}
                     </div>
-              
+
               {% endif %}
-                       
+
 
                   {% if post.source == null %}
                   <a href="{{ post.url }}" target="_blank"><h2 class="card__title">{{ post.title }}</h2><br><span class="card__date">{{ post.date | date: "%B %-d" }}</span></a>
-                
+
                   {% else %}
                   <a href="{{ post.source }}?ref=danielfosco" target="_blank"><h2 class="card__title">{{ post.title }}</h2></a><br>
                   <span class="card__date">{{ post.date | date: "%B %-d" }}</span>
-                  
+
                   {% endif %}
 
                   <div class="card__description">{{ post.content }}</div>
-                  
+
                   <a href="{{ post.url }}">
                    <div class="card__permalink">
                     <span class="permalink__text">Permalink</span>
@@ -127,12 +127,12 @@
                 </div>
             </article>
           {% endfor %}
-          
+
           <button class="latest__posts--more">
             <a href="/notes"class="notes-accent">
               <span class="more__button-text">More notes</span>
             </a>
-          </button>          
+          </button>
 
           </div>
         </div>
@@ -142,8 +142,7 @@
   </div>
 
   {% include footer.html %}
-  
+
   </body>
 
 </html>
-
