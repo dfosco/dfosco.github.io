@@ -9,13 +9,13 @@ width: regular
 
       {% include header.html %}
 
-      {% include buckets/hero.html %}
-
       <div class="wrapper">
 
         <section class="content--{{ page.width }}">
           {{ content }}
         </section>
+
+        {% include buckets/sidebar.html %}
 
       </div>
 

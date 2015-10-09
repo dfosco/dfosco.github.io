@@ -13,9 +13,6 @@ title: Buckets
 
     <div class="card-collection">
       <a href="{{ page.url }}" class="card-collection__inner">
-      <div class="card-collection__image">
-        <img src="{{ site.baseurl }}/assets/images/interface/bucket_icon/{{ bucket_slug }}.svg" alt="{{ page.title }} Bucket's Icon">
-      </div>
       <div class="card-collection__content">
         <h3 class="card-collection__title">{{ page.title }}</h3>
         <div class="card-collection__text">{{ page.content }}</div>
@@ -24,3 +21,5 @@ title: Buckets
     </div>
 
   {% endfor %}
+
+  {% include buckets/sidebar.html %}
