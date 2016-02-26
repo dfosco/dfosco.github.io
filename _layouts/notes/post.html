@@ -13,38 +13,42 @@ width: regular
       <section class="content--regular content--post">
         <article class="card">
           <div class="card__inner">
-            
-            
-              {% if page.image-name != "none" %}
-              
-              
-                <div class="card__img">
-                  {% if page.source == null %}
-                  <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}" {% if page.stroke != null %}class="img__stroke"{% endif %}>
-                  {% else %}
-                  <a href="{{ page.source }}?ref=danielfosco" target="_blank">
-                  <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}" {% if page.stroke != null %}class="img__stroke"{% endif %}>
-                  </a>
-                  {% endif %}
-                </div>
-              
-              {% else %}
+              <div class="card__header">
+                {% if page.image-name != "none" %}
+
+
+                  <div class="card__img">
+                    {% if page.source == null %}
+                    <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}" {% if page.stroke != null %}class="img__stroke"{% endif %}>
+                    {% else %}
+                    <a href="{{ page.source }}?ref=danielfosco" target="_blank">
+                    <img src="{{ site.baseurl }}/assets/images/articles/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.image-name }}" alt="{{ page.image-alt }}" {% if page.stroke != null %}class="img__stroke"{% endif %}>
+                    </a>
+                    {% endif %}
+                  </div>
+
+                {% else %}
+                {% endif %}
+
+
+              {% if page.source == null %}
+              <h1 class="card__title">{{ page.title }}</h1>
+              {% if page.subtitle != null %}
+                <h2 class="card__subtitle">{{ page.subtitle }}</h2>
               {% endif %}
-                     
-            
-            {% if page.source == null %}
-            <h1 class="card__title">{{ page.title }}</h1>
-            <br>
-            <span class="card__date">{{ page.date | date: "%B %-d" }}</span>
-            {% else %}
-            <a href="{{ page.source }}?ref=danielfosco" target="_blank">
-            <h1 class="card__title">{{ page.title }}</h1>
-            </a>
-            <br>
-            <span class="card__date">{{ page.date | date: "%B %-d" }}</span>
-            {% endif %}
-
-
+              <br>
+              <span class="card__date">{{ page.date | date: "%B %-d" }}</span>
+              {% else %}
+              <a href="{{ page.source }}?ref=danielfosco" target="_blank">
+              <h1 class="card__title">{{ page.title }}</h1>
+              {% if page.subtitle != null %}
+                <h2 class="card__subtitle">{{ page.subtitle }}</h2>
+              {% endif %}
+              </a>
+              <br>
+              <span class="card__date">{{ page.date | date: "%B %-d" }}</span>
+              {% endif %}
+            </div>
 
             <div class="content--jekyll">
               {{ content }}
@@ -52,12 +56,12 @@ width: regular
 
           </div>
 
-       </article> 
+       </article>
       </section>
       {% include notes/sidebar-mobile.html %}
 
       {% include notes/sidebar.html %}
-    
+
     </div>
 </div>
 

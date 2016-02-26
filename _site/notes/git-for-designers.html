@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">  
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+    <!-- Title -->
+    <title>
+      
+
+        
+        
+          
+          
+            Git for Designers | notes
+          
+        
+        
+
+      
+    </title>
+
+
+    <!-- SEO Description -->
+    
+      <meta name="description" content="NOTES is a tiny blog by designer & developer Daniel Fosco"/>
+    
+     
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://danielfos.co/notes/git-for-designers">
+    
+
+    <!-- CSS and Favicons -->
+    
+
+    
+      <link rel="stylesheet" href="/assets/stylesheets/notes.css?bust=1456455116">
+
+      <link rel="shortcut icon" href="/assets/images/interface/favicon_notes.ico?bust=1456455116">
+    
+    
+    
+
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="Daniel Fosco" href="http://danielfos.co/feed.xml" />
+    
+
+    <!-- Facebook OG Tags -->
+    <meta property="og:site_name" content="Daniel Fosco"/>
+    <meta property="og:url" content="http://danielfos.co/notes/git-for-designers">
+
+    
+      <meta property="og:description" content="  Read it on Medium, if that’s your thingWriting code is hard. For every 1 minute of bliss typing characters in the computer and seeing it render things that didn’t exist before, there are 10 minutes of frustration with unreadable code and bugs th..."/>
+    
+
+    
+      <meta  property="og:title" content="Git for Designers"/>
+    
+
+    
+      <meta property="og:type" content="blog"/>
+    
+
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-49517272-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+   
+
+    <!-- Typekit -->
+    
+        <script src="//use.typekit.net/fzw3cby.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+    
+
+</head>
+
+<body>  
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+
+
+<div id="viewport" class="container">
+
+  <header role="navigation">
+  <div class="header">
+    <div class="nav__wrapper">
+
+
+
+<nav class="nav--regular">
+
+    
+    
+    
+    
+    
+    
+           
+    
+        <nav class="subnav--first">
+        
+            
+                <h2 class="subnav__text--type__page-title">                    
+            
+
+                <a href="/notes">NOTES</a>
+
+                </h2>
+        </nav>
+
+      
+    
+    
+    
+    
+    
+           
+    
+        <nav class="subnav--middle">
+        
+            
+                <h2 class="subnav__text--color__work">
+            
+
+                <a href="/work">WORK</a>
+
+                </h2>
+        </nav>
+
+      
+
+        <nav class="subnav--last">
+
+            
+                <h3 class="subnav__text--color__daniel-fosco">
+            
+
+              <a href="">Daniel Fosco</a>
+
+            
+            </h3>
+                                   
+        
+        </nav>
+
+</nav>
+
+    </div>
+  </div>
+
+</header>
+
+      
+    <div class="wrapper">
+
+      <section class="content--regular content--post">
+        <article class="card">
+          <div class="card__inner">
+              <div class="card__header">
+                
+
+
+                  <div class="card__img">
+                    
+                    <img src="/assets/images/articles/2016/02/git.png" alt="A beginner's guide" >
+                    
+                  </div>
+
+                
+
+
+              
+              <h1 class="card__title">Git for Designers</h1>
+              
+                <h2 class="card__subtitle">Or anyone who really wants to use it but has no idea how</h2>
+              
+              <br>
+              <span class="card__date">February 22</span>
+              
+            </div>
+
+            <div class="content--jekyll">
+              <blockquote>
+  <p><a href="https://medium.com/@dfosco/git-for-designers-856c434716e">Read it on Medium, if that’s your thing</a></p>
+</blockquote>
+
+<p>Writing code is hard. For every 1 minute of bliss typing characters in the computer and seeing it render things that didn’t exist before, there are 10 minutes of frustration with unreadable code and bugs that didn’t exist the night before.</p>
+
+<p>Writing code with Git is hard. Writing code without it is <em>unthinkable</em>. Whether you’re senior developer on a huge team or a designer who just started dabbling with front-end for personal projects, using Git will change the way you code for the best and make group collaboration enjoyable.</p>
+
+<p>This guide will walk you through basic concepts in Git with some hands-on action at the end. It won’t make you a Git master, but you will be able to use Git by yourself with <a href="https://www.github.com">Github</a> and it’s <a href="https://desktop.github.com/">desktop app</a>.</p>
+
+<p><strong>PSA:</strong> This is a guide for <em>absolute beginners</em>… if you already have Git chops feel free to skim through or jump to the references in the end of the article.</p>
+
+<h3 id="what-is-git">What is Git</h3>
+
+<p><strong>Git is a distributed version-control system for code.</strong></p>
+
+<p>Descriptive but not very helpful, right? Let me tell you a true story then:</p>
+
+<blockquote>
+  <p>You’re working on a small website. You’ve been trying to get that sticky footer right for a whole hour and somehow only managed to make it worse in the process. It’s 2AM. You hate CSS and is currently in the process of re-thinking your life choices. Screw this, <strong>let’s go back to the previous version from 3 hours ago **and watch some Netflix.</strong></p>
+
+  <p>Oh wait.</p>
+</blockquote>
+
+<p>The <em>previous version</em>. You don’t have it anymore, do you?</p>
+
+<p>What if <strong>every change in your project was tracked — every character and line of code you added or deleted.</strong> What if you could save <em>all</em> of your code at every stage of your work?</p>
+
+<p>That way, once you started working on the <em>feature/sticky-footer</em>, you were sure nothing would be lost if you decided to roll back — and you could even go back to work on this feature later if you wanted to.</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/3054/1*jVgsyj1LdsBdraPmjczCcQ.png" alt="**Git is a time machine for code**" /></p>
+
+<p><cite><strong>Git is a time machine for code</strong></cite></p>
+
+<p>That’s what Git does. It tracks and saves <strong>snapshots of your entire codebase</strong> and allows you to easily distribute it to other developers (either teammates or people on the internet). In practice, Git will allow you to:</p>
+
+<ul>
+  <li>Roll-back changes in your code</li>
+  <li>Develop new features without affecting code that’s already live</li>
+  <li>Collaborate with other developers <em>in the same code at the same time</em> without going insane</li>
+  <li>Make it <em>really hard</em> to screw things up</li>
+</ul>
+
+<h3 id="but-what-about-github">But what about… Github?</h3>
+
+<p>This can be confusing for beginners, so let’s clear it up.</p>
+
+<p>Git is an open-source system. You use it by running it on your machine to save your code and then upload it to a server where other people can see it. The thing is, for this to work you have to install Git on this server and manage it yourself. Which, as you probably guessed, <em>is a major pain in the ass</em>.</p>
+
+<p><a href="http://github.com">Github</a> was created to address this problem. It’s a platform that hosts your code on a remote Git server with a nice web interface and allows you to collaborate with other project members on the same server. Conversely, the <a href="https://desktop.github.com/">Github app</a> can be used instead of the default Git command-line application on your desktop.</p>
+
+<p>There are others similar platforms like <a href="https://about.gitlab.com/">Gitlab</a> and <a href="https://bitbucket.org/">Bitbucket</a> — they are great products as well. Github became huge for its interface focused on team collaboration and massive adoption by the open-source community.</p>
+
+<p>For the sake of convention we’re going to use Github for this guide, but the same could be achieved using other hosted platforms.</p>
+
+<h3 id="how-it-works">How it works</h3>
+
+<p>When you use Git, your project lives in a <strong>repository</strong>. Every project is a repository, and every repository has a different history — basically, a timeline of every change you saved in it.</p>
+
+<p>However, Git doesn’t save changes to the history automatically. To save a change to your history, you need to <strong>commit</strong> your changes.</p>
+
+<p>The commit is the most important thing about Git. <em>Comitting</em> is the way to add a file or save changed files to your repository history.</p>
+
+<p>A commit represents a snapshot of your repository in the moment that commit was saved — <em>all of your repository, with every file, all of it</em>.</p>
+
+<p>You can type a message for each of your commits, describing which changes it’s saving to the project’s history. It’s important to keep your commit messages descriptive and short. <strong>Never commit without writing a commit message.</strong></p>
+
+<p>Committing is a powerful tool. It allows you think about your code in chunks and organizes your work — each small part of your work is done and checked in a commit before moving to the next.</p>
+
+<p>There are other important things to know, but let’s do this <strong>right now</strong>.</p>
+
+<h3 id="getting-our-hands-dirty">Getting our hands dirty</h3>
+
+<p>Let’s create a repository and do a test commit. Start by creating a <a href="https://github.com/join">Github account</a> if you don’t have one already.</p>
+
+<p>Once you do, create a new repository. You can name it however you want, this is just a test. Leave other configurations untouched for now.</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/2000/1*HDE73R4sU--weNaEJrEWnA.png" alt="Pretty straightforward" />
+<cite><em>Pretty straightforward</em></cite></p>
+
+<p>You’ve probably seen people using Git with the command-line. It’s easy to do it, but don’t worry, we’ll skip the command-line for now. We will use <a href="https://desktop.github.com/">Github’s desktop app</a> that achieves the same purpose with a helpful UI for Windows or Mac.</p>
+
+<p>Once your repository was created at Github and you have the Desktop app up and running, you’ll see it listed in the app. Now you need to copy it to your machine.</p>
+
+<p>That is, you need to <strong>clone</strong> it. The app will give you the option to select a folder where the repository will live in your computer: that’s where your code should go.</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/5116/1*w4kz4AuqKc0HRGJpPN4fsg.png" alt="" /></p>
+
+<h3 id="saving-your-changes">Saving your changes</h3>
+
+<p>Once you have your repo (short for repository) cloned, add any file and you’ll see all changes listed in the Github App:</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/5120/1*EEz8TIoxKPyOpvrhx1eSew.png" alt="" /></p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/2550/1*DmlefUroOYO12vBkFyoGTA.png" alt="" /></p>
+
+<p>See the change? Now let’s <em>commit it</em>:</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/2000/1*uzCcnHJWk6DSG3UjMETCAg.png" alt="Make sure you commit summary and message are descriptive" />
+<cite><em>Make sure you commit summary and message are descriptive</em></cite></p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/4364/1*PjiXBjHqm_-ctU8xo35E2w.png" alt="Your commit history!" />
+<cite><em>Your commit history!</em></cite></p>
+
+<h3 id="one-important-caveat">One important caveat</h3>
+
+<p>It’s important to notice that <em>your file changes will only be tracked after the file is commited for the first time</em>. Here’s a visual explanation:</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/2560/1*N6447osmv5GWDx_08V7FYA.png" alt="When a new file is added, Git still doesn't know about it. If you don't commit it…" />
+<cite><em>When a new file is added, Git still doesn’t know about it. If you don’t commit it…</em></cite></p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/2560/1*fgie9Er3HjLDCdQ1SVHl-w.png" alt="…any change you make will be lost! The previous line is gone and Git has no history saved." />
+<cite><em>…any change you make will be lost! The previous line is gone and Git has no history saved.</em></cite></p>
+
+<p>That’s one of the reasons it’s important to <em>constantly commit you work</em>, in small chunks — specially when you’re adding a new file. This way you make sure you can roll-back small changes if necessary and no work is lost.</p>
+
+<h3 id="sharing-your-code">Sharing your code</h3>
+
+<p>Once you’re done working, make sure you push your changes to Github using the <strong>Publish</strong> button on the top, so other collaborators can see them (and you have a backup in case something <em>bad</em> happens to your computer)! Conversely, to get the changes added by other collaborators from Github, just press <strong>Sync</strong>.</p>
+
+<p>Want to see a previous state of your project? Just <strong>select a previous commit on your history</strong>.</p>
+
+<p>It’s great to see your repository history growing, being sure that you can roll-back your changes anytime. It can (and probably will) get messy after a while, but knowing <em>it’s really hard</em> to screw things up is a reassuring way to work.</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/4364/1*xyeP9ysBbpYfsGnKdtTX1g.png" alt="Again: make sure your commit messages are as descriptive as possible" /><em>Again: make sure your commit messages are as descriptive as possible</em></p>
+
+<h3 id="whats-next">What’s Next</h3>
+
+<p>You may have realized the Github app shows an option called <strong>branches</strong>. Branches are a good way to modularize your project and make sure your code changes don’t conflict with other collaborators— but let’s leave this for another day ✨.</p>
+
+<p>Using Git by yourself is already a great way to organize the way you code and make sure you can roll-back any unwanted changes. However, this is <em>really</em> just the beginning about Git. If you want further reference, here are some useful links:</p>
+
+<ul>
+  <li><a href="https://www.codeschool.com/courses/try-git">CodeSchool has a crash-course on Git</a></li>
+  <li>Another<a href="http://rogerdudler.github.io/git-guide/"> beginner guide for those that want to use Git in the command line</a></li>
+  <li><a href="https://www.git-tower.com/blog/git-cheat-sheet/">A cheatsheet of Git commands</a> (you may want to see the previous guides first to make sense of this)</li>
+  <li><a href="https://git-scm.com/">Official Git reference</a> (for the brave-hearted!)</li>
+</ul>
+
+            </div>
+
+          </div>
+
+       </article>
+      </section>
+      
+
+<aside class="sidebar desktop-hide" id="subscribe">
+	<div class="sidebar__box--notes--post">
+	    <div class="sidebar__inner">
+		
+	    <p class="sidebar__text">A tiny blog by designer &amp; developer Daniel Fosco.</p>
+		
+		<p class="sidebar__text">You can find me on Twitter <a href="https://www.twitter.com/notdanielfosco/?ref=notes">@notdanielfosco</a>.</p>
+
+		<p class="sidebar__text">Thank you for reading! <i class="twa twa twa-zap"></i></p>
+		
+		<!-- 
+	    <p class="sidebar__text">Subscribe to get the best of the week on your inbox every Sunday morning.</p>
+		<p class="sidebar__text">Don't worry about spam, I hate it as much as you do.</p>
+	    
+	    <form class="sidebar__form" accept-charset="UTF-8" action="https://formkeep.com/f/d87bb1fd8dd1" method="POST">
+		    <div class="sidebar__inputs">
+		    	<input type="text" name="name" placeholder="First Name">
+		    	<input type="email" name="email" placeholder="Email Address">
+		    </div>
+	    <button class="sidebar__button" action="https://formkeep.com/f/d87bb1fd8dd1" method="POST">Subscribe</button>
+	    -->
+
+	    </div>
+	</div>
+</aside>
+
+      
+
+<aside class="sidebar mobile-hide" id="subscribe">
+	<div class="sidebar__box--notes--post">
+	    <div class="sidebar__inner">
+		
+		<h5 class="sidebar__title">NOTES...</h5>	
+	    
+	    <p class="sidebar__text">...is a tiny blog by designer &amp; developer Daniel Fosco.</p>
+		
+		<p class="sidebar__text">You can find me on Twitter <a href="https://www.twitter.com/notdanielfosco/?ref=notes">@notdanielfosco</a>.</p>
+
+		<p class="sidebar__text">Thank you for reading! <i class="twa twa twa-zap"></i></p>
+		
+		<!-- 
+	    <p class="sidebar__text">Subscribe to get the best of the week on your inbox every Sunday morning.</p>
+		<p class="sidebar__text">Don't worry about spam, I hate it as much as you do.</p>
+	    
+	    <form class="sidebar__form" accept-charset="UTF-8" action="https://formkeep.com/f/d87bb1fd8dd1" method="POST">
+		    <div class="sidebar__inputs">
+		    	<input type="text" name="name" placeholder="First Name">
+		    	<input type="email" name="email" placeholder="Email Address">
+		    </div>
+	    <button class="sidebar__button" action="https://formkeep.com/f/d87bb1fd8dd1" method="POST">Subscribe</button>
+	    -->
+
+	    </div>
+	</div>
+</aside>
+
+    </div>
+</div>
+
+<footer class="footer" role="contentinfo">
+	
+  <p class="footer__text"><i class="twa twa-sun-with-face"></i><i class="twa twa-palm-tree"></i> Built with <i class="twa twa-heart"></i> in Rio de Janeiro <i class="twa twa-palm-tree"></i><i class="twa twa-sun-with-face"></i></p>
+</footer>
+ 
+
+</body>
+
+</html>

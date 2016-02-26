@@ -31,9 +31,9 @@
     
 
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.css?bust=1444403596">
+      <link rel="stylesheet" href="/assets/stylesheets/main.css?bust=1456455116">
 
-      <link rel="shortcut icon" href="/assets/images/interface/favicon.ico?bust=1444403596">    
+      <link rel="shortcut icon" href="/assets/images/interface/favicon.ico?bust=1456455116">    
     
     
 
@@ -43,7 +43,7 @@
 
     <!-- Facebook OG Tags -->
     <meta property="og:site_name" content="Daniel Fosco"/>
-    <meta property="og:url" content="http://danielfos.co/index.html">
+    <meta property="og:url" content="http://danielfos.co/">
 
     
       <meta property="og:description" content="Hi, my name is Daniel and I made this website. Hope you enjoy it."/>
@@ -232,6 +232,180 @@
             <a href="/notes"><h3 class="latest__section-header">Notes</h3>
             
 
+            <article class="card" id="git-for-designers">
+              <div class="card__inner">
+
+
+              
+
+                    <div class="card__img">
+                      
+                        <a href="http://danielfos.co//notes/git-for-designers" target="_blank">
+                          <img src="/assets/images/articles/2016/02/git.png" alt="A beginner's guide">
+                         </a>
+                        
+                    </div>
+
+              
+
+
+                  
+                  <a href="/notes/git-for-designers" target="_blank"><h2 class="card__title">Git for Designers</h2><br><span class="card__date">February 22</span></a>
+
+                  
+
+                  <div class="card__description"><blockquote>
+  <p><a href="https://medium.com/@dfosco/git-for-designers-856c434716e">Read it on Medium, if that’s your thing</a></p>
+</blockquote>
+
+<p>Writing code is hard. For every 1 minute of bliss typing characters in the computer and seeing it render things that didn’t exist before, there are 10 minutes of frustration with unreadable code and bugs that didn’t exist the night before.</p>
+
+<p>Writing code with Git is hard. Writing code without it is <em>unthinkable</em>. Whether you’re senior developer on a huge team or a designer who just started dabbling with front-end for personal projects, using Git will change the way you code for the best and make group collaboration enjoyable.</p>
+
+<p>This guide will walk you through basic concepts in Git with some hands-on action at the end. It won’t make you a Git master, but you will be able to use Git by yourself with <a href="https://www.github.com">Github</a> and it’s <a href="https://desktop.github.com/">desktop app</a>.</p>
+
+<p><strong>PSA:</strong> This is a guide for <em>absolute beginners</em>… if you already have Git chops feel free to skim through or jump to the references in the end of the article.</p>
+
+<h3 id="what-is-git">What is Git</h3>
+
+<p><strong>Git is a distributed version-control system for code.</strong></p>
+
+<p>Descriptive but not very helpful, right? Let me tell you a true story then:</p>
+
+<blockquote>
+  <p>You’re working on a small website. You’ve been trying to get that sticky footer right for a whole hour and somehow only managed to make it worse in the process. It’s 2AM. You hate CSS and is currently in the process of re-thinking your life choices. Screw this, <strong>let’s go back to the previous version from 3 hours ago **and watch some Netflix.</strong></p>
+
+  <p>Oh wait.</p>
+</blockquote>
+
+<p>The <em>previous version</em>. You don’t have it anymore, do you?</p>
+
+<p>What if <strong>every change in your project was tracked — every character and line of code you added or deleted.</strong> What if you could save <em>all</em> of your code at every stage of your work?</p>
+
+<p>That way, once you started working on the <em>feature/sticky-footer</em>, you were sure nothing would be lost if you decided to roll back — and you could even go back to work on this feature later if you wanted to.</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/3054/1*jVgsyj1LdsBdraPmjczCcQ.png" alt="**Git is a time machine for code**" /></p>
+
+<p><cite><strong>Git is a time machine for code</strong></cite></p>
+
+<p>That’s what Git does. It tracks and saves <strong>snapshots of your entire codebase</strong> and allows you to easily distribute it to other developers (either teammates or people on the internet). In practice, Git will allow you to:</p>
+
+<ul>
+  <li>Roll-back changes in your code</li>
+  <li>Develop new features without affecting code that’s already live</li>
+  <li>Collaborate with other developers <em>in the same code at the same time</em> without going insane</li>
+  <li>Make it <em>really hard</em> to screw things up</li>
+</ul>
+
+<h3 id="but-what-about-github">But what about… Github?</h3>
+
+<p>This can be confusing for beginners, so let’s clear it up.</p>
+
+<p>Git is an open-source system. You use it by running it on your machine to save your code and then upload it to a server where other people can see it. The thing is, for this to work you have to install Git on this server and manage it yourself. Which, as you probably guessed, <em>is a major pain in the ass</em>.</p>
+
+<p><a href="http://github.com">Github</a> was created to address this problem. It’s a platform that hosts your code on a remote Git server with a nice web interface and allows you to collaborate with other project members on the same server. Conversely, the <a href="https://desktop.github.com/">Github app</a> can be used instead of the default Git command-line application on your desktop.</p>
+
+<p>There are others similar platforms like <a href="https://about.gitlab.com/">Gitlab</a> and <a href="https://bitbucket.org/">Bitbucket</a> — they are great products as well. Github became huge for its interface focused on team collaboration and massive adoption by the open-source community.</p>
+
+<p>For the sake of convention we’re going to use Github for this guide, but the same could be achieved using other hosted platforms.</p>
+
+<h3 id="how-it-works">How it works</h3>
+
+<p>When you use Git, your project lives in a <strong>repository</strong>. Every project is a repository, and every repository has a different history — basically, a timeline of every change you saved in it.</p>
+
+<p>However, Git doesn’t save changes to the history automatically. To save a change to your history, you need to <strong>commit</strong> your changes.</p>
+
+<p>The commit is the most important thing about Git. <em>Comitting</em> is the way to add a file or save changed files to your repository history.</p>
+
+<p>A commit represents a snapshot of your repository in the moment that commit was saved — <em>all of your repository, with every file, all of it</em>.</p>
+
+<p>You can type a message for each of your commits, describing which changes it’s saving to the project’s history. It’s important to keep your commit messages descriptive and short. <strong>Never commit without writing a commit message.</strong></p>
+
+<p>Committing is a powerful tool. It allows you think about your code in chunks and organizes your work — each small part of your work is done and checked in a commit before moving to the next.</p>
+
+<p>There are other important things to know, but let’s do this <strong>right now</strong>.</p>
+
+<h3 id="getting-our-hands-dirty">Getting our hands dirty</h3>
+
+<p>Let’s create a repository and do a test commit. Start by creating a <a href="https://github.com/join">Github account</a> if you don’t have one already.</p>
+
+<p>Once you do, create a new repository. You can name it however you want, this is just a test. Leave other configurations untouched for now.</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/2000/1*HDE73R4sU--weNaEJrEWnA.png" alt="Pretty straightforward" />
+<cite><em>Pretty straightforward</em></cite></p>
+
+<p>You’ve probably seen people using Git with the command-line. It’s easy to do it, but don’t worry, we’ll skip the command-line for now. We will use <a href="https://desktop.github.com/">Github’s desktop app</a> that achieves the same purpose with a helpful UI for Windows or Mac.</p>
+
+<p>Once your repository was created at Github and you have the Desktop app up and running, you’ll see it listed in the app. Now you need to copy it to your machine.</p>
+
+<p>That is, you need to <strong>clone</strong> it. The app will give you the option to select a folder where the repository will live in your computer: that’s where your code should go.</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/5116/1*w4kz4AuqKc0HRGJpPN4fsg.png" alt="" /></p>
+
+<h3 id="saving-your-changes">Saving your changes</h3>
+
+<p>Once you have your repo (short for repository) cloned, add any file and you’ll see all changes listed in the Github App:</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/5120/1*EEz8TIoxKPyOpvrhx1eSew.png" alt="" /></p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/2550/1*DmlefUroOYO12vBkFyoGTA.png" alt="" /></p>
+
+<p>See the change? Now let’s <em>commit it</em>:</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/2000/1*uzCcnHJWk6DSG3UjMETCAg.png" alt="Make sure you commit summary and message are descriptive" />
+<cite><em>Make sure you commit summary and message are descriptive</em></cite></p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/4364/1*PjiXBjHqm_-ctU8xo35E2w.png" alt="Your commit history!" />
+<cite><em>Your commit history!</em></cite></p>
+
+<h3 id="one-important-caveat">One important caveat</h3>
+
+<p>It’s important to notice that <em>your file changes will only be tracked after the file is commited for the first time</em>. Here’s a visual explanation:</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/2560/1*N6447osmv5GWDx_08V7FYA.png" alt="When a new file is added, Git still doesn't know about it. If you don't commit it…" />
+<cite><em>When a new file is added, Git still doesn’t know about it. If you don’t commit it…</em></cite></p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/2560/1*fgie9Er3HjLDCdQ1SVHl-w.png" alt="…any change you make will be lost! The previous line is gone and Git has no history saved." />
+<cite><em>…any change you make will be lost! The previous line is gone and Git has no history saved.</em></cite></p>
+
+<p>That’s one of the reasons it’s important to <em>constantly commit you work</em>, in small chunks — specially when you’re adding a new file. This way you make sure you can roll-back small changes if necessary and no work is lost.</p>
+
+<h3 id="sharing-your-code">Sharing your code</h3>
+
+<p>Once you’re done working, make sure you push your changes to Github using the <strong>Publish</strong> button on the top, so other collaborators can see them (and you have a backup in case something <em>bad</em> happens to your computer)! Conversely, to get the changes added by other collaborators from Github, just press <strong>Sync</strong>.</p>
+
+<p>Want to see a previous state of your project? Just <strong>select a previous commit on your history</strong>.</p>
+
+<p>It’s great to see your repository history growing, being sure that you can roll-back your changes anytime. It can (and probably will) get messy after a while, but knowing <em>it’s really hard</em> to screw things up is a reassuring way to work.</p>
+
+<p><img src="https://medium2.global.ssl.fastly.net/max/4364/1*xyeP9ysBbpYfsGnKdtTX1g.png" alt="Again: make sure your commit messages are as descriptive as possible" /><em>Again: make sure your commit messages are as descriptive as possible</em></p>
+
+<h3 id="whats-next">What’s Next</h3>
+
+<p>You may have realized the Github app shows an option called <strong>branches</strong>. Branches are a good way to modularize your project and make sure your code changes don’t conflict with other collaborators— but let’s leave this for another day ✨.</p>
+
+<p>Using Git by yourself is already a great way to organize the way you code and make sure you can roll-back any unwanted changes. However, this is <em>really</em> just the beginning about Git. If you want further reference, here are some useful links:</p>
+
+<ul>
+  <li><a href="https://www.codeschool.com/courses/try-git">CodeSchool has a crash-course on Git</a></li>
+  <li>Another<a href="http://rogerdudler.github.io/git-guide/"> beginner guide for those that want to use Git in the command line</a></li>
+  <li><a href="https://www.git-tower.com/blog/git-cheat-sheet/">A cheatsheet of Git commands</a> (you may want to see the previous guides first to make sense of this)</li>
+  <li><a href="https://git-scm.com/">Official Git reference</a> (for the brave-hearted!)</li>
+</ul>
+</div>
+
+                  <a href="/notes/git-for-designers">
+                   <div class="card__permalink">
+                    <span class="permalink__text">Permalink</span>
+                    
+                    <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+                    
+                    </div>
+                  </a>
+                </div>
+            </article>
+          
+
             <article class="card" id="the-ui-stack">
               <div class="card__inner">
 
@@ -299,44 +473,6 @@
 </div>
 
                   <a href="/notes/can-a-font-make-us-believe-something-is-true">
-                   <div class="card__permalink">
-                    <span class="permalink__text">Permalink</span>
-                    
-                    <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                    
-                    </div>
-                  </a>
-                </div>
-            </article>
-          
-
-            <article class="card" id="21-management-things-i-learned-at-imgur">
-              <div class="card__inner">
-
-
-              
-
-
-                  
-                  <a href="https://medium.com/@gerstenzang/21-management-things-i-learned-at-imgur-7abb72bdf8bf?ref=danielfosco" target="_blank"><h2 class="card__title">“21 management things I learned at Imgur”</h2></a><br>
-                  <span class="card__date">June 27</span>
-
-                  
-
-                  <div class="card__description"><p>So many good points on mission, values and building a company. Don’t let the title fool you, there’s no “management” advice in this list.</p>
-
-<p>Some highlights:</p>
-
-<blockquote>
-  <p>It’s terribly difficult to manage unmotivated people. Make your job easier and don’t.</p>
-
-  <p>Fire quickly. If you don’t fire bad performers fast, you’re at risk of losing your good performers. Don’t underestimate the effect bad performers have on good performers. Your team will likely move faster even with fewer bodies. Finally, firing for bad performance is easier than having to fire good people because you’ve run out of money, so fire the bad people before you have to fire the good people too.</p>
-
-  <p>How you spend money is one of the biggest cultural signals you can send and is very hard to change. Where you spend money (and where you don’t) communicates what you think is important.</p>
-</blockquote>
-</div>
-
-                  <a href="/notes/21-management-things-i-learned-at-imgur">
                    <div class="card__permalink">
                     <span class="permalink__text">Permalink</span>
                     

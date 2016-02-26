@@ -16,7 +16,7 @@
   border-bottom: 1px solid $outlier;
   padding:0.5em 0.5em 1.5em 0.5em;
 
-  @include media($medium-screen-up) { 
+  @include media($medium-screen-up) {
     padding: 0.5em;
   }
 }
@@ -28,7 +28,12 @@
   margin-bottom: 1.5em;
 
   @include media($medium-screen-up) {
-    width: 85%;    
+    width: 85%;
+  }
+
+  cite {
+    font-size: 0.8em;
+    text-align: center;
   }
 
   span.quote {
@@ -36,8 +41,13 @@
     color: darken($white-1, 8%)
   }
 
-  blockquote {    
-    
+  ul {
+    list-style-type: disc;
+    margin-bottom: $base-spacing / 2;
+    padding-left: $base-spacing;
+  }
+
+  blockquote {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     border-left: 2px solid darken($white-1, 8%);
@@ -48,7 +58,7 @@
     strong {
       font-weight: 600;
     }
-    
+
     ul {
       margin-left: 1em;
       list-style-type: disc;
@@ -65,8 +75,11 @@
 
 }
 
+.card__header {
+  margin-bottom: 2em;
+}
+
 .card__title {
-  margin-bottom: 1em;
   font-weight: 700;
   font-size: 1.5em;
 
@@ -75,15 +88,19 @@
   }
 }
 
+.card__subtitle {
+  margin-bottom: 0.5em;
+  font-size: 1.45em;
+}
+
 .card__date {
   color: lighten($black-3, 20%);
   display: block;
-  
+
   font-family: $header-font-family;
   font-size: 1em;
   font-weight: 600;
-  
-  margin-top: -2.25em;
+
   margin-bottom: 1.75em;
 
     @include media($medium-screen-up) {
@@ -93,7 +110,7 @@
 
 
 
-.card__description { 
+.card__description {
   @include margin(null null 1em null);
 
   hr {
@@ -102,7 +119,7 @@
   }
 
   p {
-    sup {  
+    sup {
       font-weight: 600;
       font-family: $header-font-family;
 ;
@@ -119,12 +136,12 @@
 
 .card__permalink {
   @include media ($medium-screen-up) {
-        @include span-columns(3 of 10);  
+        @include span-columns(3 of 10);
         @include shift(7);
         margin-top: -0.8em;
   }
 
-  @include span-columns(5 of 10);  
+  @include span-columns(5 of 10);
   @include shift(5);
   text-align: right;
 
@@ -135,7 +152,7 @@
     }
 }
 
-.permalink__text {  
+.permalink__text {
   opacity: 0;
   font-weight: bold;
   font-size: 0.9em;
@@ -153,16 +170,16 @@
   img {
     border-radius: 10px;
   }
-  
+
   @include media ($medium-screen-up){
     width: 100%;
     margin: 0 auto;
   }
-  
+
   img {
     width: 100%;
   }
-} 
+}
 
 .img__stroke {
   border: 3px solid $white-1;

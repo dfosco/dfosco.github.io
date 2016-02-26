@@ -5,9 +5,159 @@
     <description>Hi. I&#39;m Daniel Fosco, a freelance designer &amp; developer. I make things for web + mobile.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Oct 2015 12:13:16 -0300</pubDate>
-    <lastBuildDate>Fri, 09 Oct 2015 12:13:16 -0300</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Thu, 25 Feb 2016 23:51:56 -0300</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2016 23:51:56 -0300</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Git for Designers</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://medium.com/@dfosco/git-for-designers-856c434716e&quot;&gt;Read it on Medium, if that’s your thing&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Writing code is hard. For every 1 minute of bliss typing characters in the computer and seeing it render things that didn’t exist before, there are 10 minutes of frustration with unreadable code and bugs that didn’t exist the night before.&lt;/p&gt;
+
+&lt;p&gt;Writing code with Git is hard. Writing code without it is &lt;em&gt;unthinkable&lt;/em&gt;. Whether you’re senior developer on a huge team or a designer who just started dabbling with front-end for personal projects, using Git will change the way you code for the best and make group collaboration enjoyable.&lt;/p&gt;
+
+&lt;p&gt;This guide will walk you through basic concepts in Git with some hands-on action at the end. It won’t make you a Git master, but you will be able to use Git by yourself with &lt;a href=&quot;https://www.github.com&quot;&gt;Github&lt;/a&gt; and it’s &lt;a href=&quot;https://desktop.github.com/&quot;&gt;desktop app&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PSA:&lt;/strong&gt; This is a guide for &lt;em&gt;absolute beginners&lt;/em&gt;… if you already have Git chops feel free to skim through or jump to the references in the end of the article.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-git&quot;&gt;What is Git&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Git is a distributed version-control system for code.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Descriptive but not very helpful, right? Let me tell you a true story then:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You’re working on a small website. You’ve been trying to get that sticky footer right for a whole hour and somehow only managed to make it worse in the process. It’s 2AM. You hate CSS and is currently in the process of re-thinking your life choices. Screw this, &lt;strong&gt;let’s go back to the previous version from 3 hours ago **and watch some Netflix.&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Oh wait.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;em&gt;previous version&lt;/em&gt;. You don’t have it anymore, do you?&lt;/p&gt;
+
+&lt;p&gt;What if &lt;strong&gt;every change in your project was tracked — every character and line of code you added or deleted.&lt;/strong&gt; What if you could save &lt;em&gt;all&lt;/em&gt; of your code at every stage of your work?&lt;/p&gt;
+
+&lt;p&gt;That way, once you started working on the &lt;em&gt;feature/sticky-footer&lt;/em&gt;, you were sure nothing would be lost if you decided to roll back — and you could even go back to work on this feature later if you wanted to.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://medium2.global.ssl.fastly.net/max/3054/1*jVgsyj1LdsBdraPmjczCcQ.png&quot; alt=&quot;**Git is a time machine for code**&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;&lt;strong&gt;Git is a time machine for code&lt;/strong&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s what Git does. It tracks and saves &lt;strong&gt;snapshots of your entire codebase&lt;/strong&gt; and allows you to easily distribute it to other developers (either teammates or people on the internet). In practice, Git will allow you to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Roll-back changes in your code&lt;/li&gt;
+  &lt;li&gt;Develop new features without affecting code that’s already live&lt;/li&gt;
+  &lt;li&gt;Collaborate with other developers &lt;em&gt;in the same code at the same time&lt;/em&gt; without going insane&lt;/li&gt;
+  &lt;li&gt;Make it &lt;em&gt;really hard&lt;/em&gt; to screw things up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;but-what-about-github&quot;&gt;But what about… Github?&lt;/h3&gt;
+
+&lt;p&gt;This can be confusing for beginners, so let’s clear it up.&lt;/p&gt;
+
+&lt;p&gt;Git is an open-source system. You use it by running it on your machine to save your code and then upload it to a server where other people can see it. The thing is, for this to work you have to install Git on this server and manage it yourself. Which, as you probably guessed, &lt;em&gt;is a major pain in the ass&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://github.com&quot;&gt;Github&lt;/a&gt; was created to address this problem. It’s a platform that hosts your code on a remote Git server with a nice web interface and allows you to collaborate with other project members on the same server. Conversely, the &lt;a href=&quot;https://desktop.github.com/&quot;&gt;Github app&lt;/a&gt; can be used instead of the default Git command-line application on your desktop.&lt;/p&gt;
+
+&lt;p&gt;There are others similar platforms like &lt;a href=&quot;https://about.gitlab.com/&quot;&gt;Gitlab&lt;/a&gt; and &lt;a href=&quot;https://bitbucket.org/&quot;&gt;Bitbucket&lt;/a&gt; — they are great products as well. Github became huge for its interface focused on team collaboration and massive adoption by the open-source community.&lt;/p&gt;
+
+&lt;p&gt;For the sake of convention we’re going to use Github for this guide, but the same could be achieved using other hosted platforms.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-it-works&quot;&gt;How it works&lt;/h3&gt;
+
+&lt;p&gt;When you use Git, your project lives in a &lt;strong&gt;repository&lt;/strong&gt;. Every project is a repository, and every repository has a different history — basically, a timeline of every change you saved in it.&lt;/p&gt;
+
+&lt;p&gt;However, Git doesn’t save changes to the history automatically. To save a change to your history, you need to &lt;strong&gt;commit&lt;/strong&gt; your changes.&lt;/p&gt;
+
+&lt;p&gt;The commit is the most important thing about Git. &lt;em&gt;Comitting&lt;/em&gt; is the way to add a file or save changed files to your repository history.&lt;/p&gt;
+
+&lt;p&gt;A commit represents a snapshot of your repository in the moment that commit was saved — &lt;em&gt;all of your repository, with every file, all of it&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can type a message for each of your commits, describing which changes it’s saving to the project’s history. It’s important to keep your commit messages descriptive and short. &lt;strong&gt;Never commit without writing a commit message.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Committing is a powerful tool. It allows you think about your code in chunks and organizes your work — each small part of your work is done and checked in a commit before moving to the next.&lt;/p&gt;
+
+&lt;p&gt;There are other important things to know, but let’s do this &lt;strong&gt;right now&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-our-hands-dirty&quot;&gt;Getting our hands dirty&lt;/h3&gt;
+
+&lt;p&gt;Let’s create a repository and do a test commit. Start by creating a &lt;a href=&quot;https://github.com/join&quot;&gt;Github account&lt;/a&gt; if you don’t have one already.&lt;/p&gt;
+
+&lt;p&gt;Once you do, create a new repository. You can name it however you want, this is just a test. Leave other configurations untouched for now.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://medium2.global.ssl.fastly.net/max/2000/1*HDE73R4sU--weNaEJrEWnA.png&quot; alt=&quot;Pretty straightforward&quot; /&gt;
+&lt;cite&gt;&lt;em&gt;Pretty straightforward&lt;/em&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ve probably seen people using Git with the command-line. It’s easy to do it, but don’t worry, we’ll skip the command-line for now. We will use &lt;a href=&quot;https://desktop.github.com/&quot;&gt;Github’s desktop app&lt;/a&gt; that achieves the same purpose with a helpful UI for Windows or Mac.&lt;/p&gt;
+
+&lt;p&gt;Once your repository was created at Github and you have the Desktop app up and running, you’ll see it listed in the app. Now you need to copy it to your machine.&lt;/p&gt;
+
+&lt;p&gt;That is, you need to &lt;strong&gt;clone&lt;/strong&gt; it. The app will give you the option to select a folder where the repository will live in your computer: that’s where your code should go.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://medium2.global.ssl.fastly.net/max/5116/1*w4kz4AuqKc0HRGJpPN4fsg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;saving-your-changes&quot;&gt;Saving your changes&lt;/h3&gt;
+
+&lt;p&gt;Once you have your repo (short for repository) cloned, add any file and you’ll see all changes listed in the Github App:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://medium2.global.ssl.fastly.net/max/5120/1*EEz8TIoxKPyOpvrhx1eSew.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://medium2.global.ssl.fastly.net/max/2550/1*DmlefUroOYO12vBkFyoGTA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;See the change? Now let’s &lt;em&gt;commit it&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://medium2.global.ssl.fastly.net/max/2000/1*uzCcnHJWk6DSG3UjMETCAg.png&quot; alt=&quot;Make sure you commit summary and message are descriptive&quot; /&gt;
+&lt;cite&gt;&lt;em&gt;Make sure you commit summary and message are descriptive&lt;/em&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://medium2.global.ssl.fastly.net/max/4364/1*PjiXBjHqm_-ctU8xo35E2w.png&quot; alt=&quot;Your commit history!&quot; /&gt;
+&lt;cite&gt;&lt;em&gt;Your commit history!&lt;/em&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;one-important-caveat&quot;&gt;One important caveat&lt;/h3&gt;
+
+&lt;p&gt;It’s important to notice that &lt;em&gt;your file changes will only be tracked after the file is commited for the first time&lt;/em&gt;. Here’s a visual explanation:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://medium2.global.ssl.fastly.net/max/2560/1*N6447osmv5GWDx_08V7FYA.png&quot; alt=&quot;When a new file is added, Git still doesn&#39;t know about it. If you don&#39;t commit it…&quot; /&gt;
+&lt;cite&gt;&lt;em&gt;When a new file is added, Git still doesn’t know about it. If you don’t commit it…&lt;/em&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://medium2.global.ssl.fastly.net/max/2560/1*fgie9Er3HjLDCdQ1SVHl-w.png&quot; alt=&quot;…any change you make will be lost! The previous line is gone and Git has no history saved.&quot; /&gt;
+&lt;cite&gt;&lt;em&gt;…any change you make will be lost! The previous line is gone and Git has no history saved.&lt;/em&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s one of the reasons it’s important to &lt;em&gt;constantly commit you work&lt;/em&gt;, in small chunks — specially when you’re adding a new file. This way you make sure you can roll-back small changes if necessary and no work is lost.&lt;/p&gt;
+
+&lt;h3 id=&quot;sharing-your-code&quot;&gt;Sharing your code&lt;/h3&gt;
+
+&lt;p&gt;Once you’re done working, make sure you push your changes to Github using the &lt;strong&gt;Publish&lt;/strong&gt; button on the top, so other collaborators can see them (and you have a backup in case something &lt;em&gt;bad&lt;/em&gt; happens to your computer)! Conversely, to get the changes added by other collaborators from Github, just press &lt;strong&gt;Sync&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Want to see a previous state of your project? Just &lt;strong&gt;select a previous commit on your history&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;It’s great to see your repository history growing, being sure that you can roll-back your changes anytime. It can (and probably will) get messy after a while, but knowing &lt;em&gt;it’s really hard&lt;/em&gt; to screw things up is a reassuring way to work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://medium2.global.ssl.fastly.net/max/4364/1*xyeP9ysBbpYfsGnKdtTX1g.png&quot; alt=&quot;Again: make sure your commit messages are as descriptive as possible&quot; /&gt;&lt;em&gt;Again: make sure your commit messages are as descriptive as possible&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-next&quot;&gt;What’s Next&lt;/h3&gt;
+
+&lt;p&gt;You may have realized the Github app shows an option called &lt;strong&gt;branches&lt;/strong&gt;. Branches are a good way to modularize your project and make sure your code changes don’t conflict with other collaborators— but let’s leave this for another day ✨.&lt;/p&gt;
+
+&lt;p&gt;Using Git by yourself is already a great way to organize the way you code and make sure you can roll-back any unwanted changes. However, this is &lt;em&gt;really&lt;/em&gt; just the beginning about Git. If you want further reference, here are some useful links:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codeschool.com/courses/try-git&quot;&gt;CodeSchool has a crash-course on Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another&lt;a href=&quot;http://rogerdudler.github.io/git-guide/&quot;&gt; beginner guide for those that want to use Git in the command line&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.git-tower.com/blog/git-cheat-sheet/&quot;&gt;A cheatsheet of Git commands&lt;/a&gt; (you may want to see the previous guides first to make sense of this)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/&quot;&gt;Official Git reference&lt;/a&gt; (for the brave-hearted!)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 22 Feb 2016 09:19:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/git-for-designers</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/git-for-designers</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
     
       <item>
         <title>The UI Stack</title>
@@ -81,8 +231,8 @@
 &lt;p&gt;A dual email course for designers and non-designers to improve understanding between both parts and make the design process less stressful and more productive.&lt;/p&gt;
 </description>
         <pubDate>Sun, 21 Jun 2015 12:10:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/the-tiny-designer-how-designers%E2%80%93and%E2%80%93non-designers%E2%80%93can-get-along</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/the-tiny-designer-how-designers%E2%80%93and%E2%80%93non-designers%E2%80%93can-get-along</guid>
+        <link>http://danielfos.co/notes/the-tiny-designer-how-designers-and-non-designers-can-get-along</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/the-tiny-designer-how-designers-and-non-designers-can-get-along</guid>
         
         
         <category>notes</category>
@@ -150,13 +300,13 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
 
 &lt;p&gt;Here are some highlights from the issue:&lt;/p&gt;
 
-&lt;h4 id=&quot;hiring&quot;&gt;&lt;strong&gt;Hiring&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;####&lt;strong&gt;Hiring&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;It’s easy to hire someone who’s mediocre, but it’s really hard to fire them. Mediocre people are a drag on quality and moral, but they tend to do just enough good work to stick around. Managers have a tough time justifying letting them go because there’s no actionable offense. The scent of mediocrity on your team will also scare off talented candidates.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;respect&quot;&gt;&lt;strong&gt;Respect&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;####&lt;strong&gt;Respect&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Respect between design and development is the most critical ingredient when making great products. It’s rare that respect between design and development happens organically. It has to be a core value of a company, demonstrated by leadership daily.&lt;/p&gt;
@@ -164,7 +314,7 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
   &lt;p&gt;Respect fosters a can-do attitude. Ideas are freely shared when they’re valued by colleagues, even when they’re not necessarily a winner. We could do a lot better if we started with &lt;a href=&quot;http://www.jesterzimprov.com/fundamental-improv-principles/&quot;&gt;“Yes, and..” instead of “No.”&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;team-size&quot;&gt;&lt;strong&gt;Team Size&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;####&lt;strong&gt;Team Size&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Our UX team is tiny. Twelve of us do the research, design the UI, and build the front-end of the app. The engineering team we work with is equally small. But our size is not a shortcoming; it’s an advantage. Communication is easy when teams are small. Planning happens quickly so we can get back to making.&lt;/p&gt;
@@ -192,19 +342,6 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
         <pubDate>Mon, 08 Jun 2015 08:25:00 -0300</pubDate>
         <link>http://danielfos.co/notes/rapidly-animate-with-keynote</link>
         <guid isPermaLink="true">http://danielfos.co/notes/rapidly-animate-with-keynote</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>On the topic of impostor syndrome</title>
-        <description>&lt;p&gt;Web Developer Ray Bango talks about impostor syndrome and how the ever-increasing pace of web technologies makes us all feel like we’re in a hamster wheel. Make sure to watch the short video embeded in the article, really drives the point home!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Jun 2015 08:20:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/on-the-topic-of-impostor-syndrome</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/on-the-topic-of-impostor-syndrome</guid>
         
         
         <category>notes</category>
