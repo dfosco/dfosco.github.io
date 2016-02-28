@@ -121,8 +121,22 @@
                 </div>
 
 
+                  {% if post.full-length == true %}
 
-                  <div class="card__description">{{ post.excerpt }}</div>
+                  <div class="card__description">
+                    <div class="content--jekyll">
+                      {{ post.excerpt }}
+                    </div>
+                    <a href="{{ post.source }}" class="card__readmore">Read More</span>
+                  </div>
+
+                  {% else %}
+                  <div class="card__description">
+                    <div class="content--jekyll">
+                      {{ post.content }}
+                    </div>
+                  </div>
+                  {% endif %}
 
                   <a href="{{ post.url }}">
                    <div class="card__permalink">

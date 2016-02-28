@@ -152,6 +152,12 @@
     }
 }
 
+.card__readmore {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-top: 0.5em;
+}
+
 .permalink__text {
   opacity: 0;
   font-weight: bold;
@@ -173,7 +179,7 @@
 
   @include media ($medium-screen-up){
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 0.5em auto;
   }
 
   img {

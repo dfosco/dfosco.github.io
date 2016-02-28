@@ -5,8 +5,8 @@
     <description>Hi. I&#39;m Daniel Fosco, a freelance designer &amp; developer. I make things for web + mobile.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Feb 2016 05:56:34 -0300</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2016 05:56:34 -0300</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2016 06:17:59 -0300</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2016 06:17:59 -0300</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -20,6 +20,8 @@
 &lt;p&gt;Writing code with Git is hard. Writing code without it is &lt;em&gt;unthinkable&lt;/em&gt;. Whether you’re senior developer on a huge team or a designer who just started dabbling with front-end for personal projects, using Git will change the way you code for the best and make group collaboration enjoyable.&lt;/p&gt;
 
 &lt;p&gt;This guide will walk you through basic concepts in Git with some hands-on action at the end. It won’t make you a Git master, but you will be able to use Git by yourself with &lt;a href=&quot;https://www.github.com&quot;&gt;Github&lt;/a&gt; and it’s &lt;a href=&quot;https://desktop.github.com/&quot;&gt;desktop app&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;&lt;strong&gt;PSA:&lt;/strong&gt; This is a guide for &lt;em&gt;absolute beginners&lt;/em&gt;… if you already have Git chops feel free to skim through or jump to the references in the end of the article.&lt;/p&gt;
 

@@ -11,6 +11,9 @@ source:
 image-name: git.png
 image-alt: A beginner's guide
 
+full-length: true
+excerpt_separator: <!--more-->
+
 ---
 
 > [Read it on Medium, if that's your thing](https://medium.com/@dfosco/git-for-designers-856c434716e)
@@ -20,6 +23,8 @@ Writing code is hard. For every 1 minute of bliss typing characters in the compu
 Writing code with Git is hard. Writing code without it is *unthinkable*. Whether you’re senior developer on a huge team or a designer who just started dabbling with front-end for personal projects, using Git will change the way you code for the best and make group collaboration enjoyable.
 
 This guide will walk you through basic concepts in Git with some hands-on action at the end. It won’t make you a Git master, but you will be able to use Git by yourself with [Github](https://www.github.com) and it’s [desktop app](https://desktop.github.com/).
+
+<!--more-->
 
 **PSA:** This is a guide for *absolute beginners*… if you already have Git chops feel free to skim through or jump to the references in the end of the article.
 

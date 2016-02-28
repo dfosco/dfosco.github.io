@@ -1,4 +1,4 @@
-// === === === === === === === === === === 
+// === === === === === === === === === ===
 
 // Resetting styles for native tags used inside Jekyll {{ post }} content
 // This is so I can use plain markdown (no classes) and still have the styling just as I want it to be
@@ -6,11 +6,11 @@
 
 // Or: <div class="content-jekyll"> {{ content }} </div>
 
-// === === === === === === === === === === 
+// === === === === === === === === === ===
 
-// Adjust headings and margins 
+// Adjust headings and margins
 
-.content--jekyll {	
+.content--jekyll {
 	margin-bottom: 1.5em;
 }
 
@@ -42,8 +42,10 @@
 // Default styling for images (and for .image-grid__full class) will be full width
 // and the last image in a series will have bottom margin
 
-.content--jekyll > p > img, .image-grid__full {
+.content--jekyll > p > img,
+.image-grid__full {
 	@include span-columns(12 of 12);
+
 	&:nth-last-child(1) {
 		margin-bottom: 1em;
 	}
@@ -51,6 +53,7 @@
 
 // Whenever more than one image appears in a row, they'll have margins added ONLY between them
 
-.content--jekyll > p > img + img, .image-grid__full + .image-grid__full  {	
-	margin-top: 1em;		
-}	
+.content--jekyll > p > img + img,
+.image-grid__full + .image-grid__full  {
+	margin-top: 1em;
+}
