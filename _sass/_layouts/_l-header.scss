@@ -10,7 +10,7 @@
   @include media($medium-screen-up) { padding: 1.5em 0.5em }
   text-align: center;
   padding: 1.5em 1em;
-  
+
 }
 
 //--- --- ---
@@ -23,19 +23,19 @@
   @include flex-wrap(wrap);
   @include justify-content(space-between);
   @include align-items(baseline);
-  
+
 }
 
 .nav--full {
   width: 100%;
   @extend .nav--regular;
-} 
+}
 
 //--- --- ---
 //General Layout and Flex Configuration for Nav Children
 //--- --- ---
 
-.subnav { 
+.subnav {
   @include display(flex);
   @include justify-content(flex-start);
   @include align-items(baseline);
@@ -67,8 +67,8 @@
   @include order(1);
 
   @include media($medium-screen-up) {
-    @include flex-grow(0.3);
-  }  
+    @include flex-grow(1);
+  }
 }
 
 .subnav--last {
@@ -84,7 +84,7 @@
 //This is the basic setup
 .subnav__text {
   a:hover { color: $accent }
-  
+
   font-size: $h4-font-size * 0.935;
   font-weight: 500;
   padding-bottom: 0.25em;
@@ -98,15 +98,15 @@
 }
 
 //This is the style for the current active nav item
-.subnav__text--type__page-title { 
+.subnav__text--type__page-title {
   @extend .subnav__text;
 
-  @include media($medium-screen-up) { 
-    font-size: $h1-font-size; 
+  @include media($medium-screen-up) {
+    font-size: $h1-font-size;
   }
 
   a { color: $primary-lighter }
-  a:hover { color: lighten($primary-lighter, 10%) }  
+  a:hover { color: lighten($primary-lighter, 10%) }
 }
 
 //This is the style for the last nav item -- doesn't get hidden on mobile
@@ -120,7 +120,7 @@
 .subnav__text--color__notes {
   @extend .subnav__text--color;
   a:hover { color: lighten($primary-homepage, 10%) }
-}      
+}
 
 .subnav__text--color__buckets {
   @extend .subnav__text--color;

@@ -1,0 +1,26 @@
+---
+section: work
+width: regular
+---
+
+{% include head.html %}
+
+  <div id="viewport" class="container">
+
+  {% include header.html %}
+
+    <div class="wrapper">
+
+        <section class="content--{{ page.width }}">
+          {{ content }}
+        </section>
+
+    </div>
+
+  </div>
+
+  {% include footer.html %}
+
+  </body>
+
+</html>
