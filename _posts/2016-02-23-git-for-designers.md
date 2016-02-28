@@ -10,6 +10,7 @@ source:
 
 image-name: git.png
 image-alt: A beginner's guide
+stroke: yes
 
 full-length: true
 excerpt_separator: <!--more-->
