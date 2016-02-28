@@ -36,7 +36,6 @@ width: regular
               {% if page.subtitle != null %}
                 <h2 class="card__subtitle">{{ page.subtitle }}</h2>
               {% endif %}
-              <br>
               <span class="card__date">{{ page.date | date: "%B %-d" }}</span>
               {% else %}
               <a href="{{ page.source }}?ref=danielfosco" target="_blank">
