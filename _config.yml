@@ -14,7 +14,7 @@ author:
 # Build settings
 gems: [jekyll-paginate]
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 connection: online
 sass:
     style: :compressed
