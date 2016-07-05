@@ -38,8 +38,4 @@ The final result of our work is the **interactive prototype** you can see below.
 
 Finally, I can't help but mention that this project would never have been successful without the talented <a href="http://www.ashtonoconnor.com/" target="blank">Ashton O'Connor</a> and <a href="http://alfredoachecar.com/" target="blank">Alfredo Achecar</a> on the team.
 
-Luisa Fosco also helped improve the prototype at a later stage <i class="twa twa-sun-with-face"></i>.
-
-<!-- 
 Much of the project's quality is due either to Ashton's obsessive UI Design skills and Alfredo's tireless leadership and research. The late nights and crazy hours were a pleasure with these two around.
- -->

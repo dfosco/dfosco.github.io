@@ -11,11 +11,11 @@ meta-client: General Assembly
 meta-role: UX Designer • Information Architect
 meta-timeline: 2 Weeks • July 2014
 
-project-url: 
+project-url:
 
 prototype: yes
 prototype-url: http://y9d00x.axshare.com/#c=2
-prototype-embed-url: 
+prototype-embed-url:
 
 append-collection:
 
@@ -23,7 +23,7 @@ append-collection:
 
 Instagram Print was a project for General Assembly's UXDI class in partnership with Paz Perez and Christina Vu. In the (fictional) brief, Instagram needed a way to diversify their revenue stream and needed a new printing feature to be developed.
 
-The team for this project was really tight-knit, and the process was a big exercise in participatory design, from user research to prototyping. 
+The team for this project was really tight-knit, and the process was a big exercise in participatory design, from user research to prototyping.
 
 Towards the end of the project, my role shifted to assembling the app prototype using Axure, which you can play around with <a href="http://y9d00x.axshare.com/#c=2" target="_blank">here</a>.
 
@@ -35,7 +35,7 @@ Towards the end of the project, my role shifted to assembling the app prototype 
     </div>
 </section>
 
-#####Competitive analysis, User Research and Affinity Mapping
+##### Competitive analysis, User Research and Affinity Mapping
 
 We set our core concept as an expansion of Instagram's brand into the real world by connecting Instagram into the old way of sharing — through printing and gifting pictures.
 
@@ -75,9 +75,9 @@ Research results were aggregated in an affinity map, to prioritize user needs an
 
 </section>
 
-#####Storyboarding and User Flows
+##### Storyboarding and User Flows
 
-A quick storyboarding session helped to shape the first user flows and made clear how the user would move through the new feature in order to print their pictures. 
+A quick storyboarding session helped to shape the first user flows and made clear how the user would move through the new feature in order to print their pictures.
 
 The flows were complemented by an overview of the new feature in comparison to the rest of app's architecture.
 
@@ -87,7 +87,7 @@ The flows were complemented by an overview of the new feature in comparison to t
 <img src="/assets/images/work/instagram-print/information_architecture_2.png" class="image-grid__full" alt="App's Information Architecture">
 </div>
 
-#####Sketching, Testing, Prototyping, Testing, Testing
+##### Sketching, Testing, Prototyping, Testing, Testing
 
 Early sketches were done in group on the whiteboard, as a way to get the team on the same page and define initial expectations for the interface.
 
@@ -115,8 +115,8 @@ Check out the fully interactive prototype <a href="http://y9d00x.axshare.com/#c=
     <img src="/assets/images/work/instagram-print/interaction_design_2.gif" alt="App Animation Swipe" class="image-grid__thirds" style="margin-bottom: 1em">
 </section>
 
-#####Design at close quarters
+##### Design at close quarters
 
-The deadline was tough, but the close-knit teamwork and the test-driven approach enabled us to achieve great results in a short ammount of time. 
+The deadline was tough, but the close-knit teamwork and the test-driven approach enabled us to achieve great results in a short amount of time.
 
 Loads of testing allowed us to constantly fix our assumptions, while having the team in sync meant better feedback — and thus, a better design output.
