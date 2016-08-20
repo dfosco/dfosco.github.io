@@ -6,7 +6,7 @@ category: notes
 title: Getting Started with Command-Line Interfaces
 source: http://sixrevisions.com/tutorials/command-line/
 
-image-name: none
+image-name:
 image-alt:
 ---
 

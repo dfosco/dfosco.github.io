@@ -6,7 +6,7 @@ category: notes
 title: Coding Resources
 source: 
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

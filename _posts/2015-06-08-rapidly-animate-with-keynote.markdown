@@ -7,7 +7,7 @@ section: notes
 title:  Rapidly Animate with Keynote
 source: http://blog.uxtree.io/rapidly-animating-with-keynote/
 
-image-name: none
+image-name:
 image-alt:
 ---
 

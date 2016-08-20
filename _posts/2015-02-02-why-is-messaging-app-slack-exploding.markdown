@@ -6,7 +6,7 @@ category: notes
 title:  Why is messaging app Slack exploding?
 source: http://venturebeat.com/2015/01/19/why-is-messaging-app-slack-exploding-founder-i-have-no-f-king-idea
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

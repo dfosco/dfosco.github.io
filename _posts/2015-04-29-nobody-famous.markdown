@@ -6,7 +6,7 @@ category: notes
 title: Nobody Famous 
 source: https://medium.com/message/nobody-famous-37790cb4d014
 
-image-name: none
+image-name:
 image-alt:
 ---
 

@@ -7,7 +7,7 @@ section: notes
 title:  "Women of Silicon Valley — Sophie Xie"
 source: https://medium.com/@WomenOfSiliconValley/sophie-xie-664b7d4df7b
 
-image-name: none
+image-name:
 image-alt:
 ---
 

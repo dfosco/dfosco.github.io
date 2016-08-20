@@ -6,7 +6,7 @@ category: notes
 title:  Why Japanese Web Design Is So… Different
 source: http://randomwire.com/why-japanese-web-design-is-so-different
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

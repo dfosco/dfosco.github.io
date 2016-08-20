@@ -6,7 +6,7 @@ category: notes
 title:  On Surveys — Erika Hall
 source: https://medium.com/research-things/on-surveys-5a73dda5e9a0
 
-image-name: none
+image-name:
 image-alt:
 ---
 

@@ -6,7 +6,7 @@ category: notes
 title: Designing a good portfolio
 source: http://markboulton.co.uk/journal/how-to-design-a-portfolio
 
-image-name: none
+image-name:
 image-alt: 
 ---
 

@@ -6,7 +6,7 @@ category: notes
 title:  Would you put a gas-powered iPhone charger in your pocket?
 source: http://www.engadget.com/2015/02/02/kraftwerk-kickstarter/
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

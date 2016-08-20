@@ -6,7 +6,7 @@ category: notes
 title:  Writing Better Websites
 source: https://userbrain.net/blog/writing-better-websites
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

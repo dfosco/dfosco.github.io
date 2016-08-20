@@ -6,7 +6,7 @@ category: notes
 title:  How I Crashed and Burned in YCombinator
 source: https://medium.com/backchannel/how-i-f-ed-up-in-ycombinator-35a19e7ace68
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

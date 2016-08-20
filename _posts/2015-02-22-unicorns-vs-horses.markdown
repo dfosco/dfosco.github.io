@@ -5,7 +5,7 @@ category: notes
 
 title: Unicorns vs. Horses  
 source: https://medium.com/@awilkinson/unicorns-vs-horses-f81d8dd61f17
-image-name: none 
+image-name: 
 image-alt:
 ---
 

@@ -6,7 +6,7 @@ category: notes
 title:  Better Motherfucking Website
 source: http://bettermotherfuckingwebsite.com
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

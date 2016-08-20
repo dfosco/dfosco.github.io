@@ -7,7 +7,7 @@ section: notes
 title:  Can a Font Make Us Believe Something is True?
 source: http://eyeondesign.aiga.org/can-a-font-make-us-believe-something-is-true/
 
-image-name: none
+image-name:
 image-alt:
 ---
 

@@ -6,7 +6,7 @@ category: notes
 title: "Asking “who’s the customer?”"
 source: http://kottke.org/15/05/asking-whos-the-customer
 
-image-name: none
+image-name:
 image-alt: 
 ---
 

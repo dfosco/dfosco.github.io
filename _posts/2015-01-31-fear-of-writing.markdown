@@ -6,7 +6,7 @@ category: notes
 title:  Fear of Writing
 source: http://williamthomas.io/fear-of-writing
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

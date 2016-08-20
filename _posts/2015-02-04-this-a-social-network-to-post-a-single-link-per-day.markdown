@@ -6,7 +6,7 @@ category: notes
 title: "This. — A Social Network to Post a Single Link per Day"
 source: https://this.cm
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

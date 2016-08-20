@@ -6,7 +6,7 @@ category: notes
 title: "The numbers don’t lie: Jay-Z’s Tidal music service is already a spectacular flop"
 source: http://bgr.com/2015/04/21/tidal-vs-pandora-vs-spotify/
 
-image-name: none
+image-name:
 image-alt:
 ---
 

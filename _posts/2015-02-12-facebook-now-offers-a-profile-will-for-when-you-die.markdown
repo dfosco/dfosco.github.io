@@ -6,7 +6,7 @@ category: notes
 title:  Facebook now offers a profile will for when you die
 source: https://gigaom.com/2015/02/12/facebook-now-offers-a-profile-will-for-when-you-die
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

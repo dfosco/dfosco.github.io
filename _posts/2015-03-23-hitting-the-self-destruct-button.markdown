@@ -6,7 +6,7 @@ category: notes
 title:  Hitting the Self-Destruct Button
 source: http://chuise.com/2015/03/18/self-destruction
 
-image-name: none
+image-name:
 image-alt:
 ---
 

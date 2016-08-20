@@ -7,7 +7,7 @@ section: notes
 title: Tutorial Hunt
 source: http://tutorialhunt.meteor.com/
 
-image-name: none
+image-name:
 image-alt: 
 ---
 

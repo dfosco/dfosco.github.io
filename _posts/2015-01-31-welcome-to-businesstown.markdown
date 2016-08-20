@@ -6,7 +6,7 @@ category: notes
 title:  Welcome to Business Town
 source: http://welcometobusinesstown.tumblr.com
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

@@ -6,7 +6,7 @@ category: notes
 title:  Your Dick Pics Are About to Be All Over the Internet
 source: http://www.wired.com/2015/02/dick-pics/
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

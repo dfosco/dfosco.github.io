@@ -6,7 +6,7 @@ category: notes
 title:  The Web's Grain — Frank Chimero
 source: http://frankchimero.com/talks/the-webs-grain/transcript/
 
-image-name: none
+image-name:
 image-alt:
 ---
 

@@ -24,38 +24,44 @@ title: Notes
       <div class="card__inner">
         <div class="card__header">
 
-        {% if post.image-name != "none" %}
+        {% if post.image-name %}
 
-              <div class="card__img">
+          <div class="card__img">
 
-                {% if post.source == null %}
-                  <a href="{{ site.url }}/{{ post.url }}" target="_blank">
-                    <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}" {% if post.stroke != null %}class="img__stroke"{% endif %}>
-                   </a>
-                  {% else %}
-                  <a href="{{ post.source }}?ref=danielfosco" target="_blank">
-                    <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}" {% if post.stroke != null %}class="img__stroke"{% endif %}>
-                  </a>
-                {% endif %}
-              </div>
+            {% if !post.source %}
+              <a href="{{ site.url }}/{{ post.url }}" target="_blank">
+                <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}" {% if post.stroke != null %}class="img__stroke"{% endif %}>
+               </a>
+              {% else %}
+              <a href="{{ post.source }}?ref=danielfosco" target="_blank">
+                <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}" {% if post.stroke != null %}class="img__stroke"{% endif %}>
+              </a>
+            {% endif %}
+
+          </div>
 
         {% endif %}
 
-            {% if post.source == null %}
-            <a href="{{ post.url }}" target="_blank"><h2 class="card__title">{{ post.title }}</h2>
+        {% if !post.source %}
 
-            {% if post.subtitle != null %}
-              <h2 class="card__subtitle">{{ post.subtitle }}</h2>
-            {% endif %}
+        <a href="{{ post.url }}" target="_blank">
+          <h1 class="card__title">{{ post.title }}</h1>
 
-            <span class="card__date">{{ post.date | date: "%B %-d" }}</span></a>
+          {% if post.subtitle %}
+          <h2 class="card__subtitle">{{ post.subtitle }}</h2>
+          {% endif %}
 
+          <span class="card__date">{{ post.date | date: "%B %-d" }}</span>
+        </a>
 
-            {% else %}
-            <a href="{{ post.source }}?ref=danielfosco" target="_blank"><h2 class="card__title">{{ post.title }}</h2></a>
-            <span class="card__date">{{ post.date | date: "%B %-d" }}</span>
+        {% else %}
 
-            {% endif %}
+          <a href="{{ post.source }}?ref=danielfosco" target="_blank">
+            <h1 class="card__title">{{ post.title }}</h1>
+          </a>
+          <span class="card__date">{{ post.date | date: "%B %-d" }}</span>
+
+        {% endif %}
         </div>
 
 

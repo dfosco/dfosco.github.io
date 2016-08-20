@@ -7,7 +7,7 @@ section: notes
 title:  “21 management things I learned at Imgur”
 source: https://medium.com/@gerstenzang/21-management-things-i-learned-at-imgur-7abb72bdf8bf
 
-image-name: none
+image-name:
 image-alt:
 ---
 

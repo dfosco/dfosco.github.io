@@ -6,7 +6,7 @@ category: notes
 title:  Tech’s High Barrier to Entry for the Underprivileged
 source: https://medium.com/backchannel/techs-high-barrier-to-entry-for-the-underprivileged-da254356547d
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

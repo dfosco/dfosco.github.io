@@ -6,7 +6,7 @@ category: notes
 title:  Jurassic World Super Bowl Spot
 source: https://www.youtube.com/watch?v=MaAZXbQs3SM
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

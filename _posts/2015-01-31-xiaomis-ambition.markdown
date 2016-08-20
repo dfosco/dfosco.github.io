@@ -6,7 +6,7 @@ category: notes
 title:  Xiaomi's Ambition
 source: http://stratechery.com/2015/xiaomis-ambition/
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

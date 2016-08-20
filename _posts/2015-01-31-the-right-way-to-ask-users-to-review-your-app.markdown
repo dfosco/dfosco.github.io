@@ -6,7 +6,7 @@ category: notes
 title:  The right way to ask users to review your app
 source: https://medium.com/circa/the-right-way-to-ask-users-to-review-your-app-9a32fd604fca
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

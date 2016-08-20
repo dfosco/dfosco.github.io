@@ -7,7 +7,7 @@ section: notes
 title: "The State of Design Tools: An Unscientific Survey"
 source: http://www.subtraction.com/2015/05/07/the-state-of-design-tools/
 
-image-name: none
+image-name:
 image-alt: 
 ---
 

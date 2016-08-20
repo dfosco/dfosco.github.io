@@ -6,7 +6,7 @@ category: notes
 title: I was an undercover Uber driver
 source: http://citypaper.net/uberdriver/
 
-image-name: none
+image-name:
 image-alt: 
 ---
 

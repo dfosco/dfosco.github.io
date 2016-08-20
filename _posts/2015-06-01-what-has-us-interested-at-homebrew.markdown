@@ -7,7 +7,7 @@ section: notes
 title:  What Has Us Interested at Homebrew...
 source: https://quip.com/rcLXASq4IbIj
 
-image-name: none
+image-name:
 image-alt:
 ---
 

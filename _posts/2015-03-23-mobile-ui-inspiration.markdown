@@ -6,7 +6,7 @@ category: notes
 title:  Mobile UI Inspiration
 source: 
 
-image-name: none
+image-name:
 image-alt:
 ---
             

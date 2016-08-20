@@ -6,7 +6,7 @@ category: notes
 title: Affinity Photo Beta
 source: https://affinity.serif.com/en-gb/photo
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

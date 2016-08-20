@@ -6,7 +6,7 @@ category: notes
 title:  Fuck You, Pay Me
 source: https://vimeo.com/22053820
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

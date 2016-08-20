@@ -6,7 +6,7 @@ category: notes
 title:  The Shape of Things to Come
 source: http://www.newyorker.com/magazine/2015/02/23/shape-things-come
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

@@ -6,7 +6,7 @@ category: notes
 title:  Designing Twitter Video
 source: http://paulstamatiou.com/twitter-video/
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

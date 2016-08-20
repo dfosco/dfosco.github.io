@@ -7,7 +7,7 @@ section: notes
 title:  On the topic of impostor syndrome
 source: http://blog.reybango.com/2015/05/12/on-the-topic-of-impostor-syndrome/
 
-image-name: none
+image-name:
 image-alt:
 ---
 

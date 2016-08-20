@@ -6,7 +6,7 @@ category: notes
 title: Futures of Text
 source: http://whoo.ps/2015/02/23/futures-of-text
 
-image-name: none
+image-name:
 image-alt:
 ---
 

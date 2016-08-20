@@ -6,7 +6,7 @@ category: notes
 title: Learning to Love BEM
 source: http://mono.company/2015/05/06/learning-to-love-bem/
 
-image-name: none
+image-name:
 image-alt: 
 ---
 

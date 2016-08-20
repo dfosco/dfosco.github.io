@@ -6,7 +6,7 @@ category: notes
 title:  Designers Who Code
 source: http://sonspring.com/journal/designers-who-code
 
-image-name: none 
+image-name: 
 image-alt:
 ---
 

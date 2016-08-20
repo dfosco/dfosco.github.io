@@ -7,7 +7,7 @@ section: notes
 title: "The freelancer's guide to finding and winning better client work online"
 source: https://letsworkshop.com/advice
 
-image-name: none
+image-name:
 image-alt:
 
 ---

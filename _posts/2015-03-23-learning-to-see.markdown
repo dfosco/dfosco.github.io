@@ -6,7 +6,7 @@ category: notes
 title:  Learning to See
 source: https://ia.net/know-how/learning-to-see
 
-image-name: none
+image-name:
 image-alt:
 ---
 
