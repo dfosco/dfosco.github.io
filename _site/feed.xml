@@ -5,17 +5,13 @@
     <description>Hi. I&#39;m Daniel Fosco, a freelance designer &amp; developer. I make things for web + mobile.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Aug 2016 00:39:36 -0300</pubDate>
-    <lastBuildDate>Sat, 20 Aug 2016 00:39:36 -0300</lastBuildDate>
+    <pubDate>Sat, 20 Aug 2016 02:57:34 -0300</pubDate>
+    <lastBuildDate>Sat, 20 Aug 2016 02:57:34 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Git for Designers</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://medium.com/@dfosco/git-for-designers-856c434716e&quot;&gt;Read it on Medium, if that’s your thing&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Writing code is hard. For every 1 minute of bliss typing characters in the computer and seeing it render things that didn’t exist before, there are 10 minutes of frustration with unreadable code and bugs that didn’t exist the night before.&lt;/p&gt;
+        <description>&lt;p&gt;Writing code is hard. For every 1 minute of bliss typing characters in the computer and seeing it render things that didn’t exist before, there are 10 minutes of frustration with unreadable code and bugs that didn’t exist the night before.&lt;/p&gt;
 
 &lt;p&gt;Writing code with Git is hard. Writing code without it is &lt;em&gt;unthinkable&lt;/em&gt;. Whether you’re senior developer on a huge team or a designer who just started dabbling with front-end for personal projects, using Git will change the way you code for the best and make group collaboration enjoyable.&lt;/p&gt;
 

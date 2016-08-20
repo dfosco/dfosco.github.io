@@ -50,6 +50,14 @@ width: regular
             </div>
 
             <div class="content--jekyll">
+              {% if page.medium-link %}
+              <a href="{{page.medium-link}}" target="_blank" class="medium-badge medium-badge--top">
+                <img src='../assets/images/interface/medium-logo.svg' class="medium-badge__logo" />
+                <p class="medium-badge__text">
+                  Also avaliable on Medium
+                </p>
+              </a>
+              {% endif %}
               {{ content }}
             </div>
 

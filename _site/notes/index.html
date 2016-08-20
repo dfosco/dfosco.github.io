@@ -38,9 +38,9 @@
     
 
     
-      <link rel="stylesheet" href="/assets/stylesheets/notes.css?bust=1471664376">
+      <link rel="stylesheet" href="/assets/stylesheets/notes.css?bust=1471672654">
 
-      <link rel="shortcut icon" href="/assets/images/interface/favicon_notes.ico?bust=1471664376">
+      <link rel="shortcut icon" href="/assets/images/interface/favicon_notes.ico?bust=1471672654">
 
     
 
@@ -54,7 +54,7 @@
     <meta property="og:url" content="http://danielfos.co/notes/">
 
     
-      <meta property="og:description" content="                                                                                                                                                                                                                                                       ..."/>
+      <meta property="og:description" content="                                                                                                                                                                                       Git for Designers                          Or anyone who really ..."/>
     
 
     
@@ -198,211 +198,109 @@
 
         <section class="content--regular content--jekyll">
             
+
     
-       
-      
-        <article class="card" id="git-for-designers">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="http://danielfos.co//notes/git-for-designers" target="_blank">
-                      <img src="/assets/images/articles/2016/02/git.png" alt="A beginner's guide" class="img__stroke">
-                     </a>
-                       
-                </div>
+    <article class="card" id="git-for-designers">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
+                  <a href="http://danielfos.co//notes/git-for-designers" target="_blank">
+                    <img src="/assets/images/articles/2016/02/git.png" alt="A beginner's guide">
+                   </a>
+                  
+              </div>
 
-              
-              <a href="/notes/git-for-designers" target="_blank"><h2 class="card__title">Git for Designers</h2></a>
-              <br><span class="card__date">February 22</span>
-              
-              
+        
+
+            
+            <a href="/notes/git-for-designers" target="_blank"><h2 class="card__title">Git for Designers</h2>
+
+            
+              <h2 class="card__subtitle">Or anyone who really wants to use it but has no idea how</h2>
+            
+
+            <span class="card__date">February 22</span></a>
 
 
-              <div class="card__description"><blockquote>
-  <p><a href="https://medium.com/@dfosco/git-for-designers-856c434716e">Read it on Medium, if that’s your thing</a></p>
-</blockquote>
+            
+        </div>
 
-<p>Writing code is hard. For every 1 minute of bliss typing characters in the computer and seeing it render things that didn’t exist before, there are 10 minutes of frustration with unreadable code and bugs that didn’t exist the night before.</p>
+
+          
+
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Writing code is hard. For every 1 minute of bliss typing characters in the computer and seeing it render things that didn’t exist before, there are 10 minutes of frustration with unreadable code and bugs that didn’t exist the night before.</p>
 
 <p>Writing code with Git is hard. Writing code without it is <em>unthinkable</em>. Whether you’re senior developer on a huge team or a designer who just started dabbling with front-end for personal projects, using Git will change the way you code for the best and make group collaboration enjoyable.</p>
 
 <p>This guide will walk you through basic concepts in Git with some hands-on action at the end. It won’t make you a Git master, but you will be able to use Git by yourself with <a href="https://www.github.com">Github</a> and it’s <a href="https://desktop.github.com/">desktop app</a>.</p>
 
-<!--more-->
 
-<p><strong>PSA:</strong> This is a guide for <em>absolute beginners</em>… if you already have Git chops feel free to skim through or jump to the references in the end of the article.</p>
-
-<h3 id="what-is-git">What is Git</h3>
-
-<p><strong>Git is a distributed version-control system for code.</strong></p>
-
-<p>Descriptive but not very helpful, right? Let me tell you a true story then:</p>
-
-<blockquote>
-  <p>You’re working on a small website. You’ve been trying to get that sticky footer right for a whole hour and somehow only managed to make it worse in the process. It’s 2AM. You hate CSS and is currently in the process of re-thinking your life choices. Screw this, <strong>let’s go back to the previous version from 3 hours ago **and watch some Netflix.</strong></p>
-
-  <p>Oh wait.</p>
-</blockquote>
-
-<p>The <em>previous version</em>. You don’t have it anymore, do you?</p>
-
-<p>What if <strong>every change in your project was tracked — every character and line of code you added or deleted.</strong> What if you could save <em>all</em> of your code at every stage of your work?</p>
-
-<p>That way, once you started working on the <em>feature/sticky-footer</em>, you were sure nothing would be lost if you decided to roll back — and you could even go back to work on this feature later if you wanted to.</p>
-
-<p><img src="https://medium2.global.ssl.fastly.net/max/3054/1*jVgsyj1LdsBdraPmjczCcQ.png" alt="**Git is a time machine for code**" /></p>
-
-<p><cite><strong>Git is a time machine for code</strong></cite></p>
-
-<p>That’s what Git does. It tracks and saves <strong>snapshots of your entire codebase</strong> and allows you to easily distribute it to other developers (either teammates or people on the internet). In practice, Git will allow you to:</p>
-
-<ul>
-  <li>Roll-back changes in your code</li>
-  <li>Develop new features without affecting code that’s already live</li>
-  <li>Collaborate with other developers <em>in the same code at the same time</em> without going insane</li>
-  <li>Make it <em>really hard</em> to screw things up</li>
-</ul>
-
-<h3 id="but-what-about-github">But what about… Github?</h3>
-
-<p>This can be confusing for beginners, so let’s clear it up.</p>
-
-<p>Git is an open-source system. You use it by running it on your machine to save your code and then upload it to a server where other people can see it. The thing is, for this to work you have to install Git on this server and manage it yourself. Which, as you probably guessed, <em>is a major pain in the ass</em>.</p>
-
-<p><a href="http://github.com">Github</a> was created to address this problem. It’s a platform that hosts your code on a remote Git server with a nice web interface and allows you to collaborate with other project members on the same server. Conversely, the <a href="https://desktop.github.com/">Github app</a> can be used instead of the default Git command-line application on your desktop.</p>
-
-<p>There are others similar platforms like <a href="https://about.gitlab.com/">Gitlab</a> and <a href="https://bitbucket.org/">Bitbucket</a> — they are great products as well. Github became huge for its interface focused on team collaboration and massive adoption by the open-source community.</p>
-
-<p>For the sake of convention we’re going to use Github for this guide, but the same could be achieved using other hosted platforms.</p>
-
-<h3 id="how-it-works">How it works</h3>
-
-<p>When you use Git, your project lives in a <strong>repository</strong>. Every project is a repository, and every repository has a different history — basically, a timeline of every change you saved in it.</p>
-
-<p>However, Git doesn’t save changes to the history automatically. To save a change to your history, you need to <strong>commit</strong> your changes.</p>
-
-<p>The commit is the most important thing about Git. <em>Comitting</em> is the way to add a file or save changed files to your repository history.</p>
-
-<p>A commit represents a snapshot of your repository in the moment that commit was saved — <em>all of your repository, with every file, all of it</em>.</p>
-
-<p>You can type a message for each of your commits, describing which changes it’s saving to the project’s history. It’s important to keep your commit messages descriptive and short. <strong>Never commit without writing a commit message.</strong></p>
-
-<p>Committing is a powerful tool. It allows you think about your code in chunks and organizes your work — each small part of your work is done and checked in a commit before moving to the next.</p>
-
-<p>There are other important things to know, but let’s do this <strong>right now</strong>.</p>
-
-<h3 id="getting-our-hands-dirty">Getting our hands dirty</h3>
-
-<p>Let’s create a repository and do a test commit. Start by creating a <a href="https://github.com/join">Github account</a> if you don’t have one already.</p>
-
-<p>Once you do, create a new repository. You can name it however you want, this is just a test. Leave other configurations untouched for now.</p>
-
-<p><img src="https://medium2.global.ssl.fastly.net/max/2000/1*HDE73R4sU--weNaEJrEWnA.png" alt="Pretty straightforward" />
-<cite><em>Pretty straightforward</em></cite></p>
-
-<p>You’ve probably seen people using Git with the command-line. It’s easy to do it, but don’t worry, we’ll skip the command-line for now. We will use <a href="https://desktop.github.com/">Github’s desktop app</a> that achieves the same purpose with a helpful UI for Windows or Mac.</p>
-
-<p>Once your repository was created at Github and you have the Desktop app up and running, you’ll see it listed in the app. Now you need to copy it to your machine.</p>
-
-<p>That is, you need to <strong>clone</strong> it. The app will give you the option to select a folder where the repository will live in your computer: that’s where your code should go.</p>
-
-<p><img src="https://medium2.global.ssl.fastly.net/max/5116/1*w4kz4AuqKc0HRGJpPN4fsg.png" alt="" /></p>
-
-<h3 id="saving-your-changes">Saving your changes</h3>
-
-<p>Once you have your repo (short for repository) cloned, add any file and you’ll see all changes listed in the Github App:</p>
-
-<p><img src="https://medium2.global.ssl.fastly.net/max/5120/1*EEz8TIoxKPyOpvrhx1eSew.png" alt="" /></p>
-
-<p><img src="https://medium2.global.ssl.fastly.net/max/2550/1*DmlefUroOYO12vBkFyoGTA.png" alt="" /></p>
-
-<p>See the change? Now let’s <em>commit it</em>:</p>
-
-<p><img src="https://medium2.global.ssl.fastly.net/max/2000/1*uzCcnHJWk6DSG3UjMETCAg.png" alt="Make sure you commit summary and message are descriptive" />
-<cite><em>Make sure you commit summary and message are descriptive</em></cite></p>
-
-<p><img src="https://medium2.global.ssl.fastly.net/max/4364/1*PjiXBjHqm_-ctU8xo35E2w.png" alt="Your commit history!" />
-<cite><em>Your commit history!</em></cite></p>
-
-<h3 id="one-important-caveat">One important caveat</h3>
-
-<p>It’s important to notice that <em>your file changes will only be tracked after the file is commited for the first time</em>. Here’s a visual explanation:</p>
-
-<p><img src="https://medium2.global.ssl.fastly.net/max/2560/1*N6447osmv5GWDx_08V7FYA.png" alt="When a new file is added, Git still doesn't know about it. If you don't commit it…" />
-<cite><em>When a new file is added, Git still doesn’t know about it. If you don’t commit it…</em></cite></p>
-
-<p><img src="https://medium2.global.ssl.fastly.net/max/2560/1*fgie9Er3HjLDCdQ1SVHl-w.png" alt="…any change you make will be lost! The previous line is gone and Git has no history saved." />
-<cite><em>…any change you make will be lost! The previous line is gone and Git has no history saved.</em></cite></p>
-
-<p>That’s one of the reasons it’s important to <em>constantly commit you work</em>, in small chunks — specially when you’re adding a new file. This way you make sure you can roll-back small changes if necessary and no work is lost.</p>
-
-<h3 id="sharing-your-code">Sharing your code</h3>
-
-<p>Once you’re done working, make sure you push your changes to Github using the <strong>Publish</strong> button on the top, so other collaborators can see them (and you have a backup in case something <em>bad</em> happens to your computer)! Conversely, to get the changes added by other collaborators from Github, just press <strong>Sync</strong>.</p>
-
-<p>Want to see a previous state of your project? Just <strong>select a previous commit on your history</strong>.</p>
-
-<p>It’s great to see your repository history growing, being sure that you can roll-back your changes anytime. It can (and probably will) get messy after a while, but knowing <em>it’s really hard</em> to screw things up is a reassuring way to work.</p>
-
-<p><img src="https://medium2.global.ssl.fastly.net/max/4364/1*xyeP9ysBbpYfsGnKdtTX1g.png" alt="Again: make sure your commit messages are as descriptive as possible" /><em>Again: make sure your commit messages are as descriptive as possible</em></p>
-
-<h3 id="whats-next">What’s Next</h3>
-
-<p>You may have realized the Github app shows an option called <strong>branches</strong>. Branches are a good way to modularize your project and make sure your code changes don’t conflict with other collaborators— but let’s leave this for another day ✨.</p>
-
-<p>Using Git by yourself is already a great way to organize the way you code and make sure you can roll-back any unwanted changes. However, this is <em>really</em> just the beginning about Git. If you want further reference, here are some useful links:</p>
-
-<ul>
-  <li><a href="https://www.codeschool.com/courses/try-git">CodeSchool has a crash-course on Git</a></li>
-  <li>Another<a href="http://rogerdudler.github.io/git-guide/"> beginner guide for those that want to use Git in the command line</a></li>
-  <li><a href="https://www.git-tower.com/blog/git-cheat-sheet/">A cheatsheet of Git commands</a> (you may want to see the previous guides first to make sense of this)</li>
-  <li><a href="https://git-scm.com/">Official Git reference</a> (for the brave-hearted!)</li>
-</ul>
-</div>
-              
-              <a href="/notes/git-for-designers">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+            <a href="" class="card__readmore">Read More</span>
+            
+            <a href="https://medium.com/@dfosco/git-for-designers-856c434716e" target="_blank" class="medium-badge">
+              <img src='../assets/images/interface/medium-logo.svg' class="medium-badge__logo" />
+              <p class="medium-badge__text">
+                Also avaliable on Medium
+              </p>
+            </a>
+            
+          </div>
+
+          
+
+          <a href="/notes/git-for-designers">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="the-ui-stack">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/08/the-ui-stack.png" alt="A visual representation of the 5 layers of the UI Stack" >
-                    </a>
-                     
-                </div>
+    <article class="card" id="the-ui-stack">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
+                  <a href="http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/08/the-ui-stack.png" alt="A visual representation of the 5 layers of the UI Stack">
+                  </a>
+                
+              </div>
 
-              
-              <a href="http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack?ref=danielfosco" target="_blank"><h2 class="card__title">The UI Stack</h2></a>
-              <br><span class="card__date">August 29</span>
-              
-              
+        
+
+            
+            <a href="http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack?ref=danielfosco" target="_blank"><h2 class="card__title">The UI Stack</h2></a>
+            <span class="card__date">August 29</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><blockquote>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <blockquote>
   <p>We think in flows, and we’re used to the physical world. When a door opens, it swings on an arc. When something travels, you can see it move. When something falls, you can see it bounce.</p>
 
   <p>Awkward UI is when a product designer doesn’t take these things into account. That means that somewhere along the line, some rules have been broken.</p>
@@ -411,72 +309,88 @@
 </blockquote>
 
 <p>This fantastic article is really helpful to navigate the dizziness of the design process for large multi-state applications. It has some parallels with Everett McKay’s approach in <a href="http://www.amazon.com/UI-Communication-Intuitive-Interfaces-Effective/dp/0123969808/">UI is Communication</a>.</p>
-</div>
+
               
-              <a href="/notes/the-ui-stack">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/the-ui-stack">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="can-a-font-make-us-believe-something-is-true">
-          <div class="card__inner">
 
-              
-                 
+    <article class="card" id="can-a-font-make-us-believe-something-is-true">
+      <div class="card__inner">
+        <div class="card__header">
 
-              
-              <a href="http://eyeondesign.aiga.org/can-a-font-make-us-believe-something-is-true/?ref=danielfosco" target="_blank"><h2 class="card__title">Can a Font Make Us Believe Something is True?</h2></a>
-              <br><span class="card__date">June 27</span>
-              
-              
+        
+
+            
+            <a href="http://eyeondesign.aiga.org/can-a-font-make-us-believe-something-is-true/?ref=danielfosco" target="_blank"><h2 class="card__title">Can a Font Make Us Believe Something is True?</h2></a>
+            <span class="card__date">June 27</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><blockquote>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <blockquote>
   <p>If we’re able to identify why we trust Baskerville so much—the form, the weight, the context in which it’s presented—is it possible to design a font to achieve certain emotional effects?</p>
 
   <p>Bierut likens the reaction to typefaces to the way a voice can impact the way we perceive what’s been spoken. “In a way, typefaces are the graphic equivalent of the human voice, and each voice has a specific timbre and accent,” he says. “In my mind, Baskerville speaks with a calm, confidence-inspiring English accent, sort of like Colin Firth. No wonder it’s so trustworthy.”</p>
 </blockquote>
-</div>
+
               
-              <a href="/notes/can-a-font-make-us-believe-something-is-true">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/can-a-font-make-us-believe-something-is-true">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="21-management-things-i-learned-at-imgur">
-          <div class="card__inner">
 
-              
-                 
+    <article class="card" id="21-management-things-i-learned-at-imgur">
+      <div class="card__inner">
+        <div class="card__header">
 
-              
-              <a href="https://medium.com/@gerstenzang/21-management-things-i-learned-at-imgur-7abb72bdf8bf?ref=danielfosco" target="_blank"><h2 class="card__title">“21 management things I learned at Imgur”</h2></a>
-              <br><span class="card__date">June 27</span>
-              
-              
+        
+
+            
+            <a href="https://medium.com/@gerstenzang/21-management-things-i-learned-at-imgur-7abb72bdf8bf?ref=danielfosco" target="_blank"><h2 class="card__title">“21 management things I learned at Imgur”</h2></a>
+            <span class="card__date">June 27</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>So many good points on mission, values and building a company. Don’t let the title fool you, there’s no “management” advice in this list.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>So many good points on mission, values and building a company. Don’t let the title fool you, there’s no “management” advice in this list.</p>
 
 <p>Some highlights:</p>
 
@@ -487,83 +401,101 @@
 
   <p>How you spend money is one of the biggest cultural signals you can send and is very hard to change. Where you spend money (and where you don’t) communicates what you think is important.</p>
 </blockquote>
-</div>
+
               
-              <a href="/notes/21-management-things-i-learned-at-imgur">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/21-management-things-i-learned-at-imgur">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="the-tiny-designer-how-designers-and-non-designers-can-get-along">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="http://thetinydesigner.com/?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/06/the-tiny-designer.png" alt="A designer and a non-designer right next to each other" >
-                    </a>
-                     
-                </div>
+    <article class="card" id="the-tiny-designer-how-designers-and-non-designers-can-get-along">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
+                  <a href="http://thetinydesigner.com/?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/06/the-tiny-designer.png" alt="A designer and a non-designer right next to each other">
+                  </a>
+                
+              </div>
 
-              
-              <a href="http://thetinydesigner.com/?ref=danielfosco" target="_blank"><h2 class="card__title">The Tiny Designer: How Designers and Non-Designers can get along</h2></a>
-              <br><span class="card__date">June 21</span>
-              
-              
+        
+
+            
+            <a href="http://thetinydesigner.com/?ref=danielfosco" target="_blank"><h2 class="card__title">The Tiny Designer: How Designers and Non-Designers can get along</h2></a>
+            <span class="card__date">June 21</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><blockquote>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <blockquote>
   <p><strong>Each of us has a tiny designer somewhere inside</strong></p>
 
   <p>We can all contribute to a design. You probably think that’s ridiculous, but that’s also the reason design projects can devolve so quickly: respect is lacking.</p>
 </blockquote>
 
 <p>A dual email course for designers and non-designers to improve understanding between both parts and make the design process less stressful and more productive.</p>
-</div>
+
               
-              <a href="/notes/the-tiny-designer-how-designers-and-non-designers-can-get-along">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/the-tiny-designer-how-designers-and-non-designers-can-get-along">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="women-of-silicon-valley-sophie-xie-women-of-silicon-valley-sophie-xie">
-          <div class="card__inner">
 
-              
-                 
+    <article class="card" id="women-of-silicon-valley-sophie-xie-women-of-silicon-valley-sophie-xie">
+      <div class="card__inner">
+        <div class="card__header">
 
-              
-              <a href="https://medium.com/@WomenOfSiliconValley/sophie-xie-664b7d4df7b?ref=danielfosco" target="_blank"><h2 class="card__title">Women of Silicon Valley — Sophie Xie</h2></a>
-              <br><span class="card__date">June 21</span>
-              
-              
+        
+
+            
+            <a href="https://medium.com/@WomenOfSiliconValley/sophie-xie-664b7d4df7b?ref=danielfosco" target="_blank"><h2 class="card__title">Women of Silicon Valley — Sophie Xie</h2></a>
+            <span class="card__date">June 21</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>I first found out about this project through their <a href="https://www.facebook.com/womenofsiliconvalley">Facebook page</a> and was glad when they started doing more in-depth interviews on Medium. The first is with Sophie Xie, product designer formely working on Facebook.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>I first found out about this project through their <a href="https://www.facebook.com/womenofsiliconvalley">Facebook page</a> and was glad when they started doing more in-depth interviews on Medium. The first is with Sophie Xie, product designer formely working on Facebook.</p>
 
 <p>The interview says a lot about being a woman in tech, including things that sometimes go unnoticed for me as a man. If men want to change the subtle sexist behavior in their workspace, paying actual attention to what we’re doing is the first step (I guess).</p>
 
@@ -573,133 +505,163 @@
   <p>What advice do you have for any girls pursuing a future in tech?<br />
 <strong>tldr; I was successful in moments I quit being a nice girl and started becoming a monster.</strong></p>
 </blockquote>
-</div>
+
               
-              <a href="/notes/women-of-silicon-valley-sophie-xie-women-of-silicon-valley-sophie-xie">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/women-of-silicon-valley-sophie-xie-women-of-silicon-valley-sophie-xie">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="modern-design-tools-using-real-data">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="https://medium.com/@joshpuckett/modern-design-tools-using-real-data-62d499e97482?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/06/modern-design-tools-2.gif" alt="Pulling JSON data directly into your layouts" class="img__stroke">
-                    </a>
-                     
-                </div>
+    <article class="card" id="modern-design-tools-using-real-data">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
+                  <a href="https://medium.com/@joshpuckett/modern-design-tools-using-real-data-62d499e97482?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/06/modern-design-tools-2.gif" alt="Pulling JSON data directly into your layouts">
+                  </a>
+                
+              </div>
 
-              
-              <a href="https://medium.com/@joshpuckett/modern-design-tools-using-real-data-62d499e97482?ref=danielfosco" target="_blank"><h2 class="card__title">Modern Design Tools: Using Real Data</h2></a>
-              <br><span class="card__date">June 21</span>
-              
-              
+        
+
+            
+            <a href="https://medium.com/@joshpuckett/modern-design-tools-using-real-data-62d499e97482?ref=danielfosco" target="_blank"><h2 class="card__title">Modern Design Tools: Using Real Data</h2></a>
+            <span class="card__date">June 21</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>Another entry in Josh Puckett’s exploration on future design tools for the workflow we need today.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Another entry in Josh Puckett’s exploration on future design tools for the workflow we need today.</p>
 
 <blockquote>
   <p>I believe one of the biggest flaws of today’s tools is their failure to allow designers to easily work with real data. (…)<br />
 We spend an inordinate amount of time making our pixel-perfect fabrications. We then make sub-optimal decisions based on this, considering only our single, perfect state. We are surprised when our designs are implemented because we forgot to solve a variety of edge cases and problems. When we don’t work with real data, <em>we deceive ourselves</em>.</p>
 </blockquote>
-</div>
+
               
-              <a href="/notes/modern-design-tools-using-real-data">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/modern-design-tools-using-real-data">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="the-martian-official-trailer">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="https://www.youtube.com/watch?v=Ue4PCI0NamI?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/06/the-martian.png" alt="The Martian" >
-                    </a>
-                     
-                </div>
+    <article class="card" id="the-martian-official-trailer">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
+                  <a href="https://www.youtube.com/watch?v=Ue4PCI0NamI?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/06/the-martian.png" alt="The Martian">
+                  </a>
+                
+              </div>
 
-              
-              <a href="https://www.youtube.com/watch?v=Ue4PCI0NamI?ref=danielfosco" target="_blank"><h2 class="card__title">The Martian - Official Trailer</h2></a>
-              <br><span class="card__date">June 8</span>
-              
-              
+        
+
+            
+            <a href="https://www.youtube.com/watch?v=Ue4PCI0NamI?ref=danielfosco" target="_blank"><h2 class="card__title">The Martian - Official Trailer</h2></a>
+            <span class="card__date">June 8</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p><strong>YES!!!</strong> This trailer is just as amazing as it should be.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p><strong>YES!!!</strong> This trailer is just as amazing as it should be.</p>
 
 <p>If you haven’t read <a href="http://smile.amazon.com/Martian-Andy-Weir/dp/0553418025/ref=sr_1_1?ie=UTF8&amp;qid=1433783615&amp;sr=8-1&amp;keywords=the+martian&amp;pebp=1433783641247&amp;perid=07ENP3N7Z7YRBV5MD92T&amp;sa-no-redirect=1">the book</a> yet, now it’s the best time there is.</p>
-</div>
+
               
-              <a href="/notes/the-martian-official-trailer">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/the-martian-official-trailer">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="building-a-ux-team">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="http://us5.campaign-archive1.com/?awesome=no&u=7e093c5cf4&id=cfe9dbcac8?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/06/mailchimp-ux.png" alt="Mailchimp UX" >
-                    </a>
-                     
-                </div>
+    <article class="card" id="building-a-ux-team">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
+                  <a href="http://us5.campaign-archive1.com/?awesome=no&u=7e093c5cf4&id=cfe9dbcac8?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/06/mailchimp-ux.png" alt="Mailchimp UX">
+                  </a>
+                
+              </div>
 
-              
-              <a href="http://us5.campaign-archive1.com/?awesome=no&u=7e093c5cf4&id=cfe9dbcac8?ref=danielfosco" target="_blank"><h2 class="card__title">Building a UX Team</h2></a>
-              <br><span class="card__date">June 8</span>
-              
-              
+        
+
+            
+            <a href="http://us5.campaign-archive1.com/?awesome=no&u=7e093c5cf4&id=cfe9dbcac8?ref=danielfosco" target="_blank"><h2 class="card__title">Building a UX Team</h2></a>
+            <span class="card__date">June 8</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>I recently came across this past issue from the Mailchimp UX Newsletter and remembered how outstanding is their writing. If you haven’t subscribed yet, <a href="http://www.theuxnewsletter.com/">do it now</a>.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>I recently came across this past issue from the Mailchimp UX Newsletter and remembered how outstanding is their writing. If you haven’t subscribed yet, <a href="http://www.theuxnewsletter.com/">do it now</a>.</p>
 
 <p>Here are some highlights from the issue:</p>
 
@@ -726,110 +688,136 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
 </blockquote>
 
 <p>These are traits I hope to find and foster at <a href="http://www.vtex.com/">VTEX</a>, with whom I just started working as a product designer. The fact that this article about UX was shared by a developer from our team tells me these methods are already under way for the most part <i class="twa twa-smile"></i></p>
-</div>
+
               
-              <a href="/notes/building-a-ux-team">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/building-a-ux-team">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="rapidly-animate-with-keynote">
-          <div class="card__inner">
 
-              
-                 
+    <article class="card" id="rapidly-animate-with-keynote">
+      <div class="card__inner">
+        <div class="card__header">
 
-              
-              <a href="http://blog.uxtree.io/rapidly-animating-with-keynote/?ref=danielfosco" target="_blank"><h2 class="card__title">Rapidly Animate with Keynote</h2></a>
-              <br><span class="card__date">June 8</span>
-              
-              
+        
+
+            
+            <a href="http://blog.uxtree.io/rapidly-animating-with-keynote/?ref=danielfosco" target="_blank"><h2 class="card__title">Rapidly Animate with Keynote</h2></a>
+            <span class="card__date">June 8</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>I had heard before how far you can go with animations on Keynote, but this article just smashes the point through your skull — the two videos are super handy for that.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>I had heard before how far you can go with animations on Keynote, but this article just smashes the point through your skull — the two videos are super handy for that.</p>
 
 <p>There’s no way I’m not trying this for prototyping really soon.</p>
-</div>
+
               
-              <a href="/notes/rapidly-animate-with-keynote">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/rapidly-animate-with-keynote">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="on-the-topic-of-impostor-syndrome">
-          <div class="card__inner">
+
+    <article class="card" id="on-the-topic-of-impostor-syndrome">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+            
+            <a href="http://blog.reybango.com/2015/05/12/on-the-topic-of-impostor-syndrome/?ref=danielfosco" target="_blank"><h2 class="card__title">On the topic of impostor syndrome</h2></a>
+            <span class="card__date">June 8</span>
+
+            
+        </div>
+
+
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Web Developer Ray Bango talks about impostor syndrome and how the ever-increasing pace of web technologies makes us all feel like we’re in a hamster wheel. Make sure to watch the short video embeded in the article, really drives the point home!</p>
 
               
-                 
-
-              
-              <a href="http://blog.reybango.com/2015/05/12/on-the-topic-of-impostor-syndrome/?ref=danielfosco" target="_blank"><h2 class="card__title">On the topic of impostor syndrome</h2></a>
-              <br><span class="card__date">June 8</span>
-              
-              
-
-
-              <div class="card__description"><p>Web Developer Ray Bango talks about impostor syndrome and how the ever-increasing pace of web technologies makes us all feel like we’re in a hamster wheel. Make sure to watch the short video embeded in the article, really drives the point home!</p>
-</div>
-              
-              <a href="/notes/on-the-topic-of-impostor-syndrome">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/on-the-topic-of-impostor-syndrome">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="modern-design-tools">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="https://medium.com/bridge-collection/modern-design-tools-adaptive-layouts-e236070856e3?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/06/modern-design-tools.png" alt="Smart constraints" class="img__stroke">
-                    </a>
-                     
-                </div>
+    <article class="card" id="modern-design-tools">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
+                  <a href="https://medium.com/bridge-collection/modern-design-tools-adaptive-layouts-e236070856e3?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/06/modern-design-tools.png" alt="Smart constraints">
+                  </a>
+                
+              </div>
 
-              
-              <a href="https://medium.com/bridge-collection/modern-design-tools-adaptive-layouts-e236070856e3?ref=danielfosco" target="_blank"><h2 class="card__title">Modern Design Tools</h2></a>
-              <br><span class="card__date">June 8</span>
-              
-              
+        
+
+            
+            <a href="https://medium.com/bridge-collection/modern-design-tools-adaptive-layouts-e236070856e3?ref=danielfosco" target="_blank"><h2 class="card__title">Modern Design Tools</h2></a>
+            <span class="card__date">June 8</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><blockquote>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <blockquote>
   <p>We live in a world that is dynamic, designing and building software that lives on devices that are always changing and evolving. These devices have multiple screen sizes, densities, orientations. Our experiences live in this medium, and adapt to ever-changing constraints. This leads us to an important principle:</p>
 
   <p><strong>Design tools should have the same properties as the medium for which we are designing.</strong></p>
@@ -840,414 +828,512 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
 <p>Between Sketch, Framer, Pixate, Affinity Designer and this, I can wait barely wait to see the landscape of design tools in the next 5 years.</p>
 
 <p><strong>Related:</strong> Khoi Vinh’s <a href="http://www.subtraction.com/2015/06/02/the-subtraction-com-design-tools-survey/">survey</a> on the current state of design tools</p>
-</div>
+
               
-              <a href="/notes/modern-design-tools">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/modern-design-tools">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="zeldman-dot-com-is-20-years-old">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="http://www.zeldman.com/2015/05/31/my-website-is-20-years-old-today/?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/06/zeldman.svg" alt="Jeffrey Zeldman's pixel avatar" >
-                    </a>
-                     
-                </div>
+    <article class="card" id="zeldman-dot-com-is-20-years-old">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
+                  <a href="http://www.zeldman.com/2015/05/31/my-website-is-20-years-old-today/?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/06/zeldman.svg" alt="Jeffrey Zeldman's pixel avatar">
+                  </a>
+                
+              </div>
 
-              
-              <a href="http://www.zeldman.com/2015/05/31/my-website-is-20-years-old-today/?ref=danielfosco" target="_blank"><h2 class="card__title">ZELDMAN.COM is 20 years old</h2></a>
-              <br><span class="card__date">June 1</span>
-              
-              
+        
+
+            
+            <a href="http://www.zeldman.com/2015/05/31/my-website-is-20-years-old-today/?ref=danielfosco" target="_blank"><h2 class="card__title">ZELDMAN.COM is 20 years old</h2></a>
+            <span class="card__date">June 1</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><blockquote>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <blockquote>
   <p>I started this site with animated gifs and splash pages while living in a cheap rent stabilized apartment. PageSpinner was my jam. I was in love with HTML and certain that the whole world was about to learn it, ushering in a new era of DIY media, free expression, peace and democracy and human rights worldwide. That part didn’t work out so well, although the kids prefer YouTube to TV, so that’s something.</p>
 </blockquote>
 
 <p>Jeffrey Zeldman’s personal and nostalgic lookback on the 20th anniversary of his website — as much a part of the history of the web as anything can be.</p>
 
 <p>The guy was blogging way, <em>way</em> before it was cool.</p>
-</div>
+
               
-              <a href="/notes/zeldman-dot-com-is-20-years-old">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/zeldman-dot-com-is-20-years-old">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="digital-design-the-optimism-and-the-pessimism">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="http://hjun.me/?p=1016?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/06/plusminus_480.jpg" alt="A plus sign and minus sign" >
-                    </a>
-                     
-                </div>
+    <article class="card" id="digital-design-the-optimism-and-the-pessimism">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
+                  <a href="http://hjun.me/?p=1016?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/06/plusminus_480.jpg" alt="A plus sign and minus sign">
+                  </a>
+                
+              </div>
 
-              
-              <a href="http://hjun.me/?p=1016?ref=danielfosco" target="_blank"><h2 class="card__title">Digital Design, the Optimism and the Pessimism</h2></a>
-              <br><span class="card__date">June 1</span>
-              
-              
+        
+
+            
+            <a href="http://hjun.me/?p=1016?ref=danielfosco" target="_blank"><h2 class="card__title">Digital Design, the Optimism and the Pessimism</h2></a>
+            <span class="card__date">June 1</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>An overview of the <strong>plus</strong>’s and <strong>minus</strong>’s of the current state of digital design by designer <a href="http://twitter.com/ht_jun">Hyungtak Jun</a>.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>An overview of the <strong>plus</strong>’s and <strong>minus</strong>’s of the current state of digital design by designer <a href="http://twitter.com/ht_jun">Hyungtak Jun</a>.</p>
 
 <p>Pretty good points, and the subtle design made just for the post is killer!</p>
-</div>
+
               
-              <a href="/notes/digital-design-the-optimism-and-the-pessimism">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/digital-design-the-optimism-and-the-pessimism">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="tutorial-hunt">
-          <div class="card__inner">
+
+    <article class="card" id="tutorial-hunt">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+            
+            <a href="http://tutorialhunt.meteor.com/?ref=danielfosco" target="_blank"><h2 class="card__title">Tutorial Hunt</h2></a>
+            <span class="card__date">June 1</span>
+
+            
+        </div>
+
+
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Fantastic compilation of free programming tutorials. For an alternative focused on programming books, see <a href="http://hackershelf.com/browse/?popular=1">Hacker Shelf</a>.</p>
 
               
-                 
-
-              
-              <a href="http://tutorialhunt.meteor.com/?ref=danielfosco" target="_blank"><h2 class="card__title">Tutorial Hunt</h2></a>
-              <br><span class="card__date">June 1</span>
-              
-              
-
-
-              <div class="card__description"><p>Fantastic compilation of free programming tutorials. For an alternative focused on programming books, see <a href="http://hackershelf.com/browse/?popular=1">Hacker Shelf</a>.</p>
-</div>
-              
-              <a href="/notes/tutorial-hunt">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/tutorial-hunt">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="what-has-us-interested-at-homebrew">
-          <div class="card__inner">
 
-              
-                 
+    <article class="card" id="what-has-us-interested-at-homebrew">
+      <div class="card__inner">
+        <div class="card__header">
 
-              
-              <a href="https://quip.com/rcLXASq4IbIj?ref=danielfosco" target="_blank"><h2 class="card__title">What Has Us Interested at Homebrew...</h2></a>
-              <br><span class="card__date">June 1</span>
-              
-              
+        
+
+            
+            <a href="https://quip.com/rcLXASq4IbIj?ref=danielfosco" target="_blank"><h2 class="card__title">What Has Us Interested at Homebrew...</h2></a>
+            <span class="card__date">June 1</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>Hunter Walk, founder and investor at <a href="https://twitter.com/homebrew">Homebrew</a> came up with a huge list of subjects and areas of expertise that currently interest Homebrew.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Hunter Walk, founder and investor at <a href="https://twitter.com/homebrew">Homebrew</a> came up with a huge list of subjects and areas of expertise that currently interest Homebrew.</p>
 
 <p>Regardless if you’re looking for investment or not, this may be a good place to get a fresh set of ideas if you’re running dry.</p>
 
 <p><strong>Related:</strong> <a href="http://www.musklevel.com/">Musk Level</a>, a leaderboard of big ideas that one could develop if they had the resources available to Elon Musk.</p>
-</div>
+
               
-              <a href="/notes/what-has-us-interested-at-homebrew">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/what-has-us-interested-at-homebrew">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="marc-edwards-icon-design-workflow">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="http://bjango.com/articles/icondesignworkflow/?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/05/istat-menus-grid.jpg" alt="iStat icon on top of a grid" >
-                    </a>
-                     
-                </div>
+    <article class="card" id="marc-edwards-icon-design-workflow">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
-
-              
-              <a href="http://bjango.com/articles/icondesignworkflow/?ref=danielfosco" target="_blank"><h2 class="card__title">Marc Edwards' icon design workflow</h2></a>
-              <br><span class="card__date">May 26</span>
-              
-              
-
-
-              <div class="card__description"><p>Marc Edwards from Bjango gives some insight on his icon design process, with a couple of <em>rich tips</em> on Illustrator along the way. Great read.</p>
-</div>
-              
-              <a href="/notes/marc-edwards-icon-design-workflow">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
+                  <a href="http://bjango.com/articles/icondesignworkflow/?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/05/istat-menus-grid.jpg" alt="iStat icon on top of a grid">
+                  </a>
                 
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
+              </div>
+
+        
+
+            
+            <a href="http://bjango.com/articles/icondesignworkflow/?ref=danielfosco" target="_blank"><h2 class="card__title">Marc Edwards' icon design workflow</h2></a>
+            <span class="card__date">May 26</span>
+
+            
+        </div>
+
+
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Marc Edwards from Bjango gives some insight on his icon design process, with a couple of <em>rich tips</em> on Illustrator along the way. Great read.</p>
+
+              
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/marc-edwards-icon-design-workflow">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="design-user-research-explained-for-everyone">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="http://blog.froont.com/design-user-research-explained/?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/05/froont-uncover-values-not-needs.gif" alt="values, not needs" >
-                    </a>
-                     
-                </div>
+    <article class="card" id="design-user-research-explained-for-everyone">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
-
-              
-              <a href="http://blog.froont.com/design-user-research-explained/?ref=danielfosco" target="_blank"><h2 class="card__title">Design user research explained for everyone</h2></a>
-              <br><span class="card__date">May 26</span>
-              
-              
-
-
-              <div class="card__description"><p>Another great entry on FROONT’s gif-powered design guides, this time on the basics of user research. Their previous entries on <a href="http://blog.froont.com/positioning-in-web-design/">positioning in web design</a> and <a href="http://blog.froont.com/brief-history-of-web-design-for-designers/">the history of the web</a> are pretty neat too.</p>
-</div>
-              
-              <a href="/notes/design-user-research-explained-for-everyone">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
+                  <a href="http://blog.froont.com/design-user-research-explained/?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/05/froont-uncover-values-not-needs.gif" alt="values, not needs">
+                  </a>
                 
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
+              </div>
+
+        
+
+            
+            <a href="http://blog.froont.com/design-user-research-explained/?ref=danielfosco" target="_blank"><h2 class="card__title">Design user research explained for everyone</h2></a>
+            <span class="card__date">May 26</span>
+
+            
+        </div>
+
+
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Another great entry on FROONT’s gif-powered design guides, this time on the basics of user research. Their previous entries on <a href="http://blog.froont.com/positioning-in-web-design/">positioning in web design</a> and <a href="http://blog.froont.com/brief-history-of-web-design-for-designers/">the history of the web</a> are pretty neat too.</p>
+
+              
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/design-user-research-explained-for-everyone">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="the-freelancers-guide-to-finding-and-winning-better-client-work-online">
-          <div class="card__inner">
 
-              
-                 
+    <article class="card" id="the-freelancers-guide-to-finding-and-winning-better-client-work-online">
+      <div class="card__inner">
+        <div class="card__header">
 
-              
-              <a href="https://letsworkshop.com/advice?ref=danielfosco" target="_blank"><h2 class="card__title">The freelancer's guide to finding and winning better client work online</h2></a>
-              <br><span class="card__date">May 26</span>
-              
-              
+        
+
+            
+            <a href="https://letsworkshop.com/advice?ref=danielfosco" target="_blank"><h2 class="card__title">The freelancer's guide to finding and winning better client work online</h2></a>
+            <span class="card__date">May 26</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>A compilation of articles and tips for freelancers by Robert Williams’ <a href="https://letsworkshop.com/">Workshop</a>.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>A compilation of articles and tips for freelancers by Robert Williams’ <a href="https://letsworkshop.com/">Workshop</a>.</p>
 
 <p>If you are a freelancer but haven’t come across any of his fantastic articles yet, now it’s the time.</p>
-</div>
+
               
-              <a href="/notes/the-freelancers-guide-to-finding-and-winning-better-client-work-online">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/the-freelancers-guide-to-finding-and-winning-better-client-work-online">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="electronic-items">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="http://electronicitems.tumblr.com/?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/05/electronic_items.gif" alt="An animated old-school handicam" >
-                    </a>
-                     
-                </div>
+    <article class="card" id="electronic-items">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
-
-              
-              <a href="http://electronicitems.tumblr.com/?ref=danielfosco" target="_blank"><h2 class="card__title">Electronic Items</h2></a>
-              <br><span class="card__date">May 26</span>
-              
-              
-
-
-              <div class="card__description"><p>Stylish gifs for old-school electronics</p>
-</div>
-              
-              <a href="/notes/electronic-items">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
+                  <a href="http://electronicitems.tumblr.com/?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/05/electronic_items.gif" alt="An animated old-school handicam">
+                  </a>
                 
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
+              </div>
+
+        
+
+            
+            <a href="http://electronicitems.tumblr.com/?ref=danielfosco" target="_blank"><h2 class="card__title">Electronic Items</h2></a>
+            <span class="card__date">May 26</span>
+
+            
+        </div>
+
+
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Stylish gifs for old-school electronics</p>
+
+              
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/electronic-items">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="the-state-of-design-tools-an-unscientific-survey">
-          <div class="card__inner">
 
-              
-                 
+    <article class="card" id="the-state-of-design-tools-an-unscientific-survey">
+      <div class="card__inner">
+        <div class="card__header">
 
-              
-              <a href="http://www.subtraction.com/2015/05/07/the-state-of-design-tools/?ref=danielfosco" target="_blank"><h2 class="card__title">The State of Design Tools: An Unscientific Survey</h2></a>
-              <br><span class="card__date">May 11</span>
-              
-              
+        
+
+            
+            <a href="http://www.subtraction.com/2015/05/07/the-state-of-design-tools/?ref=danielfosco" target="_blank"><h2 class="card__title">The State of Design Tools: An Unscientific Survey</h2></a>
+            <span class="card__date">May 11</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>Khoi Vinh and the Adobe Team took a bunch of designers for breakfast and asked them about the tools they use. The results, albeit unscientific, still bring terrific insights — such as:</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Khoi Vinh and the Adobe Team took a bunch of designers for breakfast and asked them about the tools they use. The results, albeit unscientific, still bring terrific insights — such as:</p>
 
 <blockquote>
   <p>Prototyping is the Wild West. Every team we met with uses a variety of prototyping tools, whether Pixate, Marvel, InVision, Flinto or others. There seems to be little if any standardization; as new tools emerge and teams find that they offer new advantages, designers readily adopt them and set others aside. There’s a feeling that this space has lots of growth and evolution ahead of it.</p>
 </blockquote>
-</div>
+
               
-              <a href="/notes/the-state-of-design-tools-an-unscientific-survey">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/the-state-of-design-tools-an-unscientific-survey">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="designing-a-good-portfolio">
-          <div class="card__inner">
 
-              
-                 
+    <article class="card" id="designing-a-good-portfolio">
+      <div class="card__inner">
+        <div class="card__header">
 
-              
-              <a href="http://markboulton.co.uk/journal/how-to-design-a-portfolio?ref=danielfosco" target="_blank"><h2 class="card__title">Designing a good portfolio</h2></a>
-              <br><span class="card__date">May 11</span>
-              
-              
+        
+
+            
+            <a href="http://markboulton.co.uk/journal/how-to-design-a-portfolio?ref=danielfosco" target="_blank"><h2 class="card__title">Designing a good portfolio</h2></a>
+            <span class="card__date">May 11</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>Great advice by Mark Boulton for young designers.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Great advice by Mark Boulton for young designers.</p>
 
 <blockquote>
   <p>How can you demonstrate the value of design games, or collaborative moodboard exercises? Or that it took six months of negotiating with dozens of facets of an organisation in order for a content strategy to be adopted? My advice would be to write a story. Show photographs of workshops. Demonstrate how you approach these things. List the methods you’ve used and those that have worked. List those that haven’t and the reasons why.</p>
 </blockquote>
-</div>
+
               
-              <a href="/notes/designing-a-good-portfolio">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/designing-a-good-portfolio">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="i-was-an-undercover-uber-driver">
-          <div class="card__inner">
 
-              
-                 
+    <article class="card" id="i-was-an-undercover-uber-driver">
+      <div class="card__inner">
+        <div class="card__header">
 
-              
-              <a href="http://citypaper.net/uberdriver/?ref=danielfosco" target="_blank"><h2 class="card__title">I was an undercover Uber driver</h2></a>
-              <br><span class="card__date">May 11</span>
-              
-              
+        
+
+            
+            <a href="http://citypaper.net/uberdriver/?ref=danielfosco" target="_blank"><h2 class="card__title">I was an undercover Uber driver</h2></a>
+            <span class="card__date">May 11</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>Emily Guendelsberger goes undercover as an Uber driver in Philadelphia to figure out how deep the rabbit hole goes — and comes out of it with a 6000-word article, sprinkled with moments like this:</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Emily Guendelsberger goes undercover as an Uber driver in Philadelphia to figure out how deep the rabbit hole goes — and comes out of it with a 6000-word article, sprinkled with moments like this:</p>
 
 <blockquote>
   <p><strong>Passenger</strong>: So what’s Uber like? I hear you can make a ton of money!</p>
@@ -1260,46 +1346,56 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
 
   <p><strong>Passenger</strong>: … Oh, uh, OK.</p>
 </blockquote>
-</div>
+
               
-              <a href="/notes/i-was-an-undercover-uber-driver">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/i-was-an-undercover-uber-driver">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="100-days-of-color">
-          <div class="card__inner">
 
-              
-              
-                <div class="card__img">
-                  
-                    <a href="http://100daysofcolor.tumblr.com/?ref=danielfosco" target="_blank">
-                      <img src="/assets/images/articles/2015/05/100_days.png" alt="One of Jaclyn's color palettes" >
-                    </a>
-                     
-                </div>
+    <article class="card" id="100-days-of-color">
+      <div class="card__inner">
+        <div class="card__header">
+
+        
+
+              <div class="card__img">
+
                 
-                 
+                  <a href="http://100daysofcolor.tumblr.com/?ref=danielfosco" target="_blank">
+                    <img src="/assets/images/articles/2015/05/100_days.png" alt="One of Jaclyn's color palettes">
+                  </a>
+                
+              </div>
 
-              
-              <a href="http://100daysofcolor.tumblr.com/?ref=danielfosco" target="_blank"><h2 class="card__title">100 Days of Color</h2></a>
-              <br><span class="card__date">May 7</span>
-              
-              
+        
+
+            
+            <a href="http://100daysofcolor.tumblr.com/?ref=danielfosco" target="_blank"><h2 class="card__title">100 Days of Color</h2></a>
+            <span class="card__date">May 7</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>Designer and artist Jaclyn Leneé is on a 100-day stretch doing a color palette everyday based on a different picture. See all of her palettes so far <a href="http://100daysofcolor.tumblr.com/?ref=danielfosco-linklist">on her Tumblr</a>.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>Designer and artist Jaclyn Leneé is on a 100-day stretch doing a color palette everyday based on a different picture. See all of her palettes so far <a href="http://100daysofcolor.tumblr.com/?ref=danielfosco-linklist">on her Tumblr</a>.</p>
 
 <p><em>~~Update~~</em></p>
 
@@ -1320,53 +1416,65 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
 </blockquote>
 
 <p>I’d like to thank Jaclyn for taking the time to answer these questions – great insights for anyone who wants to dive deeper into working with color <i class="twa twa twa-smiley"></i></p>
-</div>
+
               
-              <a href="/notes/100-days-of-color">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/100-days-of-color">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
+
     
-       
-      
-        <article class="card" id="learning-to-love-bem">
-          <div class="card__inner">
 
-              
-                 
+    <article class="card" id="learning-to-love-bem">
+      <div class="card__inner">
+        <div class="card__header">
 
-              
-              <a href="http://mono.company/2015/05/06/learning-to-love-bem/?ref=danielfosco" target="_blank"><h2 class="card__title">Learning to Love BEM</h2></a>
-              <br><span class="card__date">May 7</span>
-              
-              
+        
+
+            
+            <a href="http://mono.company/2015/05/06/learning-to-love-bem/?ref=danielfosco" target="_blank"><h2 class="card__title">Learning to Love BEM</h2></a>
+            <span class="card__date">May 7</span>
+
+            
+        </div>
 
 
-              <div class="card__description"><p>A primer to start writing CSS with BEM-style syntax by <a href="https://twitter.com/johan_ronsse">Johan Ronsse</a>. Good stuff, although I disagree with Johan when he says BEM is unnecessary for small and personal sites.</p>
+          
+          <div class="card__description">
+            <div class="content--jekyll">
+              <p>A primer to start writing CSS with BEM-style syntax by <a href="https://twitter.com/johan_ronsse">Johan Ronsse</a>. Good stuff, although I disagree with Johan when he says BEM is unnecessary for small and personal sites.</p>
 
 <p>Personal project or not, writing CSS with BEM makes class-naming much more constrained (and well-documented), pushing you to write styling and markup in a more structured manner.</p>
 
 <p>If you’ve never heard of BEM, <a href="https://css-tricks.com/bem-101/">this article</a> by CSS-Tricks is another great way to get started.</p>
-</div>
+
               
-              <a href="/notes/learning-to-love-bem">
-               <div class="card__permalink">
-                <span class="permalink__text">Permalink</span>
-                
-                <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
-                
-                </div>
-              </a>
             </div>
-        </article>
+          </div>
+          
+
+          <a href="/notes/learning-to-love-bem">
+           <div class="card__permalink">
+            <span class="permalink__text">Permalink</span>
+            
+            <img src="../assets/images/interface/permalink.svg" alt="Permalink" class="permalink__icon">
+            
+            </div>
+          </a>
+        </div>
+    </article>
 
   
 
@@ -1374,7 +1482,7 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
   <ul>
     
     
-    
+
     
     <li class="page-next next"><a href="/notes/page2/">Next</a></li>
     

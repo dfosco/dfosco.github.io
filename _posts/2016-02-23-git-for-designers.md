@@ -7,6 +7,7 @@ section: notes
 title: Git for Designers
 subtitle: Or anyone who really wants to use it but has no idea how
 source:
+medium-link: https://medium.com/@dfosco/git-for-designers-856c434716e
 
 image-name: git.png
 image-alt: A beginner's guide
@@ -16,8 +17,6 @@ full-length: true
 excerpt_separator: <!--more-->
 
 ---
-
-> [Read it on Medium, if that's your thing](https://medium.com/@dfosco/git-for-designers-856c434716e)
 
 Writing code is hard. For every 1 minute of bliss typing characters in the computer and seeing it render things that didn’t exist before, there are 10 minutes of frustration with unreadable code and bugs that didn’t exist the night before.
 

@@ -128,12 +128,28 @@
                       {{ post.excerpt }}
                     </div>
                     <a href="{{ post.source }}" class="card__readmore">Read More</span>
+                    {% if post.medium-link %}
+                    <a href="{{post.medium-link}}" target="_blank" class="medium-badge">
+                      <img src='assets/images/interface/medium-logo.svg' class="medium-badge__logo" />
+                      <p class="medium-badge__text">
+                        Also avaliable on Medium
+                      </p>
+                    </a>
+                    {% endif %}
                   </div>
 
                   {% else %}
                   <div class="card__description">
                     <div class="content--jekyll">
                       {{ post.content }}
+                      {% if post.medium-link %}
+                        <a href="{{post.medium-link}}" target="_blank" class="medium-badge">
+                          <img src='assets/images/interface/medium-logo.svg' class="medium-badge__logo" />
+                          <p class="medium-badge__text">
+                            Also avaliable on Medium
+                          </p>
+                        </a>
+                      {% endif %}
                     </div>
                   </div>
                   {% endif %}
