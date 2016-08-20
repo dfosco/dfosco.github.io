@@ -30,11 +30,11 @@ title: Notes
 
             {% if post.source == null %}
               <a href="{{ site.url }}{{ post.url }}" target="_blank">
-                <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}" {% if post.stroke != null %}class="img__stroke"{% endif %}>
+                <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}" {% if post.stroke %}class="img__stroke"{% endif %}>
                </a>
               {% else %}
               <a href="{{ post.source }}?ref=danielfosco" target="_blank">
-                <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}" {% if post.stroke != null %}class="img__stroke"{% endif %}>
+                <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}" {% if post.stroke %}class="img__stroke"{% endif %}>
               </a>
             {% endif %}
 
