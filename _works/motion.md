@@ -1,7 +1,7 @@
 ---
 layout: work/work-page
 
-title: Motion 
+title: Motion
 tagline: Experiments with Framer.JS
 
 append-bucket: learn-framer
@@ -13,7 +13,7 @@ meta-alt: A red pulse
 
 I recently started playing around with [Framer.JS](framerjs.com), a JavaScript-based framework to build high definition mobile prototypes.
 
-Framer lets you write CoffeeScript, which is easier on the eyes than vanilla JS, but still got quite the learning curve — you still have to know what you're doing to pull out the crazy stuff. 
+Framer lets you write CoffeeScript, which is easier on the eyes than vanilla JS, but still got quite the learning curve — you still have to know what you're doing to pull out the crazy stuff.
 
 Regardless, it's _really_ fun to play with. Here's a list of ongoing experiments:
 
@@ -51,7 +51,4 @@ Regardless, it's _really_ fun to play with. Here's a list of ongoing experiments
 
 <hr>
 
-####Some resources to get started with Framer
-
-
-
+#### Some resources to get started with Framer
