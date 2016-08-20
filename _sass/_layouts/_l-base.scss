@@ -25,9 +25,17 @@ code {
 // ------------------------------------------------------------------------
 
 .wrapper {
- 
- @include outer-container;
 
+ @include outer-container;
+ padding: 0 15px;
+
+ @include media($medium-screen) {
+	 padding: 0 30px;
+ }
+
+ @include media($large-screen) {
+	padding: 0;
+ }
 }
 
 // ------------------------------------------------------------------------
@@ -53,7 +61,7 @@ code {
 }
 
 .content--full {
-  @extend .content;  
+  @extend .content;
     @include span-columns(16 of 16);
     margin-top: 1em;
 }
@@ -68,7 +76,7 @@ code {
 
 // Adjust headings and margins ONLY inside the post content
 
-.content--jekyll { 
+.content--jekyll {
   margin-bottom: 1.5em;
 }
 
@@ -108,6 +116,6 @@ code {
 }
 
 // Here, whenever more than one image appear in a row, they'll have margins added ONLY between them
-.content--jekyll > p > img + img, .image-grid__full + .image-grid__full  { 
-  margin-top: 1em;    
+.content--jekyll > p > img + img, .image-grid__full + .image-grid__full  {
+  margin-top: 1em;
 }

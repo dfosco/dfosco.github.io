@@ -1,12 +1,5 @@
 .hero {
-  @include media($small-screen) {
-    @include span-columns(14.5 of 16);
-    @include shift(0.75);
-  }
-  
-  @include margin(4em null);
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  margin: 0 4em;
 }
 
 .hero__mega {
