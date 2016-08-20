@@ -10,6 +10,7 @@ author:
  name: Daniel Fosco
  twitter_username: dfosco
  github_username:  dfosco
+ dribbble_username: dfosco
 
 # Build settings
 gems: [jekyll-paginate]
