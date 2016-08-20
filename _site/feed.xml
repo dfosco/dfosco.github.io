@@ -5,8 +5,8 @@
     <description>Hi. I&#39;m Daniel Fosco, a freelance designer &amp; developer. I make things for web + mobile.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Aug 2016 00:18:37 -0300</pubDate>
-    <lastBuildDate>Sat, 20 Aug 2016 00:18:37 -0300</lastBuildDate>
+    <pubDate>Sat, 20 Aug 2016 00:39:36 -0300</pubDate>
+    <lastBuildDate>Sat, 20 Aug 2016 00:39:36 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -302,13 +302,13 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
 
 &lt;p&gt;Here are some highlights from the issue:&lt;/p&gt;
 
-&lt;p&gt;####&lt;strong&gt;Hiring&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;hiring&quot;&gt;&lt;strong&gt;Hiring&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;It’s easy to hire someone who’s mediocre, but it’s really hard to fire them. Mediocre people are a drag on quality and moral, but they tend to do just enough good work to stick around. Managers have a tough time justifying letting them go because there’s no actionable offense. The scent of mediocrity on your team will also scare off talented candidates.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;####&lt;strong&gt;Respect&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;respect&quot;&gt;&lt;strong&gt;Respect&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Respect between design and development is the most critical ingredient when making great products. It’s rare that respect between design and development happens organically. It has to be a core value of a company, demonstrated by leadership daily.&lt;/p&gt;
@@ -316,7 +316,7 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
   &lt;p&gt;Respect fosters a can-do attitude. Ideas are freely shared when they’re valued by colleagues, even when they’re not necessarily a winner. We could do a lot better if we started with &lt;a href=&quot;http://www.jesterzimprov.com/fundamental-improv-principles/&quot;&gt;“Yes, and..” instead of “No.”&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;####&lt;strong&gt;Team Size&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;team-size&quot;&gt;&lt;strong&gt;Team Size&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Our UX team is tiny. Twelve of us do the research, design the UI, and build the front-end of the app. The engineering team we work with is equally small. But our size is not a shortcoming; it’s an advantage. Communication is easy when teams are small. Planning happens quickly so we can get back to making.&lt;/p&gt;
