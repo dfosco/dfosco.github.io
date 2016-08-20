@@ -16,7 +16,7 @@ body {
 
 .notes-accent {
 	color: $primary-lighter;
-	&:hover { color: lighten($primary-lighter, 7%); }	
+	&:hover { color: lighten($primary-lighter, 7%); }
 }
 
 .buckets-accent {
@@ -35,15 +35,15 @@ body {
 
 .dribbble-accent {
 	@extend .social-media-accents;
-	&:hover { color: #EA4C89 }	
+	&:hover { color: #EA4C89 }
 }
 
 .twitter-accent {
 	@extend .social-media-accents;
-	&:hover { color: #00B0ED }	
+	&:hover { color: #00B0ED }
 }
 
 .github-accent {
 	@extend .social-media-accents;
-	&:hover { color: lighten(#201F1F, 47%); }	
+	&:hover { color: lighten(#563D7C, 15%); }	
 }
