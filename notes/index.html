@@ -28,8 +28,8 @@ title: Notes
 
           <div class="card__img">
 
-            {% if !post.source %}
-              <a href="{{ site.url }}/{{ post.url }}" target="_blank">
+            {% if post.source == null %}
+              <a href="{{ site.url }}{{ post.url }}" target="_blank">
                 <img src="{{ site.baseurl }}/assets/images/articles/{{ post.date | date: '%Y' }}/{{ post.date | date: '%m' }}/{{ post.image-name }}" alt="{{ post.image-alt }}" {% if post.stroke != null %}class="img__stroke"{% endif %}>
                </a>
               {% else %}
@@ -42,7 +42,7 @@ title: Notes
 
         {% endif %}
 
-        {% if !post.source %}
+        {% if post.source == null %}
 
         <a href="{{ post.url }}" target="_blank">
           <h1 class="card__title">{{ post.title }}</h1>
@@ -67,20 +67,22 @@ title: Notes
 
           {% if post.full-length == true %}
 
-          <div class="card__description">
-            <div class="content--jekyll">
-              {{ post.excerpt }}
+            <div class="card__description">
+              <div class="content--jekyll">
+                {{ post.excerpt }}
+              </div>
+              <a href="{{ post.url }}" class="card__readmore">
+                Continue reading
+              </a>
+              {% if post.medium-link %}
+                <a href="{{post.medium-link}}" target="_blank" class="medium-badge">
+                  <img src='../assets/images/interface/medium-logo.svg' class="medium-badge__logo" />
+                  <p class="medium-badge__text">
+                    Also avaliable on Medium
+                  </p>
+                </a>
+              {% endif %}
             </div>
-            <a href="{{ post.source }}" class="card__readmore">Continue reading</span>
-            {% if post.medium-link %}
-            <a href="{{post.medium-link}}" target="_blank" class="medium-badge">
-              <img src='../assets/images/interface/medium-logo.svg' class="medium-badge__logo" />
-              <p class="medium-badge__text">
-                Also avaliable on Medium
-              </p>
-            </a>
-            {% endif %}
-          </div>
 
           {% else %}
           <div class="card__description">
