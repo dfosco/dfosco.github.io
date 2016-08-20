@@ -32,10 +32,6 @@ code {
  @include media($medium-screen) {
 	 padding: 0 30px;
  }
-
- @include media($large-screen) {
-	padding: 0;
- }
 }
 
 // ------------------------------------------------------------------------
