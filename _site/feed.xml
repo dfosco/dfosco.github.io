@@ -5,9 +5,107 @@
     <description>Hi. I&#39;m Daniel Fosco, a freelance designer &amp; developer. I make things for web + mobile.</description>
     <link>http://danielfos.co/</link>
     <atom:link href="http://danielfos.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Aug 2016 02:57:34 -0300</pubDate>
-    <lastBuildDate>Sat, 20 Aug 2016 02:57:34 -0300</lastBuildDate>
+    <pubDate>Sat, 20 Aug 2016 13:05:10 -0300</pubDate>
+    <lastBuildDate>Sat, 20 Aug 2016 13:05:10 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>One Year In</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://lab.vtex.com&quot;&gt;VTEX&lt;/a&gt; is an online commerce platform with headquarters in Rio de Janeiro, almost 200 employees and 60+ software developers. Our clients range from big enterprise operations to small shops in over 11 countries around the world.&lt;/p&gt;
+
+&lt;p&gt;When I joined the team a year ago, I didn’t really have a lot of experience designing products for the web. Sure, I had enough education and knew how to do &lt;em&gt;design stuff&lt;/em&gt;, but no matter how much you train yourself to &lt;em&gt;design&lt;/em&gt; things, you will never be prepared to the harsh reality of not being capable to deliver the products you want to.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;I’ve fell short of the design work I wanted to ship in the past year. That’s not to say I’m not proud of my team and what we shipped, on the contrary: &lt;a href=&quot;http://storefront.vtex.com/en&quot;&gt;VTEX Storefront&lt;/a&gt;, our new CMS &amp;amp; development platform, has just been released in beta and it was the biggest design challenge I’ve ever faced.&lt;/p&gt;
+
+&lt;p&gt;The thing is, no matter how many design books I read, how many tutorials I went through or how many conferences I attended, when I wasn’t able to deliver the work the way I wanted, letting myself to feel let down was the only thing that made me able to move forward and learn something out of it.&lt;/p&gt;
+
+&lt;p&gt;I tried to condense some of these feelings below. This is an essay about designing products, written for designers, but there’s some personal insights in here as well — hope you don’t mind. It may also be pretty obvious to an experienced set of eyes, but hey, I had no idea about &lt;em&gt;any of this&lt;/em&gt; a year ago. I hope it’s useful for you.&lt;/p&gt;
+
+&lt;h3 id=&quot;managing-complexity&quot;&gt;Managing Complexity&lt;/h3&gt;
+
+&lt;p&gt;Our job as designers is to organize reality into new forms that were previously inexistent. And to make the concrete things we want to make, we must first understand all the words they hide behind.&lt;/p&gt;
+
+&lt;p&gt;Before you wireframe, before you code, before you do a single user flow, ask yourself: What is it that I’m building? Once you have a clear answer on that, ask your team: What is it that we’re building?&lt;/p&gt;
+
+&lt;p&gt;Answers will always differ. Bang your heads collectively into a wall until each and everyone of you agree with all the words necessary to define the problem and the product. There will be compromise and the words will evolve over time, but this first step is absolutely necessary. If you avoid conflict, vision will differ inside the team and it will bite all of you in the ass later on.&lt;/p&gt;
+
+&lt;p&gt;I spent a whole year designing a system with concepts that the team hadn’t fully agreed upon, and it impacted every decision that came afterwards: every turn-around, every refactor, every scrapped iteration and un-merged branch. These are always part of the process, but there’s a difference between a fast-paced iterative process and… well, doing so without a clear direction.&lt;/p&gt;
+
+&lt;p&gt;Your &lt;strong&gt;first&lt;/strong&gt; responsibility is to prototype the &lt;strong&gt;concepts&lt;/strong&gt; that will power what you and your team will build. To reduce the complexity of the world around you until it fits in a vocabulary, a wireframe, a back-end architecture or a marketing landing page. Most complex products have poorly defined concepts beneath the hood.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Yes, an airplane dashboard is complex, but you get the idea.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;move-fast-and-break-stuff-&quot;&gt;Move Fast and Break Stuff ™&lt;/h3&gt;
+
+&lt;p&gt;Being the single designer on a team of developers shipping code in React is amazing. I love learning to code, and of course I wanted to be fully integrated with the team on a fast iteration cycle with minimal friction, so doing HTML/CSS prototypes inside React components was an obvious decision from the start.&lt;/p&gt;
+
+&lt;p&gt;Not only that, shipping code was the prime directive of the team. This is a fine directive for a software company of our size, but as with everything in life, it’s not that simple.&lt;/p&gt;
+
+&lt;p&gt;Time constraints and pressure to ship was so big that my design process was rushed (by myself). I went into coding too fast and made prototypes that didn’t really solved the problems at hand, forcing us to consistently thrown them away as we realized they didn’t meet anyone’s needs.&lt;/p&gt;
+
+&lt;p&gt;At one point, I got so frustrated with throwing away my fully-coded UI that I started to abstract it in components as I made them, doing an undocumented style guide just to make sure these UI components could be useful later on.&lt;/p&gt;
+
+&lt;p&gt;Of course that wasn’t a solution, but a side-effect of the unsolved problem: &lt;em&gt;poorly-defined concepts that lead to well-meaning, but flawed experiences&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Don’t burn steps in your design process. You haven’t read all those boring O’Reilly books for nothing. If the deadlines are too tight, then shorten the scope, break it down in more iterations, make it work the way it should. It’s better to have a smaller product than a shittier one.&lt;/p&gt;
+
+&lt;h3 id=&quot;edges-of-coding&quot;&gt;Edges of Coding&lt;/h3&gt;
+
+&lt;p&gt;VTEX is an environment that pushes designers to get their hands dirty on code, and I couldn’t be happier with it. However, after a year geeking out on React, some limitations showed up — and the edges between design and development became more clear to me.&lt;/p&gt;
+
+&lt;p&gt;The first one being: you are not a computer &lt;strong&gt;scientist&lt;/strong&gt;. And you’ll never be a computer &lt;strong&gt;scientist&lt;/strong&gt;, unless you study to become a computer &lt;strong&gt;scientist&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Seriously, what’s up with all this code craze? It’s as if programming is just like learning to ride a bike. Well, guess what… it’s not! Programming is a job that takes a shitload of hard work to be done properly. A junior front-end developer that’s serious about her craft will do in a few hours things it would take most designers a week to (maybe) get right.&lt;/p&gt;
+
+&lt;p&gt;That said, a steep learning curve is a great way to keep you on your toes and allows you to learn as much as you can while designing. And that’s a great thing! Ultimately, though, &lt;em&gt;your job is not to learn code&lt;/em&gt;. If that was the case, you’d be a developer (which you’re not).&lt;/p&gt;
+
+&lt;p&gt;To all designers that work with code out there that are feeling overwhelmed, as I have several times in the past, take a deep breath and repeat:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This isn’t working. It’s OK.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now go ahead and change your environment. Because our tools should work for us, not the other way around.&lt;/p&gt;
+
+&lt;p&gt;The job at hand is to &lt;em&gt;deliver a prototype that communicates a solution to be implemented&lt;/em&gt;. If the office network goes down you could write it down as a poem for all I care, just lower the definition of your prototype until you’re: &lt;strong&gt;a)&lt;/strong&gt; comfortable with your tools and &lt;strong&gt;b)&lt;/strong&gt; able to communicate the solution.&lt;/p&gt;
+
+&lt;p&gt;Of course the tools at hand will vary from team to team, but if yours is not comfortable with your toolset, well… you might question if they’re right for you.&lt;/p&gt;
+
+&lt;p&gt;One last note about tools: I don’t care how architecturally sound it might be, React is a &lt;em&gt;pain in the ass&lt;/em&gt; for designers to prototype with. If you’re a designer and want to click on one thing to make another thing move, stick to Angular.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-problem-is-bigger-than-the-solution&quot;&gt;The Problem is Bigger than the Solution&lt;/h3&gt;
+
+&lt;p&gt;You will never “design everything”. You will never fix all the problems or meet every user need. If you do — if your product actually reaches 100% of its goals, it means you weren’t ambitious enough and so much more could have been done. You’re selling yourself short and delivering less than you could for fear of failing.&lt;/p&gt;
+
+&lt;p&gt;If there’s one thing I want to take from this year of experience, it’s this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Let my bets be bold enough to take the risk they’ll go terribly wrong.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;On practical terms, that means defining a crazy-ass vision at the beginning of the project and boiling it down into smaller, sequential, iterative parts: product and user goals, architectures, flows, features, views, components.&lt;/p&gt;
+
+&lt;p&gt;Define your vision from the outside and build it from the inside. It will let your product grow closer to the large vision you defined on the outset with less chance of losing itself along the way. You may never achieve the vision, but you’ll probably build something good on your way there.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;In the past year I’ve made uncountable sketches, &lt;a href=&quot;https://github.com/dfosco&quot;&gt;hundreds of commits&lt;/a&gt;, &lt;a href=&quot;https://medium.com/@dfosco/git-for-designers-856c434716e#.ol7h4u1ls&quot;&gt;wrote a bit&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/vtexlab/status/667756323317145600&quot;&gt;attended a conference&lt;/a&gt;, &lt;a href=&quot;http://storefront.vtex.com/en&quot;&gt;launched a beta&lt;/a&gt;, interviewed dozens of designers, hired a few, and failed doing some of these.&lt;/p&gt;
+
+&lt;p&gt;Here’s to another year building and failing alongside this amazing team 🎉
+Thanks to Rodrigo Muniz, Augusto Barbosa, Luiza Breier, Bernardo Lemgruber, Alena Miklos, Breno Calazans, Thor Amorim, Anderson, Rodrigo Dumont, Gabriel Arrais, Tiago Neves, Leandro Oriente, Felix Ribeiro, Geraldo Thomaz and countless others. You all kick ass.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://lab.vtex.com/careers/&quot;&gt;We’re hiring.&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Jun 2016 09:19:00 -0300</pubDate>
+        <link>http://danielfos.co/notes/one-year-in</link>
+        <guid isPermaLink="true">http://danielfos.co/notes/one-year-in</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
     
       <item>
         <title>Git for Designers</title>
@@ -325,21 +423,6 @@ We spend an inordinate amount of time making our pixel-perfect fabrications. We 
         <pubDate>Mon, 08 Jun 2015 08:31:00 -0300</pubDate>
         <link>http://danielfos.co/notes/building-a-ux-team</link>
         <guid isPermaLink="true">http://danielfos.co/notes/building-a-ux-team</guid>
-        
-        
-        <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Rapidly Animate with Keynote</title>
-        <description>&lt;p&gt;I had heard before how far you can go with animations on Keynote, but this article just smashes the point through your skull — the two videos are super handy for that.&lt;/p&gt;
-
-&lt;p&gt;There’s no way I’m not trying this for prototyping really soon.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Jun 2015 08:25:00 -0300</pubDate>
-        <link>http://danielfos.co/notes/rapidly-animate-with-keynote</link>
-        <guid isPermaLink="true">http://danielfos.co/notes/rapidly-animate-with-keynote</guid>
         
         
         <category>notes</category>
