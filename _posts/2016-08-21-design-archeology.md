@@ -7,7 +7,7 @@ section: notes
 title: Design Archeology
 subtitle:
 source:
-medium-link:
+medium-link: https://medium.com/@dfosco/design-archeology-28433ad4ccae
 
 image-name: smart-checkout.gif
 image-alt: Smart Checkout
