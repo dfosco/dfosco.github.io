@@ -1,6 +1,5 @@
 
 .header {
-  @include span-columns(16 of 16);
   background: none;
   border-top: 10px solid $primary-lighter;
 }
