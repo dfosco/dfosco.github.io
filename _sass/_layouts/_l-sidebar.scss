@@ -5,29 +5,22 @@
 }
 
 .sidebar__box--notes {
-  @include margin(0 0.5em -2.5em 0.5em);  
+  background: $black-2-half;
+  margin-bottom: -2.5em;
 
   @include media($medium-screen-up) {
     @include margin(3em 0.5em 1.5em 0.5em);
   }
-
-  background: $black-2-half;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-
 }
 
 .sidebar__box--notes--post {
+  @extend .sidebar__box--notes;
+  margin-top: 0em;
+  margin-bottom: 4em;
+
   @include media($medium-screen-up) {
     @include margin(3em 0.5em 1.5em null);
   }
-
-  @extend .sidebar__box--notes;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-
-  margin-top: 0em;
-  margin-bottom: 4em;
 }
 
 .sidebar__box--collection {
