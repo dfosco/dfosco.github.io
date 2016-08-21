@@ -24,10 +24,10 @@
 .card__inner {
   padding: 0.75em;
   margin: auto;
-  margin-top: 1.5em;
   margin-bottom: 1.5em;
 
   @include media($medium-screen-up) {
+    margin-top: 1.5em;
     width: 85%;
   }
 

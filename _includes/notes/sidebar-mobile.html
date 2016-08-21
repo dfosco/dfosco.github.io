@@ -8,9 +8,13 @@
 	<div class="sidebar__box--notes{{ sidebar_type }}">
 	    <div class="sidebar__inner">
 
-	    <p class="sidebar__text">...is a tiny blog by product designer Daniel Fosco.</p>
+				{% if page.layout == "notes/post" %}
+					<p class="sidebar__text">NOTES is a tiny blog on design, culture and technology.</p>
+				{% else %}
+					<p class="sidebar__text">...is a tiny blog on design, culture and technology.</p>
+				{% endif %}
 
-		<p class="sidebar__text">You can find me on Twitter <a href="https://www.twitter.com/{{site.author.twitter_username}}/?ref=notes">@{{site.author.twitter_username}}</a>.</p>
+		<p class="sidebar__text">You can keep up with other ramblings on Twitter <a href="https://www.twitter.com/{{site.author.twitter_username}}/?ref=notes">@{{site.author.twitter_username}}</a>.</p>
 
 		<p class="sidebar__text">Thank you for reading! <i class="twa twa twa-zap"></i></p>
 
