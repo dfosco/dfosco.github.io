@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/dfosco
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://danielfos.co
+  * I am dfosco (https://keybase.io/dfosco) on keybase.
+  * I have a public key with fingerprint B7E7 087F FEF0 E74B CCE4  C9D9 016D 4EA6 41C1 5685
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120b025bd27eaadd565f97d95efe693ffdd9cb0d3c4f818a06c578829a533fc41280a",
+            "fingerprint": "b7e7087ffef0e74bcce4c9d9016d4ea641c15685",
+            "host": "keybase.io",
+            "key_id": "016d4ea641c15685",
+            "kid": "0101d3b99fd2aac49b72ec2557855e0f15c670783a6b3b65f8bddd7186c81119dd310a",
+            "uid": "c745f22352843c1bd17541c9c5569219",
+            "username": "dfosco"
+        },
+        "service": {
+            "hostname": "danielfos.co",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1476485550,
+    "expire_in": 157680000,
+    "prev": "887e17e549fdbb27ad655a5e3d8d8d56bf245089bf5ef7250715f53babfe46b2",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMNxAnicZVJrTBxVFN4tUC1CeJhQsTx02mBpEOd157F9ACIgtsHayisF15m5d2B4
+7G53B7btirQKCLRYFRHTWIXWgI8WQiqvUkmhWHnEGm2kEG0tQmtCgRgIRAgUZ0j5
+5b0/bu453/nO9517+7zdDJ5GY35SQ0xPSqlxqOfjAkOaUWhyYaIVHsVMLiwXrR0o
+DyKHas5VIGbCcILERZwEIiRZJAgQAgbIPAt5gGTE8JQsQ8hLIg4piZY5ghNwRgIs
+x5G8AChKlmiC5HABi8BkxZKF7Da7YlE1WpFFLM6xsoxkHLG0KEmIlnjI4wQDaSQw
+NCERgOGAVphtdegVmjhRcKBIxarFtIv5kbz/4dd14wSkRJ6XISkIEs2LLIkkEmja
+AEC4TACJYXGWowRGpETNEydCCFmCYySOIAgeQopY012wRiexNJBJkgIkR1MSIUKC
+BVpPXgKA4UmC14EOZLcI+UhDQ9nqkKxYUQSmxQoVCelj1X2s5wWLgvI0UKSku7HZ
+rapVsuZpmWxVtZn0QvWoTUc6kWh+xGEWFQvUhqgVFCK7Q7FaMBOhISVV0UkJmmVo
+zRvAIzB0xKbYkVnREYBlOFxbehtUqFFyHIsIFgFaG40okqwAGQAEgCjIaRswokzS
+AOd4UdaemCUBzhJABpQoiDKiGZHEdFeHLVbMxGsyhSyN0qFkWQS1wI6wot6eDHeD
+0dOw0WOD/rkMnpt8179cQICvobmXCSy/ow4+rKg8P7LP9EtUdHfMbN2SrT0hIKjj
+8vAZ1rj31CEyIj5wm1vjs6dTO289F1yBe2BX3g6fpCsrXwi9EUwtlL91bbZ5ziOz
+ek+XG57aXe/35fEDNVsOxrXfvp/h1nbh+MEL1ZPlIV4nxMWkmdm4pKVrTVdLkntW
+mlzwh28K8u9Mv/+AWNxwN/Gv+ifa1OQXM7u2x+W+Wexsr5Wn43Ykvqa2N16OUZYS
+orekj/s4W6peDRb+/L34kk8JlRxWPXL2mcdaW9qW33m3btCy798F58X0zh17U/rm
+QsoyW1831JMlThhPDeV8X/LSg12bL42m3TwcOd65Z+dvYdjNgmh5PHl70ich52Jd
+G6ebMFOCa7lmsf+Ll+37B7C6tslUfCHkFWY/v9t7zDKXXbZ52617pUXnAwfiJz4s
+u/+88waVc+5Yldw4GBrum/jkruK78RFdvr0d8/NBge4ttbW15JWFrVP9Z6dqJmdO
+uEz9brMdbJTXV171lWn9HZ/XjHUmjwWa3wvKKba2GVL/yHRMNJSqb7jzB8yrs5/5
+j14fvn775HBVhd+P/gEThzpDP7pY3TJ6Mjy9oTXd3Px0fqj528enHLvD70WlfJeY
+sXgqzO6YDqJ8QjYtPzQM/LTi99Sq99/HRoa28sP/zPxc1n1kdWXVfz726tdpp898
+0FfZDVPDuXFT06c7f439D8OxvV4=
+=Pf3V
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dfosco
+
+==================================================================
