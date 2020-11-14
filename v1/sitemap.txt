@@ -1,19 +1,19 @@
 
-http://dfosco.github.io/v1/archive.html
-http://dfosco.github.io/v1/atom.xml
-http://dfosco.github.io/v1/categories.html
-http://dfosco.github.io/v1/i-hate-supermarkets.html
-http://dfosco.github.io/v1/blog/index.html
-http://dfosco.github.io/v1/pt/index.html
-http://dfosco.github.io/v1/index.html
-http://dfosco.github.io/v1/livro.html
-http://dfosco.github.io/v1/pt/livro.html
-http://dfosco.github.io/v1/navigations.html
-http://dfosco.github.io/v1/pages.html
-http://dfosco.github.io/v1/rss.xml
-http://dfosco.github.io/v1/sitemap.txt
-http://dfosco.github.io/v1/tags.html
+https://dfosco.github.io/v1/archive.html
+https://dfosco.github.io/v1/atom.xml
+https://dfosco.github.io/v1/categories.html
+https://dfosco.github.io/v1/i-hate-supermarkets.html
+https://dfosco.github.io/v1/blog/index.html
+https://dfosco.github.io/v1/pt/index.html
+https://dfosco.github.io/v1/index.html
+https://dfosco.github.io/v1/livro.html
+https://dfosco.github.io/v1/pt/livro.html
+https://dfosco.github.io/v1/navigations.html
+https://dfosco.github.io/v1/pages.html
+https://dfosco.github.io/v1/rss.xml
+https://dfosco.github.io/v1/sitemap.txt
+https://dfosco.github.io/v1/tags.html
 
-http://dfosco.github.io/v1/blog/ux_jobs
-http://dfosco.github.io/v1/blog/eu-odeio-supermercados
-http://dfosco.github.io/v1/blog/25-anos-da-web
+https://dfosco.github.io/v1/blog/ux_jobs
+https://dfosco.github.io/v1/blog/eu-odeio-supermercados
+https://dfosco.github.io/v1/blog/25-anos-da-web

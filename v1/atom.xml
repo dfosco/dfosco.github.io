@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Daniel Fosco</title>
- <link href="http://dfosco.github.io/v1/" rel="self"/>
- <link href="http://dfosco.github.io/v1"/>
+ <link href="https://dfosco.github.io/v1/" rel="self"/>
+ <link href="https://dfosco.github.io/v1"/>
  <updated>2015-04-28T17:12:30-03:00</updated>
- <id>http://dfosco.github.io/v1</id>
+ <id>https://dfosco.github.io/v1</id>
  <author>
    <name>Daniel Fosco</name>
    <email>danielfosco@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>UX Jobs</title>
-   <link href="http://dfosco.github.io/v1/blog/ux_jobs"/>
+   <link href="https://dfosco.github.io/v1/blog/ux_jobs"/>
    <updated>2014-05-27T00:00:00-03:00</updated>
-   <id>http://dfosco.github.io/v1/blog/ux_jobs</id>
+   <id>https://dfosco.github.io/v1/blog/ux_jobs</id>
    <content type="html">&lt;p&gt;After analyzing 20 UX job offerings, here are some initial impressions on the UX job market:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -70,9 +70,9 @@
  
  <entry>
    <title>Eu Odeio Supermercados</title>
-   <link href="http://dfosco.github.io/v1/blog/eu-odeio-supermercados"/>
+   <link href="https://dfosco.github.io/v1/blog/eu-odeio-supermercados"/>
    <updated>2014-03-31T00:00:00-03:00</updated>
-   <id>http://dfosco.github.io/v1/blog/eu-odeio-supermercados</id>
+   <id>https://dfosco.github.io/v1/blog/eu-odeio-supermercados</id>
    <content type="html">&lt;h3 id=&quot;uma-relao-de-dio-e-dio&quot;&gt;Uma relação de ódio e ódio&lt;/h3&gt;
 
 &lt;p&gt;Eu odeio supermercados. Da forma como são hoje, supermercados são uma gigantesca perda de tempo para clientes e para as empresas, além de uma ótima oportunidade de inovação desperdiçada.&lt;/p&gt;
@@ -163,9 +163,9 @@ Idealmente, estas “caixas” seriam apenas uma camada de silicone encaixada no
  
  <entry>
    <title>25 Anos da Web</title>
-   <link href="http://dfosco.github.io/v1/blog/25-anos-da-web"/>
+   <link href="https://dfosco.github.io/v1/blog/25-anos-da-web"/>
    <updated>2014-03-16T00:00:00-03:00</updated>
-   <id>http://dfosco.github.io/v1/blog/25-anos-da-web</id>
+   <id>https://dfosco.github.io/v1/blog/25-anos-da-web</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/DiMDAJ3.jpg&quot; alt=&quot;Proposta inicial de Tim Berners-Lee para o CERN&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
