@@ -1,19 +1,19 @@
 
-https://dfosco.github.io/v1/archive.html
-https://dfosco.github.io/v1/atom.xml
-https://dfosco.github.io/v1/categories.html
-https://dfosco.github.io/v1/i-hate-supermarkets.html
-https://dfosco.github.io/v1/blog/index.html
-https://dfosco.github.io/v1/pt/index.html
-https://dfosco.github.io/v1/index.html
-https://dfosco.github.io/v1/livro.html
-https://dfosco.github.io/v1/pt/livro.html
-https://dfosco.github.io/v1/navigations.html
-https://dfosco.github.io/v1/pages.html
-https://dfosco.github.io/v1/rss.xml
-https://dfosco.github.io/v1/sitemap.txt
-https://dfosco.github.io/v1/tags.html
+https://dfosco-v1.netlify.app/archive.html
+https://dfosco-v1.netlify.app/atom.xml
+https://dfosco-v1.netlify.app/categories.html
+https://dfosco-v1.netlify.app/i-hate-supermarkets.html
+https://dfosco-v1.netlify.app/blog/index.html
+https://dfosco-v1.netlify.app/pt/index.html
+https://dfosco-v1.netlify.app/index.html
+https://dfosco-v1.netlify.app/livro.html
+https://dfosco-v1.netlify.app/pt/livro.html
+https://dfosco-v1.netlify.app/navigations.html
+https://dfosco-v1.netlify.app/pages.html
+https://dfosco-v1.netlify.app/rss.xml
+https://dfosco-v1.netlify.app/sitemap.txt
+https://dfosco-v1.netlify.app/tags.html
 
-https://dfosco.github.io/v1/blog/ux_jobs
-https://dfosco.github.io/v1/blog/eu-odeio-supermercados
-https://dfosco.github.io/v1/blog/25-anos-da-web
+https://dfosco-v1.netlify.app/blog/ux_jobs
+https://dfosco-v1.netlify.app/blog/eu-odeio-supermercados
+https://dfosco-v1.netlify.app/blog/25-anos-da-web
