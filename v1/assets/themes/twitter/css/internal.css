@@ -4,8 +4,8 @@
 
 
 h1 {
- line-height: 112px;
- margin: -15px 0;
+  line-height: 112px;
+  margin: -15px 0;
 
 }
 
@@ -29,11 +29,11 @@ h3 {
 ul li {
   text-align: left;
   line-height: 34px;
-  list-style-type:disc;
+  list-style-type: disc;
 }
 
 ul li:first-child {
- margin-top: 0;
+  margin-top: 0;
 }
 
 ul li:last-child {
@@ -51,13 +51,14 @@ small {
   color: #B8B8B8;
   font-size: 16px;
 }
+
 /*-------------------------------------------------*/
 /* Layout/Custom */
 /*-------------------------------------------------*/
 
 .row-fluid {
-   margin: 0 auto; 
-   width: 95%; 
+  margin: 0 auto;
+  width: 95%;
 }
 
 * .footnotes {
@@ -83,40 +84,41 @@ small {
 /*-------------------------------------------------*/
 
 /* Landscape phones and down */
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
 
-.row-fluid {
+  .row-fluid {
     width: 92%;
   }
 
-.port a {
-    display:inline;
-}
-.port a:after {
-    content:"\a";
+  .port a {
+    display: inline;
+  }
+
+  .port a:after {
+    content: "\a";
     white-space: pre;
-}
+  }
 
-h1 {
- line-height: 52px;
- text-align: center;
- margin: -16px 0 0 0;
- padding-bottom: 0px;
- font-size: 37px;
- font-weight: 400
-}
+  h1 {
+    line-height: 52px;
+    text-align: center;
+    margin: -16px 0 0 0;
+    padding-bottom: 0px;
+    font-size: 37px;
+    font-weight: 400
+  }
 
-h2 {
- font-size: 21px;
- line-height: 30px;
- margin-top: 15px;
-}
+  h2 {
+    font-size: 21px;
+    line-height: 30px;
+    margin-top: 15px;
+  }
 
-.break:after {
- content:"\a";
- white-space: pre; 
-}
- 
+  .break:after {
+    content: "\a";
+    white-space: pre;
+  }
+
 }
 
 body {
@@ -129,15 +131,17 @@ ul li {
 }
 
 li :selection {
-  background: #999; /* Safari */
-  }
+  background: #999;
+  /* Safari */
+}
 
 li ::-moz-selection {
-  background: #555; /* Firefox */
+  background: #555;
+  /* Firefox */
 }
 
 ul li:first-child {
- margin-top: 15px;
+  margin-top: 15px;
 }
 
 ul li:last-child {
@@ -145,101 +149,96 @@ ul li:last-child {
   text-decoration: none;
 }
 
-ul,ol {
+ul,
+ol {
   margin: 0 0 0 25px;
 }
-
-
-
- }
 
 
 /* H1 adjustment between Landscape phone and portrait tablet */
 @media (min-width: 481px) and (max-width: 608px) {
 
-h1 {
- line-height: 105px;
- text-align: center;
- margin: -55px 0 0 0;
- padding-bottom: 0px;
+  h1 {
+    line-height: 105px;
+    text-align: center;
+    margin: -55px 0 0 0;
+    padding-bottom: 0px;
+  }
+
+  body {
+    font-size: 21px;
+    line-height: 30px;
+  }
+
+  .comma:after {
+    content: ", ";
+  }
+
+
 }
-
-body {
-  font-size: 21px;
-  line-height: 30px;
-}
-
-.comma:after {
- content:", ";
-}
-
-
- }
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 768px) { 
+@media (min-width: 481px) and (max-width: 768px) {
 
-.row-fluid {
-  width: 62%;
+  .row-fluid {
+    width: 62%;
+  }
+
+  .comma:after {
+    content: ", ";
+  }
+
+  h1 {
+
+    font-size: 72px;
+    line-height: 100px;
+  }
+
+  body {
+    font-size: 21px;
+    line-height: 30px;
+  }
+
+  .port a {
+    display: inline;
+  }
+
+  .port a:after {
+    content: " —";
+  }
+
+
+
+
 }
 
-.comma:after {
- content:", ";
-}
-
-h1 {
-
-  font-size: 72px;
-  line-height: 100px;
-}
-
-body {
-  font-size: 21px;
-  line-height: 30px;
-}
-
-.port a {
-    display:inline;
-}
-.port a:after {
-    content:" —";
-}
-
-
-
-
- }
- 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 940px) { 
+@media (min-width: 768px) and (max-width: 940px) {
 
-.row-fluid {
-  margin: 0 auto;
-  width: 57%;
+  .row-fluid {
+    margin: 0 auto;
+    width: 57%;
+  }
+
+  .comma:after {
+    content: ", ";
+  }
+
+
 }
 
-.comma:after {
- content:", ";
-}
-
-
- }
- 
 /* Default: 940px and up  */
- 
+
 @media (min-width: 1210px) {
+  .comma:after {
+    content: ", ";
+  }
 
-.comma:after {
- content:", ";
+  /* Large desktop  */
+  @media (min-width: 1210px) {
+
+    .comma:after {
+      content: ", ";
+    }
+  }
 }
-
-/* Large desktop  */
- @media (min-width: 1210px) { 
-
-.comma:after {
- content:", ";
-}
-
-  } 
-
-
